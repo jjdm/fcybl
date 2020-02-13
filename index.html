@@ -24,7 +24,7 @@
             <div class="col-lg-12">
                 <h1>FCYBL Rankings</h1>
                 <p class="lead">The following rankings are based on game results from the 2019-2020 FCYBL season.</p>
-                <p>Rankings are based on win percentages and tiebreakers (including the lottery draw). Details about the rules can be found on the <a href="http://www.fcybl.org/Page.asp?n=30095&org=fcybl.org">FCYBL website</a></p>
+                <p>Rankings are based on win percentages and tiebreakers (including the lottery draw). Details about the rules can be found on the <a target="_blank" href="http://www.fcybl.org/Page.asp?n=30095&org=fcybl.org">FCYBL website</a>.</p>
                 <h4>
                     Boys:
                     <span ng-repeat="d in rc.master.divisions" ng-if="d.startsWith('B')">
@@ -115,9 +115,11 @@
         </div>
 
         <footer>
+            <p>* No common games.  0-0 record equates to 0.500 for ranking.</p>
+            <p>Wins are worth 1 point, ties worth 0.5 points, and losses 0 points.</p>
             <p class="text-muted">
                 <small>
-                    <strong>Version:</strong> 20200212v02
+                    <strong>Version:</strong> 20200212v03
                     <br/>
                     <strong>Generated From:</strong> {{ rc.master.excel }}
                 </small>

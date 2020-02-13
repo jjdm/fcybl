@@ -136,10 +136,11 @@ def calculate_win_percent(games, team, group):
     games_that_count = [g for g in games if g.team == team.team_id and g.opponent in opponent_teams]
     if(games_that_count):
         winning_games = [g for g in games_that_count if g.win]
-        percent = len(winning_games) / len(games_that_count)
+        tie_games = [g for g in games_that_count if g.tie]
+        percent = (len(winning_games) + (len(tie_games) * 0.5))/ len(games_that_count)
         return '{0:.3f}'.format(percent)
     else:
-        return '{0:.3f}'.format(0) # TODO should this be zero if they haven't played (marking with tilda now)?
+        return '{0:.3f}*'.format(0.5) # No Games different
 
 
 def rank(games, group, start, mapping, level=0):
