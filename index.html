@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FCYBL Rankings</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.css" />
+    <style>
+        body {
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body id="top">
+
+    <div class="container" ng-app="FCYBL" ng-controller="RankingsController as rc">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>FCYBL Rankings</h1>
+                <p>The following rankings are based on game results from the 2019-2020 FCYBL season.</p>
+                <h4>
+                    Boys:
+                    <span ng-repeat="d in rc.master.divisions" ng-if="d.startsWith('B')">
+                        <a href="#{{ d }}">{{ d }}</a>
+                        &nbsp;
+                    </span>
+                </h4>
+                <h4>
+                    Girls:
+                    <span ng-repeat="d in rc.master.divisions" ng-if="d.startsWith('G')">
+                        <a href="#{{ d }}">{{ d }}</a>
+                        &nbsp;
+                    </span>
+                </h4>
+            </div>
+        </div>
+
+        <div class="row" ng-repeat="d in rc.master.divisions" id="{{d}}">
+            <div class="col-lg-12">
+                <h2>{{ d }}</h2>
+                <table class="table table-hover table-fixed table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Rank</th>
+                            <th scope="col">Team</th>
+                            <th scope="col">Record</th>
+                            <th scope="col">Percent</th>
+                            <th scope="col" ng-repeat="i in rc.getTotalColumns() track by $index">
+                                TB {{ $index + 1 }}
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="r in rc.findRankingsForDivision(d)" ng-value="t = rc.findTeam(r.team_id)">
+                            <th scope="row">{{ r.rank }}</th>
+                            <td>
+                                <a ng-click="rc.showGames(r.team_id)" href="">
+                                    {{ t.club }} - {{ t.coach }}
+                                </a>
+                            </td>
+                            <td>{{ t.record }}</td>
+                            <td ng-repeat="d in r.details track by $index">
+                                {{ d }}
+                            </td>
+                            <td ng-repeat="i in rc.getExtraColumns(r.details) track by $index">
+                                &nbsp;
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="gamesModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="modalLabel">Games for {{ rc.modalTeam.division }} {{ rc.modalTeam.club }} - {{ rc.modalTeam.coach }}</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table table-hover table-fixed table-sm">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Opponent</th>
+                                    <th scope="col">Points</th>
+                                    <th scope="col">Against</th>
+                                    <th scope="col">Result</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat="g in rc.modalTeam.games" ng-value="o = rc.findTeam(g.opponent)">
+                                    <td>{{ g.date }}</td>
+                                    <td>{{ o.club }} - {{ o.coach }}</td>
+                                    <td>{{ g.points }}</td>
+                                    <td>{{ g.against }}</td>
+                                    <td ng-class="{ 'table-success': g.win, 'table-danger': g.lost, 'table-warning': g.tie}">{{ g.result }}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
+    <script src="./data.js"></script>
+
+    <script>
+        angular.module('FCYBL', []).controller('RankingsController', ["$log", function ($log) {
+
+            function findTeam(teamId) {
+                return my.teams.find(team => team.team_id == teamId);
+            }
+
+            function findGames(teamId) {
+                return my.games.filter(game => game.team == teamId);
+            }
+
+            var my = this;
+            my.master = _MASTER_DATA;
+            my.divisions = my.master.divisions;
+            my.teams = my.master.teams;
+            my.games = my.master.games;
+            my.lottery = my.master.lottery;
+            my.rankings = my.master.rankings;
+            my.maxDetails = Math.max.apply(Math, my.rankings.map(function (r) { return r.details.length; }));
+            my.modalTeam;
+
+            my.teams.forEach(team => {
+                var games = findGames(team.team_id);
+                team.games = games;
+                var wins = games.filter(game => game.win);
+                var losses = games.filter(game => game.lost);
+                var ties = games.filter(game => game.tie);
+                team.record = wins.length + "-" + losses.length + "-" + ties.length;
+            });
+
+            my.findRankingsForDivision = function (division) {
+                return my.rankings.filter(ranking => ranking.team_id.includes(division));
+            };
+
+            my.findTeam = function (teamId) {
+                return findTeam(teamId);
+            };
+
+            my.getTotalColumns = function () {
+                return new Array(my.maxDetails);
+            }
+
+            my.getExtraColumns = function (details) {
+                return new Array(my.maxDetails - details.length + 1);
+            }
+
+            my.showGames = function (teamId) {
+                my.modalTeam = findTeam(teamId);
+                $('#gamesModal').modal();
+            }
+
+        }]);
+    </script>
+
+</body>

@@ -1,0 +1,29 @@
+#	Lottery	Team 1	Team 2
+1	Great Falls	GREAT FALLS
+2	McLean	MCLEAN
+3	BRYC	BRYC
+4	Burke	BURKE
+5	Southwestern	SYA
+6	Annandale	ANNANDALE
+7	South County	SOUTH COUNTY
+8	Vienna	VIENNA
+9	Turnpike	TURNPIKE
+10	Manassas Park	MANASSAS PARK
+11	Gum Springs CC	GUM SPRINGS
+12	Lee Mt. Vernon	LEE MT. VERNON	LEE-MT. VERNON
+13	Springfield	SPRINGFIELD
+14	Chantilly	CYA
+15	Arlington	ARLINGTON
+16	Gainesville	GAINESVILLE
+17	South Loudoun	SOUTH LOUDOUN
+18	Reston	RESTON
+19	FPYC	FPYC
+20	Baileys CC	BAILEYS	BAILEYS CC
+21	Herndon	HERNDON
+22	Lee District	LEE DISTRICT
+23	Falls Church	FALLS CHURCH
+24	Ft. Hunt	FORT HUNT
+25	Ft. Belvoir	FORT BELVOIR
+26	Mt.Vernon	MT. VERNON
+27	James Lee CC	JAMES LEE
+28	Alexandria	ALEXANDRIA
