@@ -13,7 +13,7 @@ ExcelRow = namedtuple('ExcelRow', 'db_id, date, team, opponent, points, against'
 Team = namedtuple('Team', 'team_id, division, club, coach')
 Game = namedtuple('Game', 'game_id, date, team, opponent, points, against, result, win, lost, tie, source')
 Results = namedtuple('Results', 'divisions, teams, games')
-WinPercent = namedtuple('WinPercent', 'team_id, percent')
+WinPercent = namedtuple('WinPercent', 'team_id, percent, no_games')
 Rank = namedtuple('Rank', 'team_id, rank, details')
 
 LOTTERY_PICKS = {
@@ -137,10 +137,10 @@ def calculate_win_percent(games, team, group):
     if(games_that_count):
         winning_games = [g for g in games_that_count if g.win]
         tie_games = [g for g in games_that_count if g.tie]
-        percent = (len(winning_games) + (len(tie_games) * 0.5))/ len(games_that_count)
-        return '{0:.3f}'.format(percent)
+        percent = (len(winning_games) + (len(tie_games) * 0.5)) / len(games_that_count)
+        return WinPercent(team.team_id, '{0:.3f}'.format(percent), False)
     else:
-        return '{0:.3f}*'.format(0.5) # No Games different
+        return WinPercent(team.team_id, '{0:.3f}'.format(0.5), True)  # No Games different
 
 
 def rank(games, group, start, mapping, level=0):
@@ -167,17 +167,17 @@ def rank(games, group, start, mapping, level=0):
         # calculate winning percentage against the group
         group_percents = []
         for team in group:
-            percent = calculate_win_percent(games, team, group)
-            mapping[team.team_id].append(percent)
-            win_percent = WinPercent(team.team_id, percent)
+            win_percent = calculate_win_percent(games, team, group)
+            if(win_percent.no_games):
+                mapping[team.team_id].append("-----")
+            else:
+                mapping[team.team_id].append(win_percent.percent)
             group_percents.append(win_percent)
 
         # group into common winning percentages
         group_percents.sort(key=attrgetter('percent'), reverse=True)  # highest percent to lowest
         split_groups = groupby(group_percents, attrgetter('percent'))
-        split_list = []
-        for sp, sts in split_groups:
-            split_list.append((sp, list(sts)))
+        split_list = [(sp, list(sts)) for sp, sts in split_groups]
 
         # if we are left with a single split group, it means they cannot be broken down further - go to lottery
         if(len(split_list) == 1):
@@ -186,7 +186,7 @@ def rank(games, group, start, mapping, level=0):
             split_percents = []
             for t in split_teams:
                 team_club = t.team_id.split("_")[1]
-                win_percent = WinPercent(t.team_id, LOTTERY_PICKS[team_club])
+                win_percent = WinPercent(t.team_id, LOTTERY_PICKS[team_club], False)
                 split_percents.append(win_percent)
             split_percents.sort(key=attrgetter('percent'))  # lowest lottery to highest
             for sp in split_percents:
