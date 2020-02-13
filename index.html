@@ -23,7 +23,8 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1>FCYBL Rankings</h1>
-                <p>The following rankings are based on game results from the 2019-2020 FCYBL season.</p>
+                <p class="lead">The following rankings are based on game results from the 2019-2020 FCYBL season.</p>
+                <p>Rankings are based on win percentages and tiebreakers (including the lottery draw). Details about the rules can be found on the <a href="http://www.fcybl.org/Page.asp?n=30095&org=fcybl.org">FCYBL website</a></p>
                 <h4>
                     Boys:
                     <span ng-repeat="d in rc.master.divisions" ng-if="d.startsWith('B')">
@@ -113,6 +114,16 @@
             </div>
         </div>
 
+        <footer>
+            <p class="text-muted">
+                <small>
+                    <strong>Version:</strong> 20200212v02
+                    <br/>
+                    <strong>Generated From:</strong> {{ rc.master.excel }}
+                </small>
+            </p>
+        </footer>
+
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
@@ -140,6 +151,7 @@
             my.games = my.master.games;
             my.lottery = my.master.lottery;
             my.rankings = my.master.rankings;
+            // there will be an extra column to show the tiebreaker ended
             my.maxDetails = Math.max.apply(Math, my.rankings.map(function (r) { return r.details.length; }));
             my.modalTeam;
 

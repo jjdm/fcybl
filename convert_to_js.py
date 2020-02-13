@@ -3,6 +3,7 @@ import glob
 import re
 import json
 import datetime
+import os
 from collections import namedtuple
 from operator import attrgetter
 from itertools import groupby
@@ -211,7 +212,7 @@ def build_rankings(results):
     return rankings
 
 
-def print_to_json(results, rankings):
+def print_to_json(results, rankings, excel):
     team_list = []
     games_list = []
     rankings_list = []
@@ -222,6 +223,7 @@ def print_to_json(results, rankings):
     for r in rankings:
         rankings_list.append(r._asdict())
     object = {
+        'excel': os.path.basename(excel),
         'divisions': results.divisions,
         'teams': team_list,
         'games': games_list,
@@ -237,7 +239,7 @@ def main():
     rows = read_excel(excel)
     results = build_teams_and_games(rows)
     rankings = build_rankings(results)
-    print_to_json(results, rankings)
+    print_to_json(results, rankings, excel)
 
 
 if (__name__ == "__main__"):
