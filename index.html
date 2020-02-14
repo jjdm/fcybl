@@ -16,7 +16,7 @@
 
         span.fileIcon {
             background-repeat: no-repeat;
-            padding-left: 25px;
+            padding-left: 20px;
         }
 
         span.pdf {
@@ -34,30 +34,55 @@
     <div class="container" ng-app="FCYBL" ng-controller="RankingsController as rc">
 
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-8">
                 <h1>FCYBL Rankings</h1>
-                <p class="lead">The following rankings are based on game results from the 2019-2020 FCYBL season.</p>
-                <p>Rankings are based on win percentages and tiebreakers (including the lottery draw). Details about the rules can be found on the <a target="_blank" href="http://www.fcybl.org/Page.asp?n=30095&org=fcybl.org">FCYBL website</a>.</p>
+            </div>
+            <div class="col-lg-4 pull-right">
+                <p class="small">
+                    <strong>Generated From:</strong> {{ rc.master.excel }}
+                    <br />
+                    <strong>Run On:</strong> {{ rc.master.run_date }}
+                </p>
+            </div>
+            <div class="col-lg-12">
+                <p>The following rankings are based on game results from the 2019-2020 FCYBL season.</p>
                 <p>
                     For an extract of this page, you can use either the
                     <span class="fileIcon pdf"><a target="_blank" href="./docs/FCYBL Rankings.pdf">PDF version</a></span>
                     or the
                     <span class="fileIcon excel"><a target="_blank" href="./docs/FCYBL Rankings.xlsx">Excel version</a></span>.
                 </p>
-                <h4>
+                <p class="lead">
                     Boys:
                     <span ng-repeat="d in rc.master.divisions" ng-if="d.startsWith('B')">
                         <a href="#{{ d }}">{{ d }}</a>
                         &nbsp;
                     </span>
-                </h4>
-                <h4>
+                    <br />
                     Girls:
                     <span ng-repeat="d in rc.master.divisions" ng-if="d.startsWith('G')">
                         <a href="#{{ d }}">{{ d }}</a>
                         &nbsp;
                     </span>
-                </h4>
+                </p>
+                <p>
+                    Rankings are based on win percentages and tiebreakers (including the lottery draw). Details about the rules can be found on the <a target="_blank" href="http://www.fcybl.org/Page.asp?n=30095&org=fcybl.org">FCYBL website</a>. Some notes:
+                    <ul>
+                        <li>Wins are worth 1 point, ties worth 0.5 points, and losses 0 points.</li>
+                        <li>Teams are sorted by win percentage within a group (the first group is the whole division).</li>
+                        <li>
+                            Teams are then sub-grouped by winning percentage (where it is the same) and the process repeats.
+                            <br />
+                            &nbsp; &nbsp; <span class="text-muted">- Note, when only two teams are in a sub-group, it is sometimes called "head-to-head", but the process is the same.</span>
+                        </li>
+                        <li>When a team in a group has no games against other teams in that group, it is recorded as 0-0 and ranked as 0.500. This is denoted as <code>-----</code> below.</li>
+                        <li>
+                            When teams can no longer be compared based on winning percentage within their sub-group, the lottery draw is used.
+                            <br />
+                            &nbsp; &nbsp; <span class="text-muted">- This can be seen when the tiebreaker (TB) is an integer (no decimals).</span>
+                        </li>
+                    </ul>
+                </p>
             </div>
         </div>
 

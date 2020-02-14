@@ -225,6 +225,7 @@ def print_to_json(results, rankings, excel):
         rankings_list.append(r._asdict())
     object = {
         'excel': os.path.basename(excel),
+        'run_date': datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         'divisions': results.divisions,
         'teams': team_list,
         'games': games_list,

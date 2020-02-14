@@ -1,0 +1,11 @@
+Copy the new extract into the main folder.
+Run the Python program, piping to data.js.
+Copy HTML from index.html page into text.
+Add new lines before each heading:
+	^([BG][0-9])
+	\n\1
+Delete extra information at top/bottom.
+Copy the contents into Excel (starting) with B5 D1.
+Export into PDF.
+Push files to AWS.
+Shift refresh.
