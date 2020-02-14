@@ -169,6 +169,7 @@ def rank(games, group, start, mapping, all_teams, level):
         group_percents = []
         for team in group:
             if(team.team_id == SPECIAL_TEAM_FOR_2019 and level == 0):
+                # One team changed divisions in the middle of the year.  This would be OK for everyone if it is common next year.
                 group = all_teams
             win_percent = calculate_win_percent(games, team, group)
             if(win_percent.no_games):
