@@ -48,9 +48,9 @@
                 <p>The following rankings are based on game results from the 2019-2020 FCYBL season.</p>
                 <p>
                     For an extract of this page, you can use either the
-                    <span class="fileIcon pdf"><a target="_blank" href="./docs/FCYBL Rankings.pdf">PDF version</a></span>
+                    <span class="fileIcon pdf"><a target="_blank" href="./docs/FCYBL Rankings.pdf?v={{ rc.master.run_date }}">PDF version</a></span>
                     or the
-                    <span class="fileIcon excel"><a target="_blank" href="./docs/FCYBL Rankings.xlsx">Excel version</a></span>.
+                    <span class="fileIcon excel"><a target="_blank" href="./docs/FCYBL Rankings.xlsx?v={{ rc.master.run_date }}">Excel version</a></span>.
                 </p>
                 <p class="lead">
                     Boys:
@@ -157,18 +157,6 @@
                 </div>
             </div>
         </div>
-
-        <footer>
-            <p><code>-----</code> denotes when a group has no common games. 0-0 record equates to 0.500 for ranking.</p>
-            <p>Wins are worth 1 point, ties worth 0.5 points, and losses 0 points.</p>
-            <p class="text-muted">
-                <small>
-                    <strong>Version:</strong> 20200212v03
-                    <br />
-                    <strong>Generated From:</strong> {{ rc.master.excel }}
-                </small>
-            </p>
-        </footer>
 
     </div>
 
