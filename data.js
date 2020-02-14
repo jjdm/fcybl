@@ -1,6 +1,5 @@
 var _MASTER_DATA = {
   "excel": "FCYBL Schedule as of 2-14.xlsx",
-  "run_date": "2020-02-14 09:59:49",
   "teams": [
     {
       "team_id": "B5-D1_ARLINGTON_SADAKA",
@@ -1533,6 +1532,7 @@ var _MASTER_DATA = {
       "coach": "BOND"
     }
   ],
+  "run_date": "2020-02-14 10:15:12",
   "games": [
     {
       "game_id": 6290453,
@@ -36895,6 +36895,60 @@ var _MASTER_DATA = {
       "source": false
     }
   ],
+  "lottery": {
+    "SOUTH COUNTY": 7,
+    "MT. VERNON": 26,
+    "GAINESVILLE": 16,
+    "RESTON": 18,
+    "MANASSAS PARK": 10,
+    "LEE DISTRICT": 22,
+    "SYA": 5,
+    "FORT HUNT": 24,
+    "BRYC": 3,
+    "SOUTH LOUDOUN": 17,
+    "MCLEAN": 2,
+    "CYA": 14,
+    "TURNPIKE": 9,
+    "VIENNA": 8,
+    "BURKE": 4,
+    "BAILEYS CC": 20,
+    "HERNDON": 21,
+    "FORT BELVOIR": 25,
+    "ALEXANDRIA": 28,
+    "LEE-MT. VERNON": 12,
+    "ARLINGTON": 15,
+    "GREAT FALLS": 1,
+    "LEE MT. VERNON": 12,
+    "FPYC": 19,
+    "ANNANDALE": 6,
+    "BAILEYS": 20,
+    "GUM SPRINGS": 11,
+    "SPRINGFIELD": 13,
+    "JAMES LEE": 27,
+    "FALLS CHURCH": 23
+  },
+  "divisions": [
+    "B5-D1",
+    "B5-D2",
+    "B5-D3",
+    "B6-D1",
+    "B6-D2",
+    "B6-D3",
+    "B7-D1",
+    "B7-D2",
+    "B7-D3",
+    "B8-D1",
+    "B8-D2",
+    "B8-D3",
+    "G5-D1",
+    "G5-D2",
+    "G6-D1",
+    "G6-D2",
+    "G7-D1",
+    "G7-D2",
+    "G8-D1",
+    "G8-D2"
+  ],
   "rankings": [
     {
       "team_id": "B5-D1_BURKE_SMITH",
@@ -37917,7 +37971,7 @@ var _MASTER_DATA = {
       "team_id": "B8-D2_FORT HUNT_FORTI",
       "rank": 2,
       "details": [
-        "0.909"
+        "0.833"
       ]
     },
     {
@@ -37961,60 +38015,60 @@ var _MASTER_DATA = {
       "team_id": "B8-D2_BRYC_THOMAS",
       "rank": 8,
       "details": [
-        "0.455"
+        "0.417"
       ]
     },
     {
       "team_id": "B8-D2_SOUTH COUNTY_MATTHEWS",
       "rank": 9,
       "details": [
-        "0.364",
-        "1.000"
+        "0.364"
       ]
     },
     {
       "team_id": "B8-D2_ARLINGTON_MAHER",
       "rank": 10,
       "details": [
-        "0.364",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B8-D2_FPYC_RAGAN",
-      "rank": 11,
-      "details": [
-        "0.273",
-        "1.000"
+        "0.333"
       ]
     },
     {
       "team_id": "B8-D2_CYA_DANN",
+      "rank": 11,
+      "details": [
+        "0.273"
+      ]
+    },
+    {
+      "team_id": "B8-D2_FPYC_RAGAN",
       "rank": 12,
       "details": [
-        "0.273",
-        "0.000"
+        "0.250",
+        "1.000"
       ]
     },
     {
       "team_id": "B8-D2_GAINESVILLE_COMPTON",
       "rank": 13,
       "details": [
-        "0.250"
+        "0.250",
+        "0.000"
       ]
     },
     {
       "team_id": "B8-D2_CYA_SMITH",
       "rank": 14,
       "details": [
-        "0.182"
+        "0.167",
+        "1.000"
       ]
     },
     {
       "team_id": "B8-D2_MCLEAN_TURGEON",
       "rank": 15,
       "details": [
-        "0.167"
+        "0.167",
+        "0.000"
       ]
     },
     {
@@ -38792,59 +38846,5 @@ var _MASTER_DATA = {
         "0.000"
       ]
     }
-  ],
-  "lottery": {
-    "VIENNA": 8,
-    "FORT HUNT": 24,
-    "MCLEAN": 2,
-    "ARLINGTON": 15,
-    "FALLS CHURCH": 23,
-    "FORT BELVOIR": 25,
-    "SOUTH COUNTY": 7,
-    "LEE MT. VERNON": 12,
-    "MT. VERNON": 26,
-    "BAILEYS CC": 20,
-    "FPYC": 19,
-    "HERNDON": 21,
-    "LEE DISTRICT": 22,
-    "GAINESVILLE": 16,
-    "ANNANDALE": 6,
-    "JAMES LEE": 27,
-    "TURNPIKE": 9,
-    "CYA": 14,
-    "RESTON": 18,
-    "SOUTH LOUDOUN": 17,
-    "BURKE": 4,
-    "LEE-MT. VERNON": 12,
-    "GUM SPRINGS": 11,
-    "MANASSAS PARK": 10,
-    "SYA": 5,
-    "BAILEYS": 20,
-    "SPRINGFIELD": 13,
-    "BRYC": 3,
-    "ALEXANDRIA": 28,
-    "GREAT FALLS": 1
-  },
-  "divisions": [
-    "B5-D1",
-    "B5-D2",
-    "B5-D3",
-    "B6-D1",
-    "B6-D2",
-    "B6-D3",
-    "B7-D1",
-    "B7-D2",
-    "B7-D3",
-    "B8-D1",
-    "B8-D2",
-    "B8-D3",
-    "G5-D1",
-    "G5-D2",
-    "G6-D1",
-    "G6-D2",
-    "G7-D1",
-    "G7-D2",
-    "G8-D1",
-    "G8-D2"
   ]
 };

@@ -8,7 +8,7 @@ from collections import namedtuple
 from operator import attrgetter
 from itertools import groupby
 
-SPECIAL_TEAM_FOR_2019 = "B8-D1_LEE DISTRICT_MCMINN"  # reminder to remove this next year
+SPECIAL_FOR_2019 = True # reminder to remove this next year if needed. B8-D1_LEE DISTRICT_MCMINN changed divisions.
 
 ExcelRow = namedtuple('ExcelRow', 'db_id, date, team, opponent, points, against')
 Team = namedtuple('Team', 'team_id, division, club, coach')
@@ -168,8 +168,8 @@ def rank(games, group, start, mapping, all_teams, level):
         # calculate winning percentage against the group
         group_percents = []
         for team in group:
-            if(team.team_id == SPECIAL_TEAM_FOR_2019 and level == 0):
-                # One team changed divisions in the middle of the year.  This would be OK for everyone if it is common next year.
+            if(SPECIAL_FOR_2019 and level == 0):
+                # One team changed divisions in the middle of the year. For iteration 1, need to compare against all teams.
                 group = all_teams
             win_percent = calculate_win_percent(games, team, group)
             if(win_percent.no_games):
