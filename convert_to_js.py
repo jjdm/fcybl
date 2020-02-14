@@ -8,6 +8,7 @@ from collections import namedtuple
 from operator import attrgetter
 from itertools import groupby
 
+SPECIAL_TEAM_FOR_2019 = "B8-D1_LEE DISTRICT_MCMINN"  # reminder to remove this next year
 
 ExcelRow = namedtuple('ExcelRow', 'db_id, date, team, opponent, points, against')
 Team = namedtuple('Team', 'team_id, division, club, coach')
@@ -143,7 +144,7 @@ def calculate_win_percent(games, team, group):
         return WinPercent(team.team_id, '{0:.3f}'.format(0.5), True)  # No Games different
 
 
-def rank(games, group, start, mapping, level=0):
+def rank(games, group, start, mapping, all_teams, level):
 
     rankings = []
 
@@ -167,6 +168,8 @@ def rank(games, group, start, mapping, level=0):
         # calculate winning percentage against the group
         group_percents = []
         for team in group:
+            if(team.team_id == SPECIAL_TEAM_FOR_2019 and level == 0):
+                group = all_teams
             win_percent = calculate_win_percent(games, team, group)
             if(win_percent.no_games):
                 mapping[team.team_id].append("-----")
@@ -197,7 +200,7 @@ def rank(games, group, start, mapping, level=0):
         # we have multiple groups - run this recursively
         else:
             for sp, split_teams in split_list:
-                ranks = rank(games, split_teams, start, mapping, level + 1)
+                ranks = rank(games, split_teams, start, mapping, all_teams, level + 1)
                 rankings.extend(ranks)
                 start += len(split_teams)
 
@@ -208,7 +211,7 @@ def build_rankings(results):
     rankings = []
     for division in results.divisions:
         teams = [t for t in results.teams if t.division == division]
-        ranks = rank(results.games, teams, 1, {})
+        ranks = rank(results.games, teams, 1, {}, results.teams, 0)
         rankings.extend(ranks)
     return rankings
 
