@@ -8,7 +8,7 @@ from collections import namedtuple
 from operator import attrgetter
 from itertools import groupby
 
-SPECIAL_FOR_2019 = True # reminder to remove this next year if needed. B8-D1_LEE DISTRICT_MCMINN changed divisions.
+SPECIAL_FOR_2019 = True  # reminder to remove this next year if needed. B8-D1_LEE DISTRICT_MCMINN changed divisions.
 
 ExcelRow = namedtuple('ExcelRow', 'db_id, date, team, opponent, points, against')
 Team = namedtuple('Team', 'team_id, division, club, coach')
@@ -48,6 +48,29 @@ LOTTERY_PICKS = {
     'MT. VERNON': 26,
     'JAMES LEE': 27,
     'ALEXANDRIA': 28
+}
+
+DIVISION_PLAYOFF_SPOTS = {
+    "B5-D1": 9,
+    "B5-D2": 11,
+    "B5-D3": 9,
+    "B6-D1": 11,
+    "B6-D2": 10,
+    "B6-D3": 11,
+    "B7-D1": 10,
+    "B7-D2": 11,
+    "B7-D3": 8,
+    "B8-D1": 13,
+    "B8-D2": 12,
+    "B8-D3": 8,
+    "G5-D1": 8,
+    "G5-D2": 11,
+    "G6-D1": 8,
+    "G6-D2": 12,
+    "G7-D1": 10,
+    "G7-D2": 8,
+    "G8-D1": 8,
+    "G8-D2": 11
 }
 
 
@@ -217,12 +240,22 @@ def build_rankings(results):
     return rankings
 
 
+def calculate_record(team, games):
+    team_games = [g for g in games if g.team == team.team_id]
+    wins = [g for g in team_games if g.win]
+    losses = [g for g in team_games if g.lost]
+    ties = [g for g in team_games if g.tie]
+    return "{}-{}-{}".format(len(wins), len(losses), len(ties))
+
+
 def print_to_json(results, rankings, excel):
     team_list = []
     games_list = []
     rankings_list = []
     for t in results.teams:
-        team_list.append(t._asdict())
+        t_dict = t._asdict()
+        t_dict['record'] = calculate_record(t, results.games)
+        team_list.append(t_dict)
     for g in results.games:
         games_list.append(g._asdict())
     for r in rankings:
@@ -234,6 +267,7 @@ def print_to_json(results, rankings, excel):
         'teams': team_list,
         'games': games_list,
         'lottery': LOTTERY_PICKS,
+        'spots': DIVISION_PLAYOFF_SPOTS,
         'rankings': rankings_list
     }
     output = "var _MASTER_DATA = " + json.dumps(object, indent=2) + ";"

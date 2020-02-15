@@ -1,36 +1,1792 @@
 var _MASTER_DATA = {
-  "lottery": {
-    "SYA": 5,
-    "JAMES LEE": 27,
-    "LEE MT. VERNON": 12,
-    "MT. VERNON": 26,
-    "FORT BELVOIR": 25,
-    "GUM SPRINGS": 11,
-    "ALEXANDRIA": 28,
-    "TURNPIKE": 9,
-    "FORT HUNT": 24,
-    "CYA": 14,
-    "RESTON": 18,
-    "SOUTH COUNTY": 7,
-    "LEE-MT. VERNON": 12,
-    "BAILEYS": 20,
-    "MANASSAS PARK": 10,
-    "BAILEYS CC": 20,
-    "FPYC": 19,
-    "GREAT FALLS": 1,
-    "ANNANDALE": 6,
-    "MCLEAN": 2,
-    "BRYC": 3,
-    "BURKE": 4,
-    "ARLINGTON": 15,
-    "VIENNA": 8,
-    "GAINESVILLE": 16,
-    "LEE DISTRICT": 22,
-    "FALLS CHURCH": 23,
-    "SOUTH LOUDOUN": 17,
-    "HERNDON": 21,
-    "SPRINGFIELD": 13
-  },
+  "excel": "FCYBL Schedule as of 2-14.xlsx",
+  "teams": [
+    {
+      "team_id": "B5-D1_ARLINGTON_SADAKA",
+      "division": "B5-D1",
+      "club": "ARLINGTON",
+      "coach": "SADAKA",
+      "record": "7-1-0"
+    },
+    {
+      "team_id": "B5-D1_BURKE_SMITH",
+      "division": "B5-D1",
+      "club": "BURKE",
+      "coach": "SMITH",
+      "record": "8-0-0"
+    },
+    {
+      "team_id": "B5-D1_CYA_ROSENBLATT",
+      "division": "B5-D1",
+      "club": "CYA",
+      "coach": "ROSENBLATT",
+      "record": "3-5-0"
+    },
+    {
+      "team_id": "B5-D1_FORT HUNT_ZIPPEL",
+      "division": "B5-D1",
+      "club": "FORT HUNT",
+      "coach": "ZIPPEL",
+      "record": "2-6-0"
+    },
+    {
+      "team_id": "B5-D1_GAINESVILLE_LY",
+      "division": "B5-D1",
+      "club": "GAINESVILLE",
+      "coach": "LY",
+      "record": "3-5-0"
+    },
+    {
+      "team_id": "B5-D1_GREAT FALLS_GOLDBERG",
+      "division": "B5-D1",
+      "club": "GREAT FALLS",
+      "coach": "GOLDBERG",
+      "record": "3-4-0"
+    },
+    {
+      "team_id": "B5-D1_LEE MT. VERNON_BOSLEY",
+      "division": "B5-D1",
+      "club": "LEE MT. VERNON",
+      "coach": "BOSLEY",
+      "record": "1-6-0"
+    },
+    {
+      "team_id": "B5-D1_MCLEAN_MARTIN",
+      "division": "B5-D1",
+      "club": "MCLEAN",
+      "coach": "MARTIN",
+      "record": "3-5-0"
+    },
+    {
+      "team_id": "B5-D1_RESTON_BYRNES",
+      "division": "B5-D1",
+      "club": "RESTON",
+      "coach": "BYRNES",
+      "record": "5-3-0"
+    },
+    {
+      "team_id": "B5-D1_SOUTH LOUDOUN_CHOI",
+      "division": "B5-D1",
+      "club": "SOUTH LOUDOUN",
+      "coach": "CHOI",
+      "record": "4-4-0"
+    },
+    {
+      "team_id": "B5-D1_SOUTH LOUDOUN_STEMBERGER",
+      "division": "B5-D1",
+      "club": "SOUTH LOUDOUN",
+      "coach": "STEMBERGER",
+      "record": "6-2-0"
+    },
+    {
+      "team_id": "B5-D1_SYA_O-CONNOR",
+      "division": "B5-D1",
+      "club": "SYA",
+      "coach": "O-CONNOR",
+      "record": "2-6-0"
+    },
+    {
+      "team_id": "B5-D2_ARLINGTON_MCLEAN",
+      "division": "B5-D2",
+      "club": "ARLINGTON",
+      "coach": "MCLEAN",
+      "record": "6-2-0"
+    },
+    {
+      "team_id": "B5-D2_BRYC_MAYES",
+      "division": "B5-D2",
+      "club": "BRYC",
+      "coach": "MAYES",
+      "record": "6-2-0"
+    },
+    {
+      "team_id": "B5-D2_BURKE_ASEFI",
+      "division": "B5-D2",
+      "club": "BURKE",
+      "coach": "ASEFI",
+      "record": "4-5-0"
+    },
+    {
+      "team_id": "B5-D2_BURKE_MAYERNIK",
+      "division": "B5-D2",
+      "club": "BURKE",
+      "coach": "MAYERNIK",
+      "record": "2-7-0"
+    },
+    {
+      "team_id": "B5-D2_CYA_MARTIN",
+      "division": "B5-D2",
+      "club": "CYA",
+      "coach": "MARTIN",
+      "record": "3-6-0"
+    },
+    {
+      "team_id": "B5-D2_FALLS CHURCH_GREINER",
+      "division": "B5-D2",
+      "club": "FALLS CHURCH",
+      "coach": "GREINER",
+      "record": "4-5-0"
+    },
+    {
+      "team_id": "B5-D2_LEE MT. VERNON_DAY",
+      "division": "B5-D2",
+      "club": "LEE MT. VERNON",
+      "coach": "DAY",
+      "record": "3-6-0"
+    },
+    {
+      "team_id": "B5-D2_MANASSAS PARK_SOLOMON",
+      "division": "B5-D2",
+      "club": "MANASSAS PARK",
+      "coach": "SOLOMON",
+      "record": "9-0-0"
+    },
+    {
+      "team_id": "B5-D2_MCLEAN_B BALL",
+      "division": "B5-D2",
+      "club": "MCLEAN",
+      "coach": "B BALL",
+      "record": "3-6-0"
+    },
+    {
+      "team_id": "B5-D2_RESTON_DAOUD",
+      "division": "B5-D2",
+      "club": "RESTON",
+      "coach": "DAOUD",
+      "record": "2-7-0"
+    },
+    {
+      "team_id": "B5-D2_SOUTH LOUDOUN_FIORILLO",
+      "division": "B5-D2",
+      "club": "SOUTH LOUDOUN",
+      "coach": "FIORILLO",
+      "record": "2-7-0"
+    },
+    {
+      "team_id": "B5-D2_SYA_HARRIS",
+      "division": "B5-D2",
+      "club": "SYA",
+      "coach": "HARRIS",
+      "record": "4-5-0"
+    },
+    {
+      "team_id": "B5-D2_VIENNA_DAVIS",
+      "division": "B5-D2",
+      "club": "VIENNA",
+      "coach": "DAVIS",
+      "record": "6-3-0"
+    },
+    {
+      "team_id": "B5-D2_VIENNA_LOCEY",
+      "division": "B5-D2",
+      "club": "VIENNA",
+      "coach": "LOCEY",
+      "record": "8-1-0"
+    },
+    {
+      "team_id": "B5-D3_ARLINGTON_PERKINS",
+      "division": "B5-D3",
+      "club": "ARLINGTON",
+      "coach": "PERKINS",
+      "record": "7-1-0"
+    },
+    {
+      "team_id": "B5-D3_BRYC_SHARMA",
+      "division": "B5-D3",
+      "club": "BRYC",
+      "coach": "SHARMA",
+      "record": "6-1-0"
+    },
+    {
+      "team_id": "B5-D3_CYA_RIVERS",
+      "division": "B5-D3",
+      "club": "CYA",
+      "coach": "RIVERS",
+      "record": "2-6-0"
+    },
+    {
+      "team_id": "B5-D3_FORT BELVOIR_HUNTER",
+      "division": "B5-D3",
+      "club": "FORT BELVOIR",
+      "coach": "HUNTER",
+      "record": "2-5-0"
+    },
+    {
+      "team_id": "B5-D3_FPYC_DAVIS",
+      "division": "B5-D3",
+      "club": "FPYC",
+      "coach": "DAVIS",
+      "record": "6-1-0"
+    },
+    {
+      "team_id": "B5-D3_GAINESVILLE_JACKSON",
+      "division": "B5-D3",
+      "club": "GAINESVILLE",
+      "coach": "JACKSON",
+      "record": "3-4-0"
+    },
+    {
+      "team_id": "B5-D3_GAINESVILLE_MAXWELL",
+      "division": "B5-D3",
+      "club": "GAINESVILLE",
+      "coach": "MAXWELL",
+      "record": "4-3-0"
+    },
+    {
+      "team_id": "B5-D3_GUM SPRINGS_SPROCKER",
+      "division": "B5-D3",
+      "club": "GUM SPRINGS",
+      "coach": "SPROCKER",
+      "record": "0-7-0"
+    },
+    {
+      "team_id": "B5-D3_HERNDON_BERMUDEZ",
+      "division": "B5-D3",
+      "club": "HERNDON",
+      "coach": "BERMUDEZ",
+      "record": "4-3-0"
+    },
+    {
+      "team_id": "B5-D3_SOUTH COUNTY_ARORA",
+      "division": "B5-D3",
+      "club": "SOUTH COUNTY",
+      "coach": "ARORA",
+      "record": "2-5-0"
+    },
+    {
+      "team_id": "B5-D3_SPRINGFIELD_MORRISON",
+      "division": "B5-D3",
+      "club": "SPRINGFIELD",
+      "coach": "MORRISON",
+      "record": "6-1-0"
+    },
+    {
+      "team_id": "B5-D3_TURNPIKE_SYRON",
+      "division": "B5-D3",
+      "club": "TURNPIKE",
+      "coach": "SYRON",
+      "record": "1-6-0"
+    },
+    {
+      "team_id": "B6-D1_ARLINGTON_LOWEN",
+      "division": "B6-D1",
+      "club": "ARLINGTON",
+      "coach": "LOWEN",
+      "record": "10-1-0"
+    },
+    {
+      "team_id": "B6-D1_BRYC_GONZALEZ",
+      "division": "B6-D1",
+      "club": "BRYC",
+      "coach": "GONZALEZ",
+      "record": "10-1-0"
+    },
+    {
+      "team_id": "B6-D1_BURKE_RAPOZA",
+      "division": "B6-D1",
+      "club": "BURKE",
+      "coach": "RAPOZA",
+      "record": "5-7-0"
+    },
+    {
+      "team_id": "B6-D1_CYA_JONES",
+      "division": "B6-D1",
+      "club": "CYA",
+      "coach": "JONES",
+      "record": "5-6-0"
+    },
+    {
+      "team_id": "B6-D1_GAINESVILLE_COOK",
+      "division": "B6-D1",
+      "club": "GAINESVILLE",
+      "coach": "COOK",
+      "record": "2-9-0"
+    },
+    {
+      "team_id": "B6-D1_GREAT FALLS_BROWN",
+      "division": "B6-D1",
+      "club": "GREAT FALLS",
+      "coach": "BROWN",
+      "record": "8-3-0"
+    },
+    {
+      "team_id": "B6-D1_JAMES LEE_HERRING",
+      "division": "B6-D1",
+      "club": "JAMES LEE",
+      "coach": "HERRING",
+      "record": "8-3-0"
+    },
+    {
+      "team_id": "B6-D1_JAMES LEE_WADE",
+      "division": "B6-D1",
+      "club": "JAMES LEE",
+      "coach": "WADE",
+      "record": "1-10-0"
+    },
+    {
+      "team_id": "B6-D1_LEE DISTRICT_DIFFENBACH",
+      "division": "B6-D1",
+      "club": "LEE DISTRICT",
+      "coach": "DIFFENBACH",
+      "record": "10-2-0"
+    },
+    {
+      "team_id": "B6-D1_MANASSAS PARK_GASKINS",
+      "division": "B6-D1",
+      "club": "MANASSAS PARK",
+      "coach": "GASKINS",
+      "record": "8-2-0"
+    },
+    {
+      "team_id": "B6-D1_MCLEAN_JACKSON",
+      "division": "B6-D1",
+      "club": "MCLEAN",
+      "coach": "JACKSON",
+      "record": "5-4-0"
+    },
+    {
+      "team_id": "B6-D1_MT. VERNON_COLEMAN",
+      "division": "B6-D1",
+      "club": "MT. VERNON",
+      "coach": "COLEMAN",
+      "record": "2-9-0"
+    },
+    {
+      "team_id": "B6-D1_RESTON_RIDGEWAY",
+      "division": "B6-D1",
+      "club": "RESTON",
+      "coach": "RIDGEWAY",
+      "record": "2-9-0"
+    },
+    {
+      "team_id": "B6-D1_SOUTH LOUDOUN_KAHN",
+      "division": "B6-D1",
+      "club": "SOUTH LOUDOUN",
+      "coach": "KAHN",
+      "record": "3-9-0"
+    },
+    {
+      "team_id": "B6-D1_VIENNA_EPPS",
+      "division": "B6-D1",
+      "club": "VIENNA",
+      "coach": "EPPS",
+      "record": "3-7-0"
+    },
+    {
+      "team_id": "B6-D2_ANNANDALE_HWANG",
+      "division": "B6-D2",
+      "club": "ANNANDALE",
+      "coach": "HWANG",
+      "record": "0-11-0"
+    },
+    {
+      "team_id": "B6-D2_ARLINGTON_GHARIANI",
+      "division": "B6-D2",
+      "club": "ARLINGTON",
+      "coach": "GHARIANI",
+      "record": "6-6-0"
+    },
+    {
+      "team_id": "B6-D2_BURKE_BUTTREY",
+      "division": "B6-D2",
+      "club": "BURKE",
+      "coach": "BUTTREY",
+      "record": "4-7-0"
+    },
+    {
+      "team_id": "B6-D2_CYA_ROBINSON",
+      "division": "B6-D2",
+      "club": "CYA",
+      "coach": "ROBINSON",
+      "record": "1-10-0"
+    },
+    {
+      "team_id": "B6-D2_FALLS CHURCH_KUSIC",
+      "division": "B6-D2",
+      "club": "FALLS CHURCH",
+      "coach": "KUSIC",
+      "record": "4-7-0"
+    },
+    {
+      "team_id": "B6-D2_FORT BELVOIR_TAYLOR JR",
+      "division": "B6-D2",
+      "club": "FORT BELVOIR",
+      "coach": "TAYLOR JR",
+      "record": "10-1-0"
+    },
+    {
+      "team_id": "B6-D2_FORT HUNT_FORTI",
+      "division": "B6-D2",
+      "club": "FORT HUNT",
+      "coach": "FORTI",
+      "record": "8-4-0"
+    },
+    {
+      "team_id": "B6-D2_GAINESVILLE_MURRAY",
+      "division": "B6-D2",
+      "club": "GAINESVILLE",
+      "coach": "MURRAY",
+      "record": "7-5-0"
+    },
+    {
+      "team_id": "B6-D2_HERNDON_JONES",
+      "division": "B6-D2",
+      "club": "HERNDON",
+      "coach": "JONES",
+      "record": "8-3-0"
+    },
+    {
+      "team_id": "B6-D2_MCLEAN_CICALE",
+      "division": "B6-D2",
+      "club": "MCLEAN",
+      "coach": "CICALE",
+      "record": "11-0-0"
+    },
+    {
+      "team_id": "B6-D2_SOUTH LOUDOUN_LANOUETTE",
+      "division": "B6-D2",
+      "club": "SOUTH LOUDOUN",
+      "coach": "LANOUETTE",
+      "record": "6-5-0"
+    },
+    {
+      "team_id": "B6-D2_SYA_HILL",
+      "division": "B6-D2",
+      "club": "SYA",
+      "coach": "HILL",
+      "record": "6-5-0"
+    },
+    {
+      "team_id": "B6-D2_VIENNA_CHOI",
+      "division": "B6-D2",
+      "club": "VIENNA",
+      "coach": "CHOI",
+      "record": "2-9-0"
+    },
+    {
+      "team_id": "B6-D3_ARLINGTON_NETTLES",
+      "division": "B6-D3",
+      "club": "ARLINGTON",
+      "coach": "NETTLES",
+      "record": "6-5-0"
+    },
+    {
+      "team_id": "B6-D3_BAILEYS_J. SMITH SR",
+      "division": "B6-D3",
+      "club": "BAILEYS",
+      "coach": "J. SMITH SR",
+      "record": "0-11-0"
+    },
+    {
+      "team_id": "B6-D3_BRYC_SHIN",
+      "division": "B6-D3",
+      "club": "BRYC",
+      "coach": "SHIN",
+      "record": "1-10-0"
+    },
+    {
+      "team_id": "B6-D3_BURKE_MITCHELL",
+      "division": "B6-D3",
+      "club": "BURKE",
+      "coach": "MITCHELL",
+      "record": "8-4-0"
+    },
+    {
+      "team_id": "B6-D3_CYA_LUGO",
+      "division": "B6-D3",
+      "club": "CYA",
+      "coach": "LUGO",
+      "record": "6-6-0"
+    },
+    {
+      "team_id": "B6-D3_FPYC_MALESKY",
+      "division": "B6-D3",
+      "club": "FPYC",
+      "coach": "MALESKY",
+      "record": "11-0-0"
+    },
+    {
+      "team_id": "B6-D3_GREAT FALLS_BRITT",
+      "division": "B6-D3",
+      "club": "GREAT FALLS",
+      "coach": "BRITT",
+      "record": "4-6-0"
+    },
+    {
+      "team_id": "B6-D3_LEE MT. VERNON_STEWART",
+      "division": "B6-D3",
+      "club": "LEE MT. VERNON",
+      "coach": "STEWART",
+      "record": "5-7-0"
+    },
+    {
+      "team_id": "B6-D3_RESTON_LEGLER",
+      "division": "B6-D3",
+      "club": "RESTON",
+      "coach": "LEGLER",
+      "record": "3-9-0"
+    },
+    {
+      "team_id": "B6-D3_SOUTH COUNTY_JOHNSON",
+      "division": "B6-D3",
+      "club": "SOUTH COUNTY",
+      "coach": "JOHNSON",
+      "record": "11-1-0"
+    },
+    {
+      "team_id": "B6-D3_SOUTH LOUDOUN_WEBB",
+      "division": "B6-D3",
+      "club": "SOUTH LOUDOUN",
+      "coach": "WEBB",
+      "record": "10-2-0"
+    },
+    {
+      "team_id": "B6-D3_SPRINGFIELD_ALVAREZ",
+      "division": "B6-D3",
+      "club": "SPRINGFIELD",
+      "coach": "ALVAREZ",
+      "record": "1-11-0"
+    },
+    {
+      "team_id": "B6-D3_SPRINGFIELD_WILSON",
+      "division": "B6-D3",
+      "club": "SPRINGFIELD",
+      "coach": "WILSON",
+      "record": "9-3-0"
+    },
+    {
+      "team_id": "B6-D3_TURNPIKE_OURS",
+      "division": "B6-D3",
+      "club": "TURNPIKE",
+      "coach": "OURS",
+      "record": "6-6-0"
+    },
+    {
+      "team_id": "B7-D1_ARLINGTON_SHELLEY",
+      "division": "B7-D1",
+      "club": "ARLINGTON",
+      "coach": "SHELLEY",
+      "record": "9-3-0"
+    },
+    {
+      "team_id": "B7-D1_BRYC_AQUIL",
+      "division": "B7-D1",
+      "club": "BRYC",
+      "coach": "AQUIL",
+      "record": "5-7-0"
+    },
+    {
+      "team_id": "B7-D1_CYA_CUBBAGE",
+      "division": "B7-D1",
+      "club": "CYA",
+      "coach": "CUBBAGE",
+      "record": "7-4-0"
+    },
+    {
+      "team_id": "B7-D1_FORT HUNT_KOELSCH",
+      "division": "B7-D1",
+      "club": "FORT HUNT",
+      "coach": "KOELSCH",
+      "record": "4-8-0"
+    },
+    {
+      "team_id": "B7-D1_GAINESVILLE_WEINSCHENK",
+      "division": "B7-D1",
+      "club": "GAINESVILLE",
+      "coach": "WEINSCHENK",
+      "record": "8-3-0"
+    },
+    {
+      "team_id": "B7-D1_GREAT FALLS_NICKLES",
+      "division": "B7-D1",
+      "club": "GREAT FALLS",
+      "coach": "NICKLES",
+      "record": "2-9-0"
+    },
+    {
+      "team_id": "B7-D1_LEE DISTRICT_TROTTER",
+      "division": "B7-D1",
+      "club": "LEE DISTRICT",
+      "coach": "TROTTER",
+      "record": "1-11-0"
+    },
+    {
+      "team_id": "B7-D1_MCLEAN_CAREY",
+      "division": "B7-D1",
+      "club": "MCLEAN",
+      "coach": "CAREY",
+      "record": "11-2-0"
+    },
+    {
+      "team_id": "B7-D1_RESTON_ROBINSON",
+      "division": "B7-D1",
+      "club": "RESTON",
+      "coach": "ROBINSON",
+      "record": "11-1-0"
+    },
+    {
+      "team_id": "B7-D1_SOUTH LOUDOUN_WEBB-",
+      "division": "B7-D1",
+      "club": "SOUTH LOUDOUN",
+      "coach": "WEBB-",
+      "record": "10-2-0"
+    },
+    {
+      "team_id": "B7-D1_SPRINGFIELD_ARGUEDAS",
+      "division": "B7-D1",
+      "club": "SPRINGFIELD",
+      "coach": "ARGUEDAS",
+      "record": "5-7-0"
+    },
+    {
+      "team_id": "B7-D1_SYA_MORIN",
+      "division": "B7-D1",
+      "club": "SYA",
+      "coach": "MORIN",
+      "record": "1-11-0"
+    },
+    {
+      "team_id": "B7-D1_VIENNA_STOLBURG",
+      "division": "B7-D1",
+      "club": "VIENNA",
+      "coach": "STOLBURG",
+      "record": "3-9-0"
+    },
+    {
+      "team_id": "B7-D2_ALEXANDRIA_MATTHEWS",
+      "division": "B7-D2",
+      "club": "ALEXANDRIA",
+      "coach": "MATTHEWS",
+      "record": "2-10-0"
+    },
+    {
+      "team_id": "B7-D2_ANNANDALE_NELSON",
+      "division": "B7-D2",
+      "club": "ANNANDALE",
+      "coach": "NELSON",
+      "record": "3-8-0"
+    },
+    {
+      "team_id": "B7-D2_ARLINGTON_REMEDIOS",
+      "division": "B7-D2",
+      "club": "ARLINGTON",
+      "coach": "REMEDIOS",
+      "record": "6-6-0"
+    },
+    {
+      "team_id": "B7-D2_BURKE_STURTEVANT",
+      "division": "B7-D2",
+      "club": "BURKE",
+      "coach": "STURTEVANT",
+      "record": "5-7-0"
+    },
+    {
+      "team_id": "B7-D2_CYA_UTTERBACK",
+      "division": "B7-D2",
+      "club": "CYA",
+      "coach": "UTTERBACK",
+      "record": "8-3-0"
+    },
+    {
+      "team_id": "B7-D2_FALLS CHURCH_WHITAKER",
+      "division": "B7-D2",
+      "club": "FALLS CHURCH",
+      "coach": "WHITAKER",
+      "record": "11-1-0"
+    },
+    {
+      "team_id": "B7-D2_FORT BELVOIR_SHERN",
+      "division": "B7-D2",
+      "club": "FORT BELVOIR",
+      "coach": "SHERN",
+      "record": "0-11-0"
+    },
+    {
+      "team_id": "B7-D2_FPYC_VARNER",
+      "division": "B7-D2",
+      "club": "FPYC",
+      "coach": "VARNER",
+      "record": "10-1-0"
+    },
+    {
+      "team_id": "B7-D2_GAINESVILLE_SCHWEMER",
+      "division": "B7-D2",
+      "club": "GAINESVILLE",
+      "coach": "SCHWEMER",
+      "record": "5-5-1"
+    },
+    {
+      "team_id": "B7-D2_LEE-MT. VERNON_RUSH",
+      "division": "B7-D2",
+      "club": "LEE-MT. VERNON",
+      "coach": "RUSH",
+      "record": "4-6-0"
+    },
+    {
+      "team_id": "B7-D2_MCLEAN_NANCE",
+      "division": "B7-D2",
+      "club": "MCLEAN",
+      "coach": "NANCE",
+      "record": "5-7-0"
+    },
+    {
+      "team_id": "B7-D2_SOUTH LOUDOUN_ACKLEY",
+      "division": "B7-D2",
+      "club": "SOUTH LOUDOUN",
+      "coach": "ACKLEY",
+      "record": "8-2-1"
+    },
+    {
+      "team_id": "B7-D2_TURNPIKE_BURNS",
+      "division": "B7-D2",
+      "club": "TURNPIKE",
+      "coach": "BURNS",
+      "record": "7-4-0"
+    },
+    {
+      "team_id": "B7-D2_VIENNA_MORTON",
+      "division": "B7-D2",
+      "club": "VIENNA",
+      "coach": "MORTON",
+      "record": "4-7-0"
+    },
+    {
+      "team_id": "B7-D3_ALEXANDRIA_THOMAS",
+      "division": "B7-D3",
+      "club": "ALEXANDRIA",
+      "coach": "THOMAS",
+      "record": "4-8-0"
+    },
+    {
+      "team_id": "B7-D3_ARLINGTON_PARKER",
+      "division": "B7-D3",
+      "club": "ARLINGTON",
+      "coach": "PARKER",
+      "record": "8-5-0"
+    },
+    {
+      "team_id": "B7-D3_BURKE_DISILVESTRO",
+      "division": "B7-D3",
+      "club": "BURKE",
+      "coach": "DISILVESTRO",
+      "record": "4-8-0"
+    },
+    {
+      "team_id": "B7-D3_CYA_PROCHAZKA",
+      "division": "B7-D3",
+      "club": "CYA",
+      "coach": "PROCHAZKA",
+      "record": "9-3-0"
+    },
+    {
+      "team_id": "B7-D3_GAINESVILLE_LINGENFELDER",
+      "division": "B7-D3",
+      "club": "GAINESVILLE",
+      "coach": "LINGENFELDER",
+      "record": "8-3-0"
+    },
+    {
+      "team_id": "B7-D3_GREAT FALLS_WILLSON",
+      "division": "B7-D3",
+      "club": "GREAT FALLS",
+      "coach": "WILLSON",
+      "record": "4-8-0"
+    },
+    {
+      "team_id": "B7-D3_HERNDON_PASSMORE",
+      "division": "B7-D3",
+      "club": "HERNDON",
+      "coach": "PASSMORE",
+      "record": "11-2-0"
+    },
+    {
+      "team_id": "B7-D3_SOUTH COUNTY_LLOYD",
+      "division": "B7-D3",
+      "club": "SOUTH COUNTY",
+      "coach": "LLOYD",
+      "record": "11-1-0"
+    },
+    {
+      "team_id": "B7-D3_SOUTH LOUDOUN_COOK",
+      "division": "B7-D3",
+      "club": "SOUTH LOUDOUN",
+      "coach": "COOK",
+      "record": "6-6-0"
+    },
+    {
+      "team_id": "B7-D3_SPRINGFIELD_KELLY",
+      "division": "B7-D3",
+      "club": "SPRINGFIELD",
+      "coach": "KELLY",
+      "record": "0-12-0"
+    },
+    {
+      "team_id": "B7-D3_SYA_DOWNEY",
+      "division": "B7-D3",
+      "club": "SYA",
+      "coach": "DOWNEY",
+      "record": "1-10-0"
+    },
+    {
+      "team_id": "B8-D1_ANNANDALE_NELSON",
+      "division": "B8-D1",
+      "club": "ANNANDALE",
+      "coach": "NELSON",
+      "record": "8-4-0"
+    },
+    {
+      "team_id": "B8-D1_ARLINGTON_DAVIS",
+      "division": "B8-D1",
+      "club": "ARLINGTON",
+      "coach": "DAVIS",
+      "record": "4-8-0"
+    },
+    {
+      "team_id": "B8-D1_BURKE_SHOUMAN",
+      "division": "B8-D1",
+      "club": "BURKE",
+      "coach": "SHOUMAN",
+      "record": "6-6-0"
+    },
+    {
+      "team_id": "B8-D1_CYA_LEE",
+      "division": "B8-D1",
+      "club": "CYA",
+      "coach": "LEE",
+      "record": "5-6-0"
+    },
+    {
+      "team_id": "B8-D1_FORT BELVOIR_MILES",
+      "division": "B8-D1",
+      "club": "FORT BELVOIR",
+      "coach": "MILES",
+      "record": "2-10-0"
+    },
+    {
+      "team_id": "B8-D1_GAINESVILLE_PAGE",
+      "division": "B8-D1",
+      "club": "GAINESVILLE",
+      "coach": "PAGE",
+      "record": "1-11-0"
+    },
+    {
+      "team_id": "B8-D1_GREAT FALLS_KRAWCZYK",
+      "division": "B8-D1",
+      "club": "GREAT FALLS",
+      "coach": "KRAWCZYK",
+      "record": "3-7-0"
+    },
+    {
+      "team_id": "B8-D1_LEE DISTRICT_MCMINN",
+      "division": "B8-D1",
+      "club": "LEE DISTRICT",
+      "coach": "MCMINN",
+      "record": "7-4-0"
+    },
+    {
+      "team_id": "B8-D1_MANASSAS PARK_VICK",
+      "division": "B8-D1",
+      "club": "MANASSAS PARK",
+      "coach": "VICK",
+      "record": "11-1-0"
+    },
+    {
+      "team_id": "B8-D1_MCLEAN_LEGGETT",
+      "division": "B8-D1",
+      "club": "MCLEAN",
+      "coach": "LEGGETT",
+      "record": "9-1-0"
+    },
+    {
+      "team_id": "B8-D1_MCLEAN_TALLENT",
+      "division": "B8-D1",
+      "club": "MCLEAN",
+      "coach": "TALLENT",
+      "record": "6-5-0"
+    },
+    {
+      "team_id": "B8-D1_RESTON_LANSDOWNE",
+      "division": "B8-D1",
+      "club": "RESTON",
+      "coach": "LANSDOWNE",
+      "record": "9-3-0"
+    },
+    {
+      "team_id": "B8-D1_SOUTH COUNTY_JACKSON",
+      "division": "B8-D1",
+      "club": "SOUTH COUNTY",
+      "coach": "JACKSON",
+      "record": "8-5-0"
+    },
+    {
+      "team_id": "B8-D1_SOUTH LOUDOUN_COOK",
+      "division": "B8-D1",
+      "club": "SOUTH LOUDOUN",
+      "coach": "COOK",
+      "record": "0-12-0"
+    },
+    {
+      "team_id": "B8-D1_SPRINGFIELD_ROBINSON",
+      "division": "B8-D1",
+      "club": "SPRINGFIELD",
+      "coach": "ROBINSON",
+      "record": "6-4-0"
+    },
+    {
+      "team_id": "B8-D1_TURNPIKE_DONOVAN",
+      "division": "B8-D1",
+      "club": "TURNPIKE",
+      "coach": "DONOVAN",
+      "record": "5-6-0"
+    },
+    {
+      "team_id": "B8-D1_VIENNA_MARSDEN",
+      "division": "B8-D1",
+      "club": "VIENNA",
+      "coach": "MARSDEN",
+      "record": "10-2-0"
+    },
+    {
+      "team_id": "B8-D2_ARLINGTON_BALLARD",
+      "division": "B8-D2",
+      "club": "ARLINGTON",
+      "coach": "BALLARD",
+      "record": "7-4-0"
+    },
+    {
+      "team_id": "B8-D2_ARLINGTON_MAHER",
+      "division": "B8-D2",
+      "club": "ARLINGTON",
+      "coach": "MAHER",
+      "record": "4-8-0"
+    },
+    {
+      "team_id": "B8-D2_BRYC_THOMAS",
+      "division": "B8-D2",
+      "club": "BRYC",
+      "coach": "THOMAS",
+      "record": "5-7-0"
+    },
+    {
+      "team_id": "B8-D2_CYA_DANN",
+      "division": "B8-D2",
+      "club": "CYA",
+      "coach": "DANN",
+      "record": "3-8-0"
+    },
+    {
+      "team_id": "B8-D2_CYA_SMITH",
+      "division": "B8-D2",
+      "club": "CYA",
+      "coach": "SMITH",
+      "record": "2-10-0"
+    },
+    {
+      "team_id": "B8-D2_FORT HUNT_FORTI",
+      "division": "B8-D2",
+      "club": "FORT HUNT",
+      "coach": "FORTI",
+      "record": "10-2-0"
+    },
+    {
+      "team_id": "B8-D2_FPYC_RAGAN",
+      "division": "B8-D2",
+      "club": "FPYC",
+      "coach": "RAGAN",
+      "record": "3-9-0"
+    },
+    {
+      "team_id": "B8-D2_GAINESVILLE_COMPTON",
+      "division": "B8-D2",
+      "club": "GAINESVILLE",
+      "coach": "COMPTON",
+      "record": "3-9-0"
+    },
+    {
+      "team_id": "B8-D2_HERNDON_HARLEY",
+      "division": "B8-D2",
+      "club": "HERNDON",
+      "coach": "HARLEY",
+      "record": "6-7-0"
+    },
+    {
+      "team_id": "B8-D2_LEE-MT. VERNON_BOSLEY",
+      "division": "B8-D2",
+      "club": "LEE-MT. VERNON",
+      "coach": "BOSLEY",
+      "record": "9-3-0"
+    },
+    {
+      "team_id": "B8-D2_MCLEAN_TURGEON",
+      "division": "B8-D2",
+      "club": "MCLEAN",
+      "coach": "TURGEON",
+      "record": "2-10-0"
+    },
+    {
+      "team_id": "B8-D2_SOUTH COUNTY_MATTHEWS",
+      "division": "B8-D2",
+      "club": "SOUTH COUNTY",
+      "coach": "MATTHEWS",
+      "record": "4-7-0"
+    },
+    {
+      "team_id": "B8-D2_SOUTH LOUDOUN_CHOI",
+      "division": "B8-D2",
+      "club": "SOUTH LOUDOUN",
+      "coach": "CHOI",
+      "record": "8-3-0"
+    },
+    {
+      "team_id": "B8-D2_SYA_MCGHEE",
+      "division": "B8-D2",
+      "club": "SYA",
+      "coach": "MCGHEE",
+      "record": "9-3-0"
+    },
+    {
+      "team_id": "B8-D2_VIENNA_DESENTI",
+      "division": "B8-D2",
+      "club": "VIENNA",
+      "coach": "DESENTI",
+      "record": "11-1-0"
+    },
+    {
+      "team_id": "B8-D3_BAILEYS_TBD",
+      "division": "B8-D3",
+      "club": "BAILEYS",
+      "coach": "TBD",
+      "record": "0-12-0"
+    },
+    {
+      "team_id": "B8-D3_BURKE_PETRO",
+      "division": "B8-D3",
+      "club": "BURKE",
+      "coach": "PETRO",
+      "record": "6-7-0"
+    },
+    {
+      "team_id": "B8-D3_BURKE_SMYDRA",
+      "division": "B8-D3",
+      "club": "BURKE",
+      "coach": "SMYDRA",
+      "record": "5-6-0"
+    },
+    {
+      "team_id": "B8-D3_FALLS CHURCH_SUTTON",
+      "division": "B8-D3",
+      "club": "FALLS CHURCH",
+      "coach": "SUTTON",
+      "record": "10-1-0"
+    },
+    {
+      "team_id": "B8-D3_LEE-MT. VERNON_PETERS",
+      "division": "B8-D3",
+      "club": "LEE-MT. VERNON",
+      "coach": "PETERS",
+      "record": "8-4-0"
+    },
+    {
+      "team_id": "B8-D3_LEE-MT. VERNON_SIMONIK",
+      "division": "B8-D3",
+      "club": "LEE-MT. VERNON",
+      "coach": "SIMONIK",
+      "record": "3-8-0"
+    },
+    {
+      "team_id": "B8-D3_MANASSAS PARK_HOLDEN",
+      "division": "B8-D3",
+      "club": "MANASSAS PARK",
+      "coach": "HOLDEN",
+      "record": "5-6-0"
+    },
+    {
+      "team_id": "B8-D3_RESTON_BIRKLAND",
+      "division": "B8-D3",
+      "club": "RESTON",
+      "coach": "BIRKLAND",
+      "record": "4-7-0"
+    },
+    {
+      "team_id": "B8-D3_SOUTH LOUDOUN_MOSTEK",
+      "division": "B8-D3",
+      "club": "SOUTH LOUDOUN",
+      "coach": "MOSTEK",
+      "record": "11-1-0"
+    },
+    {
+      "team_id": "G5-D1_ARLINGTON_MCRAE",
+      "division": "G5-D1",
+      "club": "ARLINGTON",
+      "coach": "MCRAE",
+      "record": "8-1-0"
+    },
+    {
+      "team_id": "G5-D1_CYA_DOWLING",
+      "division": "G5-D1",
+      "club": "CYA",
+      "coach": "DOWLING",
+      "record": "5-3-0"
+    },
+    {
+      "team_id": "G5-D1_FORT HUNT_GAREY",
+      "division": "G5-D1",
+      "club": "FORT HUNT",
+      "coach": "GAREY",
+      "record": "2-7-0"
+    },
+    {
+      "team_id": "G5-D1_GAINESVILLE_JOHNSON",
+      "division": "G5-D1",
+      "club": "GAINESVILLE",
+      "coach": "JOHNSON",
+      "record": "3-6-0"
+    },
+    {
+      "team_id": "G5-D1_GREAT FALLS_NITOWSKI",
+      "division": "G5-D1",
+      "club": "GREAT FALLS",
+      "coach": "NITOWSKI",
+      "record": "2-7-0"
+    },
+    {
+      "team_id": "G5-D1_LEE MT. VERNON_BRELAND",
+      "division": "G5-D1",
+      "club": "LEE MT. VERNON",
+      "coach": "BRELAND",
+      "record": "7-2-0"
+    },
+    {
+      "team_id": "G5-D1_MCLEAN_A NORTON",
+      "division": "G5-D1",
+      "club": "MCLEAN",
+      "coach": "A NORTON",
+      "record": "4-4-0"
+    },
+    {
+      "team_id": "G5-D1_SOUTH LOUDOUN_KERR",
+      "division": "G5-D1",
+      "club": "SOUTH LOUDOUN",
+      "coach": "KERR",
+      "record": "3-6-0"
+    },
+    {
+      "team_id": "G5-D1_SPRINGFIELD_GOODMAN",
+      "division": "G5-D1",
+      "club": "SPRINGFIELD",
+      "coach": "GOODMAN",
+      "record": "2-6-0"
+    },
+    {
+      "team_id": "G5-D1_VIENNA_KORMAN",
+      "division": "G5-D1",
+      "club": "VIENNA",
+      "coach": "KORMAN",
+      "record": "7-1-0"
+    },
+    {
+      "team_id": "G5-D2_ARLINGTON_LOMAS",
+      "division": "G5-D2",
+      "club": "ARLINGTON",
+      "coach": "LOMAS",
+      "record": "8-0-0"
+    },
+    {
+      "team_id": "G5-D2_BAILEYS CC_MARSHALL",
+      "division": "G5-D2",
+      "club": "BAILEYS CC",
+      "coach": "MARSHALL",
+      "record": "0-8-0"
+    },
+    {
+      "team_id": "G5-D2_BRYC_ALI",
+      "division": "G5-D2",
+      "club": "BRYC",
+      "coach": "ALI",
+      "record": "1-6-0"
+    },
+    {
+      "team_id": "G5-D2_BURKE_PRICE",
+      "division": "G5-D2",
+      "club": "BURKE",
+      "coach": "PRICE",
+      "record": "1-6-0"
+    },
+    {
+      "team_id": "G5-D2_BURKE_ROSE",
+      "division": "G5-D2",
+      "club": "BURKE",
+      "coach": "ROSE",
+      "record": "3-3-1"
+    },
+    {
+      "team_id": "G5-D2_CYA_MAZID",
+      "division": "G5-D2",
+      "club": "CYA",
+      "coach": "MAZID",
+      "record": "3-5-0"
+    },
+    {
+      "team_id": "G5-D2_FORT BELVOIR_WASHINGTON",
+      "division": "G5-D2",
+      "club": "FORT BELVOIR",
+      "coach": "WASHINGTON",
+      "record": "3-4-0"
+    },
+    {
+      "team_id": "G5-D2_GAINESVILLE_HAMPSON",
+      "division": "G5-D2",
+      "club": "GAINESVILLE",
+      "coach": "HAMPSON",
+      "record": "4-3-0"
+    },
+    {
+      "team_id": "G5-D2_MCLEAN_B KIM",
+      "division": "G5-D2",
+      "club": "MCLEAN",
+      "coach": "B KIM",
+      "record": "4-4-0"
+    },
+    {
+      "team_id": "G5-D2_RESTON_WARD",
+      "division": "G5-D2",
+      "club": "RESTON",
+      "coach": "WARD",
+      "record": "2-5-0"
+    },
+    {
+      "team_id": "G5-D2_SOUTH LOUDOUN_OSHEA",
+      "division": "G5-D2",
+      "club": "SOUTH LOUDOUN",
+      "coach": "OSHEA",
+      "record": "3-3-1"
+    },
+    {
+      "team_id": "G5-D2_SYA_ANDERSEN",
+      "division": "G5-D2",
+      "club": "SYA",
+      "coach": "ANDERSEN",
+      "record": "8-0-0"
+    },
+    {
+      "team_id": "G5-D2_SYA_MCGHEE",
+      "division": "G5-D2",
+      "club": "SYA",
+      "coach": "MCGHEE",
+      "record": "5-2-0"
+    },
+    {
+      "team_id": "G5-D2_VIENNA_KONSTAS",
+      "division": "G5-D2",
+      "club": "VIENNA",
+      "coach": "KONSTAS",
+      "record": "6-2-0"
+    },
+    {
+      "team_id": "G6-D1_ARLINGTON_PIACENZA",
+      "division": "G6-D1",
+      "club": "ARLINGTON",
+      "coach": "PIACENZA",
+      "record": "7-4-0"
+    },
+    {
+      "team_id": "G6-D1_BURKE_COUTINHO",
+      "division": "G6-D1",
+      "club": "BURKE",
+      "coach": "COUTINHO",
+      "record": "8-3-0"
+    },
+    {
+      "team_id": "G6-D1_CYA_KANG",
+      "division": "G6-D1",
+      "club": "CYA",
+      "coach": "KANG",
+      "record": "8-3-0"
+    },
+    {
+      "team_id": "G6-D1_FORT HUNT_LOVING",
+      "division": "G6-D1",
+      "club": "FORT HUNT",
+      "coach": "LOVING",
+      "record": "1-11-0"
+    },
+    {
+      "team_id": "G6-D1_GAINESVILLE_HOLDER",
+      "division": "G6-D1",
+      "club": "GAINESVILLE",
+      "coach": "HOLDER",
+      "record": "11-2-0"
+    },
+    {
+      "team_id": "G6-D1_MCLEAN_MURRELL",
+      "division": "G6-D1",
+      "club": "MCLEAN",
+      "coach": "MURRELL",
+      "record": "0-11-0"
+    },
+    {
+      "team_id": "G6-D1_SOUTH LOUDOUN_CHILDRESS",
+      "division": "G6-D1",
+      "club": "SOUTH LOUDOUN",
+      "coach": "CHILDRESS",
+      "record": "6-6-0"
+    },
+    {
+      "team_id": "G6-D1_SYA_MOORE",
+      "division": "G6-D1",
+      "club": "SYA",
+      "coach": "MOORE",
+      "record": "5-7-0"
+    },
+    {
+      "team_id": "G6-D1_VIENNA_PARRIS",
+      "division": "G6-D1",
+      "club": "VIENNA",
+      "coach": "PARRIS",
+      "record": "6-5-0"
+    },
+    {
+      "team_id": "G6-D2_ARLINGTON_DECOU",
+      "division": "G6-D2",
+      "club": "ARLINGTON",
+      "coach": "DECOU",
+      "record": "10-1-0"
+    },
+    {
+      "team_id": "G6-D2_BRYC_DUDLEY",
+      "division": "G6-D2",
+      "club": "BRYC",
+      "coach": "DUDLEY",
+      "record": "0-10-0"
+    },
+    {
+      "team_id": "G6-D2_BURKE_SEIGLE",
+      "division": "G6-D2",
+      "club": "BURKE",
+      "coach": "SEIGLE",
+      "record": "11-1-0"
+    },
+    {
+      "team_id": "G6-D2_CYA_MURPHY",
+      "division": "G6-D2",
+      "club": "CYA",
+      "coach": "MURPHY",
+      "record": "4-7-0"
+    },
+    {
+      "team_id": "G6-D2_FALLS CHURCH_PAPADOPOULOS",
+      "division": "G6-D2",
+      "club": "FALLS CHURCH",
+      "coach": "PAPADOPOULOS",
+      "record": "8-4-0"
+    },
+    {
+      "team_id": "G6-D2_FPYC_LESTER",
+      "division": "G6-D2",
+      "club": "FPYC",
+      "coach": "LESTER",
+      "record": "4-7-0"
+    },
+    {
+      "team_id": "G6-D2_GAINESVILLE_FURLONG",
+      "division": "G6-D2",
+      "club": "GAINESVILLE",
+      "coach": "FURLONG",
+      "record": "2-9-0"
+    },
+    {
+      "team_id": "G6-D2_GREAT FALLS_EXLEY",
+      "division": "G6-D2",
+      "club": "GREAT FALLS",
+      "coach": "EXLEY",
+      "record": "8-3-0"
+    },
+    {
+      "team_id": "G6-D2_LEE-MT. VERNON_HENDERSON",
+      "division": "G6-D2",
+      "club": "LEE-MT. VERNON",
+      "coach": "HENDERSON",
+      "record": "7-4-0"
+    },
+    {
+      "team_id": "G6-D2_MCLEAN_EDWARDS",
+      "division": "G6-D2",
+      "club": "MCLEAN",
+      "coach": "EDWARDS",
+      "record": "5-6-0"
+    },
+    {
+      "team_id": "G6-D2_RESTON_BARR",
+      "division": "G6-D2",
+      "club": "RESTON",
+      "coach": "BARR",
+      "record": "4-8-0"
+    },
+    {
+      "team_id": "G6-D2_SOUTH LOUDOUN_SAMSON",
+      "division": "G6-D2",
+      "club": "SOUTH LOUDOUN",
+      "coach": "SAMSON",
+      "record": "8-4-0"
+    },
+    {
+      "team_id": "G6-D2_SPRINGFIELD_BURDETTE",
+      "division": "G6-D2",
+      "club": "SPRINGFIELD",
+      "coach": "BURDETTE",
+      "record": "0-11-0"
+    },
+    {
+      "team_id": "G6-D2_SPRINGFIELD_MARSHALL",
+      "division": "G6-D2",
+      "club": "SPRINGFIELD",
+      "coach": "MARSHALL",
+      "record": "8-2-0"
+    },
+    {
+      "team_id": "G6-D2_SYA_LANGFORD",
+      "division": "G6-D2",
+      "club": "SYA",
+      "coach": "LANGFORD",
+      "record": "8-3-0"
+    },
+    {
+      "team_id": "G6-D2_VIENNA_GRIM",
+      "division": "G6-D2",
+      "club": "VIENNA",
+      "coach": "GRIM",
+      "record": "2-9-0"
+    },
+    {
+      "team_id": "G7-D1_ARLINGTON_EISENBERG",
+      "division": "G7-D1",
+      "club": "ARLINGTON",
+      "coach": "EISENBERG",
+      "record": "8-3-0"
+    },
+    {
+      "team_id": "G7-D1_BURKE_SEAY",
+      "division": "G7-D1",
+      "club": "BURKE",
+      "coach": "SEAY",
+      "record": "8-4-0"
+    },
+    {
+      "team_id": "G7-D1_BURKE_WYANT",
+      "division": "G7-D1",
+      "club": "BURKE",
+      "coach": "WYANT",
+      "record": "3-9-0"
+    },
+    {
+      "team_id": "G7-D1_CYA_MAWLOUD",
+      "division": "G7-D1",
+      "club": "CYA",
+      "coach": "MAWLOUD",
+      "record": "7-5-0"
+    },
+    {
+      "team_id": "G7-D1_FALLS CHURCH_MADISON",
+      "division": "G7-D1",
+      "club": "FALLS CHURCH",
+      "coach": "MADISON",
+      "record": "9-3-0"
+    },
+    {
+      "team_id": "G7-D1_FORT HUNT_HEINER",
+      "division": "G7-D1",
+      "club": "FORT HUNT",
+      "coach": "HEINER",
+      "record": "7-4-0"
+    },
+    {
+      "team_id": "G7-D1_FPYC_KOMAILY",
+      "division": "G7-D1",
+      "club": "FPYC",
+      "coach": "KOMAILY",
+      "record": "7-5-0"
+    },
+    {
+      "team_id": "G7-D1_GREAT FALLS_BOND",
+      "division": "G7-D1",
+      "club": "GREAT FALLS",
+      "coach": "BOND",
+      "record": "0-12-0"
+    },
+    {
+      "team_id": "G7-D1_MCLEAN_CRITTENBERGER",
+      "division": "G7-D1",
+      "club": "MCLEAN",
+      "coach": "CRITTENBERGER",
+      "record": "11-1-0"
+    },
+    {
+      "team_id": "G7-D1_SOUTH LOUDOUN_LISACK",
+      "division": "G7-D1",
+      "club": "SOUTH LOUDOUN",
+      "coach": "LISACK",
+      "record": "3-8-0"
+    },
+    {
+      "team_id": "G7-D1_SPRINGFIELD_DUCKETT",
+      "division": "G7-D1",
+      "club": "SPRINGFIELD",
+      "coach": "DUCKETT",
+      "record": "6-5-0"
+    },
+    {
+      "team_id": "G7-D1_SYA_BRUBAKER",
+      "division": "G7-D1",
+      "club": "SYA",
+      "coach": "BRUBAKER",
+      "record": "1-11-0"
+    },
+    {
+      "team_id": "G7-D1_VIENNA_YODER",
+      "division": "G7-D1",
+      "club": "VIENNA",
+      "coach": "YODER",
+      "record": "6-6-0"
+    },
+    {
+      "team_id": "G7-D2_ARLINGTON_FILIDES",
+      "division": "G7-D2",
+      "club": "ARLINGTON",
+      "coach": "FILIDES",
+      "record": "8-3-0"
+    },
+    {
+      "team_id": "G7-D2_BRYC_OCONNOR",
+      "division": "G7-D2",
+      "club": "BRYC",
+      "coach": "OCONNOR",
+      "record": "11-1-0"
+    },
+    {
+      "team_id": "G7-D2_CYA_FRANCIS",
+      "division": "G7-D2",
+      "club": "CYA",
+      "coach": "FRANCIS",
+      "record": "3-9-0"
+    },
+    {
+      "team_id": "G7-D2_GAINESVILLE_NAPLES",
+      "division": "G7-D2",
+      "club": "GAINESVILLE",
+      "coach": "NAPLES",
+      "record": "11-0-0"
+    },
+    {
+      "team_id": "G7-D2_LEE-MT. VERNON_CARTER",
+      "division": "G7-D2",
+      "club": "LEE-MT. VERNON",
+      "coach": "CARTER",
+      "record": "4-8-0"
+    },
+    {
+      "team_id": "G7-D2_MCLEAN_MENDENHALL",
+      "division": "G7-D2",
+      "club": "MCLEAN",
+      "coach": "MENDENHALL",
+      "record": "8-5-0"
+    },
+    {
+      "team_id": "G7-D2_MT. VERNON_GAREY",
+      "division": "G7-D2",
+      "club": "MT. VERNON",
+      "coach": "GAREY",
+      "record": "9-3-0"
+    },
+    {
+      "team_id": "G7-D2_RESTON_ZEBERLEIN",
+      "division": "G7-D2",
+      "club": "RESTON",
+      "coach": "ZEBERLEIN",
+      "record": "7-5-0"
+    },
+    {
+      "team_id": "G7-D2_SOUTH LOUDOUN_MCGOVERN",
+      "division": "G7-D2",
+      "club": "SOUTH LOUDOUN",
+      "coach": "MCGOVERN",
+      "record": "3-8-0"
+    },
+    {
+      "team_id": "G7-D2_SPRINGFIELD_DUCKETT",
+      "division": "G7-D2",
+      "club": "SPRINGFIELD",
+      "coach": "DUCKETT",
+      "record": "1-11-0"
+    },
+    {
+      "team_id": "G7-D2_VIENNA_TOMLINSON",
+      "division": "G7-D2",
+      "club": "VIENNA",
+      "coach": "TOMLINSON",
+      "record": "0-12-0"
+    },
+    {
+      "team_id": "G8-D1_ARLINGTON_ABUNDO",
+      "division": "G8-D1",
+      "club": "ARLINGTON",
+      "coach": "ABUNDO",
+      "record": "5-7-0"
+    },
+    {
+      "team_id": "G8-D1_BURKE_EDWARDS",
+      "division": "G8-D1",
+      "club": "BURKE",
+      "coach": "EDWARDS",
+      "record": "8-4-0"
+    },
+    {
+      "team_id": "G8-D1_CYA_MCCONNELL",
+      "division": "G8-D1",
+      "club": "CYA",
+      "coach": "MCCONNELL",
+      "record": "12-0-0"
+    },
+    {
+      "team_id": "G8-D1_FPYC_LESTER",
+      "division": "G8-D1",
+      "club": "FPYC",
+      "coach": "LESTER",
+      "record": "4-7-0"
+    },
+    {
+      "team_id": "G8-D1_GAINESVILLE_GILLIAM",
+      "division": "G8-D1",
+      "club": "GAINESVILLE",
+      "coach": "GILLIAM",
+      "record": "6-7-0"
+    },
+    {
+      "team_id": "G8-D1_GREAT FALLS_KERRIGAN",
+      "division": "G8-D1",
+      "club": "GREAT FALLS",
+      "coach": "KERRIGAN",
+      "record": "1-10-0"
+    },
+    {
+      "team_id": "G8-D1_MCLEAN_MEGAS",
+      "division": "G8-D1",
+      "club": "MCLEAN",
+      "coach": "MEGAS",
+      "record": "11-2-0"
+    },
+    {
+      "team_id": "G8-D1_SPRINGFIELD_WILSON",
+      "division": "G8-D1",
+      "club": "SPRINGFIELD",
+      "coach": "WILSON",
+      "record": "4-8-0"
+    },
+    {
+      "team_id": "G8-D1_VIENNA_TROTTER",
+      "division": "G8-D1",
+      "club": "VIENNA",
+      "coach": "TROTTER",
+      "record": "3-9-0"
+    },
+    {
+      "team_id": "G8-D2_ARLINGTON_SCARCELLA",
+      "division": "G8-D2",
+      "club": "ARLINGTON",
+      "coach": "SCARCELLA",
+      "record": "0-11-0"
+    },
+    {
+      "team_id": "G8-D2_BAILEYS CC_HUDSON",
+      "division": "G8-D2",
+      "club": "BAILEYS CC",
+      "coach": "HUDSON",
+      "record": "2-10-0"
+    },
+    {
+      "team_id": "G8-D2_BURKE_BYRNE",
+      "division": "G8-D2",
+      "club": "BURKE",
+      "coach": "BYRNE",
+      "record": "4-7-0"
+    },
+    {
+      "team_id": "G8-D2_CYA_JONES",
+      "division": "G8-D2",
+      "club": "CYA",
+      "coach": "JONES",
+      "record": "10-2-0"
+    },
+    {
+      "team_id": "G8-D2_CYA_RATHINAVELU",
+      "division": "G8-D2",
+      "club": "CYA",
+      "coach": "RATHINAVELU",
+      "record": "5-6-0"
+    },
+    {
+      "team_id": "G8-D2_FORT BELVOIR_EDWARDS",
+      "division": "G8-D2",
+      "club": "FORT BELVOIR",
+      "coach": "EDWARDS",
+      "record": "4-8-0"
+    },
+    {
+      "team_id": "G8-D2_FORT HUNT_HARRIS",
+      "division": "G8-D2",
+      "club": "FORT HUNT",
+      "coach": "HARRIS",
+      "record": "10-2-0"
+    },
+    {
+      "team_id": "G8-D2_MCLEAN_MCNICOLL",
+      "division": "G8-D2",
+      "club": "MCLEAN",
+      "coach": "MCNICOLL",
+      "record": "8-4-0"
+    },
+    {
+      "team_id": "G8-D2_MT. VERNON_ELLING",
+      "division": "G8-D2",
+      "club": "MT. VERNON",
+      "coach": "ELLING",
+      "record": "4-8-0"
+    },
+    {
+      "team_id": "G8-D2_SOUTH LOUDOUN_SAMSON",
+      "division": "G8-D2",
+      "club": "SOUTH LOUDOUN",
+      "coach": "SAMSON",
+      "record": "1-9-0"
+    },
+    {
+      "team_id": "G8-D2_SOUTH LOUDOUN_STROHECKER",
+      "division": "G8-D2",
+      "club": "SOUTH LOUDOUN",
+      "coach": "STROHECKER",
+      "record": "6-5-0"
+    },
+    {
+      "team_id": "G8-D2_SYA_HESLEP",
+      "division": "G8-D2",
+      "club": "SYA",
+      "coach": "HESLEP",
+      "record": "9-3-0"
+    },
+    {
+      "team_id": "G8-D2_TURNPIKE_KOMAILY",
+      "division": "G8-D2",
+      "club": "TURNPIKE",
+      "coach": "KOMAILY",
+      "record": "8-4-0"
+    },
+    {
+      "team_id": "G8-D2_VIENNA_BOND",
+      "division": "G8-D2",
+      "club": "VIENNA",
+      "coach": "BOND",
+      "record": "10-2-0"
+    }
+  ],
   "rankings": [
     {
       "team_id": "B5-D1_BURKE_SMITH",
@@ -1929,6 +3685,7 @@ var _MASTER_DATA = {
       ]
     }
   ],
+  "run_date": "2020-02-14 21:02:23",
   "divisions": [
     "B5-D1",
     "B5-D2",
@@ -1951,1540 +3708,6 @@ var _MASTER_DATA = {
     "G8-D1",
     "G8-D2"
   ],
-  "teams": [
-    {
-      "team_id": "B5-D1_ARLINGTON_SADAKA",
-      "division": "B5-D1",
-      "club": "ARLINGTON",
-      "coach": "SADAKA"
-    },
-    {
-      "team_id": "B5-D1_BURKE_SMITH",
-      "division": "B5-D1",
-      "club": "BURKE",
-      "coach": "SMITH"
-    },
-    {
-      "team_id": "B5-D1_CYA_ROSENBLATT",
-      "division": "B5-D1",
-      "club": "CYA",
-      "coach": "ROSENBLATT"
-    },
-    {
-      "team_id": "B5-D1_FORT HUNT_ZIPPEL",
-      "division": "B5-D1",
-      "club": "FORT HUNT",
-      "coach": "ZIPPEL"
-    },
-    {
-      "team_id": "B5-D1_GAINESVILLE_LY",
-      "division": "B5-D1",
-      "club": "GAINESVILLE",
-      "coach": "LY"
-    },
-    {
-      "team_id": "B5-D1_GREAT FALLS_GOLDBERG",
-      "division": "B5-D1",
-      "club": "GREAT FALLS",
-      "coach": "GOLDBERG"
-    },
-    {
-      "team_id": "B5-D1_LEE MT. VERNON_BOSLEY",
-      "division": "B5-D1",
-      "club": "LEE MT. VERNON",
-      "coach": "BOSLEY"
-    },
-    {
-      "team_id": "B5-D1_MCLEAN_MARTIN",
-      "division": "B5-D1",
-      "club": "MCLEAN",
-      "coach": "MARTIN"
-    },
-    {
-      "team_id": "B5-D1_RESTON_BYRNES",
-      "division": "B5-D1",
-      "club": "RESTON",
-      "coach": "BYRNES"
-    },
-    {
-      "team_id": "B5-D1_SOUTH LOUDOUN_CHOI",
-      "division": "B5-D1",
-      "club": "SOUTH LOUDOUN",
-      "coach": "CHOI"
-    },
-    {
-      "team_id": "B5-D1_SOUTH LOUDOUN_STEMBERGER",
-      "division": "B5-D1",
-      "club": "SOUTH LOUDOUN",
-      "coach": "STEMBERGER"
-    },
-    {
-      "team_id": "B5-D1_SYA_O-CONNOR",
-      "division": "B5-D1",
-      "club": "SYA",
-      "coach": "O-CONNOR"
-    },
-    {
-      "team_id": "B5-D2_ARLINGTON_MCLEAN",
-      "division": "B5-D2",
-      "club": "ARLINGTON",
-      "coach": "MCLEAN"
-    },
-    {
-      "team_id": "B5-D2_BRYC_MAYES",
-      "division": "B5-D2",
-      "club": "BRYC",
-      "coach": "MAYES"
-    },
-    {
-      "team_id": "B5-D2_BURKE_ASEFI",
-      "division": "B5-D2",
-      "club": "BURKE",
-      "coach": "ASEFI"
-    },
-    {
-      "team_id": "B5-D2_BURKE_MAYERNIK",
-      "division": "B5-D2",
-      "club": "BURKE",
-      "coach": "MAYERNIK"
-    },
-    {
-      "team_id": "B5-D2_CYA_MARTIN",
-      "division": "B5-D2",
-      "club": "CYA",
-      "coach": "MARTIN"
-    },
-    {
-      "team_id": "B5-D2_FALLS CHURCH_GREINER",
-      "division": "B5-D2",
-      "club": "FALLS CHURCH",
-      "coach": "GREINER"
-    },
-    {
-      "team_id": "B5-D2_LEE MT. VERNON_DAY",
-      "division": "B5-D2",
-      "club": "LEE MT. VERNON",
-      "coach": "DAY"
-    },
-    {
-      "team_id": "B5-D2_MANASSAS PARK_SOLOMON",
-      "division": "B5-D2",
-      "club": "MANASSAS PARK",
-      "coach": "SOLOMON"
-    },
-    {
-      "team_id": "B5-D2_MCLEAN_B BALL",
-      "division": "B5-D2",
-      "club": "MCLEAN",
-      "coach": "B BALL"
-    },
-    {
-      "team_id": "B5-D2_RESTON_DAOUD",
-      "division": "B5-D2",
-      "club": "RESTON",
-      "coach": "DAOUD"
-    },
-    {
-      "team_id": "B5-D2_SOUTH LOUDOUN_FIORILLO",
-      "division": "B5-D2",
-      "club": "SOUTH LOUDOUN",
-      "coach": "FIORILLO"
-    },
-    {
-      "team_id": "B5-D2_SYA_HARRIS",
-      "division": "B5-D2",
-      "club": "SYA",
-      "coach": "HARRIS"
-    },
-    {
-      "team_id": "B5-D2_VIENNA_DAVIS",
-      "division": "B5-D2",
-      "club": "VIENNA",
-      "coach": "DAVIS"
-    },
-    {
-      "team_id": "B5-D2_VIENNA_LOCEY",
-      "division": "B5-D2",
-      "club": "VIENNA",
-      "coach": "LOCEY"
-    },
-    {
-      "team_id": "B5-D3_ARLINGTON_PERKINS",
-      "division": "B5-D3",
-      "club": "ARLINGTON",
-      "coach": "PERKINS"
-    },
-    {
-      "team_id": "B5-D3_BRYC_SHARMA",
-      "division": "B5-D3",
-      "club": "BRYC",
-      "coach": "SHARMA"
-    },
-    {
-      "team_id": "B5-D3_CYA_RIVERS",
-      "division": "B5-D3",
-      "club": "CYA",
-      "coach": "RIVERS"
-    },
-    {
-      "team_id": "B5-D3_FORT BELVOIR_HUNTER",
-      "division": "B5-D3",
-      "club": "FORT BELVOIR",
-      "coach": "HUNTER"
-    },
-    {
-      "team_id": "B5-D3_FPYC_DAVIS",
-      "division": "B5-D3",
-      "club": "FPYC",
-      "coach": "DAVIS"
-    },
-    {
-      "team_id": "B5-D3_GAINESVILLE_JACKSON",
-      "division": "B5-D3",
-      "club": "GAINESVILLE",
-      "coach": "JACKSON"
-    },
-    {
-      "team_id": "B5-D3_GAINESVILLE_MAXWELL",
-      "division": "B5-D3",
-      "club": "GAINESVILLE",
-      "coach": "MAXWELL"
-    },
-    {
-      "team_id": "B5-D3_GUM SPRINGS_SPROCKER",
-      "division": "B5-D3",
-      "club": "GUM SPRINGS",
-      "coach": "SPROCKER"
-    },
-    {
-      "team_id": "B5-D3_HERNDON_BERMUDEZ",
-      "division": "B5-D3",
-      "club": "HERNDON",
-      "coach": "BERMUDEZ"
-    },
-    {
-      "team_id": "B5-D3_SOUTH COUNTY_ARORA",
-      "division": "B5-D3",
-      "club": "SOUTH COUNTY",
-      "coach": "ARORA"
-    },
-    {
-      "team_id": "B5-D3_SPRINGFIELD_MORRISON",
-      "division": "B5-D3",
-      "club": "SPRINGFIELD",
-      "coach": "MORRISON"
-    },
-    {
-      "team_id": "B5-D3_TURNPIKE_SYRON",
-      "division": "B5-D3",
-      "club": "TURNPIKE",
-      "coach": "SYRON"
-    },
-    {
-      "team_id": "B6-D1_ARLINGTON_LOWEN",
-      "division": "B6-D1",
-      "club": "ARLINGTON",
-      "coach": "LOWEN"
-    },
-    {
-      "team_id": "B6-D1_BRYC_GONZALEZ",
-      "division": "B6-D1",
-      "club": "BRYC",
-      "coach": "GONZALEZ"
-    },
-    {
-      "team_id": "B6-D1_BURKE_RAPOZA",
-      "division": "B6-D1",
-      "club": "BURKE",
-      "coach": "RAPOZA"
-    },
-    {
-      "team_id": "B6-D1_CYA_JONES",
-      "division": "B6-D1",
-      "club": "CYA",
-      "coach": "JONES"
-    },
-    {
-      "team_id": "B6-D1_GAINESVILLE_COOK",
-      "division": "B6-D1",
-      "club": "GAINESVILLE",
-      "coach": "COOK"
-    },
-    {
-      "team_id": "B6-D1_GREAT FALLS_BROWN",
-      "division": "B6-D1",
-      "club": "GREAT FALLS",
-      "coach": "BROWN"
-    },
-    {
-      "team_id": "B6-D1_JAMES LEE_HERRING",
-      "division": "B6-D1",
-      "club": "JAMES LEE",
-      "coach": "HERRING"
-    },
-    {
-      "team_id": "B6-D1_JAMES LEE_WADE",
-      "division": "B6-D1",
-      "club": "JAMES LEE",
-      "coach": "WADE"
-    },
-    {
-      "team_id": "B6-D1_LEE DISTRICT_DIFFENBACH",
-      "division": "B6-D1",
-      "club": "LEE DISTRICT",
-      "coach": "DIFFENBACH"
-    },
-    {
-      "team_id": "B6-D1_MANASSAS PARK_GASKINS",
-      "division": "B6-D1",
-      "club": "MANASSAS PARK",
-      "coach": "GASKINS"
-    },
-    {
-      "team_id": "B6-D1_MCLEAN_JACKSON",
-      "division": "B6-D1",
-      "club": "MCLEAN",
-      "coach": "JACKSON"
-    },
-    {
-      "team_id": "B6-D1_MT. VERNON_COLEMAN",
-      "division": "B6-D1",
-      "club": "MT. VERNON",
-      "coach": "COLEMAN"
-    },
-    {
-      "team_id": "B6-D1_RESTON_RIDGEWAY",
-      "division": "B6-D1",
-      "club": "RESTON",
-      "coach": "RIDGEWAY"
-    },
-    {
-      "team_id": "B6-D1_SOUTH LOUDOUN_KAHN",
-      "division": "B6-D1",
-      "club": "SOUTH LOUDOUN",
-      "coach": "KAHN"
-    },
-    {
-      "team_id": "B6-D1_VIENNA_EPPS",
-      "division": "B6-D1",
-      "club": "VIENNA",
-      "coach": "EPPS"
-    },
-    {
-      "team_id": "B6-D2_ANNANDALE_HWANG",
-      "division": "B6-D2",
-      "club": "ANNANDALE",
-      "coach": "HWANG"
-    },
-    {
-      "team_id": "B6-D2_ARLINGTON_GHARIANI",
-      "division": "B6-D2",
-      "club": "ARLINGTON",
-      "coach": "GHARIANI"
-    },
-    {
-      "team_id": "B6-D2_BURKE_BUTTREY",
-      "division": "B6-D2",
-      "club": "BURKE",
-      "coach": "BUTTREY"
-    },
-    {
-      "team_id": "B6-D2_CYA_ROBINSON",
-      "division": "B6-D2",
-      "club": "CYA",
-      "coach": "ROBINSON"
-    },
-    {
-      "team_id": "B6-D2_FALLS CHURCH_KUSIC",
-      "division": "B6-D2",
-      "club": "FALLS CHURCH",
-      "coach": "KUSIC"
-    },
-    {
-      "team_id": "B6-D2_FORT BELVOIR_TAYLOR JR",
-      "division": "B6-D2",
-      "club": "FORT BELVOIR",
-      "coach": "TAYLOR JR"
-    },
-    {
-      "team_id": "B6-D2_FORT HUNT_FORTI",
-      "division": "B6-D2",
-      "club": "FORT HUNT",
-      "coach": "FORTI"
-    },
-    {
-      "team_id": "B6-D2_GAINESVILLE_MURRAY",
-      "division": "B6-D2",
-      "club": "GAINESVILLE",
-      "coach": "MURRAY"
-    },
-    {
-      "team_id": "B6-D2_HERNDON_JONES",
-      "division": "B6-D2",
-      "club": "HERNDON",
-      "coach": "JONES"
-    },
-    {
-      "team_id": "B6-D2_MCLEAN_CICALE",
-      "division": "B6-D2",
-      "club": "MCLEAN",
-      "coach": "CICALE"
-    },
-    {
-      "team_id": "B6-D2_SOUTH LOUDOUN_LANOUETTE",
-      "division": "B6-D2",
-      "club": "SOUTH LOUDOUN",
-      "coach": "LANOUETTE"
-    },
-    {
-      "team_id": "B6-D2_SYA_HILL",
-      "division": "B6-D2",
-      "club": "SYA",
-      "coach": "HILL"
-    },
-    {
-      "team_id": "B6-D2_VIENNA_CHOI",
-      "division": "B6-D2",
-      "club": "VIENNA",
-      "coach": "CHOI"
-    },
-    {
-      "team_id": "B6-D3_ARLINGTON_NETTLES",
-      "division": "B6-D3",
-      "club": "ARLINGTON",
-      "coach": "NETTLES"
-    },
-    {
-      "team_id": "B6-D3_BAILEYS_J. SMITH SR",
-      "division": "B6-D3",
-      "club": "BAILEYS",
-      "coach": "J. SMITH SR"
-    },
-    {
-      "team_id": "B6-D3_BRYC_SHIN",
-      "division": "B6-D3",
-      "club": "BRYC",
-      "coach": "SHIN"
-    },
-    {
-      "team_id": "B6-D3_BURKE_MITCHELL",
-      "division": "B6-D3",
-      "club": "BURKE",
-      "coach": "MITCHELL"
-    },
-    {
-      "team_id": "B6-D3_CYA_LUGO",
-      "division": "B6-D3",
-      "club": "CYA",
-      "coach": "LUGO"
-    },
-    {
-      "team_id": "B6-D3_FPYC_MALESKY",
-      "division": "B6-D3",
-      "club": "FPYC",
-      "coach": "MALESKY"
-    },
-    {
-      "team_id": "B6-D3_GREAT FALLS_BRITT",
-      "division": "B6-D3",
-      "club": "GREAT FALLS",
-      "coach": "BRITT"
-    },
-    {
-      "team_id": "B6-D3_LEE MT. VERNON_STEWART",
-      "division": "B6-D3",
-      "club": "LEE MT. VERNON",
-      "coach": "STEWART"
-    },
-    {
-      "team_id": "B6-D3_RESTON_LEGLER",
-      "division": "B6-D3",
-      "club": "RESTON",
-      "coach": "LEGLER"
-    },
-    {
-      "team_id": "B6-D3_SOUTH COUNTY_JOHNSON",
-      "division": "B6-D3",
-      "club": "SOUTH COUNTY",
-      "coach": "JOHNSON"
-    },
-    {
-      "team_id": "B6-D3_SOUTH LOUDOUN_WEBB",
-      "division": "B6-D3",
-      "club": "SOUTH LOUDOUN",
-      "coach": "WEBB"
-    },
-    {
-      "team_id": "B6-D3_SPRINGFIELD_ALVAREZ",
-      "division": "B6-D3",
-      "club": "SPRINGFIELD",
-      "coach": "ALVAREZ"
-    },
-    {
-      "team_id": "B6-D3_SPRINGFIELD_WILSON",
-      "division": "B6-D3",
-      "club": "SPRINGFIELD",
-      "coach": "WILSON"
-    },
-    {
-      "team_id": "B6-D3_TURNPIKE_OURS",
-      "division": "B6-D3",
-      "club": "TURNPIKE",
-      "coach": "OURS"
-    },
-    {
-      "team_id": "B7-D1_ARLINGTON_SHELLEY",
-      "division": "B7-D1",
-      "club": "ARLINGTON",
-      "coach": "SHELLEY"
-    },
-    {
-      "team_id": "B7-D1_BRYC_AQUIL",
-      "division": "B7-D1",
-      "club": "BRYC",
-      "coach": "AQUIL"
-    },
-    {
-      "team_id": "B7-D1_CYA_CUBBAGE",
-      "division": "B7-D1",
-      "club": "CYA",
-      "coach": "CUBBAGE"
-    },
-    {
-      "team_id": "B7-D1_FORT HUNT_KOELSCH",
-      "division": "B7-D1",
-      "club": "FORT HUNT",
-      "coach": "KOELSCH"
-    },
-    {
-      "team_id": "B7-D1_GAINESVILLE_WEINSCHENK",
-      "division": "B7-D1",
-      "club": "GAINESVILLE",
-      "coach": "WEINSCHENK"
-    },
-    {
-      "team_id": "B7-D1_GREAT FALLS_NICKLES",
-      "division": "B7-D1",
-      "club": "GREAT FALLS",
-      "coach": "NICKLES"
-    },
-    {
-      "team_id": "B7-D1_LEE DISTRICT_TROTTER",
-      "division": "B7-D1",
-      "club": "LEE DISTRICT",
-      "coach": "TROTTER"
-    },
-    {
-      "team_id": "B7-D1_MCLEAN_CAREY",
-      "division": "B7-D1",
-      "club": "MCLEAN",
-      "coach": "CAREY"
-    },
-    {
-      "team_id": "B7-D1_RESTON_ROBINSON",
-      "division": "B7-D1",
-      "club": "RESTON",
-      "coach": "ROBINSON"
-    },
-    {
-      "team_id": "B7-D1_SOUTH LOUDOUN_WEBB-",
-      "division": "B7-D1",
-      "club": "SOUTH LOUDOUN",
-      "coach": "WEBB-"
-    },
-    {
-      "team_id": "B7-D1_SPRINGFIELD_ARGUEDAS",
-      "division": "B7-D1",
-      "club": "SPRINGFIELD",
-      "coach": "ARGUEDAS"
-    },
-    {
-      "team_id": "B7-D1_SYA_MORIN",
-      "division": "B7-D1",
-      "club": "SYA",
-      "coach": "MORIN"
-    },
-    {
-      "team_id": "B7-D1_VIENNA_STOLBURG",
-      "division": "B7-D1",
-      "club": "VIENNA",
-      "coach": "STOLBURG"
-    },
-    {
-      "team_id": "B7-D2_ALEXANDRIA_MATTHEWS",
-      "division": "B7-D2",
-      "club": "ALEXANDRIA",
-      "coach": "MATTHEWS"
-    },
-    {
-      "team_id": "B7-D2_ANNANDALE_NELSON",
-      "division": "B7-D2",
-      "club": "ANNANDALE",
-      "coach": "NELSON"
-    },
-    {
-      "team_id": "B7-D2_ARLINGTON_REMEDIOS",
-      "division": "B7-D2",
-      "club": "ARLINGTON",
-      "coach": "REMEDIOS"
-    },
-    {
-      "team_id": "B7-D2_BURKE_STURTEVANT",
-      "division": "B7-D2",
-      "club": "BURKE",
-      "coach": "STURTEVANT"
-    },
-    {
-      "team_id": "B7-D2_CYA_UTTERBACK",
-      "division": "B7-D2",
-      "club": "CYA",
-      "coach": "UTTERBACK"
-    },
-    {
-      "team_id": "B7-D2_FALLS CHURCH_WHITAKER",
-      "division": "B7-D2",
-      "club": "FALLS CHURCH",
-      "coach": "WHITAKER"
-    },
-    {
-      "team_id": "B7-D2_FORT BELVOIR_SHERN",
-      "division": "B7-D2",
-      "club": "FORT BELVOIR",
-      "coach": "SHERN"
-    },
-    {
-      "team_id": "B7-D2_FPYC_VARNER",
-      "division": "B7-D2",
-      "club": "FPYC",
-      "coach": "VARNER"
-    },
-    {
-      "team_id": "B7-D2_GAINESVILLE_SCHWEMER",
-      "division": "B7-D2",
-      "club": "GAINESVILLE",
-      "coach": "SCHWEMER"
-    },
-    {
-      "team_id": "B7-D2_LEE-MT. VERNON_RUSH",
-      "division": "B7-D2",
-      "club": "LEE-MT. VERNON",
-      "coach": "RUSH"
-    },
-    {
-      "team_id": "B7-D2_MCLEAN_NANCE",
-      "division": "B7-D2",
-      "club": "MCLEAN",
-      "coach": "NANCE"
-    },
-    {
-      "team_id": "B7-D2_SOUTH LOUDOUN_ACKLEY",
-      "division": "B7-D2",
-      "club": "SOUTH LOUDOUN",
-      "coach": "ACKLEY"
-    },
-    {
-      "team_id": "B7-D2_TURNPIKE_BURNS",
-      "division": "B7-D2",
-      "club": "TURNPIKE",
-      "coach": "BURNS"
-    },
-    {
-      "team_id": "B7-D2_VIENNA_MORTON",
-      "division": "B7-D2",
-      "club": "VIENNA",
-      "coach": "MORTON"
-    },
-    {
-      "team_id": "B7-D3_ALEXANDRIA_THOMAS",
-      "division": "B7-D3",
-      "club": "ALEXANDRIA",
-      "coach": "THOMAS"
-    },
-    {
-      "team_id": "B7-D3_ARLINGTON_PARKER",
-      "division": "B7-D3",
-      "club": "ARLINGTON",
-      "coach": "PARKER"
-    },
-    {
-      "team_id": "B7-D3_BURKE_DISILVESTRO",
-      "division": "B7-D3",
-      "club": "BURKE",
-      "coach": "DISILVESTRO"
-    },
-    {
-      "team_id": "B7-D3_CYA_PROCHAZKA",
-      "division": "B7-D3",
-      "club": "CYA",
-      "coach": "PROCHAZKA"
-    },
-    {
-      "team_id": "B7-D3_GAINESVILLE_LINGENFELDER",
-      "division": "B7-D3",
-      "club": "GAINESVILLE",
-      "coach": "LINGENFELDER"
-    },
-    {
-      "team_id": "B7-D3_GREAT FALLS_WILLSON",
-      "division": "B7-D3",
-      "club": "GREAT FALLS",
-      "coach": "WILLSON"
-    },
-    {
-      "team_id": "B7-D3_HERNDON_PASSMORE",
-      "division": "B7-D3",
-      "club": "HERNDON",
-      "coach": "PASSMORE"
-    },
-    {
-      "team_id": "B7-D3_SOUTH COUNTY_LLOYD",
-      "division": "B7-D3",
-      "club": "SOUTH COUNTY",
-      "coach": "LLOYD"
-    },
-    {
-      "team_id": "B7-D3_SOUTH LOUDOUN_COOK",
-      "division": "B7-D3",
-      "club": "SOUTH LOUDOUN",
-      "coach": "COOK"
-    },
-    {
-      "team_id": "B7-D3_SPRINGFIELD_KELLY",
-      "division": "B7-D3",
-      "club": "SPRINGFIELD",
-      "coach": "KELLY"
-    },
-    {
-      "team_id": "B7-D3_SYA_DOWNEY",
-      "division": "B7-D3",
-      "club": "SYA",
-      "coach": "DOWNEY"
-    },
-    {
-      "team_id": "B8-D1_ANNANDALE_NELSON",
-      "division": "B8-D1",
-      "club": "ANNANDALE",
-      "coach": "NELSON"
-    },
-    {
-      "team_id": "B8-D1_ARLINGTON_DAVIS",
-      "division": "B8-D1",
-      "club": "ARLINGTON",
-      "coach": "DAVIS"
-    },
-    {
-      "team_id": "B8-D1_BURKE_SHOUMAN",
-      "division": "B8-D1",
-      "club": "BURKE",
-      "coach": "SHOUMAN"
-    },
-    {
-      "team_id": "B8-D1_CYA_LEE",
-      "division": "B8-D1",
-      "club": "CYA",
-      "coach": "LEE"
-    },
-    {
-      "team_id": "B8-D1_FORT BELVOIR_MILES",
-      "division": "B8-D1",
-      "club": "FORT BELVOIR",
-      "coach": "MILES"
-    },
-    {
-      "team_id": "B8-D1_GAINESVILLE_PAGE",
-      "division": "B8-D1",
-      "club": "GAINESVILLE",
-      "coach": "PAGE"
-    },
-    {
-      "team_id": "B8-D1_GREAT FALLS_KRAWCZYK",
-      "division": "B8-D1",
-      "club": "GREAT FALLS",
-      "coach": "KRAWCZYK"
-    },
-    {
-      "team_id": "B8-D1_LEE DISTRICT_MCMINN",
-      "division": "B8-D1",
-      "club": "LEE DISTRICT",
-      "coach": "MCMINN"
-    },
-    {
-      "team_id": "B8-D1_MANASSAS PARK_VICK",
-      "division": "B8-D1",
-      "club": "MANASSAS PARK",
-      "coach": "VICK"
-    },
-    {
-      "team_id": "B8-D1_MCLEAN_LEGGETT",
-      "division": "B8-D1",
-      "club": "MCLEAN",
-      "coach": "LEGGETT"
-    },
-    {
-      "team_id": "B8-D1_MCLEAN_TALLENT",
-      "division": "B8-D1",
-      "club": "MCLEAN",
-      "coach": "TALLENT"
-    },
-    {
-      "team_id": "B8-D1_RESTON_LANSDOWNE",
-      "division": "B8-D1",
-      "club": "RESTON",
-      "coach": "LANSDOWNE"
-    },
-    {
-      "team_id": "B8-D1_SOUTH COUNTY_JACKSON",
-      "division": "B8-D1",
-      "club": "SOUTH COUNTY",
-      "coach": "JACKSON"
-    },
-    {
-      "team_id": "B8-D1_SOUTH LOUDOUN_COOK",
-      "division": "B8-D1",
-      "club": "SOUTH LOUDOUN",
-      "coach": "COOK"
-    },
-    {
-      "team_id": "B8-D1_SPRINGFIELD_ROBINSON",
-      "division": "B8-D1",
-      "club": "SPRINGFIELD",
-      "coach": "ROBINSON"
-    },
-    {
-      "team_id": "B8-D1_TURNPIKE_DONOVAN",
-      "division": "B8-D1",
-      "club": "TURNPIKE",
-      "coach": "DONOVAN"
-    },
-    {
-      "team_id": "B8-D1_VIENNA_MARSDEN",
-      "division": "B8-D1",
-      "club": "VIENNA",
-      "coach": "MARSDEN"
-    },
-    {
-      "team_id": "B8-D2_ARLINGTON_BALLARD",
-      "division": "B8-D2",
-      "club": "ARLINGTON",
-      "coach": "BALLARD"
-    },
-    {
-      "team_id": "B8-D2_ARLINGTON_MAHER",
-      "division": "B8-D2",
-      "club": "ARLINGTON",
-      "coach": "MAHER"
-    },
-    {
-      "team_id": "B8-D2_BRYC_THOMAS",
-      "division": "B8-D2",
-      "club": "BRYC",
-      "coach": "THOMAS"
-    },
-    {
-      "team_id": "B8-D2_CYA_DANN",
-      "division": "B8-D2",
-      "club": "CYA",
-      "coach": "DANN"
-    },
-    {
-      "team_id": "B8-D2_CYA_SMITH",
-      "division": "B8-D2",
-      "club": "CYA",
-      "coach": "SMITH"
-    },
-    {
-      "team_id": "B8-D2_FORT HUNT_FORTI",
-      "division": "B8-D2",
-      "club": "FORT HUNT",
-      "coach": "FORTI"
-    },
-    {
-      "team_id": "B8-D2_FPYC_RAGAN",
-      "division": "B8-D2",
-      "club": "FPYC",
-      "coach": "RAGAN"
-    },
-    {
-      "team_id": "B8-D2_GAINESVILLE_COMPTON",
-      "division": "B8-D2",
-      "club": "GAINESVILLE",
-      "coach": "COMPTON"
-    },
-    {
-      "team_id": "B8-D2_HERNDON_HARLEY",
-      "division": "B8-D2",
-      "club": "HERNDON",
-      "coach": "HARLEY"
-    },
-    {
-      "team_id": "B8-D2_LEE-MT. VERNON_BOSLEY",
-      "division": "B8-D2",
-      "club": "LEE-MT. VERNON",
-      "coach": "BOSLEY"
-    },
-    {
-      "team_id": "B8-D2_MCLEAN_TURGEON",
-      "division": "B8-D2",
-      "club": "MCLEAN",
-      "coach": "TURGEON"
-    },
-    {
-      "team_id": "B8-D2_SOUTH COUNTY_MATTHEWS",
-      "division": "B8-D2",
-      "club": "SOUTH COUNTY",
-      "coach": "MATTHEWS"
-    },
-    {
-      "team_id": "B8-D2_SOUTH LOUDOUN_CHOI",
-      "division": "B8-D2",
-      "club": "SOUTH LOUDOUN",
-      "coach": "CHOI"
-    },
-    {
-      "team_id": "B8-D2_SYA_MCGHEE",
-      "division": "B8-D2",
-      "club": "SYA",
-      "coach": "MCGHEE"
-    },
-    {
-      "team_id": "B8-D2_VIENNA_DESENTI",
-      "division": "B8-D2",
-      "club": "VIENNA",
-      "coach": "DESENTI"
-    },
-    {
-      "team_id": "B8-D3_BAILEYS_TBD",
-      "division": "B8-D3",
-      "club": "BAILEYS",
-      "coach": "TBD"
-    },
-    {
-      "team_id": "B8-D3_BURKE_PETRO",
-      "division": "B8-D3",
-      "club": "BURKE",
-      "coach": "PETRO"
-    },
-    {
-      "team_id": "B8-D3_BURKE_SMYDRA",
-      "division": "B8-D3",
-      "club": "BURKE",
-      "coach": "SMYDRA"
-    },
-    {
-      "team_id": "B8-D3_FALLS CHURCH_SUTTON",
-      "division": "B8-D3",
-      "club": "FALLS CHURCH",
-      "coach": "SUTTON"
-    },
-    {
-      "team_id": "B8-D3_LEE-MT. VERNON_PETERS",
-      "division": "B8-D3",
-      "club": "LEE-MT. VERNON",
-      "coach": "PETERS"
-    },
-    {
-      "team_id": "B8-D3_LEE-MT. VERNON_SIMONIK",
-      "division": "B8-D3",
-      "club": "LEE-MT. VERNON",
-      "coach": "SIMONIK"
-    },
-    {
-      "team_id": "B8-D3_MANASSAS PARK_HOLDEN",
-      "division": "B8-D3",
-      "club": "MANASSAS PARK",
-      "coach": "HOLDEN"
-    },
-    {
-      "team_id": "B8-D3_RESTON_BIRKLAND",
-      "division": "B8-D3",
-      "club": "RESTON",
-      "coach": "BIRKLAND"
-    },
-    {
-      "team_id": "B8-D3_SOUTH LOUDOUN_MOSTEK",
-      "division": "B8-D3",
-      "club": "SOUTH LOUDOUN",
-      "coach": "MOSTEK"
-    },
-    {
-      "team_id": "G5-D1_ARLINGTON_MCRAE",
-      "division": "G5-D1",
-      "club": "ARLINGTON",
-      "coach": "MCRAE"
-    },
-    {
-      "team_id": "G5-D1_CYA_DOWLING",
-      "division": "G5-D1",
-      "club": "CYA",
-      "coach": "DOWLING"
-    },
-    {
-      "team_id": "G5-D1_FORT HUNT_GAREY",
-      "division": "G5-D1",
-      "club": "FORT HUNT",
-      "coach": "GAREY"
-    },
-    {
-      "team_id": "G5-D1_GAINESVILLE_JOHNSON",
-      "division": "G5-D1",
-      "club": "GAINESVILLE",
-      "coach": "JOHNSON"
-    },
-    {
-      "team_id": "G5-D1_GREAT FALLS_NITOWSKI",
-      "division": "G5-D1",
-      "club": "GREAT FALLS",
-      "coach": "NITOWSKI"
-    },
-    {
-      "team_id": "G5-D1_LEE MT. VERNON_BRELAND",
-      "division": "G5-D1",
-      "club": "LEE MT. VERNON",
-      "coach": "BRELAND"
-    },
-    {
-      "team_id": "G5-D1_MCLEAN_A NORTON",
-      "division": "G5-D1",
-      "club": "MCLEAN",
-      "coach": "A NORTON"
-    },
-    {
-      "team_id": "G5-D1_SOUTH LOUDOUN_KERR",
-      "division": "G5-D1",
-      "club": "SOUTH LOUDOUN",
-      "coach": "KERR"
-    },
-    {
-      "team_id": "G5-D1_SPRINGFIELD_GOODMAN",
-      "division": "G5-D1",
-      "club": "SPRINGFIELD",
-      "coach": "GOODMAN"
-    },
-    {
-      "team_id": "G5-D1_VIENNA_KORMAN",
-      "division": "G5-D1",
-      "club": "VIENNA",
-      "coach": "KORMAN"
-    },
-    {
-      "team_id": "G5-D2_ARLINGTON_LOMAS",
-      "division": "G5-D2",
-      "club": "ARLINGTON",
-      "coach": "LOMAS"
-    },
-    {
-      "team_id": "G5-D2_BAILEYS CC_MARSHALL",
-      "division": "G5-D2",
-      "club": "BAILEYS CC",
-      "coach": "MARSHALL"
-    },
-    {
-      "team_id": "G5-D2_BRYC_ALI",
-      "division": "G5-D2",
-      "club": "BRYC",
-      "coach": "ALI"
-    },
-    {
-      "team_id": "G5-D2_BURKE_PRICE",
-      "division": "G5-D2",
-      "club": "BURKE",
-      "coach": "PRICE"
-    },
-    {
-      "team_id": "G5-D2_BURKE_ROSE",
-      "division": "G5-D2",
-      "club": "BURKE",
-      "coach": "ROSE"
-    },
-    {
-      "team_id": "G5-D2_CYA_MAZID",
-      "division": "G5-D2",
-      "club": "CYA",
-      "coach": "MAZID"
-    },
-    {
-      "team_id": "G5-D2_FORT BELVOIR_WASHINGTON",
-      "division": "G5-D2",
-      "club": "FORT BELVOIR",
-      "coach": "WASHINGTON"
-    },
-    {
-      "team_id": "G5-D2_GAINESVILLE_HAMPSON",
-      "division": "G5-D2",
-      "club": "GAINESVILLE",
-      "coach": "HAMPSON"
-    },
-    {
-      "team_id": "G5-D2_MCLEAN_B KIM",
-      "division": "G5-D2",
-      "club": "MCLEAN",
-      "coach": "B KIM"
-    },
-    {
-      "team_id": "G5-D2_RESTON_WARD",
-      "division": "G5-D2",
-      "club": "RESTON",
-      "coach": "WARD"
-    },
-    {
-      "team_id": "G5-D2_SOUTH LOUDOUN_OSHEA",
-      "division": "G5-D2",
-      "club": "SOUTH LOUDOUN",
-      "coach": "OSHEA"
-    },
-    {
-      "team_id": "G5-D2_SYA_ANDERSEN",
-      "division": "G5-D2",
-      "club": "SYA",
-      "coach": "ANDERSEN"
-    },
-    {
-      "team_id": "G5-D2_SYA_MCGHEE",
-      "division": "G5-D2",
-      "club": "SYA",
-      "coach": "MCGHEE"
-    },
-    {
-      "team_id": "G5-D2_VIENNA_KONSTAS",
-      "division": "G5-D2",
-      "club": "VIENNA",
-      "coach": "KONSTAS"
-    },
-    {
-      "team_id": "G6-D1_ARLINGTON_PIACENZA",
-      "division": "G6-D1",
-      "club": "ARLINGTON",
-      "coach": "PIACENZA"
-    },
-    {
-      "team_id": "G6-D1_BURKE_COUTINHO",
-      "division": "G6-D1",
-      "club": "BURKE",
-      "coach": "COUTINHO"
-    },
-    {
-      "team_id": "G6-D1_CYA_KANG",
-      "division": "G6-D1",
-      "club": "CYA",
-      "coach": "KANG"
-    },
-    {
-      "team_id": "G6-D1_FORT HUNT_LOVING",
-      "division": "G6-D1",
-      "club": "FORT HUNT",
-      "coach": "LOVING"
-    },
-    {
-      "team_id": "G6-D1_GAINESVILLE_HOLDER",
-      "division": "G6-D1",
-      "club": "GAINESVILLE",
-      "coach": "HOLDER"
-    },
-    {
-      "team_id": "G6-D1_MCLEAN_MURRELL",
-      "division": "G6-D1",
-      "club": "MCLEAN",
-      "coach": "MURRELL"
-    },
-    {
-      "team_id": "G6-D1_SOUTH LOUDOUN_CHILDRESS",
-      "division": "G6-D1",
-      "club": "SOUTH LOUDOUN",
-      "coach": "CHILDRESS"
-    },
-    {
-      "team_id": "G6-D1_SYA_MOORE",
-      "division": "G6-D1",
-      "club": "SYA",
-      "coach": "MOORE"
-    },
-    {
-      "team_id": "G6-D1_VIENNA_PARRIS",
-      "division": "G6-D1",
-      "club": "VIENNA",
-      "coach": "PARRIS"
-    },
-    {
-      "team_id": "G6-D2_ARLINGTON_DECOU",
-      "division": "G6-D2",
-      "club": "ARLINGTON",
-      "coach": "DECOU"
-    },
-    {
-      "team_id": "G6-D2_BRYC_DUDLEY",
-      "division": "G6-D2",
-      "club": "BRYC",
-      "coach": "DUDLEY"
-    },
-    {
-      "team_id": "G6-D2_BURKE_SEIGLE",
-      "division": "G6-D2",
-      "club": "BURKE",
-      "coach": "SEIGLE"
-    },
-    {
-      "team_id": "G6-D2_CYA_MURPHY",
-      "division": "G6-D2",
-      "club": "CYA",
-      "coach": "MURPHY"
-    },
-    {
-      "team_id": "G6-D2_FALLS CHURCH_PAPADOPOULOS",
-      "division": "G6-D2",
-      "club": "FALLS CHURCH",
-      "coach": "PAPADOPOULOS"
-    },
-    {
-      "team_id": "G6-D2_FPYC_LESTER",
-      "division": "G6-D2",
-      "club": "FPYC",
-      "coach": "LESTER"
-    },
-    {
-      "team_id": "G6-D2_GAINESVILLE_FURLONG",
-      "division": "G6-D2",
-      "club": "GAINESVILLE",
-      "coach": "FURLONG"
-    },
-    {
-      "team_id": "G6-D2_GREAT FALLS_EXLEY",
-      "division": "G6-D2",
-      "club": "GREAT FALLS",
-      "coach": "EXLEY"
-    },
-    {
-      "team_id": "G6-D2_LEE-MT. VERNON_HENDERSON",
-      "division": "G6-D2",
-      "club": "LEE-MT. VERNON",
-      "coach": "HENDERSON"
-    },
-    {
-      "team_id": "G6-D2_MCLEAN_EDWARDS",
-      "division": "G6-D2",
-      "club": "MCLEAN",
-      "coach": "EDWARDS"
-    },
-    {
-      "team_id": "G6-D2_RESTON_BARR",
-      "division": "G6-D2",
-      "club": "RESTON",
-      "coach": "BARR"
-    },
-    {
-      "team_id": "G6-D2_SOUTH LOUDOUN_SAMSON",
-      "division": "G6-D2",
-      "club": "SOUTH LOUDOUN",
-      "coach": "SAMSON"
-    },
-    {
-      "team_id": "G6-D2_SPRINGFIELD_BURDETTE",
-      "division": "G6-D2",
-      "club": "SPRINGFIELD",
-      "coach": "BURDETTE"
-    },
-    {
-      "team_id": "G6-D2_SPRINGFIELD_MARSHALL",
-      "division": "G6-D2",
-      "club": "SPRINGFIELD",
-      "coach": "MARSHALL"
-    },
-    {
-      "team_id": "G6-D2_SYA_LANGFORD",
-      "division": "G6-D2",
-      "club": "SYA",
-      "coach": "LANGFORD"
-    },
-    {
-      "team_id": "G6-D2_VIENNA_GRIM",
-      "division": "G6-D2",
-      "club": "VIENNA",
-      "coach": "GRIM"
-    },
-    {
-      "team_id": "G7-D1_ARLINGTON_EISENBERG",
-      "division": "G7-D1",
-      "club": "ARLINGTON",
-      "coach": "EISENBERG"
-    },
-    {
-      "team_id": "G7-D1_BURKE_SEAY",
-      "division": "G7-D1",
-      "club": "BURKE",
-      "coach": "SEAY"
-    },
-    {
-      "team_id": "G7-D1_BURKE_WYANT",
-      "division": "G7-D1",
-      "club": "BURKE",
-      "coach": "WYANT"
-    },
-    {
-      "team_id": "G7-D1_CYA_MAWLOUD",
-      "division": "G7-D1",
-      "club": "CYA",
-      "coach": "MAWLOUD"
-    },
-    {
-      "team_id": "G7-D1_FALLS CHURCH_MADISON",
-      "division": "G7-D1",
-      "club": "FALLS CHURCH",
-      "coach": "MADISON"
-    },
-    {
-      "team_id": "G7-D1_FORT HUNT_HEINER",
-      "division": "G7-D1",
-      "club": "FORT HUNT",
-      "coach": "HEINER"
-    },
-    {
-      "team_id": "G7-D1_FPYC_KOMAILY",
-      "division": "G7-D1",
-      "club": "FPYC",
-      "coach": "KOMAILY"
-    },
-    {
-      "team_id": "G7-D1_GREAT FALLS_BOND",
-      "division": "G7-D1",
-      "club": "GREAT FALLS",
-      "coach": "BOND"
-    },
-    {
-      "team_id": "G7-D1_MCLEAN_CRITTENBERGER",
-      "division": "G7-D1",
-      "club": "MCLEAN",
-      "coach": "CRITTENBERGER"
-    },
-    {
-      "team_id": "G7-D1_SOUTH LOUDOUN_LISACK",
-      "division": "G7-D1",
-      "club": "SOUTH LOUDOUN",
-      "coach": "LISACK"
-    },
-    {
-      "team_id": "G7-D1_SPRINGFIELD_DUCKETT",
-      "division": "G7-D1",
-      "club": "SPRINGFIELD",
-      "coach": "DUCKETT"
-    },
-    {
-      "team_id": "G7-D1_SYA_BRUBAKER",
-      "division": "G7-D1",
-      "club": "SYA",
-      "coach": "BRUBAKER"
-    },
-    {
-      "team_id": "G7-D1_VIENNA_YODER",
-      "division": "G7-D1",
-      "club": "VIENNA",
-      "coach": "YODER"
-    },
-    {
-      "team_id": "G7-D2_ARLINGTON_FILIDES",
-      "division": "G7-D2",
-      "club": "ARLINGTON",
-      "coach": "FILIDES"
-    },
-    {
-      "team_id": "G7-D2_BRYC_OCONNOR",
-      "division": "G7-D2",
-      "club": "BRYC",
-      "coach": "OCONNOR"
-    },
-    {
-      "team_id": "G7-D2_CYA_FRANCIS",
-      "division": "G7-D2",
-      "club": "CYA",
-      "coach": "FRANCIS"
-    },
-    {
-      "team_id": "G7-D2_GAINESVILLE_NAPLES",
-      "division": "G7-D2",
-      "club": "GAINESVILLE",
-      "coach": "NAPLES"
-    },
-    {
-      "team_id": "G7-D2_LEE-MT. VERNON_CARTER",
-      "division": "G7-D2",
-      "club": "LEE-MT. VERNON",
-      "coach": "CARTER"
-    },
-    {
-      "team_id": "G7-D2_MCLEAN_MENDENHALL",
-      "division": "G7-D2",
-      "club": "MCLEAN",
-      "coach": "MENDENHALL"
-    },
-    {
-      "team_id": "G7-D2_MT. VERNON_GAREY",
-      "division": "G7-D2",
-      "club": "MT. VERNON",
-      "coach": "GAREY"
-    },
-    {
-      "team_id": "G7-D2_RESTON_ZEBERLEIN",
-      "division": "G7-D2",
-      "club": "RESTON",
-      "coach": "ZEBERLEIN"
-    },
-    {
-      "team_id": "G7-D2_SOUTH LOUDOUN_MCGOVERN",
-      "division": "G7-D2",
-      "club": "SOUTH LOUDOUN",
-      "coach": "MCGOVERN"
-    },
-    {
-      "team_id": "G7-D2_SPRINGFIELD_DUCKETT",
-      "division": "G7-D2",
-      "club": "SPRINGFIELD",
-      "coach": "DUCKETT"
-    },
-    {
-      "team_id": "G7-D2_VIENNA_TOMLINSON",
-      "division": "G7-D2",
-      "club": "VIENNA",
-      "coach": "TOMLINSON"
-    },
-    {
-      "team_id": "G8-D1_ARLINGTON_ABUNDO",
-      "division": "G8-D1",
-      "club": "ARLINGTON",
-      "coach": "ABUNDO"
-    },
-    {
-      "team_id": "G8-D1_BURKE_EDWARDS",
-      "division": "G8-D1",
-      "club": "BURKE",
-      "coach": "EDWARDS"
-    },
-    {
-      "team_id": "G8-D1_CYA_MCCONNELL",
-      "division": "G8-D1",
-      "club": "CYA",
-      "coach": "MCCONNELL"
-    },
-    {
-      "team_id": "G8-D1_FPYC_LESTER",
-      "division": "G8-D1",
-      "club": "FPYC",
-      "coach": "LESTER"
-    },
-    {
-      "team_id": "G8-D1_GAINESVILLE_GILLIAM",
-      "division": "G8-D1",
-      "club": "GAINESVILLE",
-      "coach": "GILLIAM"
-    },
-    {
-      "team_id": "G8-D1_GREAT FALLS_KERRIGAN",
-      "division": "G8-D1",
-      "club": "GREAT FALLS",
-      "coach": "KERRIGAN"
-    },
-    {
-      "team_id": "G8-D1_MCLEAN_MEGAS",
-      "division": "G8-D1",
-      "club": "MCLEAN",
-      "coach": "MEGAS"
-    },
-    {
-      "team_id": "G8-D1_SPRINGFIELD_WILSON",
-      "division": "G8-D1",
-      "club": "SPRINGFIELD",
-      "coach": "WILSON"
-    },
-    {
-      "team_id": "G8-D1_VIENNA_TROTTER",
-      "division": "G8-D1",
-      "club": "VIENNA",
-      "coach": "TROTTER"
-    },
-    {
-      "team_id": "G8-D2_ARLINGTON_SCARCELLA",
-      "division": "G8-D2",
-      "club": "ARLINGTON",
-      "coach": "SCARCELLA"
-    },
-    {
-      "team_id": "G8-D2_BAILEYS CC_HUDSON",
-      "division": "G8-D2",
-      "club": "BAILEYS CC",
-      "coach": "HUDSON"
-    },
-    {
-      "team_id": "G8-D2_BURKE_BYRNE",
-      "division": "G8-D2",
-      "club": "BURKE",
-      "coach": "BYRNE"
-    },
-    {
-      "team_id": "G8-D2_CYA_JONES",
-      "division": "G8-D2",
-      "club": "CYA",
-      "coach": "JONES"
-    },
-    {
-      "team_id": "G8-D2_CYA_RATHINAVELU",
-      "division": "G8-D2",
-      "club": "CYA",
-      "coach": "RATHINAVELU"
-    },
-    {
-      "team_id": "G8-D2_FORT BELVOIR_EDWARDS",
-      "division": "G8-D2",
-      "club": "FORT BELVOIR",
-      "coach": "EDWARDS"
-    },
-    {
-      "team_id": "G8-D2_FORT HUNT_HARRIS",
-      "division": "G8-D2",
-      "club": "FORT HUNT",
-      "coach": "HARRIS"
-    },
-    {
-      "team_id": "G8-D2_MCLEAN_MCNICOLL",
-      "division": "G8-D2",
-      "club": "MCLEAN",
-      "coach": "MCNICOLL"
-    },
-    {
-      "team_id": "G8-D2_MT. VERNON_ELLING",
-      "division": "G8-D2",
-      "club": "MT. VERNON",
-      "coach": "ELLING"
-    },
-    {
-      "team_id": "G8-D2_SOUTH LOUDOUN_SAMSON",
-      "division": "G8-D2",
-      "club": "SOUTH LOUDOUN",
-      "coach": "SAMSON"
-    },
-    {
-      "team_id": "G8-D2_SOUTH LOUDOUN_STROHECKER",
-      "division": "G8-D2",
-      "club": "SOUTH LOUDOUN",
-      "coach": "STROHECKER"
-    },
-    {
-      "team_id": "G8-D2_SYA_HESLEP",
-      "division": "G8-D2",
-      "club": "SYA",
-      "coach": "HESLEP"
-    },
-    {
-      "team_id": "G8-D2_TURNPIKE_KOMAILY",
-      "division": "G8-D2",
-      "club": "TURNPIKE",
-      "coach": "KOMAILY"
-    },
-    {
-      "team_id": "G8-D2_VIENNA_BOND",
-      "division": "G8-D2",
-      "club": "VIENNA",
-      "coach": "BOND"
-    }
-  ],
-  "run_date": "2020-02-14 13:04:48",
-  "excel": "FCYBL Schedule as of 2-14.xlsx",
   "games": [
     {
       "game_id": 6290453,
@@ -38846,5 +39069,59 @@ var _MASTER_DATA = {
       "tie": false,
       "source": false
     }
-  ]
+  ],
+  "lottery": {
+    "MANASSAS PARK": 10,
+    "FPYC": 19,
+    "GUM SPRINGS": 11,
+    "JAMES LEE": 27,
+    "LEE MT. VERNON": 12,
+    "SPRINGFIELD": 13,
+    "ANNANDALE": 6,
+    "MT. VERNON": 26,
+    "BRYC": 3,
+    "SOUTH LOUDOUN": 17,
+    "LEE-MT. VERNON": 12,
+    "BAILEYS CC": 20,
+    "VIENNA": 8,
+    "ALEXANDRIA": 28,
+    "CYA": 14,
+    "HERNDON": 21,
+    "BURKE": 4,
+    "RESTON": 18,
+    "FALLS CHURCH": 23,
+    "LEE DISTRICT": 22,
+    "BAILEYS": 20,
+    "FORT HUNT": 24,
+    "GREAT FALLS": 1,
+    "SOUTH COUNTY": 7,
+    "FORT BELVOIR": 25,
+    "MCLEAN": 2,
+    "TURNPIKE": 9,
+    "ARLINGTON": 15,
+    "GAINESVILLE": 16,
+    "SYA": 5
+  },
+  "spots": {
+    "B5-D3": 9,
+    "G6-D2": 12,
+    "G7-D1": 10,
+    "B8-D3": 8,
+    "G7-D2": 8,
+    "B5-D1": 9,
+    "G5-D1": 8,
+    "G8-D1": 8,
+    "G5-D2": 11,
+    "B7-D1": 10,
+    "B8-D1": 13,
+    "B5-D2": 11,
+    "B8-D2": 12,
+    "B7-D2": 11,
+    "B6-D1": 11,
+    "B6-D3": 11,
+    "B6-D2": 10,
+    "G8-D2": 11,
+    "G6-D1": 8,
+    "B7-D3": 8
+  }
 };

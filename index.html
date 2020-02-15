@@ -7,6 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>FCYBL Rankings</title>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="./data.js"></script>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.css" /> -->
     <style>
@@ -26,12 +34,20 @@
         span.excel {
             background-image: url(https://cdn.jsdelivr.net/npm/pretty-file-icons@2.2.1/svg/xls.svg)
         }
+
+        th.playoffs {
+            border-left: 5px solid #c4c7ca;
+        }
+
+        tr.playoffs {
+            border-bottom: 5px solid #c4c7ca;
+        }
     </style>
 </head>
 
 <body id="top">
 
-    <div class="container" ng-app="FCYBL" ng-controller="RankingsController as rc">
+    <div class="container" ng-app="FCYBL" ng-controller="RankingsController as rc" ng-cloak>
 
         <div class="row">
             <div class="col-lg-8">
@@ -84,9 +100,14 @@
             </div>
         </div>
 
-        <div class="row" ng-repeat="d in rc.master.divisions" id="{{d}}">
-            <div class="col-lg-12">
+        <div class="row" ng-repeat="d in rc.master.divisions" id="{{d}}" ng-value="spot = rc.master.spots[d]">
+            <div class="col-lg-6">
                 <h2>{{ d }}</h2>
+            </div>
+            <div class="col-lg-6 text-right">
+                <p class="mt-3 mb-0 small">{{ spot }} teams make the playoffs in {{ d }}.</p>
+            </div>
+            <div class="col-lg-12">
                 <table class="table table-hover table-fixed table-striped">
                     <thead>
                         <tr>
@@ -100,11 +121,11 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr ng-repeat="r in rc.findRankingsForDivision(d)" ng-value="t = rc.findTeam(r.team_id)">
-                            <th scope="row">{{ r.rank }}</th>
+                        <tr ng-repeat="r in rc.findRankingsForDivision(d)" ng-value="t = rc.findTeam(r.team_id)" ng-class="{ 'playoffs': r.rank == spot }">
+                            <th scope="row" ng-class="{ 'playoffs': r.rank <= spot }">{{ r.rank }}</th>
                             <td>
                                 <a ng-click="rc.showGames(r.team_id)" href="">
-                                    {{ t.club }} - {{ t.coach }}
+                                    {{ t.club }} - {{ t.coach }} {{name}}
                                 </a>
                             </td>
                             <td>{{ t.record }}</td>
@@ -158,14 +179,6 @@
 
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-    <script src="./data.js"></script>
-
     <script>
 
         feather.replace();
@@ -185,20 +198,12 @@
             my.divisions = my.master.divisions;
             my.teams = my.master.teams;
             my.games = my.master.games;
+            my.teams.forEach(team => team.games = findGames(team.team_id));            
             my.lottery = my.master.lottery;
             my.rankings = my.master.rankings;
             // there will be an extra column to show the tiebreaker ended
             my.maxDetails = Math.max.apply(Math, my.rankings.map(function (r) { return r.details.length; }));
             my.modalTeam;
-
-            my.teams.forEach(team => {
-                var games = findGames(team.team_id);
-                team.games = games;
-                var wins = games.filter(game => game.win);
-                var losses = games.filter(game => game.lost);
-                var ties = games.filter(game => game.tie);
-                team.record = wins.length + "-" + losses.length + "-" + ties.length;
-            });
 
             my.findRankingsForDivision = function (division) {
                 return my.rankings.filter(ranking => ranking.team_id.includes(division));
