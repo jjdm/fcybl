@@ -1,6 +1,8 @@
 Copy the new extract into the main folder.
 Run the Python program, piping to data.js.
 Copy HTML from index.html page into text.
+Remove the extra information about playoffs.
+	.*make the playoff.*\n\n
 Add new lines before each heading:
 	^([BG][0-9])
 	\n\1
