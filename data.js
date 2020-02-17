@@ -1,3740 +1,27 @@
 var _MASTER_DATA = {
-  "divisions": [
-    "B5-D1",
-    "B5-D2",
-    "B5-D3",
-    "B6-D1",
-    "B6-D2",
-    "B6-D3",
-    "B7-D1",
-    "B7-D2",
-    "B7-D3",
-    "B8-D1",
-    "B8-D2",
-    "B8-D3",
-    "G5-D1",
-    "G5-D2",
-    "G6-D1",
-    "G6-D2",
-    "G7-D1",
-    "G7-D2",
-    "G8-D1",
-    "G8-D2"
-  ],
-  "teams": [
-    {
-      "team_id": "B5-D1_ARLINGTON_SADAKA",
-      "division": "B5-D1",
-      "club": "ARLINGTON",
-      "coach": "SADAKA",
-      "record": "7-1-0"
-    },
-    {
-      "team_id": "B5-D1_BURKE_SMITH",
-      "division": "B5-D1",
-      "club": "BURKE",
-      "coach": "SMITH",
-      "record": "8-0-0"
-    },
-    {
-      "team_id": "B5-D1_CYA_ROSENBLATT",
-      "division": "B5-D1",
-      "club": "CYA",
-      "coach": "ROSENBLATT",
-      "record": "3-5-0"
-    },
-    {
-      "team_id": "B5-D1_FORT HUNT_ZIPPEL",
-      "division": "B5-D1",
-      "club": "FORT HUNT",
-      "coach": "ZIPPEL",
-      "record": "2-6-0"
-    },
-    {
-      "team_id": "B5-D1_GAINESVILLE_LY",
-      "division": "B5-D1",
-      "club": "GAINESVILLE",
-      "coach": "LY",
-      "record": "3-5-0"
-    },
-    {
-      "team_id": "B5-D1_GREAT FALLS_GOLDBERG",
-      "division": "B5-D1",
-      "club": "GREAT FALLS",
-      "coach": "GOLDBERG",
-      "record": "4-4-0"
-    },
-    {
-      "team_id": "B5-D1_LEE MT. VERNON_BOSLEY",
-      "division": "B5-D1",
-      "club": "LEE MT. VERNON",
-      "coach": "BOSLEY",
-      "record": "1-7-0"
-    },
-    {
-      "team_id": "B5-D1_MCLEAN_MARTIN",
-      "division": "B5-D1",
-      "club": "MCLEAN",
-      "coach": "MARTIN",
-      "record": "3-5-0"
-    },
-    {
-      "team_id": "B5-D1_RESTON_BYRNES",
-      "division": "B5-D1",
-      "club": "RESTON",
-      "coach": "BYRNES",
-      "record": "5-3-0"
-    },
-    {
-      "team_id": "B5-D1_SOUTH LOUDOUN_CHOI",
-      "division": "B5-D1",
-      "club": "SOUTH LOUDOUN",
-      "coach": "CHOI",
-      "record": "4-4-0"
-    },
-    {
-      "team_id": "B5-D1_SOUTH LOUDOUN_STEMBERGER",
-      "division": "B5-D1",
-      "club": "SOUTH LOUDOUN",
-      "coach": "STEMBERGER",
-      "record": "6-2-0"
-    },
-    {
-      "team_id": "B5-D1_SYA_O-CONNOR",
-      "division": "B5-D1",
-      "club": "SYA",
-      "coach": "O-CONNOR",
-      "record": "2-6-0"
-    },
-    {
-      "team_id": "B5-D2_ARLINGTON_MCLEAN",
-      "division": "B5-D2",
-      "club": "ARLINGTON",
-      "coach": "MCLEAN",
-      "record": "7-2-0"
-    },
-    {
-      "team_id": "B5-D2_BRYC_MAYES",
-      "division": "B5-D2",
-      "club": "BRYC",
-      "coach": "MAYES",
-      "record": "6-3-0"
-    },
-    {
-      "team_id": "B5-D2_BURKE_ASEFI",
-      "division": "B5-D2",
-      "club": "BURKE",
-      "coach": "ASEFI",
-      "record": "4-5-0"
-    },
-    {
-      "team_id": "B5-D2_BURKE_MAYERNIK",
-      "division": "B5-D2",
-      "club": "BURKE",
-      "coach": "MAYERNIK",
-      "record": "2-7-0"
-    },
-    {
-      "team_id": "B5-D2_CYA_MARTIN",
-      "division": "B5-D2",
-      "club": "CYA",
-      "coach": "MARTIN",
-      "record": "3-6-0"
-    },
-    {
-      "team_id": "B5-D2_FALLS CHURCH_GREINER",
-      "division": "B5-D2",
-      "club": "FALLS CHURCH",
-      "coach": "GREINER",
-      "record": "4-5-0"
-    },
-    {
-      "team_id": "B5-D2_LEE MT. VERNON_DAY",
-      "division": "B5-D2",
-      "club": "LEE MT. VERNON",
-      "coach": "DAY",
-      "record": "3-6-0"
-    },
-    {
-      "team_id": "B5-D2_MANASSAS PARK_SOLOMON",
-      "division": "B5-D2",
-      "club": "MANASSAS PARK",
-      "coach": "SOLOMON",
-      "record": "10-0-0"
-    },
-    {
-      "team_id": "B5-D2_MCLEAN_B BALL",
-      "division": "B5-D2",
-      "club": "MCLEAN",
-      "coach": "B BALL",
-      "record": "3-6-0"
-    },
-    {
-      "team_id": "B5-D2_RESTON_DAOUD",
-      "division": "B5-D2",
-      "club": "RESTON",
-      "coach": "DAOUD",
-      "record": "2-8-0"
-    },
-    {
-      "team_id": "B5-D2_SOUTH LOUDOUN_FIORILLO",
-      "division": "B5-D2",
-      "club": "SOUTH LOUDOUN",
-      "coach": "FIORILLO",
-      "record": "2-7-0"
-    },
-    {
-      "team_id": "B5-D2_SYA_HARRIS",
-      "division": "B5-D2",
-      "club": "SYA",
-      "coach": "HARRIS",
-      "record": "4-5-0"
-    },
-    {
-      "team_id": "B5-D2_VIENNA_DAVIS",
-      "division": "B5-D2",
-      "club": "VIENNA",
-      "coach": "DAVIS",
-      "record": "6-3-0"
-    },
-    {
-      "team_id": "B5-D2_VIENNA_LOCEY",
-      "division": "B5-D2",
-      "club": "VIENNA",
-      "coach": "LOCEY",
-      "record": "8-1-0"
-    },
-    {
-      "team_id": "B5-D3_ARLINGTON_PERKINS",
-      "division": "B5-D3",
-      "club": "ARLINGTON",
-      "coach": "PERKINS",
-      "record": "8-1-0"
-    },
-    {
-      "team_id": "B5-D3_BRYC_SHARMA",
-      "division": "B5-D3",
-      "club": "BRYC",
-      "coach": "SHARMA",
-      "record": "7-1-0"
-    },
-    {
-      "team_id": "B5-D3_CYA_RIVERS",
-      "division": "B5-D3",
-      "club": "CYA",
-      "coach": "RIVERS",
-      "record": "3-6-0"
-    },
-    {
-      "team_id": "B5-D3_FORT BELVOIR_HUNTER",
-      "division": "B5-D3",
-      "club": "FORT BELVOIR",
-      "coach": "HUNTER",
-      "record": "2-6-0"
-    },
-    {
-      "team_id": "B5-D3_FPYC_DAVIS",
-      "division": "B5-D3",
-      "club": "FPYC",
-      "coach": "DAVIS",
-      "record": "7-1-0"
-    },
-    {
-      "team_id": "B5-D3_GAINESVILLE_JACKSON",
-      "division": "B5-D3",
-      "club": "GAINESVILLE",
-      "coach": "JACKSON",
-      "record": "3-5-0"
-    },
-    {
-      "team_id": "B5-D3_GAINESVILLE_MAXWELL",
-      "division": "B5-D3",
-      "club": "GAINESVILLE",
-      "coach": "MAXWELL",
-      "record": "5-3-0"
-    },
-    {
-      "team_id": "B5-D3_GUM SPRINGS_SPROCKER",
-      "division": "B5-D3",
-      "club": "GUM SPRINGS",
-      "coach": "SPROCKER",
-      "record": "0-8-0"
-    },
-    {
-      "team_id": "B5-D3_HERNDON_BERMUDEZ",
-      "division": "B5-D3",
-      "club": "HERNDON",
-      "coach": "BERMUDEZ",
-      "record": "5-3-0"
-    },
-    {
-      "team_id": "B5-D3_SOUTH COUNTY_ARORA",
-      "division": "B5-D3",
-      "club": "SOUTH COUNTY",
-      "coach": "ARORA",
-      "record": "2-6-0"
-    },
-    {
-      "team_id": "B5-D3_SPRINGFIELD_MORRISON",
-      "division": "B5-D3",
-      "club": "SPRINGFIELD",
-      "coach": "MORRISON",
-      "record": "6-2-0"
-    },
-    {
-      "team_id": "B5-D3_TURNPIKE_SYRON",
-      "division": "B5-D3",
-      "club": "TURNPIKE",
-      "coach": "SYRON",
-      "record": "1-7-0"
-    },
-    {
-      "team_id": "B6-D1_ARLINGTON_LOWEN",
-      "division": "B6-D1",
-      "club": "ARLINGTON",
-      "coach": "LOWEN",
-      "record": "11-1-0"
-    },
-    {
-      "team_id": "B6-D1_BRYC_GONZALEZ",
-      "division": "B6-D1",
-      "club": "BRYC",
-      "coach": "GONZALEZ",
-      "record": "10-2-0"
-    },
-    {
-      "team_id": "B6-D1_BURKE_RAPOZA",
-      "division": "B6-D1",
-      "club": "BURKE",
-      "coach": "RAPOZA",
-      "record": "6-7-0"
-    },
-    {
-      "team_id": "B6-D1_CYA_JONES",
-      "division": "B6-D1",
-      "club": "CYA",
-      "coach": "JONES",
-      "record": "5-6-0"
-    },
-    {
-      "team_id": "B6-D1_GAINESVILLE_COOK",
-      "division": "B6-D1",
-      "club": "GAINESVILLE",
-      "coach": "COOK",
-      "record": "2-10-0"
-    },
-    {
-      "team_id": "B6-D1_GREAT FALLS_BROWN",
-      "division": "B6-D1",
-      "club": "GREAT FALLS",
-      "coach": "BROWN",
-      "record": "9-3-0"
-    },
-    {
-      "team_id": "B6-D1_JAMES LEE_HERRING",
-      "division": "B6-D1",
-      "club": "JAMES LEE",
-      "coach": "HERRING",
-      "record": "8-3-0"
-    },
-    {
-      "team_id": "B6-D1_JAMES LEE_WADE",
-      "division": "B6-D1",
-      "club": "JAMES LEE",
-      "coach": "WADE",
-      "record": "1-10-0"
-    },
-    {
-      "team_id": "B6-D1_LEE DISTRICT_DIFFENBACH",
-      "division": "B6-D1",
-      "club": "LEE DISTRICT",
-      "coach": "DIFFENBACH",
-      "record": "10-2-0"
-    },
-    {
-      "team_id": "B6-D1_MANASSAS PARK_GASKINS",
-      "division": "B6-D1",
-      "club": "MANASSAS PARK",
-      "coach": "GASKINS",
-      "record": "8-2-0"
-    },
-    {
-      "team_id": "B6-D1_MCLEAN_JACKSON",
-      "division": "B6-D1",
-      "club": "MCLEAN",
-      "coach": "JACKSON",
-      "record": "5-4-0"
-    },
-    {
-      "team_id": "B6-D1_MT. VERNON_COLEMAN",
-      "division": "B6-D1",
-      "club": "MT. VERNON",
-      "coach": "COLEMAN",
-      "record": "2-10-0"
-    },
-    {
-      "team_id": "B6-D1_RESTON_RIDGEWAY",
-      "division": "B6-D1",
-      "club": "RESTON",
-      "coach": "RIDGEWAY",
-      "record": "3-9-0"
-    },
-    {
-      "team_id": "B6-D1_SOUTH LOUDOUN_KAHN",
-      "division": "B6-D1",
-      "club": "SOUTH LOUDOUN",
-      "coach": "KAHN",
-      "record": "3-9-0"
-    },
-    {
-      "team_id": "B6-D1_VIENNA_EPPS",
-      "division": "B6-D1",
-      "club": "VIENNA",
-      "coach": "EPPS",
-      "record": "3-8-0"
-    },
-    {
-      "team_id": "B6-D2_ANNANDALE_HWANG",
-      "division": "B6-D2",
-      "club": "ANNANDALE",
-      "coach": "HWANG",
-      "record": "1-11-0"
-    },
-    {
-      "team_id": "B6-D2_ARLINGTON_GHARIANI",
-      "division": "B6-D2",
-      "club": "ARLINGTON",
-      "coach": "GHARIANI",
-      "record": "6-7-0"
-    },
-    {
-      "team_id": "B6-D2_BURKE_BUTTREY",
-      "division": "B6-D2",
-      "club": "BURKE",
-      "coach": "BUTTREY",
-      "record": "4-7-0"
-    },
-    {
-      "team_id": "B6-D2_CYA_ROBINSON",
-      "division": "B6-D2",
-      "club": "CYA",
-      "coach": "ROBINSON",
-      "record": "1-10-0"
-    },
-    {
-      "team_id": "B6-D2_FALLS CHURCH_KUSIC",
-      "division": "B6-D2",
-      "club": "FALLS CHURCH",
-      "coach": "KUSIC",
-      "record": "4-7-0"
-    },
-    {
-      "team_id": "B6-D2_FORT BELVOIR_TAYLOR JR",
-      "division": "B6-D2",
-      "club": "FORT BELVOIR",
-      "coach": "TAYLOR JR",
-      "record": "10-1-0"
-    },
-    {
-      "team_id": "B6-D2_FORT HUNT_FORTI",
-      "division": "B6-D2",
-      "club": "FORT HUNT",
-      "coach": "FORTI",
-      "record": "8-4-0"
-    },
-    {
-      "team_id": "B6-D2_GAINESVILLE_MURRAY",
-      "division": "B6-D2",
-      "club": "GAINESVILLE",
-      "coach": "MURRAY",
-      "record": "7-5-0"
-    },
-    {
-      "team_id": "B6-D2_HERNDON_JONES",
-      "division": "B6-D2",
-      "club": "HERNDON",
-      "coach": "JONES",
-      "record": "8-3-0"
-    },
-    {
-      "team_id": "B6-D2_MCLEAN_CICALE",
-      "division": "B6-D2",
-      "club": "MCLEAN",
-      "coach": "CICALE",
-      "record": "11-0-0"
-    },
-    {
-      "team_id": "B6-D2_SOUTH LOUDOUN_LANOUETTE",
-      "division": "B6-D2",
-      "club": "SOUTH LOUDOUN",
-      "coach": "LANOUETTE",
-      "record": "6-5-0"
-    },
-    {
-      "team_id": "B6-D2_SYA_HILL",
-      "division": "B6-D2",
-      "club": "SYA",
-      "coach": "HILL",
-      "record": "6-5-0"
-    },
-    {
-      "team_id": "B6-D2_VIENNA_CHOI",
-      "division": "B6-D2",
-      "club": "VIENNA",
-      "coach": "CHOI",
-      "record": "2-9-0"
-    },
-    {
-      "team_id": "B6-D3_ARLINGTON_NETTLES",
-      "division": "B6-D3",
-      "club": "ARLINGTON",
-      "coach": "NETTLES",
-      "record": "6-6-0"
-    },
-    {
-      "team_id": "B6-D3_BAILEYS_J. SMITH SR",
-      "division": "B6-D3",
-      "club": "BAILEYS",
-      "coach": "J. SMITH SR",
-      "record": "0-12-0"
-    },
-    {
-      "team_id": "B6-D3_BRYC_SHIN",
-      "division": "B6-D3",
-      "club": "BRYC",
-      "coach": "SHIN",
-      "record": "1-10-0"
-    },
-    {
-      "team_id": "B6-D3_BURKE_MITCHELL",
-      "division": "B6-D3",
-      "club": "BURKE",
-      "coach": "MITCHELL",
-      "record": "8-4-0"
-    },
-    {
-      "team_id": "B6-D3_CYA_LUGO",
-      "division": "B6-D3",
-      "club": "CYA",
-      "coach": "LUGO",
-      "record": "6-6-0"
-    },
-    {
-      "team_id": "B6-D3_FPYC_MALESKY",
-      "division": "B6-D3",
-      "club": "FPYC",
-      "coach": "MALESKY",
-      "record": "11-0-0"
-    },
-    {
-      "team_id": "B6-D3_GREAT FALLS_BRITT",
-      "division": "B6-D3",
-      "club": "GREAT FALLS",
-      "coach": "BRITT",
-      "record": "5-6-0"
-    },
-    {
-      "team_id": "B6-D3_LEE MT. VERNON_STEWART",
-      "division": "B6-D3",
-      "club": "LEE MT. VERNON",
-      "coach": "STEWART",
-      "record": "5-7-0"
-    },
-    {
-      "team_id": "B6-D3_RESTON_LEGLER",
-      "division": "B6-D3",
-      "club": "RESTON",
-      "coach": "LEGLER",
-      "record": "3-9-0"
-    },
-    {
-      "team_id": "B6-D3_SOUTH COUNTY_JOHNSON",
-      "division": "B6-D3",
-      "club": "SOUTH COUNTY",
-      "coach": "JOHNSON",
-      "record": "11-1-0"
-    },
-    {
-      "team_id": "B6-D3_SOUTH LOUDOUN_WEBB",
-      "division": "B6-D3",
-      "club": "SOUTH LOUDOUN",
-      "coach": "WEBB",
-      "record": "10-2-0"
-    },
-    {
-      "team_id": "B6-D3_SPRINGFIELD_ALVAREZ",
-      "division": "B6-D3",
-      "club": "SPRINGFIELD",
-      "coach": "ALVAREZ",
-      "record": "1-11-0"
-    },
-    {
-      "team_id": "B6-D3_SPRINGFIELD_WILSON",
-      "division": "B6-D3",
-      "club": "SPRINGFIELD",
-      "coach": "WILSON",
-      "record": "10-3-0"
-    },
-    {
-      "team_id": "B6-D3_TURNPIKE_OURS",
-      "division": "B6-D3",
-      "club": "TURNPIKE",
-      "coach": "OURS",
-      "record": "6-6-0"
-    },
-    {
-      "team_id": "B7-D1_ARLINGTON_SHELLEY",
-      "division": "B7-D1",
-      "club": "ARLINGTON",
-      "coach": "SHELLEY",
-      "record": "9-3-0"
-    },
-    {
-      "team_id": "B7-D1_BRYC_AQUIL",
-      "division": "B7-D1",
-      "club": "BRYC",
-      "coach": "AQUIL",
-      "record": "5-7-0"
-    },
-    {
-      "team_id": "B7-D1_CYA_CUBBAGE",
-      "division": "B7-D1",
-      "club": "CYA",
-      "coach": "CUBBAGE",
-      "record": "7-5-0"
-    },
-    {
-      "team_id": "B7-D1_FORT HUNT_KOELSCH",
-      "division": "B7-D1",
-      "club": "FORT HUNT",
-      "coach": "KOELSCH",
-      "record": "4-8-0"
-    },
-    {
-      "team_id": "B7-D1_GAINESVILLE_WEINSCHENK",
-      "division": "B7-D1",
-      "club": "GAINESVILLE",
-      "coach": "WEINSCHENK",
-      "record": "9-3-0"
-    },
-    {
-      "team_id": "B7-D1_GREAT FALLS_NICKLES",
-      "division": "B7-D1",
-      "club": "GREAT FALLS",
-      "coach": "NICKLES",
-      "record": "2-10-0"
-    },
-    {
-      "team_id": "B7-D1_LEE DISTRICT_TROTTER",
-      "division": "B7-D1",
-      "club": "LEE DISTRICT",
-      "coach": "TROTTER",
-      "record": "2-11-0"
-    },
-    {
-      "team_id": "B7-D1_MCLEAN_CAREY",
-      "division": "B7-D1",
-      "club": "MCLEAN",
-      "coach": "CAREY",
-      "record": "11-2-0"
-    },
-    {
-      "team_id": "B7-D1_RESTON_ROBINSON",
-      "division": "B7-D1",
-      "club": "RESTON",
-      "coach": "ROBINSON",
-      "record": "11-1-0"
-    },
-    {
-      "team_id": "B7-D1_SOUTH LOUDOUN_WEBB-",
-      "division": "B7-D1",
-      "club": "SOUTH LOUDOUN",
-      "coach": "WEBB-",
-      "record": "10-2-0"
-    },
-    {
-      "team_id": "B7-D1_SPRINGFIELD_ARGUEDAS",
-      "division": "B7-D1",
-      "club": "SPRINGFIELD",
-      "coach": "ARGUEDAS",
-      "record": "5-7-0"
-    },
-    {
-      "team_id": "B7-D1_SYA_MORIN",
-      "division": "B7-D1",
-      "club": "SYA",
-      "coach": "MORIN",
-      "record": "1-11-0"
-    },
-    {
-      "team_id": "B7-D1_VIENNA_STOLBURG",
-      "division": "B7-D1",
-      "club": "VIENNA",
-      "coach": "STOLBURG",
-      "record": "3-9-0"
-    },
-    {
-      "team_id": "B7-D2_ALEXANDRIA_MATTHEWS",
-      "division": "B7-D2",
-      "club": "ALEXANDRIA",
-      "coach": "MATTHEWS",
-      "record": "2-10-0"
-    },
-    {
-      "team_id": "B7-D2_ANNANDALE_NELSON",
-      "division": "B7-D2",
-      "club": "ANNANDALE",
-      "coach": "NELSON",
-      "record": "3-9-0"
-    },
-    {
-      "team_id": "B7-D2_ARLINGTON_REMEDIOS",
-      "division": "B7-D2",
-      "club": "ARLINGTON",
-      "coach": "REMEDIOS",
-      "record": "6-6-0"
-    },
-    {
-      "team_id": "B7-D2_BURKE_STURTEVANT",
-      "division": "B7-D2",
-      "club": "BURKE",
-      "coach": "STURTEVANT",
-      "record": "5-7-0"
-    },
-    {
-      "team_id": "B7-D2_CYA_UTTERBACK",
-      "division": "B7-D2",
-      "club": "CYA",
-      "coach": "UTTERBACK",
-      "record": "9-3-0"
-    },
-    {
-      "team_id": "B7-D2_FALLS CHURCH_WHITAKER",
-      "division": "B7-D2",
-      "club": "FALLS CHURCH",
-      "coach": "WHITAKER",
-      "record": "11-1-0"
-    },
-    {
-      "team_id": "B7-D2_FORT BELVOIR_SHERN",
-      "division": "B7-D2",
-      "club": "FORT BELVOIR",
-      "coach": "SHERN",
-      "record": "0-12-0"
-    },
-    {
-      "team_id": "B7-D2_FPYC_VARNER",
-      "division": "B7-D2",
-      "club": "FPYC",
-      "coach": "VARNER",
-      "record": "11-1-0"
-    },
-    {
-      "team_id": "B7-D2_GAINESVILLE_SCHWEMER",
-      "division": "B7-D2",
-      "club": "GAINESVILLE",
-      "coach": "SCHWEMER",
-      "record": "6-5-1"
-    },
-    {
-      "team_id": "B7-D2_LEE-MT. VERNON_RUSH",
-      "division": "B7-D2",
-      "club": "LEE-MT. VERNON",
-      "coach": "RUSH",
-      "record": "4-7-0"
-    },
-    {
-      "team_id": "B7-D2_MCLEAN_NANCE",
-      "division": "B7-D2",
-      "club": "MCLEAN",
-      "coach": "NANCE",
-      "record": "5-8-0"
-    },
-    {
-      "team_id": "B7-D2_SOUTH LOUDOUN_ACKLEY",
-      "division": "B7-D2",
-      "club": "SOUTH LOUDOUN",
-      "coach": "ACKLEY",
-      "record": "8-3-1"
-    },
-    {
-      "team_id": "B7-D2_TURNPIKE_BURNS",
-      "division": "B7-D2",
-      "club": "TURNPIKE",
-      "coach": "BURNS",
-      "record": "8-4-0"
-    },
-    {
-      "team_id": "B7-D2_VIENNA_MORTON",
-      "division": "B7-D2",
-      "club": "VIENNA",
-      "coach": "MORTON",
-      "record": "5-7-0"
-    },
-    {
-      "team_id": "B7-D3_ALEXANDRIA_THOMAS",
-      "division": "B7-D3",
-      "club": "ALEXANDRIA",
-      "coach": "THOMAS",
-      "record": "4-8-0"
-    },
-    {
-      "team_id": "B7-D3_ARLINGTON_PARKER",
-      "division": "B7-D3",
-      "club": "ARLINGTON",
-      "coach": "PARKER",
-      "record": "8-5-0"
-    },
-    {
-      "team_id": "B7-D3_BURKE_DISILVESTRO",
-      "division": "B7-D3",
-      "club": "BURKE",
-      "coach": "DISILVESTRO",
-      "record": "4-8-0"
-    },
-    {
-      "team_id": "B7-D3_CYA_PROCHAZKA",
-      "division": "B7-D3",
-      "club": "CYA",
-      "coach": "PROCHAZKA",
-      "record": "9-3-0"
-    },
-    {
-      "team_id": "B7-D3_GAINESVILLE_LINGENFELDER",
-      "division": "B7-D3",
-      "club": "GAINESVILLE",
-      "coach": "LINGENFELDER",
-      "record": "9-3-0"
-    },
-    {
-      "team_id": "B7-D3_GREAT FALLS_WILLSON",
-      "division": "B7-D3",
-      "club": "GREAT FALLS",
-      "coach": "WILLSON",
-      "record": "4-8-0"
-    },
-    {
-      "team_id": "B7-D3_HERNDON_PASSMORE",
-      "division": "B7-D3",
-      "club": "HERNDON",
-      "coach": "PASSMORE",
-      "record": "11-2-0"
-    },
-    {
-      "team_id": "B7-D3_SOUTH COUNTY_LLOYD",
-      "division": "B7-D3",
-      "club": "SOUTH COUNTY",
-      "coach": "LLOYD",
-      "record": "11-1-0"
-    },
-    {
-      "team_id": "B7-D3_SOUTH LOUDOUN_COOK",
-      "division": "B7-D3",
-      "club": "SOUTH LOUDOUN",
-      "coach": "COOK",
-      "record": "6-6-0"
-    },
-    {
-      "team_id": "B7-D3_SPRINGFIELD_KELLY",
-      "division": "B7-D3",
-      "club": "SPRINGFIELD",
-      "coach": "KELLY",
-      "record": "0-12-0"
-    },
-    {
-      "team_id": "B7-D3_SYA_DOWNEY",
-      "division": "B7-D3",
-      "club": "SYA",
-      "coach": "DOWNEY",
-      "record": "1-11-0"
-    },
-    {
-      "team_id": "B8-D1_ANNANDALE_NELSON",
-      "division": "B8-D1",
-      "club": "ANNANDALE",
-      "coach": "NELSON",
-      "record": "8-4-0"
-    },
-    {
-      "team_id": "B8-D1_ARLINGTON_DAVIS",
-      "division": "B8-D1",
-      "club": "ARLINGTON",
-      "coach": "DAVIS",
-      "record": "4-8-0"
-    },
-    {
-      "team_id": "B8-D1_BURKE_SHOUMAN",
-      "division": "B8-D1",
-      "club": "BURKE",
-      "coach": "SHOUMAN",
-      "record": "6-6-0"
-    },
-    {
-      "team_id": "B8-D1_CYA_LEE",
-      "division": "B8-D1",
-      "club": "CYA",
-      "coach": "LEE",
-      "record": "5-6-0"
-    },
-    {
-      "team_id": "B8-D1_FORT BELVOIR_MILES",
-      "division": "B8-D1",
-      "club": "FORT BELVOIR",
-      "coach": "MILES",
-      "record": "2-10-0"
-    },
-    {
-      "team_id": "B8-D1_GAINESVILLE_PAGE",
-      "division": "B8-D1",
-      "club": "GAINESVILLE",
-      "coach": "PAGE",
-      "record": "1-11-0"
-    },
-    {
-      "team_id": "B8-D1_GREAT FALLS_KRAWCZYK",
-      "division": "B8-D1",
-      "club": "GREAT FALLS",
-      "coach": "KRAWCZYK",
-      "record": "4-7-0"
-    },
-    {
-      "team_id": "B8-D1_LEE DISTRICT_MCMINN",
-      "division": "B8-D1",
-      "club": "LEE DISTRICT",
-      "coach": "MCMINN",
-      "record": "7-4-0"
-    },
-    {
-      "team_id": "B8-D1_MANASSAS PARK_VICK",
-      "division": "B8-D1",
-      "club": "MANASSAS PARK",
-      "coach": "VICK",
-      "record": "12-1-0"
-    },
-    {
-      "team_id": "B8-D1_MCLEAN_LEGGETT",
-      "division": "B8-D1",
-      "club": "MCLEAN",
-      "coach": "LEGGETT",
-      "record": "9-2-0"
-    },
-    {
-      "team_id": "B8-D1_MCLEAN_TALLENT",
-      "division": "B8-D1",
-      "club": "MCLEAN",
-      "coach": "TALLENT",
-      "record": "6-5-0"
-    },
-    {
-      "team_id": "B8-D1_RESTON_LANSDOWNE",
-      "division": "B8-D1",
-      "club": "RESTON",
-      "coach": "LANSDOWNE",
-      "record": "9-3-0"
-    },
-    {
-      "team_id": "B8-D1_SOUTH COUNTY_JACKSON",
-      "division": "B8-D1",
-      "club": "SOUTH COUNTY",
-      "coach": "JACKSON",
-      "record": "8-5-0"
-    },
-    {
-      "team_id": "B8-D1_SOUTH LOUDOUN_COOK",
-      "division": "B8-D1",
-      "club": "SOUTH LOUDOUN",
-      "coach": "COOK",
-      "record": "0-12-0"
-    },
-    {
-      "team_id": "B8-D1_SPRINGFIELD_ROBINSON",
-      "division": "B8-D1",
-      "club": "SPRINGFIELD",
-      "coach": "ROBINSON",
-      "record": "6-5-0"
-    },
-    {
-      "team_id": "B8-D1_TURNPIKE_DONOVAN",
-      "division": "B8-D1",
-      "club": "TURNPIKE",
-      "coach": "DONOVAN",
-      "record": "5-6-0"
-    },
-    {
-      "team_id": "B8-D1_VIENNA_MARSDEN",
-      "division": "B8-D1",
-      "club": "VIENNA",
-      "coach": "MARSDEN",
-      "record": "10-2-0"
-    },
-    {
-      "team_id": "B8-D2_ARLINGTON_BALLARD",
-      "division": "B8-D2",
-      "club": "ARLINGTON",
-      "coach": "BALLARD",
-      "record": "8-4-0"
-    },
-    {
-      "team_id": "B8-D2_ARLINGTON_MAHER",
-      "division": "B8-D2",
-      "club": "ARLINGTON",
-      "coach": "MAHER",
-      "record": "4-8-0"
-    },
-    {
-      "team_id": "B8-D2_BRYC_THOMAS",
-      "division": "B8-D2",
-      "club": "BRYC",
-      "coach": "THOMAS",
-      "record": "5-7-0"
-    },
-    {
-      "team_id": "B8-D2_CYA_DANN",
-      "division": "B8-D2",
-      "club": "CYA",
-      "coach": "DANN",
-      "record": "3-9-0"
-    },
-    {
-      "team_id": "B8-D2_CYA_SMITH",
-      "division": "B8-D2",
-      "club": "CYA",
-      "coach": "SMITH",
-      "record": "2-10-0"
-    },
-    {
-      "team_id": "B8-D2_FORT HUNT_FORTI",
-      "division": "B8-D2",
-      "club": "FORT HUNT",
-      "coach": "FORTI",
-      "record": "10-2-0"
-    },
-    {
-      "team_id": "B8-D2_FPYC_RAGAN",
-      "division": "B8-D2",
-      "club": "FPYC",
-      "coach": "RAGAN",
-      "record": "3-9-0"
-    },
-    {
-      "team_id": "B8-D2_GAINESVILLE_COMPTON",
-      "division": "B8-D2",
-      "club": "GAINESVILLE",
-      "coach": "COMPTON",
-      "record": "3-9-0"
-    },
-    {
-      "team_id": "B8-D2_HERNDON_HARLEY",
-      "division": "B8-D2",
-      "club": "HERNDON",
-      "coach": "HARLEY",
-      "record": "6-7-0"
-    },
-    {
-      "team_id": "B8-D2_LEE-MT. VERNON_BOSLEY",
-      "division": "B8-D2",
-      "club": "LEE-MT. VERNON",
-      "coach": "BOSLEY",
-      "record": "9-3-0"
-    },
-    {
-      "team_id": "B8-D2_MCLEAN_TURGEON",
-      "division": "B8-D2",
-      "club": "MCLEAN",
-      "coach": "TURGEON",
-      "record": "2-10-0"
-    },
-    {
-      "team_id": "B8-D2_SOUTH COUNTY_MATTHEWS",
-      "division": "B8-D2",
-      "club": "SOUTH COUNTY",
-      "coach": "MATTHEWS",
-      "record": "4-8-0"
-    },
-    {
-      "team_id": "B8-D2_SOUTH LOUDOUN_CHOI",
-      "division": "B8-D2",
-      "club": "SOUTH LOUDOUN",
-      "coach": "CHOI",
-      "record": "9-3-0"
-    },
-    {
-      "team_id": "B8-D2_SYA_MCGHEE",
-      "division": "B8-D2",
-      "club": "SYA",
-      "coach": "MCGHEE",
-      "record": "9-3-0"
-    },
-    {
-      "team_id": "B8-D2_VIENNA_DESENTI",
-      "division": "B8-D2",
-      "club": "VIENNA",
-      "coach": "DESENTI",
-      "record": "11-1-0"
-    },
-    {
-      "team_id": "B8-D3_BAILEYS_TBD",
-      "division": "B8-D3",
-      "club": "BAILEYS",
-      "coach": "TBD",
-      "record": "0-12-0"
-    },
-    {
-      "team_id": "B8-D3_BURKE_PETRO",
-      "division": "B8-D3",
-      "club": "BURKE",
-      "coach": "PETRO",
-      "record": "6-7-0"
-    },
-    {
-      "team_id": "B8-D3_BURKE_SMYDRA",
-      "division": "B8-D3",
-      "club": "BURKE",
-      "coach": "SMYDRA",
-      "record": "5-7-0"
-    },
-    {
-      "team_id": "B8-D3_FALLS CHURCH_SUTTON",
-      "division": "B8-D3",
-      "club": "FALLS CHURCH",
-      "coach": "SUTTON",
-      "record": "10-2-0"
-    },
-    {
-      "team_id": "B8-D3_LEE-MT. VERNON_PETERS",
-      "division": "B8-D3",
-      "club": "LEE-MT. VERNON",
-      "coach": "PETERS",
-      "record": "9-4-0"
-    },
-    {
-      "team_id": "B8-D3_LEE-MT. VERNON_SIMONIK",
-      "division": "B8-D3",
-      "club": "LEE-MT. VERNON",
-      "coach": "SIMONIK",
-      "record": "3-9-0"
-    },
-    {
-      "team_id": "B8-D3_MANASSAS PARK_HOLDEN",
-      "division": "B8-D3",
-      "club": "MANASSAS PARK",
-      "coach": "HOLDEN",
-      "record": "5-6-0"
-    },
-    {
-      "team_id": "B8-D3_RESTON_BIRKLAND",
-      "division": "B8-D3",
-      "club": "RESTON",
-      "coach": "BIRKLAND",
-      "record": "5-7-0"
-    },
-    {
-      "team_id": "B8-D3_SOUTH LOUDOUN_MOSTEK",
-      "division": "B8-D3",
-      "club": "SOUTH LOUDOUN",
-      "coach": "MOSTEK",
-      "record": "12-1-0"
-    },
-    {
-      "team_id": "G5-D1_ARLINGTON_MCRAE",
-      "division": "G5-D1",
-      "club": "ARLINGTON",
-      "coach": "MCRAE",
-      "record": "8-1-0"
-    },
-    {
-      "team_id": "G5-D1_CYA_DOWLING",
-      "division": "G5-D1",
-      "club": "CYA",
-      "coach": "DOWLING",
-      "record": "5-4-0"
-    },
-    {
-      "team_id": "G5-D1_FORT HUNT_GAREY",
-      "division": "G5-D1",
-      "club": "FORT HUNT",
-      "coach": "GAREY",
-      "record": "2-7-0"
-    },
-    {
-      "team_id": "G5-D1_GAINESVILLE_JOHNSON",
-      "division": "G5-D1",
-      "club": "GAINESVILLE",
-      "coach": "JOHNSON",
-      "record": "3-6-0"
-    },
-    {
-      "team_id": "G5-D1_GREAT FALLS_NITOWSKI",
-      "division": "G5-D1",
-      "club": "GREAT FALLS",
-      "coach": "NITOWSKI",
-      "record": "2-7-0"
-    },
-    {
-      "team_id": "G5-D1_LEE MT. VERNON_BRELAND",
-      "division": "G5-D1",
-      "club": "LEE MT. VERNON",
-      "coach": "BRELAND",
-      "record": "7-2-0"
-    },
-    {
-      "team_id": "G5-D1_MCLEAN_A NORTON",
-      "division": "G5-D1",
-      "club": "MCLEAN",
-      "coach": "A NORTON",
-      "record": "4-5-0"
-    },
-    {
-      "team_id": "G5-D1_SOUTH LOUDOUN_KERR",
-      "division": "G5-D1",
-      "club": "SOUTH LOUDOUN",
-      "coach": "KERR",
-      "record": "3-6-0"
-    },
-    {
-      "team_id": "G5-D1_SPRINGFIELD_GOODMAN",
-      "division": "G5-D1",
-      "club": "SPRINGFIELD",
-      "coach": "GOODMAN",
-      "record": "3-6-0"
-    },
-    {
-      "team_id": "G5-D1_VIENNA_KORMAN",
-      "division": "G5-D1",
-      "club": "VIENNA",
-      "coach": "KORMAN",
-      "record": "8-1-0"
-    },
-    {
-      "team_id": "G5-D2_ARLINGTON_LOMAS",
-      "division": "G5-D2",
-      "club": "ARLINGTON",
-      "coach": "LOMAS",
-      "record": "9-0-0"
-    },
-    {
-      "team_id": "G5-D2_BAILEYS CC_MARSHALL",
-      "division": "G5-D2",
-      "club": "BAILEYS CC",
-      "coach": "MARSHALL",
-      "record": "0-8-0"
-    },
-    {
-      "team_id": "G5-D2_BRYC_ALI",
-      "division": "G5-D2",
-      "club": "BRYC",
-      "coach": "ALI",
-      "record": "1-6-0"
-    },
-    {
-      "team_id": "G5-D2_BURKE_PRICE",
-      "division": "G5-D2",
-      "club": "BURKE",
-      "coach": "PRICE",
-      "record": "1-7-0"
-    },
-    {
-      "team_id": "G5-D2_BURKE_ROSE",
-      "division": "G5-D2",
-      "club": "BURKE",
-      "coach": "ROSE",
-      "record": "3-4-1"
-    },
-    {
-      "team_id": "G5-D2_CYA_MAZID",
-      "division": "G5-D2",
-      "club": "CYA",
-      "coach": "MAZID",
-      "record": "3-6-0"
-    },
-    {
-      "team_id": "G5-D2_FORT BELVOIR_WASHINGTON",
-      "division": "G5-D2",
-      "club": "FORT BELVOIR",
-      "coach": "WASHINGTON",
-      "record": "3-5-0"
-    },
-    {
-      "team_id": "G5-D2_GAINESVILLE_HAMPSON",
-      "division": "G5-D2",
-      "club": "GAINESVILLE",
-      "coach": "HAMPSON",
-      "record": "4-4-0"
-    },
-    {
-      "team_id": "G5-D2_MCLEAN_B KIM",
-      "division": "G5-D2",
-      "club": "MCLEAN",
-      "coach": "B KIM",
-      "record": "4-5-0"
-    },
-    {
-      "team_id": "G5-D2_RESTON_WARD",
-      "division": "G5-D2",
-      "club": "RESTON",
-      "coach": "WARD",
-      "record": "3-5-0"
-    },
-    {
-      "team_id": "G5-D2_SOUTH LOUDOUN_OSHEA",
-      "division": "G5-D2",
-      "club": "SOUTH LOUDOUN",
-      "coach": "OSHEA",
-      "record": "4-3-1"
-    },
-    {
-      "team_id": "G5-D2_SYA_ANDERSEN",
-      "division": "G5-D2",
-      "club": "SYA",
-      "coach": "ANDERSEN",
-      "record": "9-0-0"
-    },
-    {
-      "team_id": "G5-D2_SYA_MCGHEE",
-      "division": "G5-D2",
-      "club": "SYA",
-      "coach": "MCGHEE",
-      "record": "6-2-0"
-    },
-    {
-      "team_id": "G5-D2_VIENNA_KONSTAS",
-      "division": "G5-D2",
-      "club": "VIENNA",
-      "coach": "KONSTAS",
-      "record": "7-2-0"
-    },
-    {
-      "team_id": "G6-D1_ARLINGTON_PIACENZA",
-      "division": "G6-D1",
-      "club": "ARLINGTON",
-      "coach": "PIACENZA",
-      "record": "8-4-0"
-    },
-    {
-      "team_id": "G6-D1_BURKE_COUTINHO",
-      "division": "G6-D1",
-      "club": "BURKE",
-      "coach": "COUTINHO",
-      "record": "8-4-0"
-    },
-    {
-      "team_id": "G6-D1_CYA_KANG",
-      "division": "G6-D1",
-      "club": "CYA",
-      "coach": "KANG",
-      "record": "9-3-0"
-    },
-    {
-      "team_id": "G6-D1_FORT HUNT_LOVING",
-      "division": "G6-D1",
-      "club": "FORT HUNT",
-      "coach": "LOVING",
-      "record": "2-11-0"
-    },
-    {
-      "team_id": "G6-D1_GAINESVILLE_HOLDER",
-      "division": "G6-D1",
-      "club": "GAINESVILLE",
-      "coach": "HOLDER",
-      "record": "11-2-0"
-    },
-    {
-      "team_id": "G6-D1_MCLEAN_MURRELL",
-      "division": "G6-D1",
-      "club": "MCLEAN",
-      "coach": "MURRELL",
-      "record": "0-12-0"
-    },
-    {
-      "team_id": "G6-D1_SOUTH LOUDOUN_CHILDRESS",
-      "division": "G6-D1",
-      "club": "SOUTH LOUDOUN",
-      "coach": "CHILDRESS",
-      "record": "6-6-0"
-    },
-    {
-      "team_id": "G6-D1_SYA_MOORE",
-      "division": "G6-D1",
-      "club": "SYA",
-      "coach": "MOORE",
-      "record": "5-7-0"
-    },
-    {
-      "team_id": "G6-D1_VIENNA_PARRIS",
-      "division": "G6-D1",
-      "club": "VIENNA",
-      "coach": "PARRIS",
-      "record": "6-6-0"
-    },
-    {
-      "team_id": "G6-D2_ARLINGTON_DECOU",
-      "division": "G6-D2",
-      "club": "ARLINGTON",
-      "coach": "DECOU",
-      "record": "10-1-0"
-    },
-    {
-      "team_id": "G6-D2_BRYC_DUDLEY",
-      "division": "G6-D2",
-      "club": "BRYC",
-      "coach": "DUDLEY",
-      "record": "0-11-0"
-    },
-    {
-      "team_id": "G6-D2_BURKE_SEIGLE",
-      "division": "G6-D2",
-      "club": "BURKE",
-      "coach": "SEIGLE",
-      "record": "11-1-0"
-    },
-    {
-      "team_id": "G6-D2_CYA_MURPHY",
-      "division": "G6-D2",
-      "club": "CYA",
-      "coach": "MURPHY",
-      "record": "4-7-0"
-    },
-    {
-      "team_id": "G6-D2_FALLS CHURCH_PAPADOPOULOS",
-      "division": "G6-D2",
-      "club": "FALLS CHURCH",
-      "coach": "PAPADOPOULOS",
-      "record": "8-4-0"
-    },
-    {
-      "team_id": "G6-D2_FPYC_LESTER",
-      "division": "G6-D2",
-      "club": "FPYC",
-      "coach": "LESTER",
-      "record": "4-7-0"
-    },
-    {
-      "team_id": "G6-D2_GAINESVILLE_FURLONG",
-      "division": "G6-D2",
-      "club": "GAINESVILLE",
-      "coach": "FURLONG",
-      "record": "2-9-0"
-    },
-    {
-      "team_id": "G6-D2_GREAT FALLS_EXLEY",
-      "division": "G6-D2",
-      "club": "GREAT FALLS",
-      "coach": "EXLEY",
-      "record": "8-3-0"
-    },
-    {
-      "team_id": "G6-D2_LEE-MT. VERNON_HENDERSON",
-      "division": "G6-D2",
-      "club": "LEE-MT. VERNON",
-      "coach": "HENDERSON",
-      "record": "7-4-0"
-    },
-    {
-      "team_id": "G6-D2_MCLEAN_EDWARDS",
-      "division": "G6-D2",
-      "club": "MCLEAN",
-      "coach": "EDWARDS",
-      "record": "5-6-0"
-    },
-    {
-      "team_id": "G6-D2_RESTON_BARR",
-      "division": "G6-D2",
-      "club": "RESTON",
-      "coach": "BARR",
-      "record": "4-8-0"
-    },
-    {
-      "team_id": "G6-D2_SOUTH LOUDOUN_SAMSON",
-      "division": "G6-D2",
-      "club": "SOUTH LOUDOUN",
-      "coach": "SAMSON",
-      "record": "8-4-0"
-    },
-    {
-      "team_id": "G6-D2_SPRINGFIELD_BURDETTE",
-      "division": "G6-D2",
-      "club": "SPRINGFIELD",
-      "coach": "BURDETTE",
-      "record": "0-11-0"
-    },
-    {
-      "team_id": "G6-D2_SPRINGFIELD_MARSHALL",
-      "division": "G6-D2",
-      "club": "SPRINGFIELD",
-      "coach": "MARSHALL",
-      "record": "9-2-0"
-    },
-    {
-      "team_id": "G6-D2_SYA_LANGFORD",
-      "division": "G6-D2",
-      "club": "SYA",
-      "coach": "LANGFORD",
-      "record": "8-3-0"
-    },
-    {
-      "team_id": "G6-D2_VIENNA_GRIM",
-      "division": "G6-D2",
-      "club": "VIENNA",
-      "coach": "GRIM",
-      "record": "2-9-0"
-    },
-    {
-      "team_id": "G7-D1_ARLINGTON_EISENBERG",
-      "division": "G7-D1",
-      "club": "ARLINGTON",
-      "coach": "EISENBERG",
-      "record": "9-3-0"
-    },
-    {
-      "team_id": "G7-D1_BURKE_SEAY",
-      "division": "G7-D1",
-      "club": "BURKE",
-      "coach": "SEAY",
-      "record": "8-4-0"
-    },
-    {
-      "team_id": "G7-D1_BURKE_WYANT",
-      "division": "G7-D1",
-      "club": "BURKE",
-      "coach": "WYANT",
-      "record": "3-9-0"
-    },
-    {
-      "team_id": "G7-D1_CYA_MAWLOUD",
-      "division": "G7-D1",
-      "club": "CYA",
-      "coach": "MAWLOUD",
-      "record": "7-5-0"
-    },
-    {
-      "team_id": "G7-D1_FALLS CHURCH_MADISON",
-      "division": "G7-D1",
-      "club": "FALLS CHURCH",
-      "coach": "MADISON",
-      "record": "9-3-0"
-    },
-    {
-      "team_id": "G7-D1_FORT HUNT_HEINER",
-      "division": "G7-D1",
-      "club": "FORT HUNT",
-      "coach": "HEINER",
-      "record": "7-5-0"
-    },
-    {
-      "team_id": "G7-D1_FPYC_KOMAILY",
-      "division": "G7-D1",
-      "club": "FPYC",
-      "coach": "KOMAILY",
-      "record": "7-5-0"
-    },
-    {
-      "team_id": "G7-D1_GREAT FALLS_BOND",
-      "division": "G7-D1",
-      "club": "GREAT FALLS",
-      "coach": "BOND",
-      "record": "0-12-0"
-    },
-    {
-      "team_id": "G7-D1_MCLEAN_CRITTENBERGER",
-      "division": "G7-D1",
-      "club": "MCLEAN",
-      "coach": "CRITTENBERGER",
-      "record": "11-1-0"
-    },
-    {
-      "team_id": "G7-D1_SOUTH LOUDOUN_LISACK",
-      "division": "G7-D1",
-      "club": "SOUTH LOUDOUN",
-      "coach": "LISACK",
-      "record": "3-9-0"
-    },
-    {
-      "team_id": "G7-D1_SPRINGFIELD_DUCKETT",
-      "division": "G7-D1",
-      "club": "SPRINGFIELD",
-      "coach": "DUCKETT",
-      "record": "7-5-0"
-    },
-    {
-      "team_id": "G7-D1_SYA_BRUBAKER",
-      "division": "G7-D1",
-      "club": "SYA",
-      "coach": "BRUBAKER",
-      "record": "1-11-0"
-    },
-    {
-      "team_id": "G7-D1_VIENNA_YODER",
-      "division": "G7-D1",
-      "club": "VIENNA",
-      "coach": "YODER",
-      "record": "6-6-0"
-    },
-    {
-      "team_id": "G7-D2_ARLINGTON_FILIDES",
-      "division": "G7-D2",
-      "club": "ARLINGTON",
-      "coach": "FILIDES",
-      "record": "8-4-0"
-    },
-    {
-      "team_id": "G7-D2_BRYC_OCONNOR",
-      "division": "G7-D2",
-      "club": "BRYC",
-      "coach": "OCONNOR",
-      "record": "11-1-0"
-    },
-    {
-      "team_id": "G7-D2_CYA_FRANCIS",
-      "division": "G7-D2",
-      "club": "CYA",
-      "coach": "FRANCIS",
-      "record": "3-9-0"
-    },
-    {
-      "team_id": "G7-D2_GAINESVILLE_NAPLES",
-      "division": "G7-D2",
-      "club": "GAINESVILLE",
-      "coach": "NAPLES",
-      "record": "12-0-0"
-    },
-    {
-      "team_id": "G7-D2_LEE-MT. VERNON_CARTER",
-      "division": "G7-D2",
-      "club": "LEE-MT. VERNON",
-      "coach": "CARTER",
-      "record": "4-8-0"
-    },
-    {
-      "team_id": "G7-D2_MCLEAN_MENDENHALL",
-      "division": "G7-D2",
-      "club": "MCLEAN",
-      "coach": "MENDENHALL",
-      "record": "8-5-0"
-    },
-    {
-      "team_id": "G7-D2_MT. VERNON_GAREY",
-      "division": "G7-D2",
-      "club": "MT. VERNON",
-      "coach": "GAREY",
-      "record": "10-3-0"
-    },
-    {
-      "team_id": "G7-D2_RESTON_ZEBERLEIN",
-      "division": "G7-D2",
-      "club": "RESTON",
-      "coach": "ZEBERLEIN",
-      "record": "7-5-0"
-    },
-    {
-      "team_id": "G7-D2_SOUTH LOUDOUN_MCGOVERN",
-      "division": "G7-D2",
-      "club": "SOUTH LOUDOUN",
-      "coach": "MCGOVERN",
-      "record": "3-9-0"
-    },
-    {
-      "team_id": "G7-D2_SPRINGFIELD_DUCKETT",
-      "division": "G7-D2",
-      "club": "SPRINGFIELD",
-      "coach": "DUCKETT",
-      "record": "1-11-0"
-    },
-    {
-      "team_id": "G7-D2_VIENNA_TOMLINSON",
-      "division": "G7-D2",
-      "club": "VIENNA",
-      "coach": "TOMLINSON",
-      "record": "0-12-0"
-    },
-    {
-      "team_id": "G8-D1_ARLINGTON_ABUNDO",
-      "division": "G8-D1",
-      "club": "ARLINGTON",
-      "coach": "ABUNDO",
-      "record": "5-7-0"
-    },
-    {
-      "team_id": "G8-D1_BURKE_EDWARDS",
-      "division": "G8-D1",
-      "club": "BURKE",
-      "coach": "EDWARDS",
-      "record": "8-4-0"
-    },
-    {
-      "team_id": "G8-D1_CYA_MCCONNELL",
-      "division": "G8-D1",
-      "club": "CYA",
-      "coach": "MCCONNELL",
-      "record": "12-0-0"
-    },
-    {
-      "team_id": "G8-D1_FPYC_LESTER",
-      "division": "G8-D1",
-      "club": "FPYC",
-      "coach": "LESTER",
-      "record": "4-8-0"
-    },
-    {
-      "team_id": "G8-D1_GAINESVILLE_GILLIAM",
-      "division": "G8-D1",
-      "club": "GAINESVILLE",
-      "coach": "GILLIAM",
-      "record": "6-7-0"
-    },
-    {
-      "team_id": "G8-D1_GREAT FALLS_KERRIGAN",
-      "division": "G8-D1",
-      "club": "GREAT FALLS",
-      "coach": "KERRIGAN",
-      "record": "2-10-0"
-    },
-    {
-      "team_id": "G8-D1_MCLEAN_MEGAS",
-      "division": "G8-D1",
-      "club": "MCLEAN",
-      "coach": "MEGAS",
-      "record": "11-2-0"
-    },
-    {
-      "team_id": "G8-D1_SPRINGFIELD_WILSON",
-      "division": "G8-D1",
-      "club": "SPRINGFIELD",
-      "coach": "WILSON",
-      "record": "4-8-0"
-    },
-    {
-      "team_id": "G8-D1_VIENNA_TROTTER",
-      "division": "G8-D1",
-      "club": "VIENNA",
-      "coach": "TROTTER",
-      "record": "3-9-0"
-    },
-    {
-      "team_id": "G8-D2_ARLINGTON_SCARCELLA",
-      "division": "G8-D2",
-      "club": "ARLINGTON",
-      "coach": "SCARCELLA",
-      "record": "1-11-0"
-    },
-    {
-      "team_id": "G8-D2_BAILEYS CC_HUDSON",
-      "division": "G8-D2",
-      "club": "BAILEYS CC",
-      "coach": "HUDSON",
-      "record": "2-11-0"
-    },
-    {
-      "team_id": "G8-D2_BURKE_BYRNE",
-      "division": "G8-D2",
-      "club": "BURKE",
-      "coach": "BYRNE",
-      "record": "4-8-0"
-    },
-    {
-      "team_id": "G8-D2_CYA_JONES",
-      "division": "G8-D2",
-      "club": "CYA",
-      "coach": "JONES",
-      "record": "11-2-0"
-    },
-    {
-      "team_id": "G8-D2_CYA_RATHINAVELU",
-      "division": "G8-D2",
-      "club": "CYA",
-      "coach": "RATHINAVELU",
-      "record": "5-7-0"
-    },
-    {
-      "team_id": "G8-D2_FORT BELVOIR_EDWARDS",
-      "division": "G8-D2",
-      "club": "FORT BELVOIR",
-      "coach": "EDWARDS",
-      "record": "5-8-0"
-    },
-    {
-      "team_id": "G8-D2_FORT HUNT_HARRIS",
-      "division": "G8-D2",
-      "club": "FORT HUNT",
-      "coach": "HARRIS",
-      "record": "10-3-0"
-    },
-    {
-      "team_id": "G8-D2_MCLEAN_MCNICOLL",
-      "division": "G8-D2",
-      "club": "MCLEAN",
-      "coach": "MCNICOLL",
-      "record": "9-4-0"
-    },
-    {
-      "team_id": "G8-D2_MT. VERNON_ELLING",
-      "division": "G8-D2",
-      "club": "MT. VERNON",
-      "coach": "ELLING",
-      "record": "4-9-0"
-    },
-    {
-      "team_id": "G8-D2_SOUTH LOUDOUN_SAMSON",
-      "division": "G8-D2",
-      "club": "SOUTH LOUDOUN",
-      "coach": "SAMSON",
-      "record": "1-10-0"
-    },
-    {
-      "team_id": "G8-D2_SOUTH LOUDOUN_STROHECKER",
-      "division": "G8-D2",
-      "club": "SOUTH LOUDOUN",
-      "coach": "STROHECKER",
-      "record": "6-6-0"
-    },
-    {
-      "team_id": "G8-D2_SYA_HESLEP",
-      "division": "G8-D2",
-      "club": "SYA",
-      "coach": "HESLEP",
-      "record": "10-3-0"
-    },
-    {
-      "team_id": "G8-D2_TURNPIKE_KOMAILY",
-      "division": "G8-D2",
-      "club": "TURNPIKE",
-      "coach": "KOMAILY",
-      "record": "9-4-0"
-    },
-    {
-      "team_id": "G8-D2_VIENNA_BOND",
-      "division": "G8-D2",
-      "club": "VIENNA",
-      "coach": "BOND",
-      "record": "11-2-0"
-    }
-  ],
-  "rankings": [
-    {
-      "team_id": "B5-D1_BURKE_SMITH",
-      "rank": 1,
-      "details": [
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B5-D1_ARLINGTON_SADAKA",
-      "rank": 2,
-      "details": [
-        "0.875"
-      ]
-    },
-    {
-      "team_id": "B5-D1_SOUTH LOUDOUN_STEMBERGER",
-      "rank": 3,
-      "details": [
-        "0.750"
-      ]
-    },
-    {
-      "team_id": "B5-D1_RESTON_BYRNES",
-      "rank": 4,
-      "details": [
-        "0.625"
-      ]
-    },
-    {
-      "team_id": "B5-D1_GREAT FALLS_GOLDBERG",
-      "rank": 5,
-      "details": [
-        "0.500",
-        "-----",
-        1
-      ]
-    },
-    {
-      "team_id": "B5-D1_SOUTH LOUDOUN_CHOI",
-      "rank": 6,
-      "details": [
-        "0.500",
-        "-----",
-        17
-      ]
-    },
-    {
-      "team_id": "B5-D1_GAINESVILLE_LY",
-      "rank": 7,
-      "details": [
-        "0.375",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B5-D1_MCLEAN_MARTIN",
-      "rank": 8,
-      "details": [
-        "0.375",
-        "0.500"
-      ]
-    },
-    {
-      "team_id": "B5-D1_CYA_ROSENBLATT",
-      "rank": 9,
-      "details": [
-        "0.375",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B5-D1_SYA_O-CONNOR",
-      "rank": 10,
-      "details": [
-        "0.250",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B5-D1_FORT HUNT_ZIPPEL",
-      "rank": 11,
-      "details": [
-        "0.250",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B5-D1_LEE MT. VERNON_BOSLEY",
-      "rank": 12,
-      "details": [
-        "0.125"
-      ]
-    },
-    {
-      "team_id": "B5-D2_MANASSAS PARK_SOLOMON",
-      "rank": 1,
-      "details": [
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B5-D2_VIENNA_LOCEY",
-      "rank": 2,
-      "details": [
-        "0.889"
-      ]
-    },
-    {
-      "team_id": "B5-D2_ARLINGTON_MCLEAN",
-      "rank": 3,
-      "details": [
-        "0.778"
-      ]
-    },
-    {
-      "team_id": "B5-D2_BRYC_MAYES",
-      "rank": 4,
-      "details": [
-        "0.667",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B5-D2_VIENNA_DAVIS",
-      "rank": 5,
-      "details": [
-        "0.667",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B5-D2_BURKE_ASEFI",
-      "rank": 6,
-      "details": [
-        "0.444",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B5-D2_SYA_HARRIS",
-      "rank": 7,
-      "details": [
-        "0.444",
-        "0.000",
-        "-----",
-        5
-      ]
-    },
-    {
-      "team_id": "B5-D2_FALLS CHURCH_GREINER",
-      "rank": 8,
-      "details": [
-        "0.444",
-        "0.000",
-        "-----",
-        23
-      ]
-    },
-    {
-      "team_id": "B5-D2_MCLEAN_B BALL",
-      "rank": 9,
-      "details": [
-        "0.333",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B5-D2_CYA_MARTIN",
-      "rank": 10,
-      "details": [
-        "0.333",
-        "-----"
-      ]
-    },
-    {
-      "team_id": "B5-D2_LEE MT. VERNON_DAY",
-      "rank": 11,
-      "details": [
-        "0.333",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B5-D2_SOUTH LOUDOUN_FIORILLO",
-      "rank": 12,
-      "details": [
-        "0.222",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B5-D2_BURKE_MAYERNIK",
-      "rank": 13,
-      "details": [
-        "0.222",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B5-D2_RESTON_DAOUD",
-      "rank": 14,
-      "details": [
-        "0.200"
-      ]
-    },
-    {
-      "team_id": "B5-D3_ARLINGTON_PERKINS",
-      "rank": 1,
-      "details": [
-        "0.889"
-      ]
-    },
-    {
-      "team_id": "B5-D3_BRYC_SHARMA",
-      "rank": 2,
-      "details": [
-        "0.875",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B5-D3_FPYC_DAVIS",
-      "rank": 3,
-      "details": [
-        "0.875",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B5-D3_SPRINGFIELD_MORRISON",
-      "rank": 4,
-      "details": [
-        "0.750"
-      ]
-    },
-    {
-      "team_id": "B5-D3_GAINESVILLE_MAXWELL",
-      "rank": 5,
-      "details": [
-        "0.625",
-        "-----",
-        16
-      ]
-    },
-    {
-      "team_id": "B5-D3_HERNDON_BERMUDEZ",
-      "rank": 6,
-      "details": [
-        "0.625",
-        "-----",
-        21
-      ]
-    },
-    {
-      "team_id": "B5-D3_GAINESVILLE_JACKSON",
-      "rank": 7,
-      "details": [
-        "0.375"
-      ]
-    },
-    {
-      "team_id": "B5-D3_CYA_RIVERS",
-      "rank": 8,
-      "details": [
-        "0.333"
-      ]
-    },
-    {
-      "team_id": "B5-D3_FORT BELVOIR_HUNTER",
-      "rank": 9,
-      "details": [
-        "0.250",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B5-D3_SOUTH COUNTY_ARORA",
-      "rank": 10,
-      "details": [
-        "0.250",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B5-D3_TURNPIKE_SYRON",
-      "rank": 11,
-      "details": [
-        "0.125"
-      ]
-    },
-    {
-      "team_id": "B5-D3_GUM SPRINGS_SPROCKER",
-      "rank": 12,
-      "details": [
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B6-D1_ARLINGTON_LOWEN",
-      "rank": 1,
-      "details": [
-        "0.917"
-      ]
-    },
-    {
-      "team_id": "B6-D1_LEE DISTRICT_DIFFENBACH",
-      "rank": 2,
-      "details": [
-        "0.833",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B6-D1_BRYC_GONZALEZ",
-      "rank": 3,
-      "details": [
-        "0.833",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B6-D1_MANASSAS PARK_GASKINS",
-      "rank": 4,
-      "details": [
-        "0.800"
-      ]
-    },
-    {
-      "team_id": "B6-D1_GREAT FALLS_BROWN",
-      "rank": 5,
-      "details": [
-        "0.750"
-      ]
-    },
-    {
-      "team_id": "B6-D1_JAMES LEE_HERRING",
-      "rank": 6,
-      "details": [
-        "0.727"
-      ]
-    },
-    {
-      "team_id": "B6-D1_MCLEAN_JACKSON",
-      "rank": 7,
-      "details": [
-        "0.556"
-      ]
-    },
-    {
-      "team_id": "B6-D1_BURKE_RAPOZA",
-      "rank": 8,
-      "details": [
-        "0.462"
-      ]
-    },
-    {
-      "team_id": "B6-D1_CYA_JONES",
-      "rank": 9,
-      "details": [
-        "0.455"
-      ]
-    },
-    {
-      "team_id": "B6-D1_VIENNA_EPPS",
-      "rank": 10,
-      "details": [
-        "0.273"
-      ]
-    },
-    {
-      "team_id": "B6-D1_RESTON_RIDGEWAY",
-      "rank": 11,
-      "details": [
-        "0.250",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B6-D1_SOUTH LOUDOUN_KAHN",
-      "rank": 12,
-      "details": [
-        "0.250",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B6-D1_GAINESVILLE_COOK",
-      "rank": 13,
-      "details": [
-        "0.167",
-        "-----",
-        16
-      ]
-    },
-    {
-      "team_id": "B6-D1_MT. VERNON_COLEMAN",
-      "rank": 14,
-      "details": [
-        "0.167",
-        "-----",
-        26
-      ]
-    },
-    {
-      "team_id": "B6-D1_JAMES LEE_WADE",
-      "rank": 15,
-      "details": [
-        "0.091"
-      ]
-    },
-    {
-      "team_id": "B6-D2_MCLEAN_CICALE",
-      "rank": 1,
-      "details": [
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B6-D2_FORT BELVOIR_TAYLOR JR",
-      "rank": 2,
-      "details": [
-        "0.909"
-      ]
-    },
-    {
-      "team_id": "B6-D2_HERNDON_JONES",
-      "rank": 3,
-      "details": [
-        "0.727"
-      ]
-    },
-    {
-      "team_id": "B6-D2_FORT HUNT_FORTI",
-      "rank": 4,
-      "details": [
-        "0.667"
-      ]
-    },
-    {
-      "team_id": "B6-D2_GAINESVILLE_MURRAY",
-      "rank": 5,
-      "details": [
-        "0.583"
-      ]
-    },
-    {
-      "team_id": "B6-D2_SOUTH LOUDOUN_LANOUETTE",
-      "rank": 6,
-      "details": [
-        "0.545",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B6-D2_SYA_HILL",
-      "rank": 7,
-      "details": [
-        "0.545",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B6-D2_ARLINGTON_GHARIANI",
-      "rank": 8,
-      "details": [
-        "0.462"
-      ]
-    },
-    {
-      "team_id": "B6-D2_BURKE_BUTTREY",
-      "rank": 9,
-      "details": [
-        "0.364",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B6-D2_FALLS CHURCH_KUSIC",
-      "rank": 10,
-      "details": [
-        "0.364",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B6-D2_VIENNA_CHOI",
-      "rank": 11,
-      "details": [
-        "0.182"
-      ]
-    },
-    {
-      "team_id": "B6-D2_CYA_ROBINSON",
-      "rank": 12,
-      "details": [
-        "0.091"
-      ]
-    },
-    {
-      "team_id": "B6-D2_ANNANDALE_HWANG",
-      "rank": 13,
-      "details": [
-        "0.083"
-      ]
-    },
-    {
-      "team_id": "B6-D3_FPYC_MALESKY",
-      "rank": 1,
-      "details": [
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B6-D3_SOUTH COUNTY_JOHNSON",
-      "rank": 2,
-      "details": [
-        "0.917"
-      ]
-    },
-    {
-      "team_id": "B6-D3_SOUTH LOUDOUN_WEBB",
-      "rank": 3,
-      "details": [
-        "0.833"
-      ]
-    },
-    {
-      "team_id": "B6-D3_SPRINGFIELD_WILSON",
-      "rank": 4,
-      "details": [
-        "0.769"
-      ]
-    },
-    {
-      "team_id": "B6-D3_BURKE_MITCHELL",
-      "rank": 5,
-      "details": [
-        "0.667"
-      ]
-    },
-    {
-      "team_id": "B6-D3_TURNPIKE_OURS",
-      "rank": 6,
-      "details": [
-        "0.500",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B6-D3_CYA_LUGO",
-      "rank": 7,
-      "details": [
-        "0.500",
-        "0.500"
-      ]
-    },
-    {
-      "team_id": "B6-D3_ARLINGTON_NETTLES",
-      "rank": 8,
-      "details": [
-        "0.500",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B6-D3_GREAT FALLS_BRITT",
-      "rank": 9,
-      "details": [
-        "0.455"
-      ]
-    },
-    {
-      "team_id": "B6-D3_LEE MT. VERNON_STEWART",
-      "rank": 10,
-      "details": [
-        "0.417"
-      ]
-    },
-    {
-      "team_id": "B6-D3_RESTON_LEGLER",
-      "rank": 11,
-      "details": [
-        "0.250"
-      ]
-    },
-    {
-      "team_id": "B6-D3_BRYC_SHIN",
-      "rank": 12,
-      "details": [
-        "0.091"
-      ]
-    },
-    {
-      "team_id": "B6-D3_SPRINGFIELD_ALVAREZ",
-      "rank": 13,
-      "details": [
-        "0.083"
-      ]
-    },
-    {
-      "team_id": "B6-D3_BAILEYS_J. SMITH SR",
-      "rank": 14,
-      "details": [
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B7-D1_RESTON_ROBINSON",
-      "rank": 1,
-      "details": [
-        "0.917"
-      ]
-    },
-    {
-      "team_id": "B7-D1_MCLEAN_CAREY",
-      "rank": 2,
-      "details": [
-        "0.846"
-      ]
-    },
-    {
-      "team_id": "B7-D1_SOUTH LOUDOUN_WEBB-",
-      "rank": 3,
-      "details": [
-        "0.833"
-      ]
-    },
-    {
-      "team_id": "B7-D1_GAINESVILLE_WEINSCHENK",
-      "rank": 4,
-      "details": [
-        "0.750",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B7-D1_ARLINGTON_SHELLEY",
-      "rank": 5,
-      "details": [
-        "0.750",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B7-D1_CYA_CUBBAGE",
-      "rank": 6,
-      "details": [
-        "0.583"
-      ]
-    },
-    {
-      "team_id": "B7-D1_SPRINGFIELD_ARGUEDAS",
-      "rank": 7,
-      "details": [
-        "0.417",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B7-D1_BRYC_AQUIL",
-      "rank": 8,
-      "details": [
-        "0.417",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B7-D1_FORT HUNT_KOELSCH",
-      "rank": 9,
-      "details": [
-        "0.333"
-      ]
-    },
-    {
-      "team_id": "B7-D1_VIENNA_STOLBURG",
-      "rank": 10,
-      "details": [
-        "0.250"
-      ]
-    },
-    {
-      "team_id": "B7-D1_GREAT FALLS_NICKLES",
-      "rank": 11,
-      "details": [
-        "0.167"
-      ]
-    },
-    {
-      "team_id": "B7-D1_LEE DISTRICT_TROTTER",
-      "rank": 12,
-      "details": [
-        "0.154"
-      ]
-    },
-    {
-      "team_id": "B7-D1_SYA_MORIN",
-      "rank": 13,
-      "details": [
-        "0.083"
-      ]
-    },
-    {
-      "team_id": "B7-D2_FPYC_VARNER",
-      "rank": 1,
-      "details": [
-        "0.917",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B7-D2_FALLS CHURCH_WHITAKER",
-      "rank": 2,
-      "details": [
-        "0.917",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B7-D2_CYA_UTTERBACK",
-      "rank": 3,
-      "details": [
-        "0.750"
-      ]
-    },
-    {
-      "team_id": "B7-D2_SOUTH LOUDOUN_ACKLEY",
-      "rank": 4,
-      "details": [
-        "0.708"
-      ]
-    },
-    {
-      "team_id": "B7-D2_TURNPIKE_BURNS",
-      "rank": 5,
-      "details": [
-        "0.667"
-      ]
-    },
-    {
-      "team_id": "B7-D2_GAINESVILLE_SCHWEMER",
-      "rank": 6,
-      "details": [
-        "0.542"
-      ]
-    },
-    {
-      "team_id": "B7-D2_ARLINGTON_REMEDIOS",
-      "rank": 7,
-      "details": [
-        "0.500"
-      ]
-    },
-    {
-      "team_id": "B7-D2_VIENNA_MORTON",
-      "rank": 8,
-      "details": [
-        "0.417",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B7-D2_BURKE_STURTEVANT",
-      "rank": 9,
-      "details": [
-        "0.417",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B7-D2_MCLEAN_NANCE",
-      "rank": 10,
-      "details": [
-        "0.385"
-      ]
-    },
-    {
-      "team_id": "B7-D2_LEE-MT. VERNON_RUSH",
-      "rank": 11,
-      "details": [
-        "0.364"
-      ]
-    },
-    {
-      "team_id": "B7-D2_ANNANDALE_NELSON",
-      "rank": 12,
-      "details": [
-        "0.250"
-      ]
-    },
-    {
-      "team_id": "B7-D2_ALEXANDRIA_MATTHEWS",
-      "rank": 13,
-      "details": [
-        "0.167"
-      ]
-    },
-    {
-      "team_id": "B7-D2_FORT BELVOIR_SHERN",
-      "rank": 14,
-      "details": [
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B7-D3_SOUTH COUNTY_LLOYD",
-      "rank": 1,
-      "details": [
-        "0.917"
-      ]
-    },
-    {
-      "team_id": "B7-D3_HERNDON_PASSMORE",
-      "rank": 2,
-      "details": [
-        "0.846"
-      ]
-    },
-    {
-      "team_id": "B7-D3_CYA_PROCHAZKA",
-      "rank": 3,
-      "details": [
-        "0.750",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B7-D3_GAINESVILLE_LINGENFELDER",
-      "rank": 4,
-      "details": [
-        "0.750",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B7-D3_ARLINGTON_PARKER",
-      "rank": 5,
-      "details": [
-        "0.615"
-      ]
-    },
-    {
-      "team_id": "B7-D3_SOUTH LOUDOUN_COOK",
-      "rank": 6,
-      "details": [
-        "0.500"
-      ]
-    },
-    {
-      "team_id": "B7-D3_ALEXANDRIA_THOMAS",
-      "rank": 7,
-      "details": [
-        "0.333",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B7-D3_BURKE_DISILVESTRO",
-      "rank": 8,
-      "details": [
-        "0.333",
-        "0.500"
-      ]
-    },
-    {
-      "team_id": "B7-D3_GREAT FALLS_WILLSON",
-      "rank": 9,
-      "details": [
-        "0.333",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B7-D3_SYA_DOWNEY",
-      "rank": 10,
-      "details": [
-        "0.083"
-      ]
-    },
-    {
-      "team_id": "B7-D3_SPRINGFIELD_KELLY",
-      "rank": 11,
-      "details": [
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B8-D1_MANASSAS PARK_VICK",
-      "rank": 1,
-      "details": [
-        "0.923"
-      ]
-    },
-    {
-      "team_id": "B8-D1_VIENNA_MARSDEN",
-      "rank": 2,
-      "details": [
-        "0.833"
-      ]
-    },
-    {
-      "team_id": "B8-D1_MCLEAN_LEGGETT",
-      "rank": 3,
-      "details": [
-        "0.818"
-      ]
-    },
-    {
-      "team_id": "B8-D1_RESTON_LANSDOWNE",
-      "rank": 4,
-      "details": [
-        "0.750"
-      ]
-    },
-    {
-      "team_id": "B8-D1_ANNANDALE_NELSON",
-      "rank": 5,
-      "details": [
-        "0.667"
-      ]
-    },
-    {
-      "team_id": "B8-D1_LEE DISTRICT_MCMINN",
-      "rank": 6,
-      "details": [
-        "0.636"
-      ]
-    },
-    {
-      "team_id": "B8-D1_SOUTH COUNTY_JACKSON",
-      "rank": 7,
-      "details": [
-        "0.615"
-      ]
-    },
-    {
-      "team_id": "B8-D1_SPRINGFIELD_ROBINSON",
-      "rank": 8,
-      "details": [
-        "0.545",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B8-D1_MCLEAN_TALLENT",
-      "rank": 9,
-      "details": [
-        "0.545",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B8-D1_BURKE_SHOUMAN",
-      "rank": 10,
-      "details": [
-        "0.500"
-      ]
-    },
-    {
-      "team_id": "B8-D1_TURNPIKE_DONOVAN",
-      "rank": 11,
-      "details": [
-        "0.455",
-        "-----",
-        9
-      ]
-    },
-    {
-      "team_id": "B8-D1_CYA_LEE",
-      "rank": 12,
-      "details": [
-        "0.455",
-        "-----",
-        14
-      ]
-    },
-    {
-      "team_id": "B8-D1_GREAT FALLS_KRAWCZYK",
-      "rank": 13,
-      "details": [
-        "0.364"
-      ]
-    },
-    {
-      "team_id": "B8-D1_ARLINGTON_DAVIS",
-      "rank": 14,
-      "details": [
-        "0.333"
-      ]
-    },
-    {
-      "team_id": "B8-D1_FORT BELVOIR_MILES",
-      "rank": 15,
-      "details": [
-        "0.167"
-      ]
-    },
-    {
-      "team_id": "B8-D1_GAINESVILLE_PAGE",
-      "rank": 16,
-      "details": [
-        "0.083"
-      ]
-    },
-    {
-      "team_id": "B8-D1_SOUTH LOUDOUN_COOK",
-      "rank": 17,
-      "details": [
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B8-D2_VIENNA_DESENTI",
-      "rank": 1,
-      "details": [
-        "0.917"
-      ]
-    },
-    {
-      "team_id": "B8-D2_FORT HUNT_FORTI",
-      "rank": 2,
-      "details": [
-        "0.833"
-      ]
-    },
-    {
-      "team_id": "B8-D2_SYA_MCGHEE",
-      "rank": 3,
-      "details": [
-        "0.750",
-        "0.500",
-        5
-      ]
-    },
-    {
-      "team_id": "B8-D2_LEE-MT. VERNON_BOSLEY",
-      "rank": 4,
-      "details": [
-        "0.750",
-        "0.500",
-        12
-      ]
-    },
-    {
-      "team_id": "B8-D2_SOUTH LOUDOUN_CHOI",
-      "rank": 5,
-      "details": [
-        "0.750",
-        "0.500",
-        17
-      ]
-    },
-    {
-      "team_id": "B8-D2_ARLINGTON_BALLARD",
-      "rank": 6,
-      "details": [
-        "0.667"
-      ]
-    },
-    {
-      "team_id": "B8-D2_HERNDON_HARLEY",
-      "rank": 7,
-      "details": [
-        "0.462"
-      ]
-    },
-    {
-      "team_id": "B8-D2_BRYC_THOMAS",
-      "rank": 8,
-      "details": [
-        "0.417"
-      ]
-    },
-    {
-      "team_id": "B8-D2_SOUTH COUNTY_MATTHEWS",
-      "rank": 9,
-      "details": [
-        "0.333",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B8-D2_ARLINGTON_MAHER",
-      "rank": 10,
-      "details": [
-        "0.333",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B8-D2_FPYC_RAGAN",
-      "rank": 11,
-      "details": [
-        "0.250",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B8-D2_GAINESVILLE_COMPTON",
-      "rank": 12,
-      "details": [
-        "0.250",
-        "0.500"
-      ]
-    },
-    {
-      "team_id": "B8-D2_CYA_DANN",
-      "rank": 13,
-      "details": [
-        "0.250",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B8-D2_CYA_SMITH",
-      "rank": 14,
-      "details": [
-        "0.167",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B8-D2_MCLEAN_TURGEON",
-      "rank": 15,
-      "details": [
-        "0.167",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B8-D3_SOUTH LOUDOUN_MOSTEK",
-      "rank": 1,
-      "details": [
-        "0.923"
-      ]
-    },
-    {
-      "team_id": "B8-D3_FALLS CHURCH_SUTTON",
-      "rank": 2,
-      "details": [
-        "0.833"
-      ]
-    },
-    {
-      "team_id": "B8-D3_LEE-MT. VERNON_PETERS",
-      "rank": 3,
-      "details": [
-        "0.692"
-      ]
-    },
-    {
-      "team_id": "B8-D3_BURKE_PETRO",
-      "rank": 4,
-      "details": [
-        "0.462"
-      ]
-    },
-    {
-      "team_id": "B8-D3_MANASSAS PARK_HOLDEN",
-      "rank": 5,
-      "details": [
-        "0.455"
-      ]
-    },
-    {
-      "team_id": "B8-D3_RESTON_BIRKLAND",
-      "rank": 6,
-      "details": [
-        "0.417",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "B8-D3_BURKE_SMYDRA",
-      "rank": 7,
-      "details": [
-        "0.417",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "B8-D3_LEE-MT. VERNON_SIMONIK",
-      "rank": 8,
-      "details": [
-        "0.250"
-      ]
-    },
-    {
-      "team_id": "B8-D3_BAILEYS_TBD",
-      "rank": 9,
-      "details": [
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "G5-D1_VIENNA_KORMAN",
-      "rank": 1,
-      "details": [
-        "0.889",
-        "0.500",
-        8
-      ]
-    },
-    {
-      "team_id": "G5-D1_ARLINGTON_MCRAE",
-      "rank": 2,
-      "details": [
-        "0.889",
-        "0.500",
-        15
-      ]
-    },
-    {
-      "team_id": "G5-D1_LEE MT. VERNON_BRELAND",
-      "rank": 3,
-      "details": [
-        "0.778"
-      ]
-    },
-    {
-      "team_id": "G5-D1_CYA_DOWLING",
-      "rank": 4,
-      "details": [
-        "0.556"
-      ]
-    },
-    {
-      "team_id": "G5-D1_MCLEAN_A NORTON",
-      "rank": 5,
-      "details": [
-        "0.444"
-      ]
-    },
-    {
-      "team_id": "G5-D1_GAINESVILLE_JOHNSON",
-      "rank": 6,
-      "details": [
-        "0.333",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "G5-D1_SPRINGFIELD_GOODMAN",
-      "rank": 7,
-      "details": [
-        "0.333",
-        "0.500"
-      ]
-    },
-    {
-      "team_id": "G5-D1_SOUTH LOUDOUN_KERR",
-      "rank": 8,
-      "details": [
-        "0.333",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "G5-D1_GREAT FALLS_NITOWSKI",
-      "rank": 9,
-      "details": [
-        "0.222",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "G5-D1_FORT HUNT_GAREY",
-      "rank": 10,
-      "details": [
-        "0.222",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "G5-D2_SYA_ANDERSEN",
-      "rank": 1,
-      "details": [
-        "1.000",
-        "-----",
-        5
-      ]
-    },
-    {
-      "team_id": "G5-D2_ARLINGTON_LOMAS",
-      "rank": 2,
-      "details": [
-        "1.000",
-        "-----",
-        15
-      ]
-    },
-    {
-      "team_id": "G5-D2_VIENNA_KONSTAS",
-      "rank": 3,
-      "details": [
-        "0.778"
-      ]
-    },
-    {
-      "team_id": "G5-D2_SYA_MCGHEE",
-      "rank": 4,
-      "details": [
-        "0.750"
-      ]
-    },
-    {
-      "team_id": "G5-D2_SOUTH LOUDOUN_OSHEA",
-      "rank": 5,
-      "details": [
-        "0.562"
-      ]
-    },
-    {
-      "team_id": "G5-D2_GAINESVILLE_HAMPSON",
-      "rank": 6,
-      "details": [
-        "0.500"
-      ]
-    },
-    {
-      "team_id": "G5-D2_MCLEAN_B KIM",
-      "rank": 7,
-      "details": [
-        "0.444"
-      ]
-    },
-    {
-      "team_id": "G5-D2_BURKE_ROSE",
-      "rank": 8,
-      "details": [
-        "0.438"
-      ]
-    },
-    {
-      "team_id": "G5-D2_FORT BELVOIR_WASHINGTON",
-      "rank": 9,
-      "details": [
-        "0.375",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "G5-D2_RESTON_WARD",
-      "rank": 10,
-      "details": [
-        "0.375",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "G5-D2_CYA_MAZID",
-      "rank": 11,
-      "details": [
-        "0.333"
-      ]
-    },
-    {
-      "team_id": "G5-D2_BRYC_ALI",
-      "rank": 12,
-      "details": [
-        "0.143"
-      ]
-    },
-    {
-      "team_id": "G5-D2_BURKE_PRICE",
-      "rank": 13,
-      "details": [
-        "0.125"
-      ]
-    },
-    {
-      "team_id": "G5-D2_BAILEYS CC_MARSHALL",
-      "rank": 14,
-      "details": [
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "G6-D1_GAINESVILLE_HOLDER",
-      "rank": 1,
-      "details": [
-        "0.846"
-      ]
-    },
-    {
-      "team_id": "G6-D1_CYA_KANG",
-      "rank": 2,
-      "details": [
-        "0.750"
-      ]
-    },
-    {
-      "team_id": "G6-D1_BURKE_COUTINHO",
-      "rank": 3,
-      "details": [
-        "0.667",
-        "0.500",
-        4
-      ]
-    },
-    {
-      "team_id": "G6-D1_ARLINGTON_PIACENZA",
-      "rank": 4,
-      "details": [
-        "0.667",
-        "0.500",
-        15
-      ]
-    },
-    {
-      "team_id": "G6-D1_VIENNA_PARRIS",
-      "rank": 5,
-      "details": [
-        "0.500",
-        "0.500",
-        8
-      ]
-    },
-    {
-      "team_id": "G6-D1_SOUTH LOUDOUN_CHILDRESS",
-      "rank": 6,
-      "details": [
-        "0.500",
-        "0.500",
-        17
-      ]
-    },
-    {
-      "team_id": "G6-D1_SYA_MOORE",
-      "rank": 7,
-      "details": [
-        "0.417"
-      ]
-    },
-    {
-      "team_id": "G6-D1_FORT HUNT_LOVING",
-      "rank": 8,
-      "details": [
-        "0.154"
-      ]
-    },
-    {
-      "team_id": "G6-D1_MCLEAN_MURRELL",
-      "rank": 9,
-      "details": [
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "G6-D2_BURKE_SEIGLE",
-      "rank": 1,
-      "details": [
-        "0.917"
-      ]
-    },
-    {
-      "team_id": "G6-D2_ARLINGTON_DECOU",
-      "rank": 2,
-      "details": [
-        "0.909"
-      ]
-    },
-    {
-      "team_id": "G6-D2_SPRINGFIELD_MARSHALL",
-      "rank": 3,
-      "details": [
-        "0.818"
-      ]
-    },
-    {
-      "team_id": "G6-D2_SYA_LANGFORD",
-      "rank": 4,
-      "details": [
-        "0.727",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "G6-D2_GREAT FALLS_EXLEY",
-      "rank": 5,
-      "details": [
-        "0.727",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "G6-D2_SOUTH LOUDOUN_SAMSON",
-      "rank": 6,
-      "details": [
-        "0.667",
-        "-----",
-        17
-      ]
-    },
-    {
-      "team_id": "G6-D2_FALLS CHURCH_PAPADOPOULOS",
-      "rank": 7,
-      "details": [
-        "0.667",
-        "-----",
-        23
-      ]
-    },
-    {
-      "team_id": "G6-D2_LEE-MT. VERNON_HENDERSON",
-      "rank": 8,
-      "details": [
-        "0.636"
-      ]
-    },
-    {
-      "team_id": "G6-D2_MCLEAN_EDWARDS",
-      "rank": 9,
-      "details": [
-        "0.455"
-      ]
-    },
-    {
-      "team_id": "G6-D2_CYA_MURPHY",
-      "rank": 10,
-      "details": [
-        "0.364",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "G6-D2_FPYC_LESTER",
-      "rank": 11,
-      "details": [
-        "0.364",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "G6-D2_RESTON_BARR",
-      "rank": 12,
-      "details": [
-        "0.333"
-      ]
-    },
-    {
-      "team_id": "G6-D2_VIENNA_GRIM",
-      "rank": 13,
-      "details": [
-        "0.182",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "G6-D2_GAINESVILLE_FURLONG",
-      "rank": 14,
-      "details": [
-        "0.182",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "G6-D2_BRYC_DUDLEY",
-      "rank": 15,
-      "details": [
-        "0.000",
-        "-----",
-        3
-      ]
-    },
-    {
-      "team_id": "G6-D2_SPRINGFIELD_BURDETTE",
-      "rank": 16,
-      "details": [
-        "0.000",
-        "-----",
-        13
-      ]
-    },
-    {
-      "team_id": "G7-D1_MCLEAN_CRITTENBERGER",
-      "rank": 1,
-      "details": [
-        "0.917"
-      ]
-    },
-    {
-      "team_id": "G7-D1_ARLINGTON_EISENBERG",
-      "rank": 2,
-      "details": [
-        "0.750",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "G7-D1_FALLS CHURCH_MADISON",
-      "rank": 3,
-      "details": [
-        "0.750",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "G7-D1_BURKE_SEAY",
-      "rank": 4,
-      "details": [
-        "0.667"
-      ]
-    },
-    {
-      "team_id": "G7-D1_FPYC_KOMAILY",
-      "rank": 5,
-      "details": [
-        "0.583",
-        "0.667",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "G7-D1_FORT HUNT_HEINER",
-      "rank": 6,
-      "details": [
-        "0.583",
-        "0.667",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "G7-D1_CYA_MAWLOUD",
-      "rank": 7,
-      "details": [
-        "0.583",
-        "0.333",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "G7-D1_SPRINGFIELD_DUCKETT",
-      "rank": 8,
-      "details": [
-        "0.583",
-        "0.333",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "G7-D1_VIENNA_YODER",
-      "rank": 9,
-      "details": [
-        "0.500"
-      ]
-    },
-    {
-      "team_id": "G7-D1_BURKE_WYANT",
-      "rank": 10,
-      "details": [
-        "0.250",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "G7-D1_SOUTH LOUDOUN_LISACK",
-      "rank": 11,
-      "details": [
-        "0.250",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "G7-D1_SYA_BRUBAKER",
-      "rank": 12,
-      "details": [
-        "0.083"
-      ]
-    },
-    {
-      "team_id": "G7-D1_GREAT FALLS_BOND",
-      "rank": 13,
-      "details": [
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "G7-D2_GAINESVILLE_NAPLES",
-      "rank": 1,
-      "details": [
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "G7-D2_BRYC_OCONNOR",
-      "rank": 2,
-      "details": [
-        "0.917"
-      ]
-    },
-    {
-      "team_id": "G7-D2_MT. VERNON_GAREY",
-      "rank": 3,
-      "details": [
-        "0.769"
-      ]
-    },
-    {
-      "team_id": "G7-D2_ARLINGTON_FILIDES",
-      "rank": 4,
-      "details": [
-        "0.667"
-      ]
-    },
-    {
-      "team_id": "G7-D2_MCLEAN_MENDENHALL",
-      "rank": 5,
-      "details": [
-        "0.615"
-      ]
-    },
-    {
-      "team_id": "G7-D2_RESTON_ZEBERLEIN",
-      "rank": 6,
-      "details": [
-        "0.583"
-      ]
-    },
-    {
-      "team_id": "G7-D2_LEE-MT. VERNON_CARTER",
-      "rank": 7,
-      "details": [
-        "0.333"
-      ]
-    },
-    {
-      "team_id": "G7-D2_SOUTH LOUDOUN_MCGOVERN",
-      "rank": 8,
-      "details": [
-        "0.250",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "G7-D2_CYA_FRANCIS",
-      "rank": 9,
-      "details": [
-        "0.250",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "G7-D2_SPRINGFIELD_DUCKETT",
-      "rank": 10,
-      "details": [
-        "0.083"
-      ]
-    },
-    {
-      "team_id": "G7-D2_VIENNA_TOMLINSON",
-      "rank": 11,
-      "details": [
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "G8-D1_CYA_MCCONNELL",
-      "rank": 1,
-      "details": [
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "G8-D1_MCLEAN_MEGAS",
-      "rank": 2,
-      "details": [
-        "0.846"
-      ]
-    },
-    {
-      "team_id": "G8-D1_BURKE_EDWARDS",
-      "rank": 3,
-      "details": [
-        "0.667"
-      ]
-    },
-    {
-      "team_id": "G8-D1_GAINESVILLE_GILLIAM",
-      "rank": 4,
-      "details": [
-        "0.462"
-      ]
-    },
-    {
-      "team_id": "G8-D1_ARLINGTON_ABUNDO",
-      "rank": 5,
-      "details": [
-        "0.417"
-      ]
-    },
-    {
-      "team_id": "G8-D1_FPYC_LESTER",
-      "rank": 6,
-      "details": [
-        "0.333",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "G8-D1_SPRINGFIELD_WILSON",
-      "rank": 7,
-      "details": [
-        "0.333",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "G8-D1_VIENNA_TROTTER",
-      "rank": 8,
-      "details": [
-        "0.250"
-      ]
-    },
-    {
-      "team_id": "G8-D1_GREAT FALLS_KERRIGAN",
-      "rank": 9,
-      "details": [
-        "0.167"
-      ]
-    },
-    {
-      "team_id": "G8-D2_CYA_JONES",
-      "rank": 1,
-      "details": [
-        "0.846",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "G8-D2_VIENNA_BOND",
-      "rank": 2,
-      "details": [
-        "0.846",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "G8-D2_SYA_HESLEP",
-      "rank": 3,
-      "details": [
-        "0.769",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "G8-D2_FORT HUNT_HARRIS",
-      "rank": 4,
-      "details": [
-        "0.769",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "G8-D2_MCLEAN_MCNICOLL",
-      "rank": 5,
-      "details": [
-        "0.692",
-        "1.000"
-      ]
-    },
-    {
-      "team_id": "G8-D2_TURNPIKE_KOMAILY",
-      "rank": 6,
-      "details": [
-        "0.692",
-        "0.000"
-      ]
-    },
-    {
-      "team_id": "G8-D2_SOUTH LOUDOUN_STROHECKER",
-      "rank": 7,
-      "details": [
-        "0.500"
-      ]
-    },
-    {
-      "team_id": "G8-D2_CYA_RATHINAVELU",
-      "rank": 8,
-      "details": [
-        "0.417"
-      ]
-    },
-    {
-      "team_id": "G8-D2_FORT BELVOIR_EDWARDS",
-      "rank": 9,
-      "details": [
-        "0.385"
-      ]
-    },
-    {
-      "team_id": "G8-D2_BURKE_BYRNE",
-      "rank": 10,
-      "details": [
-        "0.333"
-      ]
-    },
-    {
-      "team_id": "G8-D2_MT. VERNON_ELLING",
-      "rank": 11,
-      "details": [
-        "0.308"
-      ]
-    },
-    {
-      "team_id": "G8-D2_BAILEYS CC_HUDSON",
-      "rank": 12,
-      "details": [
-        "0.154"
-      ]
-    },
-    {
-      "team_id": "G8-D2_SOUTH LOUDOUN_SAMSON",
-      "rank": 13,
-      "details": [
-        "0.091"
-      ]
-    },
-    {
-      "team_id": "G8-D2_ARLINGTON_SCARCELLA",
-      "rank": 14,
-      "details": [
-        "0.083"
-      ]
-    }
-  ],
-  "excel": "FCYBL as of 2-16 10am.xlsx",
+  "spots": {
+    "B7-D1": 10,
+    "G5-D2": 11,
+    "B6-D2": 10,
+    "G7-D1": 10,
+    "B7-D3": 8,
+    "B6-D3": 11,
+    "B8-D1": 13,
+    "G6-D2": 12,
+    "B8-D3": 8,
+    "B5-D2": 11,
+    "B6-D1": 11,
+    "G6-D1": 8,
+    "B5-D3": 9,
+    "G5-D1": 8,
+    "B5-D1": 9,
+    "B8-D2": 12,
+    "G7-D2": 8,
+    "B7-D2": 11,
+    "G8-D1": 8,
+    "G8-D2": 11
+  },
+  "excel": "FCYBL as of 2-16 2130.xlsx",
   "games": [
     {
       "game_id": 6290453,
@@ -4075,28 +362,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279521,
+      "game_id": 6290657,
       "date": "2019-11-23",
-      "team": "B7-D2_FPYC_VARNER",
-      "opponent": "B7-D2_CYA_UTTERBACK",
-      "points": 41,
-      "against": 30,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "B7-D3_GREAT FALLS_WILLSON",
+      "opponent": "B7-D3_SOUTH COUNTY_LLOYD",
+      "points": 36,
+      "against": 56,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6279521,
+      "game_id": 6290657,
       "date": "2019-11-23",
-      "team": "B7-D2_CYA_UTTERBACK",
-      "opponent": "B7-D2_FPYC_VARNER",
-      "points": 30,
-      "against": 41,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "B7-D3_SOUTH COUNTY_LLOYD",
+      "opponent": "B7-D3_GREAT FALLS_WILLSON",
+      "points": 56,
+      "against": 36,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -4127,28 +414,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6290657,
+      "game_id": 6279521,
       "date": "2019-11-23",
-      "team": "B7-D3_GREAT FALLS_WILLSON",
-      "opponent": "B7-D3_SOUTH COUNTY_LLOYD",
-      "points": 36,
-      "against": 56,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "B7-D2_FPYC_VARNER",
+      "opponent": "B7-D2_CYA_UTTERBACK",
+      "points": 41,
+      "against": 30,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6290657,
+      "game_id": 6279521,
       "date": "2019-11-23",
-      "team": "B7-D3_SOUTH COUNTY_LLOYD",
-      "opponent": "B7-D3_GREAT FALLS_WILLSON",
-      "points": 56,
-      "against": 36,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "B7-D2_CYA_UTTERBACK",
+      "opponent": "B7-D2_FPYC_VARNER",
+      "points": 30,
+      "against": 41,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -4231,12 +518,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6293175,
+      "game_id": 6279522,
       "date": "2019-11-23",
-      "team": "B8-D3_LEE-MT. VERNON_PETERS",
-      "opponent": "B8-D3_BURKE_PETRO",
-      "points": 50,
-      "against": 33,
+      "team": "B7-D2_MCLEAN_NANCE",
+      "opponent": "B7-D2_ANNANDALE_NELSON",
+      "points": 57,
+      "against": 43,
       "result": "W",
       "win": true,
       "lost": false,
@@ -4244,12 +531,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6293175,
+      "game_id": 6279522,
       "date": "2019-11-23",
-      "team": "B8-D3_BURKE_PETRO",
-      "opponent": "B8-D3_LEE-MT. VERNON_PETERS",
-      "points": 33,
-      "against": 50,
+      "team": "B7-D2_ANNANDALE_NELSON",
+      "opponent": "B7-D2_MCLEAN_NANCE",
+      "points": 43,
+      "against": 57,
       "result": "L",
       "win": false,
       "lost": true,
@@ -4283,12 +570,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279522,
+      "game_id": 6293175,
       "date": "2019-11-23",
-      "team": "B7-D2_MCLEAN_NANCE",
-      "opponent": "B7-D2_ANNANDALE_NELSON",
-      "points": 57,
-      "against": 43,
+      "team": "B8-D3_LEE-MT. VERNON_PETERS",
+      "opponent": "B8-D3_BURKE_PETRO",
+      "points": 50,
+      "against": 33,
       "result": "W",
       "win": true,
       "lost": false,
@@ -4296,12 +583,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6279522,
+      "game_id": 6293175,
       "date": "2019-11-23",
-      "team": "B7-D2_ANNANDALE_NELSON",
-      "opponent": "B7-D2_MCLEAN_NANCE",
-      "points": 43,
-      "against": 57,
+      "team": "B8-D3_BURKE_PETRO",
+      "opponent": "B8-D3_LEE-MT. VERNON_PETERS",
+      "points": 33,
+      "against": 50,
       "result": "L",
       "win": false,
       "lost": true,
@@ -4309,12 +596,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6289842,
+      "game_id": 6279525,
       "date": "2019-11-23",
-      "team": "G6-D2_GREAT FALLS_EXLEY",
-      "opponent": "G6-D2_FALLS CHURCH_PAPADOPOULOS",
-      "points": 10,
-      "against": 17,
+      "team": "B7-D2_VIENNA_MORTON",
+      "opponent": "B7-D2_TURNPIKE_BURNS",
+      "points": 37,
+      "against": 40,
       "result": "L",
       "win": false,
       "lost": true,
@@ -4322,12 +609,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6289842,
+      "game_id": 6279525,
       "date": "2019-11-23",
-      "team": "G6-D2_FALLS CHURCH_PAPADOPOULOS",
-      "opponent": "G6-D2_GREAT FALLS_EXLEY",
-      "points": 17,
-      "against": 10,
+      "team": "B7-D2_TURNPIKE_BURNS",
+      "opponent": "B7-D2_VIENNA_MORTON",
+      "points": 40,
+      "against": 37,
       "result": "W",
       "win": true,
       "lost": false,
@@ -4361,12 +648,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279525,
+      "game_id": 6289842,
       "date": "2019-11-23",
-      "team": "B7-D2_VIENNA_MORTON",
-      "opponent": "B7-D2_TURNPIKE_BURNS",
-      "points": 37,
-      "against": 40,
+      "team": "G6-D2_GREAT FALLS_EXLEY",
+      "opponent": "G6-D2_FALLS CHURCH_PAPADOPOULOS",
+      "points": 10,
+      "against": 17,
       "result": "L",
       "win": false,
       "lost": true,
@@ -4374,15 +661,41 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6279525,
+      "game_id": 6289842,
       "date": "2019-11-23",
-      "team": "B7-D2_TURNPIKE_BURNS",
-      "opponent": "B7-D2_VIENNA_MORTON",
-      "points": 40,
-      "against": 37,
+      "team": "G6-D2_FALLS CHURCH_PAPADOPOULOS",
+      "opponent": "G6-D2_GREAT FALLS_EXLEY",
+      "points": 17,
+      "against": 10,
       "result": "W",
       "win": true,
       "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290660,
+      "date": "2019-11-23",
+      "team": "B7-D3_BURKE_DISILVESTRO",
+      "opponent": "B7-D3_SPRINGFIELD_KELLY",
+      "points": 55,
+      "against": 19,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290660,
+      "date": "2019-11-23",
+      "team": "B7-D3_SPRINGFIELD_KELLY",
+      "opponent": "B7-D3_BURKE_DISILVESTRO",
+      "points": 19,
+      "against": 55,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -4432,32 +745,6 @@ var _MASTER_DATA = {
       "opponent": "B8-D3_LEE-MT. VERNON_SIMONIK",
       "points": 22,
       "against": 59,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6290660,
-      "date": "2019-11-23",
-      "team": "B7-D3_BURKE_DISILVESTRO",
-      "opponent": "B7-D3_SPRINGFIELD_KELLY",
-      "points": 55,
-      "against": 19,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290660,
-      "date": "2019-11-23",
-      "team": "B7-D3_SPRINGFIELD_KELLY",
-      "opponent": "B7-D3_BURKE_DISILVESTRO",
-      "points": 19,
-      "against": 55,
       "result": "L",
       "win": false,
       "lost": true,
@@ -4595,32 +882,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6290444,
-      "date": "2019-11-24",
-      "team": "B6-D3_BRYC_SHIN",
-      "opponent": "B6-D3_SOUTH LOUDOUN_WEBB",
-      "points": 21,
-      "against": 48,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290444,
-      "date": "2019-11-24",
-      "team": "B6-D3_SOUTH LOUDOUN_WEBB",
-      "opponent": "B6-D3_BRYC_SHIN",
-      "points": 48,
-      "against": 21,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6287474,
       "date": "2019-11-24",
       "team": "G8-D2_FORT HUNT_HARRIS",
@@ -4647,12 +908,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6289840,
+      "game_id": 6290444,
       "date": "2019-11-24",
-      "team": "G6-D2_GAINESVILLE_FURLONG",
-      "opponent": "G6-D2_SPRINGFIELD_MARSHALL",
-      "points": 13,
-      "against": 27,
+      "team": "B6-D3_BRYC_SHIN",
+      "opponent": "B6-D3_SOUTH LOUDOUN_WEBB",
+      "points": 21,
+      "against": 48,
       "result": "L",
       "win": false,
       "lost": true,
@@ -4660,12 +921,38 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6289840,
+      "game_id": 6290444,
       "date": "2019-11-24",
-      "team": "G6-D2_SPRINGFIELD_MARSHALL",
-      "opponent": "G6-D2_GAINESVILLE_FURLONG",
-      "points": 27,
-      "against": 13,
+      "team": "B6-D3_SOUTH LOUDOUN_WEBB",
+      "opponent": "B6-D3_BRYC_SHIN",
+      "points": 48,
+      "against": 21,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290636,
+      "date": "2019-11-24",
+      "team": "B7-D3_SPRINGFIELD_KELLY",
+      "opponent": "B7-D3_SOUTH COUNTY_LLOYD",
+      "points": 22,
+      "against": 52,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290636,
+      "date": "2019-11-24",
+      "team": "B7-D3_SOUTH COUNTY_LLOYD",
+      "opponent": "B7-D3_SPRINGFIELD_KELLY",
+      "points": 52,
+      "against": 22,
       "result": "W",
       "win": true,
       "lost": false,
@@ -4699,38 +986,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6278952,
+      "game_id": 6289840,
       "date": "2019-11-24",
-      "team": "B8-D2_SYA_MCGHEE",
-      "opponent": "B8-D2_CYA_DANN",
-      "points": 51,
-      "against": 32,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278952,
-      "date": "2019-11-24",
-      "team": "B8-D2_CYA_DANN",
-      "opponent": "B8-D2_SYA_MCGHEE",
-      "points": 32,
-      "against": 51,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6290636,
-      "date": "2019-11-24",
-      "team": "B7-D3_SPRINGFIELD_KELLY",
-      "opponent": "B7-D3_SOUTH COUNTY_LLOYD",
-      "points": 22,
-      "against": 52,
+      "team": "G6-D2_GAINESVILLE_FURLONG",
+      "opponent": "G6-D2_SPRINGFIELD_MARSHALL",
+      "points": 13,
+      "against": 27,
       "result": "L",
       "win": false,
       "lost": true,
@@ -4738,12 +999,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6290636,
+      "game_id": 6289840,
       "date": "2019-11-24",
-      "team": "B7-D3_SOUTH COUNTY_LLOYD",
-      "opponent": "B7-D3_SPRINGFIELD_KELLY",
-      "points": 52,
-      "against": 22,
+      "team": "G6-D2_SPRINGFIELD_MARSHALL",
+      "opponent": "G6-D2_GAINESVILLE_FURLONG",
+      "points": 27,
+      "against": 13,
       "result": "W",
       "win": true,
       "lost": false,
@@ -4822,6 +1083,32 @@ var _MASTER_DATA = {
       "opponent": "B8-D2_SOUTH LOUDOUN_CHOI",
       "points": 31,
       "against": 43,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278952,
+      "date": "2019-11-24",
+      "team": "B8-D2_SYA_MCGHEE",
+      "opponent": "B8-D2_CYA_DANN",
+      "points": 51,
+      "against": 32,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278952,
+      "date": "2019-11-24",
+      "team": "B8-D2_CYA_DANN",
+      "opponent": "B8-D2_SYA_MCGHEE",
+      "points": 32,
+      "against": 51,
       "result": "L",
       "win": false,
       "lost": true,
@@ -4933,6 +1220,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6286745,
+      "date": "2019-11-24",
+      "team": "G7-D2_CYA_FRANCIS",
+      "opponent": "G7-D2_ARLINGTON_FILIDES",
+      "points": 22,
+      "against": 41,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6286745,
+      "date": "2019-11-24",
+      "team": "G7-D2_ARLINGTON_FILIDES",
+      "opponent": "G7-D2_CYA_FRANCIS",
+      "points": 41,
+      "against": 22,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6287473,
       "date": "2019-11-24",
       "team": "G8-D2_ARLINGTON_SCARCELLA",
@@ -4959,12 +1272,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6286745,
+      "game_id": 6289834,
       "date": "2019-11-24",
-      "team": "G7-D2_CYA_FRANCIS",
-      "opponent": "G7-D2_ARLINGTON_FILIDES",
-      "points": 22,
-      "against": 41,
+      "team": "G6-D2_FPYC_LESTER",
+      "opponent": "G6-D2_GREAT FALLS_EXLEY",
+      "points": 12,
+      "against": 29,
       "result": "L",
       "win": false,
       "lost": true,
@@ -4972,12 +1285,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6286745,
+      "game_id": 6289834,
       "date": "2019-11-24",
-      "team": "G7-D2_ARLINGTON_FILIDES",
-      "opponent": "G7-D2_CYA_FRANCIS",
-      "points": 41,
-      "against": 22,
+      "team": "G6-D2_GREAT FALLS_EXLEY",
+      "opponent": "G6-D2_FPYC_LESTER",
+      "points": 29,
+      "against": 12,
       "result": "W",
       "win": true,
       "lost": false,
@@ -5011,28 +1324,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6289834,
+      "game_id": 6288735,
       "date": "2019-11-24",
-      "team": "G6-D2_FPYC_LESTER",
-      "opponent": "G6-D2_GREAT FALLS_EXLEY",
-      "points": 12,
-      "against": 29,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "B6-D2_SOUTH LOUDOUN_LANOUETTE",
+      "opponent": "B6-D2_FALLS CHURCH_KUSIC",
+      "points": 34,
+      "against": 23,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6289834,
+      "game_id": 6288735,
       "date": "2019-11-24",
-      "team": "G6-D2_GREAT FALLS_EXLEY",
-      "opponent": "G6-D2_FPYC_LESTER",
-      "points": 29,
-      "against": 12,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "B6-D2_FALLS CHURCH_KUSIC",
+      "opponent": "B6-D2_SOUTH LOUDOUN_LANOUETTE",
+      "points": 23,
+      "against": 34,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -5137,32 +1450,6 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288735,
-      "date": "2019-11-24",
-      "team": "B6-D2_SOUTH LOUDOUN_LANOUETTE",
-      "opponent": "B6-D2_FALLS CHURCH_KUSIC",
-      "points": 34,
-      "against": 23,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288735,
-      "date": "2019-11-24",
-      "team": "B6-D2_FALLS CHURCH_KUSIC",
-      "opponent": "B6-D2_SOUTH LOUDOUN_LANOUETTE",
-      "points": 23,
-      "against": 34,
-      "result": "L",
-      "win": false,
-      "lost": true,
       "tie": false,
       "source": false
     },
@@ -5427,32 +1714,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6278948,
-      "date": "2019-11-24",
-      "team": "B8-D2_SOUTH COUNTY_MATTHEWS",
-      "opponent": "B8-D2_BRYC_THOMAS",
-      "points": 36,
-      "against": 35,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278948,
-      "date": "2019-11-24",
-      "team": "B8-D2_BRYC_THOMAS",
-      "opponent": "B8-D2_SOUTH COUNTY_MATTHEWS",
-      "points": 35,
-      "against": 36,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6290441,
       "date": "2019-11-24",
       "team": "B6-D3_FPYC_MALESKY",
@@ -5505,32 +1766,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6288731,
-      "date": "2019-11-24",
-      "team": "B6-D2_HERNDON_JONES",
-      "opponent": "B6-D2_FORT HUNT_FORTI",
-      "points": 39,
-      "against": 38,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288731,
-      "date": "2019-11-24",
-      "team": "B6-D2_FORT HUNT_FORTI",
-      "opponent": "B6-D2_HERNDON_JONES",
-      "points": 38,
-      "against": 39,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6290638,
       "date": "2019-11-24",
       "team": "B7-D3_SYA_DOWNEY",
@@ -5579,6 +1814,58 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278948,
+      "date": "2019-11-24",
+      "team": "B8-D2_SOUTH COUNTY_MATTHEWS",
+      "opponent": "B8-D2_BRYC_THOMAS",
+      "points": 36,
+      "against": 35,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278948,
+      "date": "2019-11-24",
+      "team": "B8-D2_BRYC_THOMAS",
+      "opponent": "B8-D2_SOUTH COUNTY_MATTHEWS",
+      "points": 35,
+      "against": 36,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288731,
+      "date": "2019-11-24",
+      "team": "B6-D2_HERNDON_JONES",
+      "opponent": "B6-D2_FORT HUNT_FORTI",
+      "points": 39,
+      "against": 38,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288731,
+      "date": "2019-11-24",
+      "team": "B6-D2_FORT HUNT_FORTI",
+      "opponent": "B6-D2_HERNDON_JONES",
+      "points": 38,
+      "against": 39,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -5765,6 +2052,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6286744,
+      "date": "2019-11-24",
+      "team": "G7-D2_MT. VERNON_GAREY",
+      "opponent": "G7-D2_RESTON_ZEBERLEIN",
+      "points": 30,
+      "against": 24,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6286744,
+      "date": "2019-11-24",
+      "team": "G7-D2_RESTON_ZEBERLEIN",
+      "opponent": "G7-D2_MT. VERNON_GAREY",
+      "points": 24,
+      "against": 30,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6289839,
       "date": "2019-11-24",
       "team": "G6-D2_BURKE_SEIGLE",
@@ -5817,12 +2130,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6286744,
+      "game_id": 6278945,
       "date": "2019-11-24",
-      "team": "G7-D2_MT. VERNON_GAREY",
-      "opponent": "G7-D2_RESTON_ZEBERLEIN",
-      "points": 30,
-      "against": 24,
+      "team": "B8-D2_HERNDON_HARLEY",
+      "opponent": "B8-D2_FPYC_RAGAN",
+      "points": 51,
+      "against": 45,
       "result": "W",
       "win": true,
       "lost": false,
@@ -5830,12 +2143,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6286744,
+      "game_id": 6278945,
       "date": "2019-11-24",
-      "team": "G7-D2_RESTON_ZEBERLEIN",
-      "opponent": "G7-D2_MT. VERNON_GAREY",
-      "points": 24,
-      "against": 30,
+      "team": "B8-D2_FPYC_RAGAN",
+      "opponent": "B8-D2_HERNDON_HARLEY",
+      "points": 45,
+      "against": 51,
       "result": "L",
       "win": false,
       "lost": true,
@@ -5888,32 +2201,6 @@ var _MASTER_DATA = {
       "opponent": "B7-D3_GAINESVILLE_LINGENFELDER",
       "points": 30,
       "against": 35,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278945,
-      "date": "2019-11-24",
-      "team": "B8-D2_HERNDON_HARLEY",
-      "opponent": "B8-D2_FPYC_RAGAN",
-      "points": 51,
-      "against": 45,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278945,
-      "date": "2019-11-24",
-      "team": "B8-D2_FPYC_RAGAN",
-      "opponent": "B8-D2_HERNDON_HARLEY",
-      "points": 45,
-      "against": 51,
       "result": "L",
       "win": false,
       "lost": true,
@@ -6389,32 +2676,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279108,
-      "date": "2019-12-03",
-      "team": "B7-D1_VIENNA_STOLBURG",
-      "opponent": "B7-D1_CYA_CUBBAGE",
-      "points": 63,
-      "against": 69,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279108,
-      "date": "2019-12-03",
-      "team": "B7-D1_CYA_CUBBAGE",
-      "opponent": "B7-D1_VIENNA_STOLBURG",
-      "points": 69,
-      "against": 63,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6278337,
       "date": "2019-12-03",
       "team": "B8-D1_RESTON_LANSDOWNE",
@@ -6437,6 +2698,32 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279108,
+      "date": "2019-12-03",
+      "team": "B7-D1_VIENNA_STOLBURG",
+      "opponent": "B7-D1_CYA_CUBBAGE",
+      "points": 63,
+      "against": 69,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279108,
+      "date": "2019-12-03",
+      "team": "B7-D1_CYA_CUBBAGE",
+      "opponent": "B7-D1_VIENNA_STOLBURG",
+      "points": 69,
+      "against": 63,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -6545,32 +2832,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6278333,
-      "date": "2019-12-03",
-      "team": "B8-D1_MANASSAS PARK_VICK",
-      "opponent": "B8-D1_GAINESVILLE_PAGE",
-      "points": 79,
-      "against": 47,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278333,
-      "date": "2019-12-03",
-      "team": "B8-D1_GAINESVILLE_PAGE",
-      "opponent": "B8-D1_MANASSAS PARK_VICK",
-      "points": 47,
-      "against": 79,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6279111,
       "date": "2019-12-03",
       "team": "B7-D1_SPRINGFIELD_ARGUEDAS",
@@ -6593,6 +2854,32 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278333,
+      "date": "2019-12-03",
+      "team": "B8-D1_MANASSAS PARK_VICK",
+      "opponent": "B8-D1_GAINESVILLE_PAGE",
+      "points": 79,
+      "against": 47,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278333,
+      "date": "2019-12-03",
+      "team": "B8-D1_GAINESVILLE_PAGE",
+      "opponent": "B8-D1_MANASSAS PARK_VICK",
+      "points": 47,
+      "against": 79,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -7169,12 +3456,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6278725,
+      "game_id": 6290451,
       "date": "2019-12-07",
-      "team": "G7-D1_FORT HUNT_HEINER",
-      "opponent": "G7-D1_GREAT FALLS_BOND",
-      "points": 40,
-      "against": 33,
+      "team": "B6-D3_SOUTH COUNTY_JOHNSON",
+      "opponent": "B6-D3_BRYC_SHIN",
+      "points": 46,
+      "against": 18,
       "result": "W",
       "win": true,
       "lost": false,
@@ -7182,12 +3469,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6278725,
+      "game_id": 6290451,
       "date": "2019-12-07",
-      "team": "G7-D1_GREAT FALLS_BOND",
-      "opponent": "G7-D1_FORT HUNT_HEINER",
-      "points": 33,
-      "against": 40,
+      "team": "B6-D3_BRYC_SHIN",
+      "opponent": "B6-D3_SOUTH COUNTY_JOHNSON",
+      "points": 18,
+      "against": 46,
       "result": "L",
       "win": false,
       "lost": true,
@@ -7273,12 +3560,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6290451,
+      "game_id": 6278725,
       "date": "2019-12-07",
-      "team": "B6-D3_SOUTH COUNTY_JOHNSON",
-      "opponent": "B6-D3_BRYC_SHIN",
-      "points": 46,
-      "against": 18,
+      "team": "G7-D1_FORT HUNT_HEINER",
+      "opponent": "G7-D1_GREAT FALLS_BOND",
+      "points": 40,
+      "against": 33,
       "result": "W",
       "win": true,
       "lost": false,
@@ -7286,12 +3573,38 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6290451,
+      "game_id": 6278725,
       "date": "2019-12-07",
-      "team": "B6-D3_BRYC_SHIN",
-      "opponent": "B6-D3_SOUTH COUNTY_JOHNSON",
-      "points": 18,
-      "against": 46,
+      "team": "G7-D1_GREAT FALLS_BOND",
+      "opponent": "G7-D1_FORT HUNT_HEINER",
+      "points": 33,
+      "against": 40,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289845,
+      "date": "2019-12-07",
+      "team": "G6-D2_RESTON_BARR",
+      "opponent": "G6-D2_BRYC_DUDLEY",
+      "points": 37,
+      "against": 12,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289845,
+      "date": "2019-12-07",
+      "team": "G6-D2_BRYC_DUDLEY",
+      "opponent": "G6-D2_RESTON_BARR",
+      "points": 12,
+      "against": 37,
       "result": "L",
       "win": false,
       "lost": true,
@@ -7377,12 +3690,38 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6289845,
+      "game_id": 6278343,
       "date": "2019-12-07",
-      "team": "G6-D2_RESTON_BARR",
-      "opponent": "G6-D2_BRYC_DUDLEY",
-      "points": 37,
-      "against": 12,
+      "team": "B8-D1_CYA_LEE",
+      "opponent": "B8-D1_MCLEAN_LEGGETT",
+      "points": 45,
+      "against": 59,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278343,
+      "date": "2019-12-07",
+      "team": "B8-D1_MCLEAN_LEGGETT",
+      "opponent": "B8-D1_CYA_LEE",
+      "points": 59,
+      "against": 45,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279541,
+      "date": "2019-12-07",
+      "team": "B7-D2_LEE-MT. VERNON_RUSH",
+      "opponent": "B7-D2_ALEXANDRIA_MATTHEWS",
+      "points": 55,
+      "against": 43,
       "result": "W",
       "win": true,
       "lost": false,
@@ -7390,12 +3729,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6289845,
+      "game_id": 6279541,
       "date": "2019-12-07",
-      "team": "G6-D2_BRYC_DUDLEY",
-      "opponent": "G6-D2_RESTON_BARR",
-      "points": 12,
-      "against": 37,
+      "team": "B7-D2_ALEXANDRIA_MATTHEWS",
+      "opponent": "B7-D2_LEE-MT. VERNON_RUSH",
+      "points": 43,
+      "against": 55,
       "result": "L",
       "win": false,
       "lost": true,
@@ -7481,110 +3820,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6278343,
-      "date": "2019-12-07",
-      "team": "B8-D1_CYA_LEE",
-      "opponent": "B8-D1_MCLEAN_LEGGETT",
-      "points": 45,
-      "against": 59,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278343,
-      "date": "2019-12-07",
-      "team": "B8-D1_MCLEAN_LEGGETT",
-      "opponent": "B8-D1_CYA_LEE",
-      "points": 59,
-      "against": 45,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279541,
-      "date": "2019-12-07",
-      "team": "B7-D2_LEE-MT. VERNON_RUSH",
-      "opponent": "B7-D2_ALEXANDRIA_MATTHEWS",
-      "points": 55,
-      "against": 43,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279541,
-      "date": "2019-12-07",
-      "team": "B7-D2_ALEXANDRIA_MATTHEWS",
-      "opponent": "B7-D2_LEE-MT. VERNON_RUSH",
-      "points": 43,
-      "against": 55,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288741,
-      "date": "2019-12-07",
-      "team": "B6-D2_FORT HUNT_FORTI",
-      "opponent": "B6-D2_GAINESVILLE_MURRAY",
-      "points": 26,
-      "against": 24,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288741,
-      "date": "2019-12-07",
-      "team": "B6-D2_GAINESVILLE_MURRAY",
-      "opponent": "B6-D2_FORT HUNT_FORTI",
-      "points": 24,
-      "against": 26,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278341,
-      "date": "2019-12-07",
-      "team": "B8-D1_FORT BELVOIR_MILES",
-      "opponent": "B8-D1_MANASSAS PARK_VICK",
-      "points": 25,
-      "against": 62,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278341,
-      "date": "2019-12-07",
-      "team": "B8-D1_MANASSAS PARK_VICK",
-      "opponent": "B8-D1_FORT BELVOIR_MILES",
-      "points": 62,
-      "against": 25,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6287475,
       "date": "2019-12-07",
       "team": "G8-D2_SOUTH LOUDOUN_STROHECKER",
@@ -7633,6 +3868,110 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278341,
+      "date": "2019-12-07",
+      "team": "B8-D1_FORT BELVOIR_MILES",
+      "opponent": "B8-D1_MANASSAS PARK_VICK",
+      "points": 25,
+      "against": 62,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278341,
+      "date": "2019-12-07",
+      "team": "B8-D1_MANASSAS PARK_VICK",
+      "opponent": "B8-D1_FORT BELVOIR_MILES",
+      "points": 62,
+      "against": 25,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288741,
+      "date": "2019-12-07",
+      "team": "B6-D2_FORT HUNT_FORTI",
+      "opponent": "B6-D2_GAINESVILLE_MURRAY",
+      "points": 26,
+      "against": 24,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288741,
+      "date": "2019-12-07",
+      "team": "B6-D2_GAINESVILLE_MURRAY",
+      "opponent": "B6-D2_FORT HUNT_FORTI",
+      "points": 24,
+      "against": 26,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279540,
+      "date": "2019-12-07",
+      "team": "B7-D2_FORT BELVOIR_SHERN",
+      "opponent": "B7-D2_BURKE_STURTEVANT",
+      "points": 41,
+      "against": 53,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279540,
+      "date": "2019-12-07",
+      "team": "B7-D2_BURKE_STURTEVANT",
+      "opponent": "B7-D2_FORT BELVOIR_SHERN",
+      "points": 53,
+      "against": 41,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279539,
+      "date": "2019-12-07",
+      "team": "B7-D2_MCLEAN_NANCE",
+      "opponent": "B7-D2_TURNPIKE_BURNS",
+      "points": 34,
+      "against": 46,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279539,
+      "date": "2019-12-07",
+      "team": "B7-D2_TURNPIKE_BURNS",
+      "opponent": "B7-D2_MCLEAN_NANCE",
+      "points": 46,
+      "against": 34,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -7715,58 +4054,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279540,
-      "date": "2019-12-07",
-      "team": "B7-D2_FORT BELVOIR_SHERN",
-      "opponent": "B7-D2_BURKE_STURTEVANT",
-      "points": 41,
-      "against": 53,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279540,
-      "date": "2019-12-07",
-      "team": "B7-D2_BURKE_STURTEVANT",
-      "opponent": "B7-D2_FORT BELVOIR_SHERN",
-      "points": 53,
-      "against": 41,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279539,
-      "date": "2019-12-07",
-      "team": "B7-D2_MCLEAN_NANCE",
-      "opponent": "B7-D2_TURNPIKE_BURNS",
-      "points": 34,
-      "against": 46,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279539,
-      "date": "2019-12-07",
-      "team": "B7-D2_TURNPIKE_BURNS",
-      "opponent": "B7-D2_MCLEAN_NANCE",
-      "points": 46,
-      "against": 34,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6288362,
       "date": "2019-12-07",
       "team": "B6-D1_MANASSAS PARK_GASKINS",
@@ -7819,12 +4106,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6288376,
+      "game_id": 6286753,
       "date": "2019-12-08",
-      "team": "B6-D1_MANASSAS PARK_GASKINS",
-      "opponent": "B6-D1_BURKE_RAPOZA",
-      "points": 34,
-      "against": 27,
+      "team": "G7-D2_BRYC_OCONNOR",
+      "opponent": "G7-D2_VIENNA_TOMLINSON",
+      "points": 24,
+      "against": 12,
       "result": "W",
       "win": true,
       "lost": false,
@@ -7832,15 +4119,41 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6288376,
+      "game_id": 6286753,
       "date": "2019-12-08",
-      "team": "B6-D1_BURKE_RAPOZA",
-      "opponent": "B6-D1_MANASSAS PARK_GASKINS",
-      "points": 27,
-      "against": 34,
+      "team": "G7-D2_VIENNA_TOMLINSON",
+      "opponent": "G7-D2_BRYC_OCONNOR",
+      "points": 12,
+      "against": 24,
       "result": "L",
       "win": false,
       "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278731,
+      "date": "2019-12-08",
+      "team": "G7-D1_GREAT FALLS_BOND",
+      "opponent": "G7-D1_FALLS CHURCH_MADISON",
+      "points": 36,
+      "against": 56,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278731,
+      "date": "2019-12-08",
+      "team": "G7-D1_FALLS CHURCH_MADISON",
+      "opponent": "G7-D1_GREAT FALLS_BOND",
+      "points": 56,
+      "against": 36,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -7897,38 +4210,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6278731,
+      "game_id": 6288376,
       "date": "2019-12-08",
-      "team": "G7-D1_GREAT FALLS_BOND",
-      "opponent": "G7-D1_FALLS CHURCH_MADISON",
-      "points": 36,
-      "against": 56,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278731,
-      "date": "2019-12-08",
-      "team": "G7-D1_FALLS CHURCH_MADISON",
-      "opponent": "G7-D1_GREAT FALLS_BOND",
-      "points": 56,
-      "against": 36,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6286753,
-      "date": "2019-12-08",
-      "team": "G7-D2_BRYC_OCONNOR",
-      "opponent": "G7-D2_VIENNA_TOMLINSON",
-      "points": 24,
-      "against": 12,
+      "team": "B6-D1_MANASSAS PARK_GASKINS",
+      "opponent": "B6-D1_BURKE_RAPOZA",
+      "points": 34,
+      "against": 27,
       "result": "W",
       "win": true,
       "lost": false,
@@ -7936,12 +4223,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6286753,
+      "game_id": 6288376,
       "date": "2019-12-08",
-      "team": "G7-D2_VIENNA_TOMLINSON",
-      "opponent": "G7-D2_BRYC_OCONNOR",
-      "points": 12,
-      "against": 24,
+      "team": "B6-D1_BURKE_RAPOZA",
+      "opponent": "B6-D1_MANASSAS PARK_GASKINS",
+      "points": 27,
+      "against": 34,
       "result": "L",
       "win": false,
       "lost": true,
@@ -7949,12 +4236,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6288746,
+      "game_id": 6278357,
       "date": "2019-12-08",
-      "team": "B6-D2_ANNANDALE_HWANG",
-      "opponent": "B6-D2_VIENNA_CHOI",
-      "points": 30,
-      "against": 56,
+      "team": "B8-D1_BURKE_SHOUMAN",
+      "opponent": "B8-D1_MANASSAS PARK_VICK",
+      "points": 69,
+      "against": 90,
       "result": "L",
       "win": false,
       "lost": true,
@@ -7962,12 +4249,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6288746,
+      "game_id": 6278357,
       "date": "2019-12-08",
-      "team": "B6-D2_VIENNA_CHOI",
-      "opponent": "B6-D2_ANNANDALE_HWANG",
-      "points": 56,
-      "against": 30,
+      "team": "B8-D1_MANASSAS PARK_VICK",
+      "opponent": "B8-D1_BURKE_SHOUMAN",
+      "points": 90,
+      "against": 69,
       "result": "W",
       "win": true,
       "lost": false,
@@ -7994,32 +4281,6 @@ var _MASTER_DATA = {
       "opponent": "B7-D3_SYA_DOWNEY",
       "points": 39,
       "against": 19,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278357,
-      "date": "2019-12-08",
-      "team": "B8-D1_BURKE_SHOUMAN",
-      "opponent": "B8-D1_MANASSAS PARK_VICK",
-      "points": 69,
-      "against": 90,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278357,
-      "date": "2019-12-08",
-      "team": "B8-D1_MANASSAS PARK_VICK",
-      "opponent": "B8-D1_BURKE_SHOUMAN",
-      "points": 90,
-      "against": 69,
       "result": "W",
       "win": true,
       "lost": false,
@@ -8079,12 +4340,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6289857,
+      "game_id": 6288746,
       "date": "2019-12-08",
-      "team": "G6-D2_VIENNA_GRIM",
-      "opponent": "G6-D2_SOUTH LOUDOUN_SAMSON",
-      "points": 16,
-      "against": 22,
+      "team": "B6-D2_ANNANDALE_HWANG",
+      "opponent": "B6-D2_VIENNA_CHOI",
+      "points": 30,
+      "against": 56,
       "result": "L",
       "win": false,
       "lost": true,
@@ -8092,12 +4353,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6289857,
+      "game_id": 6288746,
       "date": "2019-12-08",
-      "team": "G6-D2_SOUTH LOUDOUN_SAMSON",
-      "opponent": "G6-D2_VIENNA_GRIM",
-      "points": 22,
-      "against": 16,
+      "team": "B6-D2_VIENNA_CHOI",
+      "opponent": "B6-D2_ANNANDALE_HWANG",
+      "points": 56,
+      "against": 30,
       "result": "W",
       "win": true,
       "lost": false,
@@ -8131,6 +4392,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6289857,
+      "date": "2019-12-08",
+      "team": "G6-D2_VIENNA_GRIM",
+      "opponent": "G6-D2_SOUTH LOUDOUN_SAMSON",
+      "points": 16,
+      "against": 22,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289857,
+      "date": "2019-12-08",
+      "team": "G6-D2_SOUTH LOUDOUN_SAMSON",
+      "opponent": "G6-D2_VIENNA_GRIM",
+      "points": 22,
+      "against": 16,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6278729,
       "date": "2019-12-08",
       "team": "G7-D1_FPYC_KOMAILY",
@@ -8150,6 +4437,32 @@ var _MASTER_DATA = {
       "opponent": "G7-D1_FPYC_KOMAILY",
       "points": 30,
       "against": 46,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6286752,
+      "date": "2019-12-08",
+      "team": "G7-D2_MCLEAN_MENDENHALL",
+      "opponent": "G7-D2_MT. VERNON_GAREY",
+      "points": 42,
+      "against": 30,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6286752,
+      "date": "2019-12-08",
+      "team": "G7-D2_MT. VERNON_GAREY",
+      "opponent": "G7-D2_MCLEAN_MENDENHALL",
+      "points": 30,
+      "against": 42,
       "result": "L",
       "win": false,
       "lost": true,
@@ -8183,32 +4496,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6286752,
-      "date": "2019-12-08",
-      "team": "G7-D2_MCLEAN_MENDENHALL",
-      "opponent": "G7-D2_MT. VERNON_GAREY",
-      "points": 42,
-      "against": 30,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6286752,
-      "date": "2019-12-08",
-      "team": "G7-D2_MT. VERNON_GAREY",
-      "opponent": "G7-D2_MCLEAN_MENDENHALL",
-      "points": 30,
-      "against": 42,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6289565,
       "date": "2019-12-08",
       "team": "G6-D1_BURKE_COUTINHO",
@@ -8231,58 +4518,6 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288374,
-      "date": "2019-12-08",
-      "team": "B6-D1_LEE DISTRICT_DIFFENBACH",
-      "opponent": "B6-D1_CYA_JONES",
-      "points": 47,
-      "against": 29,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288374,
-      "date": "2019-12-08",
-      "team": "B6-D1_CYA_JONES",
-      "opponent": "B6-D1_LEE DISTRICT_DIFFENBACH",
-      "points": 29,
-      "against": 47,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6289854,
-      "date": "2019-12-08",
-      "team": "G6-D2_FPYC_LESTER",
-      "opponent": "G6-D2_SPRINGFIELD_MARSHALL",
-      "points": 19,
-      "against": 30,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289854,
-      "date": "2019-12-08",
-      "team": "G6-D2_SPRINGFIELD_MARSHALL",
-      "opponent": "G6-D2_FPYC_LESTER",
-      "points": 30,
-      "against": 19,
-      "result": "W",
-      "win": true,
-      "lost": false,
       "tie": false,
       "source": false
     },
@@ -8365,6 +4600,58 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6288374,
+      "date": "2019-12-08",
+      "team": "B6-D1_LEE DISTRICT_DIFFENBACH",
+      "opponent": "B6-D1_CYA_JONES",
+      "points": 47,
+      "against": 29,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288374,
+      "date": "2019-12-08",
+      "team": "B6-D1_CYA_JONES",
+      "opponent": "B6-D1_LEE DISTRICT_DIFFENBACH",
+      "points": 29,
+      "against": 47,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289854,
+      "date": "2019-12-08",
+      "team": "G6-D2_FPYC_LESTER",
+      "opponent": "G6-D2_SPRINGFIELD_MARSHALL",
+      "points": 19,
+      "against": 30,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289854,
+      "date": "2019-12-08",
+      "team": "G6-D2_SPRINGFIELD_MARSHALL",
+      "opponent": "G6-D2_FPYC_LESTER",
+      "points": 30,
+      "against": 19,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6290648,
       "date": "2019-12-08",
       "team": "B7-D3_ALEXANDRIA_THOMAS",
@@ -8443,32 +4730,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279537,
-      "date": "2019-12-08",
-      "team": "B7-D2_VIENNA_MORTON",
-      "opponent": "B7-D2_SOUTH LOUDOUN_ACKLEY",
-      "points": 54,
-      "against": 58,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279537,
-      "date": "2019-12-08",
-      "team": "B7-D2_SOUTH LOUDOUN_ACKLEY",
-      "opponent": "B7-D2_VIENNA_MORTON",
-      "points": 58,
-      "against": 54,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6288747,
       "date": "2019-12-08",
       "team": "B6-D2_FORT BELVOIR_TAYLOR JR",
@@ -8488,32 +4749,6 @@ var _MASTER_DATA = {
       "opponent": "B6-D2_FORT BELVOIR_TAYLOR JR",
       "points": 29,
       "against": 45,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6277812,
-      "date": "2019-12-08",
-      "team": "G8-D1_GAINESVILLE_GILLIAM",
-      "opponent": "G8-D1_SPRINGFIELD_WILSON",
-      "points": 50,
-      "against": 39,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6277812,
-      "date": "2019-12-08",
-      "team": "G8-D1_SPRINGFIELD_WILSON",
-      "opponent": "G8-D1_GAINESVILLE_GILLIAM",
-      "points": 39,
-      "against": 50,
       "result": "L",
       "win": false,
       "lost": true,
@@ -8547,6 +4782,58 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6279537,
+      "date": "2019-12-08",
+      "team": "B7-D2_VIENNA_MORTON",
+      "opponent": "B7-D2_SOUTH LOUDOUN_ACKLEY",
+      "points": 54,
+      "against": 58,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279537,
+      "date": "2019-12-08",
+      "team": "B7-D2_SOUTH LOUDOUN_ACKLEY",
+      "opponent": "B7-D2_VIENNA_MORTON",
+      "points": 58,
+      "against": 54,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6277812,
+      "date": "2019-12-08",
+      "team": "G8-D1_GAINESVILLE_GILLIAM",
+      "opponent": "G8-D1_SPRINGFIELD_WILSON",
+      "points": 50,
+      "against": 39,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6277812,
+      "date": "2019-12-08",
+      "team": "G8-D1_SPRINGFIELD_WILSON",
+      "opponent": "G8-D1_GAINESVILLE_GILLIAM",
+      "points": 39,
+      "against": 50,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6278965,
       "date": "2019-12-08",
       "team": "B8-D2_GAINESVILLE_COMPTON",
@@ -8566,84 +4853,6 @@ var _MASTER_DATA = {
       "opponent": "B8-D2_GAINESVILLE_COMPTON",
       "points": 46,
       "against": 40,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278361,
-      "date": "2019-12-08",
-      "team": "B8-D1_FORT BELVOIR_MILES",
-      "opponent": "B8-D1_GREAT FALLS_KRAWCZYK",
-      "points": 48,
-      "against": 46,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278361,
-      "date": "2019-12-08",
-      "team": "B8-D1_GREAT FALLS_KRAWCZYK",
-      "opponent": "B8-D1_FORT BELVOIR_MILES",
-      "points": 46,
-      "against": 48,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278362,
-      "date": "2019-12-08",
-      "team": "B8-D1_VIENNA_MARSDEN",
-      "opponent": "B8-D1_SOUTH LOUDOUN_COOK",
-      "points": 67,
-      "against": 38,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278362,
-      "date": "2019-12-08",
-      "team": "B8-D1_SOUTH LOUDOUN_COOK",
-      "opponent": "B8-D1_VIENNA_MARSDEN",
-      "points": 38,
-      "against": 67,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278359,
-      "date": "2019-12-08",
-      "team": "B8-D1_ARLINGTON_DAVIS",
-      "opponent": "B8-D1_MCLEAN_LEGGETT",
-      "points": 42,
-      "against": 73,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278359,
-      "date": "2019-12-08",
-      "team": "B8-D1_MCLEAN_LEGGETT",
-      "opponent": "B8-D1_ARLINGTON_DAVIS",
-      "points": 73,
-      "against": 42,
       "result": "W",
       "win": true,
       "lost": false,
@@ -8729,58 +4938,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279130,
-      "date": "2019-12-08",
-      "team": "B7-D1_SPRINGFIELD_ARGUEDAS",
-      "opponent": "B7-D1_BRYC_AQUIL",
-      "points": 49,
-      "against": 44,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279130,
-      "date": "2019-12-08",
-      "team": "B7-D1_BRYC_AQUIL",
-      "opponent": "B7-D1_SPRINGFIELD_ARGUEDAS",
-      "points": 44,
-      "against": 49,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288378,
-      "date": "2019-12-08",
-      "team": "B6-D1_RESTON_RIDGEWAY",
-      "opponent": "B6-D1_VIENNA_EPPS",
-      "points": 28,
-      "against": 43,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288378,
-      "date": "2019-12-08",
-      "team": "B6-D1_VIENNA_EPPS",
-      "opponent": "B6-D1_RESTON_RIDGEWAY",
-      "points": 43,
-      "against": 28,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6289855,
       "date": "2019-12-08",
       "team": "G6-D2_SYA_LANGFORD",
@@ -8829,6 +4986,136 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279130,
+      "date": "2019-12-08",
+      "team": "B7-D1_SPRINGFIELD_ARGUEDAS",
+      "opponent": "B7-D1_BRYC_AQUIL",
+      "points": 49,
+      "against": 44,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279130,
+      "date": "2019-12-08",
+      "team": "B7-D1_BRYC_AQUIL",
+      "opponent": "B7-D1_SPRINGFIELD_ARGUEDAS",
+      "points": 44,
+      "against": 49,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278359,
+      "date": "2019-12-08",
+      "team": "B8-D1_ARLINGTON_DAVIS",
+      "opponent": "B8-D1_MCLEAN_LEGGETT",
+      "points": 42,
+      "against": 73,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278359,
+      "date": "2019-12-08",
+      "team": "B8-D1_MCLEAN_LEGGETT",
+      "opponent": "B8-D1_ARLINGTON_DAVIS",
+      "points": 73,
+      "against": 42,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278362,
+      "date": "2019-12-08",
+      "team": "B8-D1_VIENNA_MARSDEN",
+      "opponent": "B8-D1_SOUTH LOUDOUN_COOK",
+      "points": 67,
+      "against": 38,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278362,
+      "date": "2019-12-08",
+      "team": "B8-D1_SOUTH LOUDOUN_COOK",
+      "opponent": "B8-D1_VIENNA_MARSDEN",
+      "points": 38,
+      "against": 67,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278361,
+      "date": "2019-12-08",
+      "team": "B8-D1_FORT BELVOIR_MILES",
+      "opponent": "B8-D1_GREAT FALLS_KRAWCZYK",
+      "points": 48,
+      "against": 46,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278361,
+      "date": "2019-12-08",
+      "team": "B8-D1_GREAT FALLS_KRAWCZYK",
+      "opponent": "B8-D1_FORT BELVOIR_MILES",
+      "points": 46,
+      "against": 48,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288378,
+      "date": "2019-12-08",
+      "team": "B6-D1_RESTON_RIDGEWAY",
+      "opponent": "B6-D1_VIENNA_EPPS",
+      "points": 28,
+      "against": 43,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288378,
+      "date": "2019-12-08",
+      "team": "B6-D1_VIENNA_EPPS",
+      "opponent": "B6-D1_RESTON_RIDGEWAY",
+      "points": 43,
+      "against": 28,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -8937,6 +5224,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6279127,
+      "date": "2019-12-08",
+      "team": "B7-D1_LEE DISTRICT_TROTTER",
+      "opponent": "B7-D1_GREAT FALLS_NICKLES",
+      "points": 23,
+      "against": 46,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279127,
+      "date": "2019-12-08",
+      "team": "B7-D1_GREAT FALLS_NICKLES",
+      "opponent": "B7-D1_LEE DISTRICT_TROTTER",
+      "points": 46,
+      "against": 23,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6278961,
       "date": "2019-12-08",
       "team": "B8-D2_HERNDON_HARLEY",
@@ -8956,84 +5269,6 @@ var _MASTER_DATA = {
       "opponent": "B8-D2_HERNDON_HARLEY",
       "points": 39,
       "against": 54,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278962,
-      "date": "2019-12-08",
-      "team": "B8-D2_MCLEAN_TURGEON",
-      "opponent": "B8-D2_ARLINGTON_MAHER",
-      "points": 38,
-      "against": 58,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278962,
-      "date": "2019-12-08",
-      "team": "B8-D2_ARLINGTON_MAHER",
-      "opponent": "B8-D2_MCLEAN_TURGEON",
-      "points": 58,
-      "against": 38,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288377,
-      "date": "2019-12-08",
-      "team": "B6-D1_JAMES LEE_HERRING",
-      "opponent": "B6-D1_GREAT FALLS_BROWN",
-      "points": 45,
-      "against": 49,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288377,
-      "date": "2019-12-08",
-      "team": "B6-D1_GREAT FALLS_BROWN",
-      "opponent": "B6-D1_JAMES LEE_HERRING",
-      "points": 49,
-      "against": 45,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6290650,
-      "date": "2019-12-08",
-      "team": "B7-D3_GAINESVILLE_LINGENFELDER",
-      "opponent": "B7-D3_BURKE_DISILVESTRO",
-      "points": 39,
-      "against": 31,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290650,
-      "date": "2019-12-08",
-      "team": "B7-D3_BURKE_DISILVESTRO",
-      "opponent": "B7-D3_GAINESVILLE_LINGENFELDER",
-      "points": 31,
-      "against": 39,
       "result": "L",
       "win": false,
       "lost": true,
@@ -9093,32 +5328,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279127,
-      "date": "2019-12-08",
-      "team": "B7-D1_LEE DISTRICT_TROTTER",
-      "opponent": "B7-D1_GREAT FALLS_NICKLES",
-      "points": 23,
-      "against": 46,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279127,
-      "date": "2019-12-08",
-      "team": "B7-D1_GREAT FALLS_NICKLES",
-      "opponent": "B7-D1_LEE DISTRICT_TROTTER",
-      "points": 46,
-      "against": 23,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6290456,
       "date": "2019-12-08",
       "team": "B6-D3_BAILEYS_J. SMITH SR",
@@ -9145,32 +5354,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6286754,
-      "date": "2019-12-08",
-      "team": "G7-D2_LEE-MT. VERNON_CARTER",
-      "opponent": "G7-D2_RESTON_ZEBERLEIN",
-      "points": 9,
-      "against": 44,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6286754,
-      "date": "2019-12-08",
-      "team": "G7-D2_RESTON_ZEBERLEIN",
-      "opponent": "G7-D2_LEE-MT. VERNON_CARTER",
-      "points": 44,
-      "against": 9,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6287478,
       "date": "2019-12-08",
       "team": "G8-D2_VIENNA_BOND",
@@ -9190,6 +5373,32 @@ var _MASTER_DATA = {
       "opponent": "G8-D2_VIENNA_BOND",
       "points": 38,
       "against": 27,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6286754,
+      "date": "2019-12-08",
+      "team": "G7-D2_LEE-MT. VERNON_CARTER",
+      "opponent": "G7-D2_RESTON_ZEBERLEIN",
+      "points": 9,
+      "against": 44,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6286754,
+      "date": "2019-12-08",
+      "team": "G7-D2_RESTON_ZEBERLEIN",
+      "opponent": "G7-D2_LEE-MT. VERNON_CARTER",
+      "points": 44,
+      "against": 9,
       "result": "W",
       "win": true,
       "lost": false,
@@ -9249,12 +5458,38 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6278727,
+      "game_id": 6278962,
       "date": "2019-12-08",
-      "team": "G7-D1_MCLEAN_CRITTENBERGER",
-      "opponent": "G7-D1_CYA_MAWLOUD",
-      "points": 59,
-      "against": 27,
+      "team": "B8-D2_MCLEAN_TURGEON",
+      "opponent": "B8-D2_ARLINGTON_MAHER",
+      "points": 38,
+      "against": 58,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278962,
+      "date": "2019-12-08",
+      "team": "B8-D2_ARLINGTON_MAHER",
+      "opponent": "B8-D2_MCLEAN_TURGEON",
+      "points": 58,
+      "against": 38,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290650,
+      "date": "2019-12-08",
+      "team": "B7-D3_GAINESVILLE_LINGENFELDER",
+      "opponent": "B7-D3_BURKE_DISILVESTRO",
+      "points": 39,
+      "against": 31,
       "result": "W",
       "win": true,
       "lost": false,
@@ -9262,12 +5497,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6278727,
+      "game_id": 6290650,
       "date": "2019-12-08",
-      "team": "G7-D1_CYA_MAWLOUD",
-      "opponent": "G7-D1_MCLEAN_CRITTENBERGER",
-      "points": 27,
-      "against": 59,
+      "team": "B7-D3_BURKE_DISILVESTRO",
+      "opponent": "B7-D3_GAINESVILLE_LINGENFELDER",
+      "points": 31,
+      "against": 39,
       "result": "L",
       "win": false,
       "lost": true,
@@ -9275,28 +5510,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6293176,
+      "game_id": 6288377,
       "date": "2019-12-08",
-      "team": "B8-D3_SOUTH LOUDOUN_MOSTEK",
-      "opponent": "B8-D3_LEE-MT. VERNON_SIMONIK",
-      "points": 41,
-      "against": 25,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "B6-D1_JAMES LEE_HERRING",
+      "opponent": "B6-D1_GREAT FALLS_BROWN",
+      "points": 45,
+      "against": 49,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6293176,
+      "game_id": 6288377,
       "date": "2019-12-08",
-      "team": "B8-D3_LEE-MT. VERNON_SIMONIK",
-      "opponent": "B8-D3_SOUTH LOUDOUN_MOSTEK",
-      "points": 25,
-      "against": 41,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "B6-D1_GREAT FALLS_BROWN",
+      "opponent": "B6-D1_JAMES LEE_HERRING",
+      "points": 49,
+      "against": 45,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -9327,6 +5562,58 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6293176,
+      "date": "2019-12-08",
+      "team": "B8-D3_SOUTH LOUDOUN_MOSTEK",
+      "opponent": "B8-D3_LEE-MT. VERNON_SIMONIK",
+      "points": 41,
+      "against": 25,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6293176,
+      "date": "2019-12-08",
+      "team": "B8-D3_LEE-MT. VERNON_SIMONIK",
+      "opponent": "B8-D3_SOUTH LOUDOUN_MOSTEK",
+      "points": 25,
+      "against": 41,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278727,
+      "date": "2019-12-08",
+      "team": "G7-D1_MCLEAN_CRITTENBERGER",
+      "opponent": "G7-D1_CYA_MAWLOUD",
+      "points": 59,
+      "against": 27,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278727,
+      "date": "2019-12-08",
+      "team": "G7-D1_CYA_MAWLOUD",
+      "opponent": "G7-D1_MCLEAN_CRITTENBERGER",
+      "points": 27,
+      "against": 59,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6288375,
       "date": "2019-12-08",
       "team": "B6-D1_MCLEAN_JACKSON",
@@ -9353,58 +5640,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6287479,
-      "date": "2019-12-08",
-      "team": "G8-D2_MCLEAN_MCNICOLL",
-      "opponent": "G8-D2_FORT HUNT_HARRIS",
-      "points": 42,
-      "against": 43,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6287479,
-      "date": "2019-12-08",
-      "team": "G8-D2_FORT HUNT_HARRIS",
-      "opponent": "G8-D2_MCLEAN_MCNICOLL",
-      "points": 43,
-      "against": 42,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6287477,
-      "date": "2019-12-08",
-      "team": "G8-D2_SYA_HESLEP",
-      "opponent": "G8-D2_BURKE_BYRNE",
-      "points": 46,
-      "against": 28,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6287477,
-      "date": "2019-12-08",
-      "team": "G8-D2_BURKE_BYRNE",
-      "opponent": "G8-D2_SYA_HESLEP",
-      "points": 28,
-      "against": 46,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6279128,
       "date": "2019-12-08",
       "team": "B7-D1_SYA_MORIN",
@@ -9424,32 +5659,6 @@ var _MASTER_DATA = {
       "opponent": "B7-D1_SYA_MORIN",
       "points": 41,
       "against": 40,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6290457,
-      "date": "2019-12-08",
-      "team": "B6-D3_BRYC_SHIN",
-      "opponent": "B6-D3_RESTON_LEGLER",
-      "points": 11,
-      "against": 41,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290457,
-      "date": "2019-12-08",
-      "team": "B6-D3_RESTON_LEGLER",
-      "opponent": "B6-D3_BRYC_SHIN",
-      "points": 41,
-      "against": 11,
       "result": "W",
       "win": true,
       "lost": false,
@@ -9483,6 +5692,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6290457,
+      "date": "2019-12-08",
+      "team": "B6-D3_BRYC_SHIN",
+      "opponent": "B6-D3_RESTON_LEGLER",
+      "points": 11,
+      "against": 41,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290457,
+      "date": "2019-12-08",
+      "team": "B6-D3_RESTON_LEGLER",
+      "opponent": "B6-D3_BRYC_SHIN",
+      "points": 41,
+      "against": 11,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6279125,
       "date": "2019-12-08",
       "team": "B7-D1_RESTON_ROBINSON",
@@ -9505,6 +5740,58 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6287477,
+      "date": "2019-12-08",
+      "team": "G8-D2_SYA_HESLEP",
+      "opponent": "G8-D2_BURKE_BYRNE",
+      "points": 46,
+      "against": 28,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6287477,
+      "date": "2019-12-08",
+      "team": "G8-D2_BURKE_BYRNE",
+      "opponent": "G8-D2_SYA_HESLEP",
+      "points": 28,
+      "against": 46,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6287479,
+      "date": "2019-12-08",
+      "team": "G8-D2_MCLEAN_MCNICOLL",
+      "opponent": "G8-D2_FORT HUNT_HARRIS",
+      "points": 42,
+      "against": 43,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6287479,
+      "date": "2019-12-08",
+      "team": "G8-D2_FORT HUNT_HARRIS",
+      "opponent": "G8-D2_MCLEAN_MCNICOLL",
+      "points": 43,
+      "against": 42,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -9639,32 +5926,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279129,
-      "date": "2019-12-08",
-      "team": "B7-D1_MCLEAN_CAREY",
-      "opponent": "B7-D1_GAINESVILLE_WEINSCHENK",
-      "points": 52,
-      "against": 45,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279129,
-      "date": "2019-12-08",
-      "team": "B7-D1_GAINESVILLE_WEINSCHENK",
-      "opponent": "B7-D1_MCLEAN_CAREY",
-      "points": 45,
-      "against": 52,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6277810,
       "date": "2019-12-08",
       "team": "G8-D1_MCLEAN_MEGAS",
@@ -9713,6 +5974,32 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279129,
+      "date": "2019-12-08",
+      "team": "B7-D1_MCLEAN_CAREY",
+      "opponent": "B7-D1_GAINESVILLE_WEINSCHENK",
+      "points": 52,
+      "against": 45,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279129,
+      "date": "2019-12-08",
+      "team": "B7-D1_GAINESVILLE_WEINSCHENK",
+      "opponent": "B7-D1_MCLEAN_CAREY",
+      "points": 45,
+      "against": 52,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -10601,32 +6888,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6288386,
-      "date": "2019-12-14",
-      "team": "B6-D1_CYA_JONES",
-      "opponent": "B6-D1_JAMES LEE_WADE",
-      "points": 44,
-      "against": 22,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288386,
-      "date": "2019-12-14",
-      "team": "B6-D1_JAMES LEE_WADE",
-      "opponent": "B6-D1_CYA_JONES",
-      "points": 22,
-      "against": 44,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6289561,
       "date": "2019-12-14",
       "team": "G6-D1_GAINESVILLE_HOLDER",
@@ -10653,38 +6914,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6289841,
+      "game_id": 6288386,
       "date": "2019-12-14",
-      "team": "G6-D2_VIENNA_GRIM",
-      "opponent": "G6-D2_SYA_LANGFORD",
-      "points": 21,
-      "against": 23,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289841,
-      "date": "2019-12-14",
-      "team": "G6-D2_SYA_LANGFORD",
-      "opponent": "G6-D2_VIENNA_GRIM",
-      "points": 23,
-      "against": 21,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6289867,
-      "date": "2019-12-14",
-      "team": "G6-D2_ARLINGTON_DECOU",
-      "opponent": "G6-D2_LEE-MT. VERNON_HENDERSON",
-      "points": 26,
-      "against": 20,
+      "team": "B6-D1_CYA_JONES",
+      "opponent": "B6-D1_JAMES LEE_WADE",
+      "points": 44,
+      "against": 22,
       "result": "W",
       "win": true,
       "lost": false,
@@ -10692,12 +6927,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6289867,
+      "game_id": 6288386,
       "date": "2019-12-14",
-      "team": "G6-D2_LEE-MT. VERNON_HENDERSON",
-      "opponent": "G6-D2_ARLINGTON_DECOU",
-      "points": 20,
-      "against": 26,
+      "team": "B6-D1_JAMES LEE_WADE",
+      "opponent": "B6-D1_CYA_JONES",
+      "points": 22,
+      "against": 44,
       "result": "L",
       "win": false,
       "lost": true,
@@ -10731,6 +6966,58 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6289867,
+      "date": "2019-12-14",
+      "team": "G6-D2_ARLINGTON_DECOU",
+      "opponent": "G6-D2_LEE-MT. VERNON_HENDERSON",
+      "points": 26,
+      "against": 20,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289867,
+      "date": "2019-12-14",
+      "team": "G6-D2_LEE-MT. VERNON_HENDERSON",
+      "opponent": "G6-D2_ARLINGTON_DECOU",
+      "points": 20,
+      "against": 26,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289841,
+      "date": "2019-12-14",
+      "team": "G6-D2_VIENNA_GRIM",
+      "opponent": "G6-D2_SYA_LANGFORD",
+      "points": 21,
+      "against": 23,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289841,
+      "date": "2019-12-14",
+      "team": "G6-D2_SYA_LANGFORD",
+      "opponent": "G6-D2_VIENNA_GRIM",
+      "points": 23,
+      "against": 21,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6288733,
       "date": "2019-12-14",
       "team": "B6-D2_MCLEAN_CICALE",
@@ -10750,6 +7037,32 @@ var _MASTER_DATA = {
       "opponent": "B6-D2_MCLEAN_CICALE",
       "points": 51,
       "against": 54,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290463,
+      "date": "2019-12-14",
+      "team": "B6-D3_RESTON_LEGLER",
+      "opponent": "B6-D3_BAILEYS_J. SMITH SR",
+      "points": 41,
+      "against": 32,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290463,
+      "date": "2019-12-14",
+      "team": "B6-D3_BAILEYS_J. SMITH SR",
+      "opponent": "B6-D3_RESTON_LEGLER",
+      "points": 32,
+      "against": 41,
       "result": "L",
       "win": false,
       "lost": true,
@@ -10779,32 +7092,6 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6290463,
-      "date": "2019-12-14",
-      "team": "B6-D3_RESTON_LEGLER",
-      "opponent": "B6-D3_BAILEYS_J. SMITH SR",
-      "points": 41,
-      "against": 32,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290463,
-      "date": "2019-12-14",
-      "team": "B6-D3_BAILEYS_J. SMITH SR",
-      "opponent": "B6-D3_RESTON_LEGLER",
-      "points": 32,
-      "against": 41,
-      "result": "L",
-      "win": false,
-      "lost": true,
       "tie": false,
       "source": false
     },
@@ -10854,6 +7141,32 @@ var _MASTER_DATA = {
       "opponent": "B7-D2_TURNPIKE_BURNS",
       "points": 37,
       "against": 34,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279548,
+      "date": "2019-12-14",
+      "team": "B7-D2_ALEXANDRIA_MATTHEWS",
+      "opponent": "B7-D2_GAINESVILLE_SCHWEMER",
+      "points": 38,
+      "against": 54,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279548,
+      "date": "2019-12-14",
+      "team": "B7-D2_GAINESVILLE_SCHWEMER",
+      "opponent": "B7-D2_ALEXANDRIA_MATTHEWS",
+      "points": 54,
+      "against": 38,
       "result": "W",
       "win": true,
       "lost": false,
@@ -10913,12 +7226,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279548,
+      "game_id": 6288383,
       "date": "2019-12-14",
-      "team": "B7-D2_ALEXANDRIA_MATTHEWS",
-      "opponent": "B7-D2_GAINESVILLE_SCHWEMER",
-      "points": 38,
-      "against": 54,
+      "team": "B6-D1_SOUTH LOUDOUN_KAHN",
+      "opponent": "B6-D1_RESTON_RIDGEWAY",
+      "points": 36,
+      "against": 40,
       "result": "L",
       "win": false,
       "lost": true,
@@ -10926,12 +7239,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6279548,
+      "game_id": 6288383,
       "date": "2019-12-14",
-      "team": "B7-D2_GAINESVILLE_SCHWEMER",
-      "opponent": "B7-D2_ALEXANDRIA_MATTHEWS",
-      "points": 54,
-      "against": 38,
+      "team": "B6-D1_RESTON_RIDGEWAY",
+      "opponent": "B6-D1_SOUTH LOUDOUN_KAHN",
+      "points": 40,
+      "against": 36,
       "result": "W",
       "win": true,
       "lost": false,
@@ -10958,32 +7271,6 @@ var _MASTER_DATA = {
       "opponent": "G8-D2_BAILEYS CC_HUDSON",
       "points": 45,
       "against": 22,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288383,
-      "date": "2019-12-14",
-      "team": "B6-D1_SOUTH LOUDOUN_KAHN",
-      "opponent": "B6-D1_RESTON_RIDGEWAY",
-      "points": 36,
-      "against": 40,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288383,
-      "date": "2019-12-14",
-      "team": "B6-D1_RESTON_RIDGEWAY",
-      "opponent": "B6-D1_SOUTH LOUDOUN_KAHN",
-      "points": 40,
-      "against": 36,
       "result": "W",
       "win": true,
       "lost": false,
@@ -11199,6 +7486,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6279544,
+      "date": "2019-12-14",
+      "team": "B7-D2_SOUTH LOUDOUN_ACKLEY",
+      "opponent": "B7-D2_MCLEAN_NANCE",
+      "points": 57,
+      "against": 50,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279544,
+      "date": "2019-12-14",
+      "team": "B7-D2_MCLEAN_NANCE",
+      "opponent": "B7-D2_SOUTH LOUDOUN_ACKLEY",
+      "points": 50,
+      "against": 57,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6278354,
       "date": "2019-12-14",
       "team": "B8-D1_SPRINGFIELD_ROBINSON",
@@ -11244,32 +7557,6 @@ var _MASTER_DATA = {
       "opponent": "B8-D1_TURNPIKE_DONOVAN",
       "points": 59,
       "against": 72,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279544,
-      "date": "2019-12-14",
-      "team": "B7-D2_SOUTH LOUDOUN_ACKLEY",
-      "opponent": "B7-D2_MCLEAN_NANCE",
-      "points": 57,
-      "against": 50,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279544,
-      "date": "2019-12-14",
-      "team": "B7-D2_MCLEAN_NANCE",
-      "opponent": "B7-D2_SOUTH LOUDOUN_ACKLEY",
-      "points": 50,
-      "against": 57,
       "result": "L",
       "win": false,
       "lost": true,
@@ -11875,32 +8162,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6278369,
-      "date": "2019-12-15",
-      "team": "B8-D1_GREAT FALLS_KRAWCZYK",
-      "opponent": "B8-D1_CYA_LEE",
-      "points": 44,
-      "against": 52,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278369,
-      "date": "2019-12-15",
-      "team": "B8-D1_CYA_LEE",
-      "opponent": "B8-D1_GREAT FALLS_KRAWCZYK",
-      "points": 52,
-      "against": 44,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6290652,
       "date": "2019-12-15",
       "team": "B7-D3_HERNDON_PASSMORE",
@@ -11953,6 +8214,58 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6278369,
+      "date": "2019-12-15",
+      "team": "B8-D1_GREAT FALLS_KRAWCZYK",
+      "opponent": "B8-D1_CYA_LEE",
+      "points": 44,
+      "against": 52,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278369,
+      "date": "2019-12-15",
+      "team": "B8-D1_CYA_LEE",
+      "opponent": "B8-D1_GREAT FALLS_KRAWCZYK",
+      "points": 52,
+      "against": 44,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288370,
+      "date": "2019-12-15",
+      "team": "B6-D1_BURKE_RAPOZA",
+      "opponent": "B6-D1_MCLEAN_JACKSON",
+      "points": 33,
+      "against": 42,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288370,
+      "date": "2019-12-15",
+      "team": "B6-D1_MCLEAN_JACKSON",
+      "opponent": "B6-D1_BURKE_RAPOZA",
+      "points": 42,
+      "against": 33,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6288366,
       "date": "2019-12-15",
       "team": "B6-D1_ARLINGTON_LOWEN",
@@ -12001,32 +8314,6 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288370,
-      "date": "2019-12-15",
-      "team": "B6-D1_BURKE_RAPOZA",
-      "opponent": "B6-D1_MCLEAN_JACKSON",
-      "points": 33,
-      "against": 42,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288370,
-      "date": "2019-12-15",
-      "team": "B6-D1_MCLEAN_JACKSON",
-      "opponent": "B6-D1_BURKE_RAPOZA",
-      "points": 42,
-      "against": 33,
-      "result": "W",
-      "win": true,
-      "lost": false,
       "tie": false,
       "source": false
     },
@@ -12135,32 +8422,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6277815,
-      "date": "2019-12-15",
-      "team": "G8-D1_GREAT FALLS_KERRIGAN",
-      "opponent": "G8-D1_GAINESVILLE_GILLIAM",
-      "points": 33,
-      "against": 31,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6277815,
-      "date": "2019-12-15",
-      "team": "G8-D1_GAINESVILLE_GILLIAM",
-      "opponent": "G8-D1_GREAT FALLS_KERRIGAN",
-      "points": 31,
-      "against": 33,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6287483,
       "date": "2019-12-15",
       "team": "G8-D2_BURKE_BYRNE",
@@ -12187,28 +8448,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6277817,
+      "game_id": 6277815,
       "date": "2019-12-15",
-      "team": "G8-D1_SPRINGFIELD_WILSON",
-      "opponent": "G8-D1_FPYC_LESTER",
+      "team": "G8-D1_GREAT FALLS_KERRIGAN",
+      "opponent": "G8-D1_GAINESVILLE_GILLIAM",
       "points": 33,
-      "against": 44,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "against": 31,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6277817,
+      "game_id": 6277815,
       "date": "2019-12-15",
-      "team": "G8-D1_FPYC_LESTER",
-      "opponent": "G8-D1_SPRINGFIELD_WILSON",
-      "points": 44,
+      "team": "G8-D1_GAINESVILLE_GILLIAM",
+      "opponent": "G8-D1_GREAT FALLS_KERRIGAN",
+      "points": 31,
       "against": 33,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -12239,6 +8500,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6277817,
+      "date": "2019-12-15",
+      "team": "G8-D1_SPRINGFIELD_WILSON",
+      "opponent": "G8-D1_FPYC_LESTER",
+      "points": 33,
+      "against": 44,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6277817,
+      "date": "2019-12-15",
+      "team": "G8-D1_FPYC_LESTER",
+      "opponent": "G8-D1_SPRINGFIELD_WILSON",
+      "points": 44,
+      "against": 33,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6278734,
       "date": "2019-12-15",
       "team": "G7-D1_SOUTH LOUDOUN_LISACK",
@@ -12258,58 +8545,6 @@ var _MASTER_DATA = {
       "opponent": "G7-D1_SOUTH LOUDOUN_LISACK",
       "points": 32,
       "against": 33,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6287487,
-      "date": "2019-12-15",
-      "team": "G8-D2_ARLINGTON_SCARCELLA",
-      "opponent": "G8-D2_SOUTH LOUDOUN_STROHECKER",
-      "points": 23,
-      "against": 33,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6287487,
-      "date": "2019-12-15",
-      "team": "G8-D2_SOUTH LOUDOUN_STROHECKER",
-      "opponent": "G8-D2_ARLINGTON_SCARCELLA",
-      "points": 33,
-      "against": 23,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6286756,
-      "date": "2019-12-15",
-      "team": "G7-D2_ARLINGTON_FILIDES",
-      "opponent": "G7-D2_VIENNA_TOMLINSON",
-      "points": 54,
-      "against": 11,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6286756,
-      "date": "2019-12-15",
-      "team": "G7-D2_VIENNA_TOMLINSON",
-      "opponent": "G7-D2_ARLINGTON_FILIDES",
-      "points": 11,
-      "against": 54,
       "result": "L",
       "win": false,
       "lost": true,
@@ -12362,6 +8597,58 @@ var _MASTER_DATA = {
       "opponent": "G6-D2_LEE-MT. VERNON_HENDERSON",
       "points": 8,
       "against": 32,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6287487,
+      "date": "2019-12-15",
+      "team": "G8-D2_ARLINGTON_SCARCELLA",
+      "opponent": "G8-D2_SOUTH LOUDOUN_STROHECKER",
+      "points": 23,
+      "against": 33,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6287487,
+      "date": "2019-12-15",
+      "team": "G8-D2_SOUTH LOUDOUN_STROHECKER",
+      "opponent": "G8-D2_ARLINGTON_SCARCELLA",
+      "points": 33,
+      "against": 23,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6286756,
+      "date": "2019-12-15",
+      "team": "G7-D2_ARLINGTON_FILIDES",
+      "opponent": "G7-D2_VIENNA_TOMLINSON",
+      "points": 54,
+      "against": 11,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6286756,
+      "date": "2019-12-15",
+      "team": "G7-D2_VIENNA_TOMLINSON",
+      "opponent": "G7-D2_ARLINGTON_FILIDES",
+      "points": 11,
+      "against": 54,
       "result": "L",
       "win": false,
       "lost": true,
@@ -12681,6 +8968,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6278370,
+      "date": "2019-12-15",
+      "team": "B8-D1_SOUTH COUNTY_JACKSON",
+      "opponent": "B8-D1_VIENNA_MARSDEN",
+      "points": 63,
+      "against": 66,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278370,
+      "date": "2019-12-15",
+      "team": "B8-D1_VIENNA_MARSDEN",
+      "opponent": "B8-D1_SOUTH COUNTY_JACKSON",
+      "points": 66,
+      "against": 63,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6290467,
       "date": "2019-12-15",
       "team": "B6-D3_GREAT FALLS_BRITT",
@@ -12729,32 +9042,6 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278370,
-      "date": "2019-12-15",
-      "team": "B8-D1_SOUTH COUNTY_JACKSON",
-      "opponent": "B8-D1_VIENNA_MARSDEN",
-      "points": 63,
-      "against": 66,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278370,
-      "date": "2019-12-15",
-      "team": "B8-D1_VIENNA_MARSDEN",
-      "opponent": "B8-D1_SOUTH COUNTY_JACKSON",
-      "points": 66,
-      "against": 63,
-      "result": "W",
-      "win": true,
-      "lost": false,
       "tie": false,
       "source": false
     },
@@ -12811,32 +9098,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6287485,
-      "date": "2019-12-15",
-      "team": "G8-D2_CYA_JONES",
-      "opponent": "G8-D2_TURNPIKE_KOMAILY",
-      "points": 24,
-      "against": 26,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6287485,
-      "date": "2019-12-15",
-      "team": "G8-D2_TURNPIKE_KOMAILY",
-      "opponent": "G8-D2_CYA_JONES",
-      "points": 26,
-      "against": 24,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6289569,
       "date": "2019-12-15",
       "team": "G6-D1_CYA_KANG",
@@ -12885,6 +9146,32 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6287485,
+      "date": "2019-12-15",
+      "team": "G8-D2_CYA_JONES",
+      "opponent": "G8-D2_TURNPIKE_KOMAILY",
+      "points": 24,
+      "against": 26,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6287485,
+      "date": "2019-12-15",
+      "team": "G8-D2_TURNPIKE_KOMAILY",
+      "opponent": "G8-D2_CYA_JONES",
+      "points": 26,
+      "against": 24,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -13071,28 +9358,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6290465,
+      "game_id": 6289864,
       "date": "2019-12-15",
-      "team": "B6-D3_FPYC_MALESKY",
-      "opponent": "B6-D3_CYA_LUGO",
-      "points": 37,
-      "against": 33,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "G6-D2_GAINESVILLE_FURLONG",
+      "opponent": "G6-D2_CYA_MURPHY",
+      "points": 19,
+      "against": 31,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6290465,
+      "game_id": 6289864,
       "date": "2019-12-15",
-      "team": "B6-D3_CYA_LUGO",
-      "opponent": "B6-D3_FPYC_MALESKY",
-      "points": 33,
-      "against": 37,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "G6-D2_CYA_MURPHY",
+      "opponent": "G6-D2_GAINESVILLE_FURLONG",
+      "points": 31,
+      "against": 19,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -13116,6 +9403,58 @@ var _MASTER_DATA = {
       "opponent": "B6-D3_SOUTH COUNTY_JOHNSON",
       "points": 33,
       "against": 47,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279135,
+      "date": "2019-12-15",
+      "team": "B7-D1_FORT HUNT_KOELSCH",
+      "opponent": "B7-D1_MCLEAN_CAREY",
+      "points": 30,
+      "against": 43,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279135,
+      "date": "2019-12-15",
+      "team": "B7-D1_MCLEAN_CAREY",
+      "opponent": "B7-D1_FORT HUNT_KOELSCH",
+      "points": 43,
+      "against": 30,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290465,
+      "date": "2019-12-15",
+      "team": "B6-D3_FPYC_MALESKY",
+      "opponent": "B6-D3_CYA_LUGO",
+      "points": 37,
+      "against": 33,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290465,
+      "date": "2019-12-15",
+      "team": "B6-D3_CYA_LUGO",
+      "opponent": "B6-D3_FPYC_MALESKY",
+      "points": 33,
+      "against": 37,
       "result": "L",
       "win": false,
       "lost": true,
@@ -13149,58 +9488,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6289864,
-      "date": "2019-12-15",
-      "team": "G6-D2_GAINESVILLE_FURLONG",
-      "opponent": "G6-D2_CYA_MURPHY",
-      "points": 19,
-      "against": 31,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289864,
-      "date": "2019-12-15",
-      "team": "G6-D2_CYA_MURPHY",
-      "opponent": "G6-D2_GAINESVILLE_FURLONG",
-      "points": 31,
-      "against": 19,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279135,
-      "date": "2019-12-15",
-      "team": "B7-D1_FORT HUNT_KOELSCH",
-      "opponent": "B7-D1_MCLEAN_CAREY",
-      "points": 30,
-      "against": 43,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279135,
-      "date": "2019-12-15",
-      "team": "B7-D1_MCLEAN_CAREY",
-      "opponent": "B7-D1_FORT HUNT_KOELSCH",
-      "points": 43,
-      "against": 30,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6293182,
       "date": "2019-12-15",
       "team": "B8-D3_LEE-MT. VERNON_SIMONIK",
@@ -13227,32 +9514,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6293180,
-      "date": "2019-12-15",
-      "team": "B8-D3_MANASSAS PARK_HOLDEN",
-      "opponent": "B8-D3_RESTON_BIRKLAND",
-      "points": 53,
-      "against": 35,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6293180,
-      "date": "2019-12-15",
-      "team": "B8-D3_RESTON_BIRKLAND",
-      "opponent": "B8-D3_MANASSAS PARK_HOLDEN",
-      "points": 35,
-      "against": 53,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6289571,
       "date": "2019-12-15",
       "team": "G6-D1_FORT HUNT_LOVING",
@@ -13272,6 +9533,32 @@ var _MASTER_DATA = {
       "opponent": "G6-D1_FORT HUNT_LOVING",
       "points": 18,
       "against": 30,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6293180,
+      "date": "2019-12-15",
+      "team": "B8-D3_MANASSAS PARK_HOLDEN",
+      "opponent": "B8-D3_RESTON_BIRKLAND",
+      "points": 53,
+      "against": 35,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6293180,
+      "date": "2019-12-15",
+      "team": "B8-D3_RESTON_BIRKLAND",
+      "opponent": "B8-D3_MANASSAS PARK_HOLDEN",
+      "points": 35,
+      "against": 53,
       "result": "L",
       "win": false,
       "lost": true,
@@ -14033,6 +10320,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6279554,
+      "date": "2019-12-21",
+      "team": "B7-D2_FORT BELVOIR_SHERN",
+      "opponent": "B7-D2_ANNANDALE_NELSON",
+      "points": 48,
+      "against": 61,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279554,
+      "date": "2019-12-21",
+      "team": "B7-D2_ANNANDALE_NELSON",
+      "opponent": "B7-D2_FORT BELVOIR_SHERN",
+      "points": 61,
+      "against": 48,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6286762,
       "date": "2019-12-21",
       "team": "G7-D2_SPRINGFIELD_DUCKETT",
@@ -14111,58 +10424,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279554,
-      "date": "2019-12-21",
-      "team": "B7-D2_FORT BELVOIR_SHERN",
-      "opponent": "B7-D2_ANNANDALE_NELSON",
-      "points": 48,
-      "against": 61,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279554,
-      "date": "2019-12-21",
-      "team": "B7-D2_ANNANDALE_NELSON",
-      "opponent": "B7-D2_FORT BELVOIR_SHERN",
-      "points": 61,
-      "against": 48,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6290477,
-      "date": "2019-12-21",
-      "team": "B6-D3_CYA_LUGO",
-      "opponent": "B6-D3_BURKE_MITCHELL",
-      "points": 29,
-      "against": 38,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290477,
-      "date": "2019-12-21",
-      "team": "B6-D3_BURKE_MITCHELL",
-      "opponent": "B6-D3_CYA_LUGO",
-      "points": 38,
-      "against": 29,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6287489,
       "date": "2019-12-21",
       "team": "G8-D2_SOUTH LOUDOUN_SAMSON",
@@ -14211,6 +10472,32 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290477,
+      "date": "2019-12-21",
+      "team": "B6-D3_CYA_LUGO",
+      "opponent": "B6-D3_BURKE_MITCHELL",
+      "points": 29,
+      "against": 38,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290477,
+      "date": "2019-12-21",
+      "team": "B6-D3_BURKE_MITCHELL",
+      "opponent": "B6-D3_CYA_LUGO",
+      "points": 38,
+      "against": 29,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -14267,54 +10554,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6289848,
+      "game_id": 6279552,
       "date": "2019-12-21",
-      "team": "G6-D2_GAINESVILLE_FURLONG",
-      "opponent": "G6-D2_FPYC_LESTER",
-      "points": 16,
-      "against": 27,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289848,
-      "date": "2019-12-21",
-      "team": "G6-D2_FPYC_LESTER",
-      "opponent": "G6-D2_GAINESVILLE_FURLONG",
-      "points": 27,
-      "against": 16,
+      "team": "B7-D2_FALLS CHURCH_WHITAKER",
+      "opponent": "B7-D2_ARLINGTON_REMEDIOS",
+      "points": 43,
+      "against": 38,
       "result": "W",
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288756,
-      "date": "2019-12-21",
-      "team": "B6-D2_VIENNA_CHOI",
-      "opponent": "B6-D2_SYA_HILL",
-      "points": 41,
-      "against": 51,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
       "source": true
     },
     {
-      "game_id": 6288756,
+      "game_id": 6279552,
       "date": "2019-12-21",
-      "team": "B6-D2_SYA_HILL",
-      "opponent": "B6-D2_VIENNA_CHOI",
-      "points": 51,
-      "against": 41,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "B7-D2_ARLINGTON_REMEDIOS",
+      "opponent": "B7-D2_FALLS CHURCH_WHITAKER",
+      "points": 38,
+      "against": 43,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -14371,28 +10632,54 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279552,
+      "game_id": 6288756,
       "date": "2019-12-21",
-      "team": "B7-D2_FALLS CHURCH_WHITAKER",
-      "opponent": "B7-D2_ARLINGTON_REMEDIOS",
-      "points": 43,
-      "against": 38,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "B6-D2_VIENNA_CHOI",
+      "opponent": "B6-D2_SYA_HILL",
+      "points": 41,
+      "against": 51,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6279552,
+      "game_id": 6288756,
       "date": "2019-12-21",
-      "team": "B7-D2_ARLINGTON_REMEDIOS",
-      "opponent": "B7-D2_FALLS CHURCH_WHITAKER",
-      "points": 38,
-      "against": 43,
+      "team": "B6-D2_SYA_HILL",
+      "opponent": "B6-D2_VIENNA_CHOI",
+      "points": 51,
+      "against": 41,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289848,
+      "date": "2019-12-21",
+      "team": "G6-D2_GAINESVILLE_FURLONG",
+      "opponent": "G6-D2_FPYC_LESTER",
+      "points": 16,
+      "against": 27,
       "result": "L",
       "win": false,
       "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289848,
+      "date": "2019-12-21",
+      "team": "G6-D2_FPYC_LESTER",
+      "opponent": "G6-D2_GAINESVILLE_FURLONG",
+      "points": 27,
+      "against": 16,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -14605,6 +10892,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6278340,
+      "date": "2019-12-21",
+      "team": "B8-D1_MCLEAN_TALLENT",
+      "opponent": "B8-D1_SPRINGFIELD_ROBINSON",
+      "points": 75,
+      "against": 88,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278340,
+      "date": "2019-12-21",
+      "team": "B8-D1_SPRINGFIELD_ROBINSON",
+      "opponent": "B8-D1_MCLEAN_TALLENT",
+      "points": 88,
+      "against": 75,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6279549,
       "date": "2019-12-21",
       "team": "B7-D2_VIENNA_MORTON",
@@ -14653,32 +10966,6 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278340,
-      "date": "2019-12-21",
-      "team": "B8-D1_MCLEAN_TALLENT",
-      "opponent": "B8-D1_SPRINGFIELD_ROBINSON",
-      "points": 75,
-      "against": 88,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278340,
-      "date": "2019-12-21",
-      "team": "B8-D1_SPRINGFIELD_ROBINSON",
-      "opponent": "B8-D1_MCLEAN_TALLENT",
-      "points": 88,
-      "against": 75,
-      "result": "W",
-      "win": true,
-      "lost": false,
       "tie": false,
       "source": false
     },
@@ -14813,32 +11100,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6287490,
-      "date": "2019-12-21",
-      "team": "G8-D2_VIENNA_BOND",
-      "opponent": "G8-D2_TURNPIKE_KOMAILY",
-      "points": 40,
-      "against": 39,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6287490,
-      "date": "2019-12-21",
-      "team": "G8-D2_TURNPIKE_KOMAILY",
-      "opponent": "G8-D2_VIENNA_BOND",
-      "points": 39,
-      "against": 40,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6277807,
       "date": "2019-12-21",
       "team": "G8-D1_BURKE_EDWARDS",
@@ -14865,12 +11126,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279550,
+      "game_id": 6287490,
       "date": "2019-12-21",
-      "team": "B7-D2_CYA_UTTERBACK",
-      "opponent": "B7-D2_BURKE_STURTEVANT",
-      "points": 51,
-      "against": 21,
+      "team": "G8-D2_VIENNA_BOND",
+      "opponent": "G8-D2_TURNPIKE_KOMAILY",
+      "points": 40,
+      "against": 39,
       "result": "W",
       "win": true,
       "lost": false,
@@ -14878,12 +11139,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6279550,
+      "game_id": 6287490,
       "date": "2019-12-21",
-      "team": "B7-D2_BURKE_STURTEVANT",
-      "opponent": "B7-D2_CYA_UTTERBACK",
-      "points": 21,
-      "against": 51,
+      "team": "G8-D2_TURNPIKE_KOMAILY",
+      "opponent": "G8-D2_VIENNA_BOND",
+      "points": 39,
+      "against": 40,
       "result": "L",
       "win": false,
       "lost": true,
@@ -14943,28 +11204,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6293172,
+      "game_id": 6279550,
       "date": "2019-12-21",
-      "team": "B8-D3_MANASSAS PARK_HOLDEN",
-      "opponent": "B8-D3_SOUTH LOUDOUN_MOSTEK",
-      "points": 35,
-      "against": 71,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "B7-D2_CYA_UTTERBACK",
+      "opponent": "B7-D2_BURKE_STURTEVANT",
+      "points": 51,
+      "against": 21,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6293172,
+      "game_id": 6279550,
       "date": "2019-12-21",
-      "team": "B8-D3_SOUTH LOUDOUN_MOSTEK",
-      "opponent": "B8-D3_MANASSAS PARK_HOLDEN",
-      "points": 71,
-      "against": 35,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "B7-D2_BURKE_STURTEVANT",
+      "opponent": "B7-D2_CYA_UTTERBACK",
+      "points": 21,
+      "against": 51,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -14991,6 +11252,32 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6293172,
+      "date": "2019-12-21",
+      "team": "B8-D3_MANASSAS PARK_HOLDEN",
+      "opponent": "B8-D3_SOUTH LOUDOUN_MOSTEK",
+      "points": 35,
+      "against": 71,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6293172,
+      "date": "2019-12-21",
+      "team": "B8-D3_SOUTH LOUDOUN_MOSTEK",
+      "opponent": "B8-D3_MANASSAS PARK_HOLDEN",
+      "points": 71,
+      "against": 35,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -15047,58 +11334,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6287491,
-      "date": "2019-12-21",
-      "team": "G8-D2_FORT HUNT_HARRIS",
-      "opponent": "G8-D2_FORT BELVOIR_EDWARDS",
-      "points": 45,
-      "against": 38,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6287491,
-      "date": "2019-12-21",
-      "team": "G8-D2_FORT BELVOIR_EDWARDS",
-      "opponent": "G8-D2_FORT HUNT_HARRIS",
-      "points": 38,
-      "against": 45,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279119,
-      "date": "2019-12-21",
-      "team": "B7-D1_GAINESVILLE_WEINSCHENK",
-      "opponent": "B7-D1_RESTON_ROBINSON",
-      "points": 32,
-      "against": 53,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279119,
-      "date": "2019-12-21",
-      "team": "B7-D1_RESTON_ROBINSON",
-      "opponent": "B7-D1_GAINESVILLE_WEINSCHENK",
-      "points": 53,
-      "against": 32,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6279123,
       "date": "2019-12-21",
       "team": "B7-D1_GREAT FALLS_NICKLES",
@@ -15147,6 +11382,58 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6287491,
+      "date": "2019-12-21",
+      "team": "G8-D2_FORT HUNT_HARRIS",
+      "opponent": "G8-D2_FORT BELVOIR_EDWARDS",
+      "points": 45,
+      "against": 38,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6287491,
+      "date": "2019-12-21",
+      "team": "G8-D2_FORT BELVOIR_EDWARDS",
+      "opponent": "G8-D2_FORT HUNT_HARRIS",
+      "points": 38,
+      "against": 45,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279119,
+      "date": "2019-12-21",
+      "team": "B7-D1_GAINESVILLE_WEINSCHENK",
+      "opponent": "B7-D1_RESTON_ROBINSON",
+      "points": 32,
+      "against": 53,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279119,
+      "date": "2019-12-21",
+      "team": "B7-D1_RESTON_ROBINSON",
+      "opponent": "B7-D1_GAINESVILLE_WEINSCHENK",
+      "points": 53,
+      "against": 32,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -15957,32 +12244,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6278374,
-      "date": "2020-01-06",
-      "team": "B8-D1_FORT BELVOIR_MILES",
-      "opponent": "B8-D1_SOUTH LOUDOUN_COOK",
-      "points": 37,
-      "against": 28,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278374,
-      "date": "2020-01-06",
-      "team": "B8-D1_SOUTH LOUDOUN_COOK",
-      "opponent": "B8-D1_FORT BELVOIR_MILES",
-      "points": 28,
-      "against": 37,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6278378,
       "date": "2020-01-06",
       "team": "B8-D1_VIENNA_MARSDEN",
@@ -16002,6 +12263,32 @@ var _MASTER_DATA = {
       "opponent": "B8-D1_VIENNA_MARSDEN",
       "points": 66,
       "against": 76,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278374,
+      "date": "2020-01-06",
+      "team": "B8-D1_FORT BELVOIR_MILES",
+      "opponent": "B8-D1_SOUTH LOUDOUN_COOK",
+      "points": 37,
+      "against": 28,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278374,
+      "date": "2020-01-06",
+      "team": "B8-D1_SOUTH LOUDOUN_COOK",
+      "opponent": "B8-D1_FORT BELVOIR_MILES",
+      "points": 28,
+      "against": 37,
       "result": "L",
       "win": false,
       "lost": true,
@@ -16347,32 +12634,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333758,
-      "date": "2020-01-11",
-      "team": "B5-D2_SYA_HARRIS",
-      "opponent": "B5-D2_CYA_MARTIN",
-      "points": 30,
-      "against": 29,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333758,
-      "date": "2020-01-11",
-      "team": "B5-D2_CYA_MARTIN",
-      "opponent": "B5-D2_SYA_HARRIS",
-      "points": 29,
-      "against": 30,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6333407,
       "date": "2020-01-11",
       "team": "B5-D1_RESTON_BYRNES",
@@ -16395,6 +12656,32 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333758,
+      "date": "2020-01-11",
+      "team": "B5-D2_SYA_HARRIS",
+      "opponent": "B5-D2_CYA_MARTIN",
+      "points": 30,
+      "against": 29,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333758,
+      "date": "2020-01-11",
+      "team": "B5-D2_CYA_MARTIN",
+      "opponent": "B5-D2_SYA_HARRIS",
+      "points": 29,
+      "against": 30,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -16451,32 +12738,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6288768,
-      "date": "2020-01-11",
-      "team": "B6-D2_CYA_ROBINSON",
-      "opponent": "B6-D2_FORT BELVOIR_TAYLOR JR",
-      "points": 32,
-      "against": 56,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288768,
-      "date": "2020-01-11",
-      "team": "B6-D2_FORT BELVOIR_TAYLOR JR",
-      "opponent": "B6-D2_CYA_ROBINSON",
-      "points": 56,
-      "against": 32,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6278389,
       "date": "2020-01-11",
       "team": "B8-D1_BURKE_SHOUMAN",
@@ -16503,6 +12764,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6288768,
+      "date": "2020-01-11",
+      "team": "B6-D2_CYA_ROBINSON",
+      "opponent": "B6-D2_FORT BELVOIR_TAYLOR JR",
+      "points": 32,
+      "against": 56,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288768,
+      "date": "2020-01-11",
+      "team": "B6-D2_FORT BELVOIR_TAYLOR JR",
+      "opponent": "B6-D2_CYA_ROBINSON",
+      "points": 56,
+      "against": 32,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6333409,
       "date": "2020-01-11",
       "team": "B5-D1_SYA_O-CONNOR",
@@ -16525,32 +12812,6 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6290475,
-      "date": "2020-01-11",
-      "team": "B6-D3_ARLINGTON_NETTLES",
-      "opponent": "B6-D3_RESTON_LEGLER",
-      "points": 45,
-      "against": 34,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290475,
-      "date": "2020-01-11",
-      "team": "B6-D3_RESTON_LEGLER",
-      "opponent": "B6-D3_ARLINGTON_NETTLES",
-      "points": 34,
-      "against": 45,
-      "result": "L",
-      "win": false,
-      "lost": true,
       "tie": false,
       "source": false
     },
@@ -16603,6 +12864,32 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290475,
+      "date": "2020-01-11",
+      "team": "B6-D3_ARLINGTON_NETTLES",
+      "opponent": "B6-D3_RESTON_LEGLER",
+      "points": 45,
+      "against": 34,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290475,
+      "date": "2020-01-11",
+      "team": "B6-D3_RESTON_LEGLER",
+      "opponent": "B6-D3_ARLINGTON_NETTLES",
+      "points": 34,
+      "against": 45,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -16737,32 +13024,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333519,
-      "date": "2020-01-11",
-      "team": "G5-D1_GAINESVILLE_JOHNSON",
-      "opponent": "G5-D1_MCLEAN_A NORTON",
-      "points": 20,
-      "against": 24,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333519,
-      "date": "2020-01-11",
-      "team": "G5-D1_MCLEAN_A NORTON",
-      "opponent": "G5-D1_GAINESVILLE_JOHNSON",
-      "points": 24,
-      "against": 20,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6333640,
       "date": "2020-01-11",
       "team": "G5-D2_SYA_ANDERSEN",
@@ -16789,12 +13050,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6290472,
+      "game_id": 6333519,
       "date": "2020-01-11",
-      "team": "B6-D3_BURKE_MITCHELL",
-      "opponent": "B6-D3_FPYC_MALESKY",
-      "points": 44,
-      "against": 48,
+      "team": "G5-D1_GAINESVILLE_JOHNSON",
+      "opponent": "G5-D1_MCLEAN_A NORTON",
+      "points": 20,
+      "against": 24,
       "result": "L",
       "win": false,
       "lost": true,
@@ -16802,12 +13063,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6290472,
+      "game_id": 6333519,
       "date": "2020-01-11",
-      "team": "B6-D3_FPYC_MALESKY",
-      "opponent": "B6-D3_BURKE_MITCHELL",
-      "points": 48,
-      "against": 44,
+      "team": "G5-D1_MCLEAN_A NORTON",
+      "opponent": "G5-D1_GAINESVILLE_JOHNSON",
+      "points": 24,
+      "against": 20,
       "result": "W",
       "win": true,
       "lost": false,
@@ -16834,6 +13095,32 @@ var _MASTER_DATA = {
       "opponent": "B5-D1_SOUTH LOUDOUN_CHOI",
       "points": 45,
       "against": 31,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290472,
+      "date": "2020-01-11",
+      "team": "B6-D3_BURKE_MITCHELL",
+      "opponent": "B6-D3_FPYC_MALESKY",
+      "points": 44,
+      "against": 48,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290472,
+      "date": "2020-01-11",
+      "team": "B6-D3_FPYC_MALESKY",
+      "opponent": "B6-D3_BURKE_MITCHELL",
+      "points": 48,
+      "against": 44,
       "result": "W",
       "win": true,
       "lost": false,
@@ -16971,6 +13258,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6333644,
+      "date": "2020-01-11",
+      "team": "G5-D2_BURKE_ROSE",
+      "opponent": "G5-D2_VIENNA_KONSTAS",
+      "points": 17,
+      "against": 20,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333644,
+      "date": "2020-01-11",
+      "team": "G5-D2_VIENNA_KONSTAS",
+      "opponent": "G5-D2_BURKE_ROSE",
+      "points": 20,
+      "against": 17,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6333521,
       "date": "2020-01-11",
       "team": "G5-D1_VIENNA_KORMAN",
@@ -17019,32 +13332,6 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333644,
-      "date": "2020-01-11",
-      "team": "G5-D2_BURKE_ROSE",
-      "opponent": "G5-D2_VIENNA_KONSTAS",
-      "points": 17,
-      "against": 20,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333644,
-      "date": "2020-01-11",
-      "team": "G5-D2_VIENNA_KONSTAS",
-      "opponent": "G5-D2_BURKE_ROSE",
-      "points": 20,
-      "against": 17,
-      "result": "W",
-      "win": true,
-      "lost": false,
       "tie": false,
       "source": false
     },
@@ -17127,32 +13414,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333643,
-      "date": "2020-01-11",
-      "team": "G5-D2_BAILEYS CC_MARSHALL",
-      "opponent": "G5-D2_GAINESVILLE_HAMPSON",
-      "points": 4,
-      "against": 34,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333643,
-      "date": "2020-01-11",
-      "team": "G5-D2_GAINESVILLE_HAMPSON",
-      "opponent": "G5-D2_BAILEYS CC_MARSHALL",
-      "points": 34,
-      "against": 4,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6288412,
       "date": "2020-01-11",
       "team": "B6-D1_SOUTH LOUDOUN_KAHN",
@@ -17172,6 +13433,32 @@ var _MASTER_DATA = {
       "opponent": "B6-D1_SOUTH LOUDOUN_KAHN",
       "points": 37,
       "against": 32,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333643,
+      "date": "2020-01-11",
+      "team": "G5-D2_BAILEYS CC_MARSHALL",
+      "opponent": "G5-D2_GAINESVILLE_HAMPSON",
+      "points": 4,
+      "against": 34,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333643,
+      "date": "2020-01-11",
+      "team": "G5-D2_GAINESVILLE_HAMPSON",
+      "opponent": "G5-D2_BAILEYS CC_MARSHALL",
+      "points": 34,
+      "against": 4,
       "result": "W",
       "win": true,
       "lost": false,
@@ -17231,58 +13518,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6289880,
-      "date": "2020-01-11",
-      "team": "G6-D2_GAINESVILLE_FURLONG",
-      "opponent": "G6-D2_BRYC_DUDLEY",
-      "points": 28,
-      "against": 14,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289880,
-      "date": "2020-01-11",
-      "team": "G6-D2_BRYC_DUDLEY",
-      "opponent": "G6-D2_GAINESVILLE_FURLONG",
-      "points": 14,
-      "against": 28,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6289881,
-      "date": "2020-01-11",
-      "team": "G6-D2_LEE-MT. VERNON_HENDERSON",
-      "opponent": "G6-D2_VIENNA_GRIM",
-      "points": 34,
-      "against": 25,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289881,
-      "date": "2020-01-11",
-      "team": "G6-D2_VIENNA_GRIM",
-      "opponent": "G6-D2_LEE-MT. VERNON_HENDERSON",
-      "points": 25,
-      "against": 34,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6333754,
       "date": "2020-01-11",
       "team": "B5-D2_ARLINGTON_MCLEAN",
@@ -17335,28 +13570,80 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6290473,
+      "game_id": 6289880,
       "date": "2020-01-11",
-      "team": "B6-D3_SPRINGFIELD_WILSON",
-      "opponent": "B6-D3_SOUTH COUNTY_JOHNSON",
-      "points": 27,
-      "against": 42,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "G6-D2_GAINESVILLE_FURLONG",
+      "opponent": "G6-D2_BRYC_DUDLEY",
+      "points": 28,
+      "against": 14,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6290473,
+      "game_id": 6289880,
       "date": "2020-01-11",
-      "team": "B6-D3_SOUTH COUNTY_JOHNSON",
-      "opponent": "B6-D3_SPRINGFIELD_WILSON",
-      "points": 42,
-      "against": 27,
+      "team": "G6-D2_BRYC_DUDLEY",
+      "opponent": "G6-D2_GAINESVILLE_FURLONG",
+      "points": 14,
+      "against": 28,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289881,
+      "date": "2020-01-11",
+      "team": "G6-D2_LEE-MT. VERNON_HENDERSON",
+      "opponent": "G6-D2_VIENNA_GRIM",
+      "points": 34,
+      "against": 25,
       "result": "W",
       "win": true,
       "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289881,
+      "date": "2020-01-11",
+      "team": "G6-D2_VIENNA_GRIM",
+      "opponent": "G6-D2_LEE-MT. VERNON_HENDERSON",
+      "points": 25,
+      "against": 34,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333756,
+      "date": "2020-01-11",
+      "team": "B5-D2_VIENNA_LOCEY",
+      "opponent": "B5-D2_BURKE_MAYERNIK",
+      "points": 37,
+      "against": 14,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333756,
+      "date": "2020-01-11",
+      "team": "B5-D2_BURKE_MAYERNIK",
+      "opponent": "B5-D2_VIENNA_LOCEY",
+      "points": 14,
+      "against": 37,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -17387,28 +13674,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333756,
+      "game_id": 6290473,
       "date": "2020-01-11",
-      "team": "B5-D2_VIENNA_LOCEY",
-      "opponent": "B5-D2_BURKE_MAYERNIK",
-      "points": 37,
-      "against": 14,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "B6-D3_SPRINGFIELD_WILSON",
+      "opponent": "B6-D3_SOUTH COUNTY_JOHNSON",
+      "points": 27,
+      "against": 42,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6333756,
+      "game_id": 6290473,
       "date": "2020-01-11",
-      "team": "B5-D2_BURKE_MAYERNIK",
-      "opponent": "B5-D2_VIENNA_LOCEY",
-      "points": 14,
-      "against": 37,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "B6-D3_SOUTH COUNTY_JOHNSON",
+      "opponent": "B6-D3_SPRINGFIELD_WILSON",
+      "points": 42,
+      "against": 27,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -17543,162 +13830,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6293185,
-      "date": "2020-01-11",
-      "team": "B8-D3_RESTON_BIRKLAND",
-      "opponent": "B8-D3_LEE-MT. VERNON_SIMONIK",
-      "points": 47,
-      "against": 44,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6293185,
-      "date": "2020-01-11",
-      "team": "B8-D3_LEE-MT. VERNON_SIMONIK",
-      "opponent": "B8-D3_RESTON_BIRKLAND",
-      "points": 44,
-      "against": 47,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6335170,
-      "date": "2020-01-11",
-      "team": "B5-D3_SOUTH COUNTY_ARORA",
-      "opponent": "B5-D3_ARLINGTON_PERKINS",
-      "points": 13,
-      "against": 36,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6335170,
-      "date": "2020-01-11",
-      "team": "B5-D3_ARLINGTON_PERKINS",
-      "opponent": "B5-D3_SOUTH COUNTY_ARORA",
-      "points": 36,
-      "against": 13,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6289879,
-      "date": "2020-01-11",
-      "team": "G6-D2_MCLEAN_EDWARDS",
-      "opponent": "G6-D2_SYA_LANGFORD",
-      "points": 21,
-      "against": 13,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289879,
-      "date": "2020-01-11",
-      "team": "G6-D2_SYA_LANGFORD",
-      "opponent": "G6-D2_MCLEAN_EDWARDS",
-      "points": 13,
-      "against": 21,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6277828,
-      "date": "2020-01-11",
-      "team": "G8-D1_SPRINGFIELD_WILSON",
-      "opponent": "G8-D1_ARLINGTON_ABUNDO",
-      "points": 44,
-      "against": 35,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6277828,
-      "date": "2020-01-11",
-      "team": "G8-D1_ARLINGTON_ABUNDO",
-      "opponent": "G8-D1_SPRINGFIELD_WILSON",
-      "points": 35,
-      "against": 44,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6289877,
-      "date": "2020-01-11",
-      "team": "G6-D2_RESTON_BARR",
-      "opponent": "G6-D2_SPRINGFIELD_BURDETTE",
-      "points": 26,
-      "against": 12,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289877,
-      "date": "2020-01-11",
-      "team": "G6-D2_SPRINGFIELD_BURDETTE",
-      "opponent": "G6-D2_RESTON_BARR",
-      "points": 12,
-      "against": 26,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279574,
-      "date": "2020-01-11",
-      "team": "B7-D2_ARLINGTON_REMEDIOS",
-      "opponent": "B7-D2_VIENNA_MORTON",
-      "points": 55,
-      "against": 47,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279574,
-      "date": "2020-01-11",
-      "team": "B7-D2_VIENNA_MORTON",
-      "opponent": "B7-D2_ARLINGTON_REMEDIOS",
-      "points": 47,
-      "against": 55,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6279570,
       "date": "2020-01-11",
       "team": "B7-D2_MCLEAN_NANCE",
@@ -17777,6 +13908,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6279574,
+      "date": "2020-01-11",
+      "team": "B7-D2_ARLINGTON_REMEDIOS",
+      "opponent": "B7-D2_VIENNA_MORTON",
+      "points": 55,
+      "against": 47,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279574,
+      "date": "2020-01-11",
+      "team": "B7-D2_VIENNA_MORTON",
+      "opponent": "B7-D2_ARLINGTON_REMEDIOS",
+      "points": 47,
+      "against": 55,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6335172,
       "date": "2020-01-11",
       "team": "B5-D3_HERNDON_BERMUDEZ",
@@ -17799,6 +13956,136 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6335170,
+      "date": "2020-01-11",
+      "team": "B5-D3_SOUTH COUNTY_ARORA",
+      "opponent": "B5-D3_ARLINGTON_PERKINS",
+      "points": 13,
+      "against": 36,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6335170,
+      "date": "2020-01-11",
+      "team": "B5-D3_ARLINGTON_PERKINS",
+      "opponent": "B5-D3_SOUTH COUNTY_ARORA",
+      "points": 36,
+      "against": 13,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289879,
+      "date": "2020-01-11",
+      "team": "G6-D2_MCLEAN_EDWARDS",
+      "opponent": "G6-D2_SYA_LANGFORD",
+      "points": 21,
+      "against": 13,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289879,
+      "date": "2020-01-11",
+      "team": "G6-D2_SYA_LANGFORD",
+      "opponent": "G6-D2_MCLEAN_EDWARDS",
+      "points": 13,
+      "against": 21,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6293185,
+      "date": "2020-01-11",
+      "team": "B8-D3_RESTON_BIRKLAND",
+      "opponent": "B8-D3_LEE-MT. VERNON_SIMONIK",
+      "points": 47,
+      "against": 44,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6293185,
+      "date": "2020-01-11",
+      "team": "B8-D3_LEE-MT. VERNON_SIMONIK",
+      "opponent": "B8-D3_RESTON_BIRKLAND",
+      "points": 44,
+      "against": 47,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289877,
+      "date": "2020-01-11",
+      "team": "G6-D2_RESTON_BARR",
+      "opponent": "G6-D2_SPRINGFIELD_BURDETTE",
+      "points": 26,
+      "against": 12,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289877,
+      "date": "2020-01-11",
+      "team": "G6-D2_SPRINGFIELD_BURDETTE",
+      "opponent": "G6-D2_RESTON_BARR",
+      "points": 12,
+      "against": 26,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6277828,
+      "date": "2020-01-11",
+      "team": "G8-D1_SPRINGFIELD_WILSON",
+      "opponent": "G8-D1_ARLINGTON_ABUNDO",
+      "points": 44,
+      "against": 35,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6277828,
+      "date": "2020-01-11",
+      "team": "G8-D1_ARLINGTON_ABUNDO",
+      "opponent": "G8-D1_SPRINGFIELD_WILSON",
+      "points": 35,
+      "against": 44,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -17959,6 +14246,58 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6279576,
+      "date": "2020-01-11",
+      "team": "B7-D2_ANNANDALE_NELSON",
+      "opponent": "B7-D2_BURKE_STURTEVANT",
+      "points": 53,
+      "against": 63,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279576,
+      "date": "2020-01-11",
+      "team": "B7-D2_BURKE_STURTEVANT",
+      "opponent": "B7-D2_ANNANDALE_NELSON",
+      "points": 63,
+      "against": 53,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279571,
+      "date": "2020-01-11",
+      "team": "B7-D2_ALEXANDRIA_MATTHEWS",
+      "opponent": "B7-D2_CYA_UTTERBACK",
+      "points": 28,
+      "against": 55,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279571,
+      "date": "2020-01-11",
+      "team": "B7-D2_CYA_UTTERBACK",
+      "opponent": "B7-D2_ALEXANDRIA_MATTHEWS",
+      "points": 55,
+      "against": 28,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6289875,
       "date": "2020-01-11",
       "team": "G6-D2_SPRINGFIELD_MARSHALL",
@@ -17981,6 +14320,32 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6335173,
+      "date": "2020-01-11",
+      "team": "B5-D3_GUM SPRINGS_SPROCKER",
+      "opponent": "B5-D3_CYA_RIVERS",
+      "points": 10,
+      "against": 32,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6335173,
+      "date": "2020-01-11",
+      "team": "B5-D3_CYA_RIVERS",
+      "opponent": "B5-D3_GUM SPRINGS_SPROCKER",
+      "points": 32,
+      "against": 10,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -18037,80 +14402,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6335173,
+      "game_id": 6287509,
       "date": "2020-01-11",
-      "team": "B5-D3_GUM SPRINGS_SPROCKER",
-      "opponent": "B5-D3_CYA_RIVERS",
-      "points": 10,
+      "team": "G8-D2_VIENNA_BOND",
+      "opponent": "G8-D2_SOUTH LOUDOUN_STROHECKER",
+      "points": 59,
       "against": 32,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6335173,
+      "game_id": 6287509,
       "date": "2020-01-11",
-      "team": "B5-D3_CYA_RIVERS",
-      "opponent": "B5-D3_GUM SPRINGS_SPROCKER",
+      "team": "G8-D2_SOUTH LOUDOUN_STROHECKER",
+      "opponent": "G8-D2_VIENNA_BOND",
       "points": 32,
-      "against": 10,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279576,
-      "date": "2020-01-11",
-      "team": "B7-D2_ANNANDALE_NELSON",
-      "opponent": "B7-D2_BURKE_STURTEVANT",
-      "points": 53,
-      "against": 63,
+      "against": 59,
       "result": "L",
       "win": false,
       "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279576,
-      "date": "2020-01-11",
-      "team": "B7-D2_BURKE_STURTEVANT",
-      "opponent": "B7-D2_ANNANDALE_NELSON",
-      "points": 63,
-      "against": 53,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279571,
-      "date": "2020-01-11",
-      "team": "B7-D2_ALEXANDRIA_MATTHEWS",
-      "opponent": "B7-D2_CYA_UTTERBACK",
-      "points": 28,
-      "against": 55,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279571,
-      "date": "2020-01-11",
-      "team": "B7-D2_CYA_UTTERBACK",
-      "opponent": "B7-D2_ALEXANDRIA_MATTHEWS",
-      "points": 55,
-      "against": 28,
-      "result": "W",
-      "win": true,
-      "lost": false,
       "tie": false,
       "source": false
     },
@@ -18137,32 +14450,6 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6287509,
-      "date": "2020-01-11",
-      "team": "G8-D2_VIENNA_BOND",
-      "opponent": "G8-D2_SOUTH LOUDOUN_STROHECKER",
-      "points": 59,
-      "against": 32,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6287509,
-      "date": "2020-01-11",
-      "team": "G8-D2_SOUTH LOUDOUN_STROHECKER",
-      "opponent": "G8-D2_VIENNA_BOND",
-      "points": 32,
-      "against": 59,
-      "result": "L",
-      "win": false,
-      "lost": true,
       "tie": false,
       "source": false
     },
@@ -18219,12 +14506,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279575,
+      "game_id": 6287508,
       "date": "2020-01-11",
-      "team": "B7-D2_LEE-MT. VERNON_RUSH",
-      "opponent": "B7-D2_GAINESVILLE_SCHWEMER",
+      "team": "G8-D2_MT. VERNON_ELLING",
+      "opponent": "G8-D2_ARLINGTON_SCARCELLA",
       "points": 35,
-      "against": 33,
+      "against": 27,
       "result": "W",
       "win": true,
       "lost": false,
@@ -18232,41 +14519,15 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6279575,
+      "game_id": 6287508,
       "date": "2020-01-11",
-      "team": "B7-D2_GAINESVILLE_SCHWEMER",
-      "opponent": "B7-D2_LEE-MT. VERNON_RUSH",
-      "points": 33,
+      "team": "G8-D2_ARLINGTON_SCARCELLA",
+      "opponent": "G8-D2_MT. VERNON_ELLING",
+      "points": 27,
       "against": 35,
       "result": "L",
       "win": false,
       "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6289878,
-      "date": "2020-01-11",
-      "team": "G6-D2_FPYC_LESTER",
-      "opponent": "G6-D2_BURKE_SEIGLE",
-      "points": 13,
-      "against": 30,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289878,
-      "date": "2020-01-11",
-      "team": "G6-D2_BURKE_SEIGLE",
-      "opponent": "G6-D2_FPYC_LESTER",
-      "points": 30,
-      "against": 13,
-      "result": "W",
-      "win": true,
-      "lost": false,
       "tie": false,
       "source": false
     },
@@ -18297,12 +14558,38 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6287508,
+      "game_id": 6289878,
       "date": "2020-01-11",
-      "team": "G8-D2_MT. VERNON_ELLING",
-      "opponent": "G8-D2_ARLINGTON_SCARCELLA",
+      "team": "G6-D2_FPYC_LESTER",
+      "opponent": "G6-D2_BURKE_SEIGLE",
+      "points": 13,
+      "against": 30,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289878,
+      "date": "2020-01-11",
+      "team": "G6-D2_BURKE_SEIGLE",
+      "opponent": "G6-D2_FPYC_LESTER",
+      "points": 30,
+      "against": 13,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279575,
+      "date": "2020-01-11",
+      "team": "B7-D2_LEE-MT. VERNON_RUSH",
+      "opponent": "B7-D2_GAINESVILLE_SCHWEMER",
       "points": 35,
-      "against": 27,
+      "against": 33,
       "result": "W",
       "win": true,
       "lost": false,
@@ -18310,11 +14597,11 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6287508,
+      "game_id": 6279575,
       "date": "2020-01-11",
-      "team": "G8-D2_ARLINGTON_SCARCELLA",
-      "opponent": "G8-D2_MT. VERNON_ELLING",
-      "points": 27,
+      "team": "B7-D2_GAINESVILLE_SCHWEMER",
+      "opponent": "B7-D2_LEE-MT. VERNON_RUSH",
+      "points": 33,
       "against": 35,
       "result": "L",
       "win": false,
@@ -18427,58 +14714,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6278397,
-      "date": "2020-01-12",
-      "team": "B8-D1_FORT BELVOIR_MILES",
-      "opponent": "B8-D1_ARLINGTON_DAVIS",
-      "points": 43,
-      "against": 57,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278397,
-      "date": "2020-01-12",
-      "team": "B8-D1_ARLINGTON_DAVIS",
-      "opponent": "B8-D1_FORT BELVOIR_MILES",
-      "points": 57,
-      "against": 43,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278994,
-      "date": "2020-01-12",
-      "team": "B8-D2_MCLEAN_TURGEON",
-      "opponent": "B8-D2_SOUTH LOUDOUN_CHOI",
-      "points": 47,
-      "against": 53,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278994,
-      "date": "2020-01-12",
-      "team": "B8-D2_SOUTH LOUDOUN_CHOI",
-      "opponent": "B8-D2_MCLEAN_TURGEON",
-      "points": 53,
-      "against": 47,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6278396,
       "date": "2020-01-12",
       "team": "B8-D1_RESTON_LANSDOWNE",
@@ -18557,6 +14792,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6278994,
+      "date": "2020-01-12",
+      "team": "B8-D2_MCLEAN_TURGEON",
+      "opponent": "B8-D2_SOUTH LOUDOUN_CHOI",
+      "points": 47,
+      "against": 53,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278994,
+      "date": "2020-01-12",
+      "team": "B8-D2_SOUTH LOUDOUN_CHOI",
+      "opponent": "B8-D2_MCLEAN_TURGEON",
+      "points": 53,
+      "against": 47,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6290671,
       "date": "2020-01-12",
       "team": "B7-D3_HERNDON_PASSMORE",
@@ -18576,6 +14837,32 @@ var _MASTER_DATA = {
       "opponent": "B7-D3_HERNDON_PASSMORE",
       "points": 50,
       "against": 45,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278397,
+      "date": "2020-01-12",
+      "team": "B8-D1_FORT BELVOIR_MILES",
+      "opponent": "B8-D1_ARLINGTON_DAVIS",
+      "points": 43,
+      "against": 57,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278397,
+      "date": "2020-01-12",
+      "team": "B8-D1_ARLINGTON_DAVIS",
+      "opponent": "B8-D1_FORT BELVOIR_MILES",
+      "points": 57,
+      "against": 43,
       "result": "W",
       "win": true,
       "lost": false,
@@ -18605,6 +14892,32 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6286776,
+      "date": "2020-01-12",
+      "team": "G7-D2_BRYC_OCONNOR",
+      "opponent": "G7-D2_MCLEAN_MENDENHALL",
+      "points": 22,
+      "against": 13,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6286776,
+      "date": "2020-01-12",
+      "team": "G7-D2_MCLEAN_MENDENHALL",
+      "opponent": "G7-D2_BRYC_OCONNOR",
+      "points": 13,
+      "against": 22,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -18661,28 +14974,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6286776,
+      "game_id": 6289890,
       "date": "2020-01-12",
-      "team": "G7-D2_BRYC_OCONNOR",
-      "opponent": "G7-D2_MCLEAN_MENDENHALL",
-      "points": 22,
-      "against": 13,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "G6-D2_CYA_MURPHY",
+      "opponent": "G6-D2_BURKE_SEIGLE",
+      "points": 12,
+      "against": 34,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6286776,
+      "game_id": 6289890,
       "date": "2020-01-12",
-      "team": "G7-D2_MCLEAN_MENDENHALL",
-      "opponent": "G7-D2_BRYC_OCONNOR",
-      "points": 13,
-      "against": 22,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "G6-D2_BURKE_SEIGLE",
+      "opponent": "G6-D2_CYA_MURPHY",
+      "points": 34,
+      "against": 12,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -18709,32 +15022,6 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6289890,
-      "date": "2020-01-12",
-      "team": "G6-D2_CYA_MURPHY",
-      "opponent": "G6-D2_BURKE_SEIGLE",
-      "points": 12,
-      "against": 34,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289890,
-      "date": "2020-01-12",
-      "team": "G6-D2_BURKE_SEIGLE",
-      "opponent": "G6-D2_CYA_MURPHY",
-      "points": 34,
-      "against": 12,
-      "result": "W",
-      "win": true,
-      "lost": false,
       "tie": false,
       "source": false
     },
@@ -18784,6 +15071,32 @@ var _MASTER_DATA = {
       "opponent": "B6-D3_RESTON_LEGLER",
       "points": 63,
       "against": 29,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290495,
+      "date": "2020-01-12",
+      "team": "B6-D3_TURNPIKE_OURS",
+      "opponent": "B6-D3_SOUTH COUNTY_JOHNSON",
+      "points": 27,
+      "against": 46,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290495,
+      "date": "2020-01-12",
+      "team": "B6-D3_SOUTH COUNTY_JOHNSON",
+      "opponent": "B6-D3_TURNPIKE_OURS",
+      "points": 46,
+      "against": 27,
       "result": "W",
       "win": true,
       "lost": false,
@@ -18843,266 +15156,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6290495,
-      "date": "2020-01-12",
-      "team": "B6-D3_TURNPIKE_OURS",
-      "opponent": "B6-D3_SOUTH COUNTY_JOHNSON",
-      "points": 27,
-      "against": 46,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290495,
-      "date": "2020-01-12",
-      "team": "B6-D3_SOUTH COUNTY_JOHNSON",
-      "opponent": "B6-D3_TURNPIKE_OURS",
-      "points": 46,
-      "against": 27,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333713,
-      "date": "2020-01-12",
-      "team": "B5-D2_BURKE_ASEFI",
-      "opponent": "B5-D2_LEE MT. VERNON_DAY",
-      "points": 20,
-      "against": 27,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333713,
-      "date": "2020-01-12",
-      "team": "B5-D2_LEE MT. VERNON_DAY",
-      "opponent": "B5-D2_BURKE_ASEFI",
-      "points": 27,
-      "against": 20,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288389,
-      "date": "2020-01-12",
-      "team": "B6-D1_GREAT FALLS_BROWN",
-      "opponent": "B6-D1_GAINESVILLE_COOK",
-      "points": 55,
-      "against": 43,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288389,
-      "date": "2020-01-12",
-      "team": "B6-D1_GAINESVILLE_COOK",
-      "opponent": "B6-D1_GREAT FALLS_BROWN",
-      "points": 43,
-      "against": 55,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6290491,
-      "date": "2020-01-12",
-      "team": "B6-D3_CYA_LUGO",
-      "opponent": "B6-D3_BAILEYS_J. SMITH SR",
-      "points": 47,
-      "against": 30,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290491,
-      "date": "2020-01-12",
-      "team": "B6-D3_BAILEYS_J. SMITH SR",
-      "opponent": "B6-D3_CYA_LUGO",
-      "points": 30,
-      "against": 47,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6293199,
-      "date": "2020-01-12",
-      "team": "B8-D3_MANASSAS PARK_HOLDEN",
-      "opponent": "B8-D3_FALLS CHURCH_SUTTON",
-      "points": 29,
-      "against": 42,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6293199,
-      "date": "2020-01-12",
-      "team": "B8-D3_FALLS CHURCH_SUTTON",
-      "opponent": "B8-D3_MANASSAS PARK_HOLDEN",
-      "points": 42,
-      "against": 29,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279000,
-      "date": "2020-01-12",
-      "team": "B8-D2_ARLINGTON_BALLARD",
-      "opponent": "B8-D2_SOUTH COUNTY_MATTHEWS",
-      "points": 57,
-      "against": 39,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279000,
-      "date": "2020-01-12",
-      "team": "B8-D2_SOUTH COUNTY_MATTHEWS",
-      "opponent": "B8-D2_ARLINGTON_BALLARD",
-      "points": 39,
-      "against": 57,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278401,
-      "date": "2020-01-12",
-      "team": "B8-D1_GREAT FALLS_KRAWCZYK",
-      "opponent": "B8-D1_MCLEAN_TALLENT",
-      "points": 46,
-      "against": 43,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278401,
-      "date": "2020-01-12",
-      "team": "B8-D1_MCLEAN_TALLENT",
-      "opponent": "B8-D1_GREAT FALLS_KRAWCZYK",
-      "points": 43,
-      "against": 46,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278398,
-      "date": "2020-01-12",
-      "team": "B8-D1_MCLEAN_LEGGETT",
-      "opponent": "B8-D1_SPRINGFIELD_ROBINSON",
-      "points": 62,
-      "against": 52,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278398,
-      "date": "2020-01-12",
-      "team": "B8-D1_SPRINGFIELD_ROBINSON",
-      "opponent": "B8-D1_MCLEAN_LEGGETT",
-      "points": 52,
-      "against": 62,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278761,
-      "date": "2020-01-12",
-      "team": "G7-D1_SYA_BRUBAKER",
-      "opponent": "G7-D1_SPRINGFIELD_DUCKETT",
-      "points": 28,
-      "against": 42,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278761,
-      "date": "2020-01-12",
-      "team": "G7-D1_SPRINGFIELD_DUCKETT",
-      "opponent": "G7-D1_SYA_BRUBAKER",
-      "points": 42,
-      "against": 28,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6286777,
-      "date": "2020-01-12",
-      "team": "G7-D2_ARLINGTON_FILIDES",
-      "opponent": "G7-D2_MT. VERNON_GAREY",
-      "points": 33,
-      "against": 39,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6286777,
-      "date": "2020-01-12",
-      "team": "G7-D2_MT. VERNON_GAREY",
-      "opponent": "G7-D2_ARLINGTON_FILIDES",
-      "points": 39,
-      "against": 33,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6289897,
       "date": "2020-01-12",
       "team": "G6-D2_SPRINGFIELD_MARSHALL",
@@ -19155,6 +15208,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6286777,
+      "date": "2020-01-12",
+      "team": "G7-D2_ARLINGTON_FILIDES",
+      "opponent": "G7-D2_MT. VERNON_GAREY",
+      "points": 33,
+      "against": 39,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6286777,
+      "date": "2020-01-12",
+      "team": "G7-D2_MT. VERNON_GAREY",
+      "opponent": "G7-D2_ARLINGTON_FILIDES",
+      "points": 39,
+      "against": 33,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6287513,
       "date": "2020-01-12",
       "team": "G8-D2_CYA_JONES",
@@ -19174,6 +15253,136 @@ var _MASTER_DATA = {
       "opponent": "G8-D2_CYA_JONES",
       "points": 17,
       "against": 29,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333713,
+      "date": "2020-01-12",
+      "team": "B5-D2_BURKE_ASEFI",
+      "opponent": "B5-D2_LEE MT. VERNON_DAY",
+      "points": 20,
+      "against": 27,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333713,
+      "date": "2020-01-12",
+      "team": "B5-D2_LEE MT. VERNON_DAY",
+      "opponent": "B5-D2_BURKE_ASEFI",
+      "points": 27,
+      "against": 20,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278761,
+      "date": "2020-01-12",
+      "team": "G7-D1_SYA_BRUBAKER",
+      "opponent": "G7-D1_SPRINGFIELD_DUCKETT",
+      "points": 28,
+      "against": 42,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278761,
+      "date": "2020-01-12",
+      "team": "G7-D1_SPRINGFIELD_DUCKETT",
+      "opponent": "G7-D1_SYA_BRUBAKER",
+      "points": 42,
+      "against": 28,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288389,
+      "date": "2020-01-12",
+      "team": "B6-D1_GREAT FALLS_BROWN",
+      "opponent": "B6-D1_GAINESVILLE_COOK",
+      "points": 55,
+      "against": 43,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288389,
+      "date": "2020-01-12",
+      "team": "B6-D1_GAINESVILLE_COOK",
+      "opponent": "B6-D1_GREAT FALLS_BROWN",
+      "points": 43,
+      "against": 55,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278398,
+      "date": "2020-01-12",
+      "team": "B8-D1_MCLEAN_LEGGETT",
+      "opponent": "B8-D1_SPRINGFIELD_ROBINSON",
+      "points": 62,
+      "against": 52,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278398,
+      "date": "2020-01-12",
+      "team": "B8-D1_SPRINGFIELD_ROBINSON",
+      "opponent": "B8-D1_MCLEAN_LEGGETT",
+      "points": 52,
+      "against": 62,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278401,
+      "date": "2020-01-12",
+      "team": "B8-D1_GREAT FALLS_KRAWCZYK",
+      "opponent": "B8-D1_MCLEAN_TALLENT",
+      "points": 46,
+      "against": 43,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278401,
+      "date": "2020-01-12",
+      "team": "B8-D1_MCLEAN_TALLENT",
+      "opponent": "B8-D1_GREAT FALLS_KRAWCZYK",
+      "points": 43,
+      "against": 46,
       "result": "L",
       "win": false,
       "lost": true,
@@ -19252,6 +15461,84 @@ var _MASTER_DATA = {
       "opponent": "B5-D1_ARLINGTON_SADAKA",
       "points": 23,
       "against": 29,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290491,
+      "date": "2020-01-12",
+      "team": "B6-D3_CYA_LUGO",
+      "opponent": "B6-D3_BAILEYS_J. SMITH SR",
+      "points": 47,
+      "against": 30,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290491,
+      "date": "2020-01-12",
+      "team": "B6-D3_BAILEYS_J. SMITH SR",
+      "opponent": "B6-D3_CYA_LUGO",
+      "points": 30,
+      "against": 47,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6293199,
+      "date": "2020-01-12",
+      "team": "B8-D3_MANASSAS PARK_HOLDEN",
+      "opponent": "B8-D3_FALLS CHURCH_SUTTON",
+      "points": 29,
+      "against": 42,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6293199,
+      "date": "2020-01-12",
+      "team": "B8-D3_FALLS CHURCH_SUTTON",
+      "opponent": "B8-D3_MANASSAS PARK_HOLDEN",
+      "points": 42,
+      "against": 29,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279000,
+      "date": "2020-01-12",
+      "team": "B8-D2_ARLINGTON_BALLARD",
+      "opponent": "B8-D2_SOUTH COUNTY_MATTHEWS",
+      "points": 57,
+      "against": 39,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279000,
+      "date": "2020-01-12",
+      "team": "B8-D2_SOUTH COUNTY_MATTHEWS",
+      "opponent": "B8-D2_ARLINGTON_BALLARD",
+      "points": 39,
+      "against": 57,
       "result": "L",
       "win": false,
       "lost": true,
@@ -19363,32 +15650,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279156,
-      "date": "2020-01-12",
-      "team": "B7-D1_BRYC_AQUIL",
-      "opponent": "B7-D1_GREAT FALLS_NICKLES",
-      "points": 48,
-      "against": 31,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279156,
-      "date": "2020-01-12",
-      "team": "B7-D1_GREAT FALLS_NICKLES",
-      "opponent": "B7-D1_BRYC_AQUIL",
-      "points": 31,
-      "against": 48,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6290493,
       "date": "2020-01-12",
       "team": "B6-D3_FPYC_MALESKY",
@@ -19408,6 +15669,32 @@ var _MASTER_DATA = {
       "opponent": "B6-D3_FPYC_MALESKY",
       "points": 33,
       "against": 41,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279156,
+      "date": "2020-01-12",
+      "team": "B7-D1_BRYC_AQUIL",
+      "opponent": "B7-D1_GREAT FALLS_NICKLES",
+      "points": 48,
+      "against": 31,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279156,
+      "date": "2020-01-12",
+      "team": "B7-D1_GREAT FALLS_NICKLES",
+      "opponent": "B7-D1_BRYC_AQUIL",
+      "points": 31,
+      "against": 48,
       "result": "L",
       "win": false,
       "lost": true,
@@ -19467,32 +15754,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6293197,
-      "date": "2020-01-12",
-      "team": "B8-D3_LEE-MT. VERNON_SIMONIK",
-      "opponent": "B8-D3_LEE-MT. VERNON_PETERS",
-      "points": 32,
-      "against": 39,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6293197,
-      "date": "2020-01-12",
-      "team": "B8-D3_LEE-MT. VERNON_PETERS",
-      "opponent": "B8-D3_LEE-MT. VERNON_SIMONIK",
-      "points": 39,
-      "against": 32,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6290673,
       "date": "2020-01-12",
       "team": "B7-D3_SOUTH COUNTY_LLOYD",
@@ -19519,12 +15780,38 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6288773,
+      "game_id": 6293197,
       "date": "2020-01-12",
-      "team": "B6-D2_MCLEAN_CICALE",
-      "opponent": "B6-D2_SYA_HILL",
-      "points": 57,
-      "against": 26,
+      "team": "B8-D3_LEE-MT. VERNON_SIMONIK",
+      "opponent": "B8-D3_LEE-MT. VERNON_PETERS",
+      "points": 32,
+      "against": 39,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6293197,
+      "date": "2020-01-12",
+      "team": "B8-D3_LEE-MT. VERNON_PETERS",
+      "opponent": "B8-D3_LEE-MT. VERNON_SIMONIK",
+      "points": 39,
+      "against": 32,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6335178,
+      "date": "2020-01-12",
+      "team": "B5-D3_BRYC_SHARMA",
+      "opponent": "B5-D3_GUM SPRINGS_SPROCKER",
+      "points": 37,
+      "against": 14,
       "result": "W",
       "win": true,
       "lost": false,
@@ -19532,12 +15819,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6288773,
+      "game_id": 6335178,
       "date": "2020-01-12",
-      "team": "B6-D2_SYA_HILL",
-      "opponent": "B6-D2_MCLEAN_CICALE",
-      "points": 26,
-      "against": 57,
+      "team": "B5-D3_GUM SPRINGS_SPROCKER",
+      "opponent": "B5-D3_BRYC_SHARMA",
+      "points": 14,
+      "against": 37,
       "result": "L",
       "win": false,
       "lost": true,
@@ -19545,28 +15832,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279573,
+      "game_id": 6290496,
       "date": "2020-01-12",
-      "team": "B7-D2_TURNPIKE_BURNS",
-      "opponent": "B7-D2_FALLS CHURCH_WHITAKER",
-      "points": 32,
-      "against": 40,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "B6-D3_BURKE_MITCHELL",
+      "opponent": "B6-D3_BRYC_SHIN",
+      "points": 47,
+      "against": 10,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6279573,
+      "game_id": 6290496,
       "date": "2020-01-12",
-      "team": "B7-D2_FALLS CHURCH_WHITAKER",
-      "opponent": "B7-D2_TURNPIKE_BURNS",
-      "points": 40,
-      "against": 32,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "B6-D3_BRYC_SHIN",
+      "opponent": "B6-D3_BURKE_MITCHELL",
+      "points": 10,
+      "against": 47,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -19590,84 +15877,6 @@ var _MASTER_DATA = {
       "opponent": "B7-D1_ARLINGTON_SHELLEY",
       "points": 28,
       "against": 44,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6290492,
-      "date": "2020-01-12",
-      "team": "B6-D3_LEE MT. VERNON_STEWART",
-      "opponent": "B6-D3_SPRINGFIELD_ALVAREZ",
-      "points": 37,
-      "against": 17,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290492,
-      "date": "2020-01-12",
-      "team": "B6-D3_SPRINGFIELD_ALVAREZ",
-      "opponent": "B6-D3_LEE MT. VERNON_STEWART",
-      "points": 17,
-      "against": 37,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278759,
-      "date": "2020-01-12",
-      "team": "G7-D1_SOUTH LOUDOUN_LISACK",
-      "opponent": "G7-D1_GREAT FALLS_BOND",
-      "points": 31,
-      "against": 27,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278759,
-      "date": "2020-01-12",
-      "team": "G7-D1_GREAT FALLS_BOND",
-      "opponent": "G7-D1_SOUTH LOUDOUN_LISACK",
-      "points": 27,
-      "against": 31,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6289892,
-      "date": "2020-01-12",
-      "team": "G6-D2_FALLS CHURCH_PAPADOPOULOS",
-      "opponent": "G6-D2_BRYC_DUDLEY",
-      "points": 35,
-      "against": 11,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289892,
-      "date": "2020-01-12",
-      "team": "G6-D2_BRYC_DUDLEY",
-      "opponent": "G6-D2_FALLS CHURCH_PAPADOPOULOS",
-      "points": 11,
-      "against": 35,
       "result": "L",
       "win": false,
       "lost": true,
@@ -19753,12 +15962,38 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6290496,
+      "game_id": 6279573,
       "date": "2020-01-12",
-      "team": "B6-D3_BURKE_MITCHELL",
-      "opponent": "B6-D3_BRYC_SHIN",
-      "points": 47,
-      "against": 10,
+      "team": "B7-D2_TURNPIKE_BURNS",
+      "opponent": "B7-D2_FALLS CHURCH_WHITAKER",
+      "points": 32,
+      "against": 40,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279573,
+      "date": "2020-01-12",
+      "team": "B7-D2_FALLS CHURCH_WHITAKER",
+      "opponent": "B7-D2_TURNPIKE_BURNS",
+      "points": 40,
+      "against": 32,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290492,
+      "date": "2020-01-12",
+      "team": "B6-D3_LEE MT. VERNON_STEWART",
+      "opponent": "B6-D3_SPRINGFIELD_ALVAREZ",
+      "points": 37,
+      "against": 17,
       "result": "W",
       "win": true,
       "lost": false,
@@ -19766,12 +16001,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6290496,
+      "game_id": 6290492,
       "date": "2020-01-12",
-      "team": "B6-D3_BRYC_SHIN",
-      "opponent": "B6-D3_BURKE_MITCHELL",
-      "points": 10,
-      "against": 47,
+      "team": "B6-D3_SPRINGFIELD_ALVAREZ",
+      "opponent": "B6-D3_LEE MT. VERNON_STEWART",
+      "points": 17,
+      "against": 37,
       "result": "L",
       "win": false,
       "lost": true,
@@ -19779,12 +16014,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6335178,
+      "game_id": 6288773,
       "date": "2020-01-12",
-      "team": "B5-D3_BRYC_SHARMA",
-      "opponent": "B5-D3_GUM SPRINGS_SPROCKER",
-      "points": 37,
-      "against": 14,
+      "team": "B6-D2_MCLEAN_CICALE",
+      "opponent": "B6-D2_SYA_HILL",
+      "points": 57,
+      "against": 26,
       "result": "W",
       "win": true,
       "lost": false,
@@ -19792,12 +16027,64 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6335178,
+      "game_id": 6288773,
       "date": "2020-01-12",
-      "team": "B5-D3_GUM SPRINGS_SPROCKER",
-      "opponent": "B5-D3_BRYC_SHARMA",
-      "points": 14,
-      "against": 37,
+      "team": "B6-D2_SYA_HILL",
+      "opponent": "B6-D2_MCLEAN_CICALE",
+      "points": 26,
+      "against": 57,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278759,
+      "date": "2020-01-12",
+      "team": "G7-D1_SOUTH LOUDOUN_LISACK",
+      "opponent": "G7-D1_GREAT FALLS_BOND",
+      "points": 31,
+      "against": 27,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278759,
+      "date": "2020-01-12",
+      "team": "G7-D1_GREAT FALLS_BOND",
+      "opponent": "G7-D1_SOUTH LOUDOUN_LISACK",
+      "points": 27,
+      "against": 31,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289892,
+      "date": "2020-01-12",
+      "team": "G6-D2_FALLS CHURCH_PAPADOPOULOS",
+      "opponent": "G6-D2_BRYC_DUDLEY",
+      "points": 35,
+      "against": 11,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289892,
+      "date": "2020-01-12",
+      "team": "G6-D2_BRYC_DUDLEY",
+      "opponent": "G6-D2_FALLS CHURCH_PAPADOPOULOS",
+      "points": 11,
+      "against": 35,
       "result": "L",
       "win": false,
       "lost": true,
@@ -20013,6 +16300,292 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6335180,
+      "date": "2020-01-12",
+      "team": "B5-D3_SPRINGFIELD_MORRISON",
+      "opponent": "B5-D3_SOUTH COUNTY_ARORA",
+      "points": 34,
+      "against": 24,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6335180,
+      "date": "2020-01-12",
+      "team": "B5-D3_SOUTH COUNTY_ARORA",
+      "opponent": "B5-D3_SPRINGFIELD_MORRISON",
+      "points": 24,
+      "against": 34,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278993,
+      "date": "2020-01-12",
+      "team": "B8-D2_FORT HUNT_FORTI",
+      "opponent": "B8-D2_CYA_SMITH",
+      "points": 63,
+      "against": 35,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278993,
+      "date": "2020-01-12",
+      "team": "B8-D2_CYA_SMITH",
+      "opponent": "B8-D2_FORT HUNT_FORTI",
+      "points": 35,
+      "against": 63,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333523,
+      "date": "2020-01-12",
+      "team": "G5-D1_CYA_DOWLING",
+      "opponent": "G5-D1_SOUTH LOUDOUN_KERR",
+      "points": 31,
+      "against": 20,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333523,
+      "date": "2020-01-12",
+      "team": "G5-D1_SOUTH LOUDOUN_KERR",
+      "opponent": "G5-D1_CYA_DOWLING",
+      "points": 20,
+      "against": 31,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333635,
+      "date": "2020-01-12",
+      "team": "G5-D2_RESTON_WARD",
+      "opponent": "G5-D2_ARLINGTON_LOMAS",
+      "points": 2,
+      "against": 18,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333635,
+      "date": "2020-01-12",
+      "team": "G5-D2_ARLINGTON_LOMAS",
+      "opponent": "G5-D2_RESTON_WARD",
+      "points": 18,
+      "against": 2,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289893,
+      "date": "2020-01-12",
+      "team": "G6-D2_LEE-MT. VERNON_HENDERSON",
+      "opponent": "G6-D2_SPRINGFIELD_BURDETTE",
+      "points": 35,
+      "against": 15,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289893,
+      "date": "2020-01-12",
+      "team": "G6-D2_SPRINGFIELD_BURDETTE",
+      "opponent": "G6-D2_LEE-MT. VERNON_HENDERSON",
+      "points": 15,
+      "against": 35,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333526,
+      "date": "2020-01-12",
+      "team": "G5-D1_ARLINGTON_MCRAE",
+      "opponent": "G5-D1_SPRINGFIELD_GOODMAN",
+      "points": 27,
+      "against": 19,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333526,
+      "date": "2020-01-12",
+      "team": "G5-D1_SPRINGFIELD_GOODMAN",
+      "opponent": "G5-D1_ARLINGTON_MCRAE",
+      "points": 19,
+      "against": 27,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6286780,
+      "date": "2020-01-12",
+      "team": "G7-D2_VIENNA_TOMLINSON",
+      "opponent": "G7-D2_RESTON_ZEBERLEIN",
+      "points": 5,
+      "against": 40,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6286780,
+      "date": "2020-01-12",
+      "team": "G7-D2_RESTON_ZEBERLEIN",
+      "opponent": "G7-D2_VIENNA_TOMLINSON",
+      "points": 40,
+      "against": 5,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333718,
+      "date": "2020-01-12",
+      "team": "B5-D2_BURKE_MAYERNIK",
+      "opponent": "B5-D2_FALLS CHURCH_GREINER",
+      "points": 40,
+      "against": 38,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333718,
+      "date": "2020-01-12",
+      "team": "B5-D2_FALLS CHURCH_GREINER",
+      "opponent": "B5-D2_BURKE_MAYERNIK",
+      "points": 38,
+      "against": 40,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6287505,
+      "date": "2020-01-12",
+      "team": "G8-D2_FORT HUNT_HARRIS",
+      "opponent": "G8-D2_BURKE_BYRNE",
+      "points": 50,
+      "against": 38,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6287505,
+      "date": "2020-01-12",
+      "team": "G8-D2_BURKE_BYRNE",
+      "opponent": "G8-D2_FORT HUNT_HARRIS",
+      "points": 38,
+      "against": 50,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333715,
+      "date": "2020-01-12",
+      "team": "B5-D2_BRYC_MAYES",
+      "opponent": "B5-D2_MANASSAS PARK_SOLOMON",
+      "points": 25,
+      "against": 39,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333715,
+      "date": "2020-01-12",
+      "team": "B5-D2_MANASSAS PARK_SOLOMON",
+      "opponent": "B5-D2_BRYC_MAYES",
+      "points": 39,
+      "against": 25,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333525,
+      "date": "2020-01-12",
+      "team": "G5-D1_GREAT FALLS_NITOWSKI",
+      "opponent": "G5-D1_VIENNA_KORMAN",
+      "points": 15,
+      "against": 37,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333525,
+      "date": "2020-01-12",
+      "team": "G5-D1_VIENNA_KORMAN",
+      "opponent": "G5-D1_GREAT FALLS_NITOWSKI",
+      "points": 37,
+      "against": 15,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6288774,
       "date": "2020-01-12",
       "team": "B6-D2_FORT BELVOIR_TAYLOR JR",
@@ -20084,292 +16657,6 @@ var _MASTER_DATA = {
       "opponent": "B7-D3_GREAT FALLS_WILLSON",
       "points": 27,
       "against": 26,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278993,
-      "date": "2020-01-12",
-      "team": "B8-D2_FORT HUNT_FORTI",
-      "opponent": "B8-D2_CYA_SMITH",
-      "points": 63,
-      "against": 35,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278993,
-      "date": "2020-01-12",
-      "team": "B8-D2_CYA_SMITH",
-      "opponent": "B8-D2_FORT HUNT_FORTI",
-      "points": 35,
-      "against": 63,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333635,
-      "date": "2020-01-12",
-      "team": "G5-D2_RESTON_WARD",
-      "opponent": "G5-D2_ARLINGTON_LOMAS",
-      "points": 2,
-      "against": 18,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333635,
-      "date": "2020-01-12",
-      "team": "G5-D2_ARLINGTON_LOMAS",
-      "opponent": "G5-D2_RESTON_WARD",
-      "points": 18,
-      "against": 2,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6289893,
-      "date": "2020-01-12",
-      "team": "G6-D2_LEE-MT. VERNON_HENDERSON",
-      "opponent": "G6-D2_SPRINGFIELD_BURDETTE",
-      "points": 35,
-      "against": 15,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289893,
-      "date": "2020-01-12",
-      "team": "G6-D2_SPRINGFIELD_BURDETTE",
-      "opponent": "G6-D2_LEE-MT. VERNON_HENDERSON",
-      "points": 15,
-      "against": 35,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6286780,
-      "date": "2020-01-12",
-      "team": "G7-D2_VIENNA_TOMLINSON",
-      "opponent": "G7-D2_RESTON_ZEBERLEIN",
-      "points": 5,
-      "against": 40,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6286780,
-      "date": "2020-01-12",
-      "team": "G7-D2_RESTON_ZEBERLEIN",
-      "opponent": "G7-D2_VIENNA_TOMLINSON",
-      "points": 40,
-      "against": 5,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333523,
-      "date": "2020-01-12",
-      "team": "G5-D1_CYA_DOWLING",
-      "opponent": "G5-D1_SOUTH LOUDOUN_KERR",
-      "points": 31,
-      "against": 20,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333523,
-      "date": "2020-01-12",
-      "team": "G5-D1_SOUTH LOUDOUN_KERR",
-      "opponent": "G5-D1_CYA_DOWLING",
-      "points": 20,
-      "against": 31,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333526,
-      "date": "2020-01-12",
-      "team": "G5-D1_ARLINGTON_MCRAE",
-      "opponent": "G5-D1_SPRINGFIELD_GOODMAN",
-      "points": 27,
-      "against": 19,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333526,
-      "date": "2020-01-12",
-      "team": "G5-D1_SPRINGFIELD_GOODMAN",
-      "opponent": "G5-D1_ARLINGTON_MCRAE",
-      "points": 19,
-      "against": 27,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6335180,
-      "date": "2020-01-12",
-      "team": "B5-D3_SPRINGFIELD_MORRISON",
-      "opponent": "B5-D3_SOUTH COUNTY_ARORA",
-      "points": 34,
-      "against": 24,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6335180,
-      "date": "2020-01-12",
-      "team": "B5-D3_SOUTH COUNTY_ARORA",
-      "opponent": "B5-D3_SPRINGFIELD_MORRISON",
-      "points": 24,
-      "against": 34,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6287505,
-      "date": "2020-01-12",
-      "team": "G8-D2_FORT HUNT_HARRIS",
-      "opponent": "G8-D2_BURKE_BYRNE",
-      "points": 50,
-      "against": 38,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6287505,
-      "date": "2020-01-12",
-      "team": "G8-D2_BURKE_BYRNE",
-      "opponent": "G8-D2_FORT HUNT_HARRIS",
-      "points": 38,
-      "against": 50,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333718,
-      "date": "2020-01-12",
-      "team": "B5-D2_BURKE_MAYERNIK",
-      "opponent": "B5-D2_FALLS CHURCH_GREINER",
-      "points": 40,
-      "against": 38,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333718,
-      "date": "2020-01-12",
-      "team": "B5-D2_FALLS CHURCH_GREINER",
-      "opponent": "B5-D2_BURKE_MAYERNIK",
-      "points": 38,
-      "against": 40,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333715,
-      "date": "2020-01-12",
-      "team": "B5-D2_BRYC_MAYES",
-      "opponent": "B5-D2_MANASSAS PARK_SOLOMON",
-      "points": 25,
-      "against": 39,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333715,
-      "date": "2020-01-12",
-      "team": "B5-D2_MANASSAS PARK_SOLOMON",
-      "opponent": "B5-D2_BRYC_MAYES",
-      "points": 39,
-      "against": 25,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333525,
-      "date": "2020-01-12",
-      "team": "G5-D1_GREAT FALLS_NITOWSKI",
-      "opponent": "G5-D1_VIENNA_KORMAN",
-      "points": 15,
-      "against": 37,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333525,
-      "date": "2020-01-12",
-      "team": "G5-D1_VIENNA_KORMAN",
-      "opponent": "G5-D1_GREAT FALLS_NITOWSKI",
-      "points": 37,
-      "against": 15,
       "result": "W",
       "win": true,
       "lost": false,
@@ -20455,32 +16742,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333414,
-      "date": "2020-01-12",
-      "team": "B5-D1_GAINESVILLE_LY",
-      "opponent": "B5-D1_SYA_O-CONNOR",
-      "points": 35,
-      "against": 29,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333414,
-      "date": "2020-01-12",
-      "team": "B5-D1_SYA_O-CONNOR",
-      "opponent": "B5-D1_GAINESVILLE_LY",
-      "points": 29,
-      "against": 35,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6279160,
       "date": "2020-01-12",
       "team": "B7-D1_CYA_CUBBAGE",
@@ -20503,6 +16764,32 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333414,
+      "date": "2020-01-12",
+      "team": "B5-D1_GAINESVILLE_LY",
+      "opponent": "B5-D1_SYA_O-CONNOR",
+      "points": 35,
+      "against": 29,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333414,
+      "date": "2020-01-12",
+      "team": "B5-D1_SYA_O-CONNOR",
+      "opponent": "B5-D1_GAINESVILLE_LY",
+      "points": 29,
+      "against": 35,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -20585,12 +16872,64 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333413,
+      "game_id": 6278998,
       "date": "2020-01-12",
-      "team": "B5-D1_BURKE_SMITH",
-      "opponent": "B5-D1_MCLEAN_MARTIN",
-      "points": 45,
+      "team": "B8-D2_HERNDON_HARLEY",
+      "opponent": "B8-D2_VIENNA_DESENTI",
+      "points": 32,
+      "against": 59,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278998,
+      "date": "2020-01-12",
+      "team": "B8-D2_VIENNA_DESENTI",
+      "opponent": "B8-D2_HERNDON_HARLEY",
+      "points": 59,
+      "against": 32,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333416,
+      "date": "2020-01-12",
+      "team": "B5-D1_FORT HUNT_ZIPPEL",
+      "opponent": "B5-D1_GREAT FALLS_GOLDBERG",
+      "points": 29,
+      "against": 33,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333416,
+      "date": "2020-01-12",
+      "team": "B5-D1_GREAT FALLS_GOLDBERG",
+      "opponent": "B5-D1_FORT HUNT_ZIPPEL",
+      "points": 33,
       "against": 29,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333714,
+      "date": "2020-01-12",
+      "team": "B5-D2_ARLINGTON_MCLEAN",
+      "opponent": "B5-D2_MCLEAN_B BALL",
+      "points": 35,
+      "against": 24,
       "result": "W",
       "win": true,
       "lost": false,
@@ -20598,12 +16937,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6333413,
+      "game_id": 6333714,
       "date": "2020-01-12",
-      "team": "B5-D1_MCLEAN_MARTIN",
-      "opponent": "B5-D1_BURKE_SMITH",
-      "points": 29,
-      "against": 45,
+      "team": "B5-D2_MCLEAN_B BALL",
+      "opponent": "B5-D2_ARLINGTON_MCLEAN",
+      "points": 24,
+      "against": 35,
       "result": "L",
       "win": false,
       "lost": true,
@@ -20637,64 +16976,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6278998,
+      "game_id": 6333413,
       "date": "2020-01-12",
-      "team": "B8-D2_HERNDON_HARLEY",
-      "opponent": "B8-D2_VIENNA_DESENTI",
-      "points": 32,
-      "against": 59,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278998,
-      "date": "2020-01-12",
-      "team": "B8-D2_VIENNA_DESENTI",
-      "opponent": "B8-D2_HERNDON_HARLEY",
-      "points": 59,
-      "against": 32,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288775,
-      "date": "2020-01-12",
-      "team": "B6-D2_HERNDON_JONES",
-      "opponent": "B6-D2_VIENNA_CHOI",
-      "points": 39,
-      "against": 40,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288775,
-      "date": "2020-01-12",
-      "team": "B6-D2_VIENNA_CHOI",
-      "opponent": "B6-D2_HERNDON_JONES",
-      "points": 40,
-      "against": 39,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278999,
-      "date": "2020-01-12",
-      "team": "B8-D2_LEE-MT. VERNON_BOSLEY",
-      "opponent": "B8-D2_CYA_DANN",
-      "points": 64,
-      "against": 27,
+      "team": "B5-D1_BURKE_SMITH",
+      "opponent": "B5-D1_MCLEAN_MARTIN",
+      "points": 45,
+      "against": 29,
       "result": "W",
       "win": true,
       "lost": false,
@@ -20702,12 +16989,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6278999,
+      "game_id": 6333413,
       "date": "2020-01-12",
-      "team": "B8-D2_CYA_DANN",
-      "opponent": "B8-D2_LEE-MT. VERNON_BOSLEY",
-      "points": 27,
-      "against": 64,
+      "team": "B5-D1_MCLEAN_MARTIN",
+      "opponent": "B5-D1_BURKE_SMITH",
+      "points": 29,
+      "against": 45,
       "result": "L",
       "win": false,
       "lost": true,
@@ -20793,84 +17080,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333714,
-      "date": "2020-01-12",
-      "team": "B5-D2_ARLINGTON_MCLEAN",
-      "opponent": "B5-D2_MCLEAN_B BALL",
-      "points": 35,
-      "against": 24,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333714,
-      "date": "2020-01-12",
-      "team": "B5-D2_MCLEAN_B BALL",
-      "opponent": "B5-D2_ARLINGTON_MCLEAN",
-      "points": 24,
-      "against": 35,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333416,
-      "date": "2020-01-12",
-      "team": "B5-D1_FORT HUNT_ZIPPEL",
-      "opponent": "B5-D1_GREAT FALLS_GOLDBERG",
-      "points": 29,
-      "against": 33,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333416,
-      "date": "2020-01-12",
-      "team": "B5-D1_GREAT FALLS_GOLDBERG",
-      "opponent": "B5-D1_FORT HUNT_ZIPPEL",
-      "points": 33,
-      "against": 29,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333716,
-      "date": "2020-01-12",
-      "team": "B5-D2_CYA_MARTIN",
-      "opponent": "B5-D2_VIENNA_DAVIS",
-      "points": 19,
-      "against": 29,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333716,
-      "date": "2020-01-12",
-      "team": "B5-D2_VIENNA_DAVIS",
-      "opponent": "B5-D2_CYA_MARTIN",
-      "points": 29,
-      "against": 19,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6335181,
       "date": "2020-01-12",
       "team": "B5-D3_FORT BELVOIR_HUNTER",
@@ -20919,6 +17128,84 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278999,
+      "date": "2020-01-12",
+      "team": "B8-D2_LEE-MT. VERNON_BOSLEY",
+      "opponent": "B8-D2_CYA_DANN",
+      "points": 64,
+      "against": 27,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278999,
+      "date": "2020-01-12",
+      "team": "B8-D2_CYA_DANN",
+      "opponent": "B8-D2_LEE-MT. VERNON_BOSLEY",
+      "points": 27,
+      "against": 64,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288775,
+      "date": "2020-01-12",
+      "team": "B6-D2_HERNDON_JONES",
+      "opponent": "B6-D2_VIENNA_CHOI",
+      "points": 39,
+      "against": 40,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288775,
+      "date": "2020-01-12",
+      "team": "B6-D2_VIENNA_CHOI",
+      "opponent": "B6-D2_HERNDON_JONES",
+      "points": 40,
+      "against": 39,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333716,
+      "date": "2020-01-12",
+      "team": "B5-D2_CYA_MARTIN",
+      "opponent": "B5-D2_VIENNA_DAVIS",
+      "points": 19,
+      "against": 29,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333716,
+      "date": "2020-01-12",
+      "team": "B5-D2_VIENNA_DAVIS",
+      "opponent": "B5-D2_CYA_MARTIN",
+      "points": 29,
+      "against": 19,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -21235,32 +17522,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6290700,
-      "date": "2020-01-14",
-      "team": "B7-D3_BURKE_DISILVESTRO",
-      "opponent": "B7-D3_GAINESVILLE_LINGENFELDER",
-      "points": 50,
-      "against": 61,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290700,
-      "date": "2020-01-14",
-      "team": "B7-D3_GAINESVILLE_LINGENFELDER",
-      "opponent": "B7-D3_BURKE_DISILVESTRO",
-      "points": 61,
-      "against": 50,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6279533,
       "date": "2020-01-14",
       "team": "B7-D2_CYA_UTTERBACK",
@@ -21287,6 +17548,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6290700,
+      "date": "2020-01-14",
+      "team": "B7-D3_BURKE_DISILVESTRO",
+      "opponent": "B7-D3_GAINESVILLE_LINGENFELDER",
+      "points": 50,
+      "against": 61,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290700,
+      "date": "2020-01-14",
+      "team": "B7-D3_GAINESVILLE_LINGENFELDER",
+      "opponent": "B7-D3_BURKE_DISILVESTRO",
+      "points": 61,
+      "against": 50,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6278982,
       "date": "2020-01-14",
       "team": "B8-D2_MCLEAN_TURGEON",
@@ -21306,32 +17593,6 @@ var _MASTER_DATA = {
       "opponent": "B8-D2_MCLEAN_TURGEON",
       "points": 55,
       "against": 42,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279534,
-      "date": "2020-01-14",
-      "team": "B7-D2_ALEXANDRIA_MATTHEWS",
-      "opponent": "B7-D2_MCLEAN_NANCE",
-      "points": 28,
-      "against": 47,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279534,
-      "date": "2020-01-14",
-      "team": "B7-D2_MCLEAN_NANCE",
-      "opponent": "B7-D2_ALEXANDRIA_MATTHEWS",
-      "points": 47,
-      "against": 28,
       "result": "W",
       "win": true,
       "lost": false,
@@ -21365,28 +17626,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6289883,
-      "date": "2020-01-15",
-      "team": "G6-D2_SOUTH LOUDOUN_SAMSON",
-      "opponent": "G6-D2_RESTON_BARR",
-      "points": 22,
-      "against": 17,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "game_id": 6279534,
+      "date": "2020-01-14",
+      "team": "B7-D2_ALEXANDRIA_MATTHEWS",
+      "opponent": "B7-D2_MCLEAN_NANCE",
+      "points": 28,
+      "against": 47,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6289883,
-      "date": "2020-01-15",
-      "team": "G6-D2_RESTON_BARR",
-      "opponent": "G6-D2_SOUTH LOUDOUN_SAMSON",
-      "points": 17,
-      "against": 22,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "game_id": 6279534,
+      "date": "2020-01-14",
+      "team": "B7-D2_MCLEAN_NANCE",
+      "opponent": "B7-D2_ALEXANDRIA_MATTHEWS",
+      "points": 47,
+      "against": 28,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -21413,6 +17674,32 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289883,
+      "date": "2020-01-15",
+      "team": "G6-D2_SOUTH LOUDOUN_SAMSON",
+      "opponent": "G6-D2_RESTON_BARR",
+      "points": 22,
+      "against": 17,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289883,
+      "date": "2020-01-15",
+      "team": "G6-D2_RESTON_BARR",
+      "opponent": "G6-D2_SOUTH LOUDOUN_SAMSON",
+      "points": 17,
+      "against": 22,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -21755,32 +18042,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6289898,
-      "date": "2020-01-19",
-      "team": "G6-D2_BRYC_DUDLEY",
-      "opponent": "G6-D2_CYA_MURPHY",
-      "points": 18,
-      "against": 20,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289898,
-      "date": "2020-01-19",
-      "team": "G6-D2_CYA_MURPHY",
-      "opponent": "G6-D2_BRYC_DUDLEY",
-      "points": 20,
-      "against": 18,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6278768,
       "date": "2020-01-19",
       "team": "G7-D1_FALLS CHURCH_MADISON",
@@ -21833,12 +18094,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6290503,
+      "game_id": 6289898,
       "date": "2020-01-19",
-      "team": "B6-D3_BAILEYS_J. SMITH SR",
-      "opponent": "B6-D3_BURKE_MITCHELL",
-      "points": 2,
-      "against": 40,
+      "team": "G6-D2_BRYC_DUDLEY",
+      "opponent": "G6-D2_CYA_MURPHY",
+      "points": 18,
+      "against": 20,
       "result": "L",
       "win": false,
       "lost": true,
@@ -21846,64 +18107,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6290503,
+      "game_id": 6289898,
       "date": "2020-01-19",
-      "team": "B6-D3_BURKE_MITCHELL",
-      "opponent": "B6-D3_BAILEYS_J. SMITH SR",
-      "points": 40,
-      "against": 2,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279162,
-      "date": "2020-01-19",
-      "team": "B7-D1_GREAT FALLS_NICKLES",
-      "opponent": "B7-D1_ARLINGTON_SHELLEY",
-      "points": 40,
-      "against": 51,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279162,
-      "date": "2020-01-19",
-      "team": "B7-D1_ARLINGTON_SHELLEY",
-      "opponent": "B7-D1_GREAT FALLS_NICKLES",
-      "points": 51,
-      "against": 40,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288421,
-      "date": "2020-01-19",
-      "team": "B6-D1_CYA_JONES",
-      "opponent": "B6-D1_BURKE_RAPOZA",
-      "points": 39,
-      "against": 42,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288421,
-      "date": "2020-01-19",
-      "team": "B6-D1_BURKE_RAPOZA",
-      "opponent": "B6-D1_CYA_JONES",
-      "points": 42,
-      "against": 39,
+      "team": "G6-D2_CYA_MURPHY",
+      "opponent": "G6-D2_BRYC_DUDLEY",
+      "points": 20,
+      "against": 18,
       "result": "W",
       "win": true,
       "lost": false,
@@ -21937,6 +18146,58 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6279162,
+      "date": "2020-01-19",
+      "team": "B7-D1_GREAT FALLS_NICKLES",
+      "opponent": "B7-D1_ARLINGTON_SHELLEY",
+      "points": 40,
+      "against": 51,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279162,
+      "date": "2020-01-19",
+      "team": "B7-D1_ARLINGTON_SHELLEY",
+      "opponent": "B7-D1_GREAT FALLS_NICKLES",
+      "points": 51,
+      "against": 40,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290503,
+      "date": "2020-01-19",
+      "team": "B6-D3_BAILEYS_J. SMITH SR",
+      "opponent": "B6-D3_BURKE_MITCHELL",
+      "points": 2,
+      "against": 40,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290503,
+      "date": "2020-01-19",
+      "team": "B6-D3_BURKE_MITCHELL",
+      "opponent": "B6-D3_BAILEYS_J. SMITH SR",
+      "points": 40,
+      "against": 2,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6277835,
       "date": "2020-01-19",
       "team": "G8-D1_GREAT FALLS_KERRIGAN",
@@ -21956,6 +18217,58 @@ var _MASTER_DATA = {
       "opponent": "G8-D1_GREAT FALLS_KERRIGAN",
       "points": 41,
       "against": 38,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288421,
+      "date": "2020-01-19",
+      "team": "B6-D1_CYA_JONES",
+      "opponent": "B6-D1_BURKE_RAPOZA",
+      "points": 39,
+      "against": 42,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288421,
+      "date": "2020-01-19",
+      "team": "B6-D1_BURKE_RAPOZA",
+      "opponent": "B6-D1_CYA_JONES",
+      "points": 42,
+      "against": 39,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6293202,
+      "date": "2020-01-19",
+      "team": "B8-D3_BAILEYS_TBD",
+      "opponent": "B8-D3_RESTON_BIRKLAND",
+      "points": 18,
+      "against": 51,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6293202,
+      "date": "2020-01-19",
+      "team": "B8-D3_RESTON_BIRKLAND",
+      "opponent": "B8-D3_BAILEYS_TBD",
+      "points": 51,
+      "against": 18,
       "result": "W",
       "win": true,
       "lost": false,
@@ -21985,32 +18298,6 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6293202,
-      "date": "2020-01-19",
-      "team": "B8-D3_BAILEYS_TBD",
-      "opponent": "B8-D3_RESTON_BIRKLAND",
-      "points": 18,
-      "against": 51,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6293202,
-      "date": "2020-01-19",
-      "team": "B8-D3_RESTON_BIRKLAND",
-      "opponent": "B8-D3_BAILEYS_TBD",
-      "points": 51,
-      "against": 18,
-      "result": "W",
-      "win": true,
-      "lost": false,
       "tie": false,
       "source": false
     },
@@ -22223,58 +18510,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279164,
-      "date": "2020-01-19",
-      "team": "B7-D1_FORT HUNT_KOELSCH",
-      "opponent": "B7-D1_CYA_CUBBAGE",
-      "points": 44,
-      "against": 55,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279164,
-      "date": "2020-01-19",
-      "team": "B7-D1_CYA_CUBBAGE",
-      "opponent": "B7-D1_FORT HUNT_KOELSCH",
-      "points": 55,
-      "against": 44,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6287518,
-      "date": "2020-01-19",
-      "team": "G8-D2_MT. VERNON_ELLING",
-      "opponent": "G8-D2_TURNPIKE_KOMAILY",
-      "points": 21,
-      "against": 29,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6287518,
-      "date": "2020-01-19",
-      "team": "G8-D2_TURNPIKE_KOMAILY",
-      "opponent": "G8-D2_MT. VERNON_ELLING",
-      "points": 29,
-      "against": 21,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6333721,
       "date": "2020-01-19",
       "team": "B5-D2_MANASSAS PARK_SOLOMON",
@@ -22297,84 +18532,6 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278767,
-      "date": "2020-01-19",
-      "team": "G7-D1_MCLEAN_CRITTENBERGER",
-      "opponent": "G7-D1_SYA_BRUBAKER",
-      "points": 44,
-      "against": 24,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278767,
-      "date": "2020-01-19",
-      "team": "G7-D1_SYA_BRUBAKER",
-      "opponent": "G7-D1_MCLEAN_CRITTENBERGER",
-      "points": 24,
-      "against": 44,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6289899,
-      "date": "2020-01-19",
-      "team": "G6-D2_SOUTH LOUDOUN_SAMSON",
-      "opponent": "G6-D2_LEE-MT. VERNON_HENDERSON",
-      "points": 32,
-      "against": 23,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289899,
-      "date": "2020-01-19",
-      "team": "G6-D2_LEE-MT. VERNON_HENDERSON",
-      "opponent": "G6-D2_SOUTH LOUDOUN_SAMSON",
-      "points": 23,
-      "against": 32,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333683,
-      "date": "2020-01-19",
-      "team": "G5-D2_RESTON_WARD",
-      "opponent": "G5-D2_FORT BELVOIR_WASHINGTON",
-      "points": 15,
-      "against": 24,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333683,
-      "date": "2020-01-19",
-      "team": "G5-D2_FORT BELVOIR_WASHINGTON",
-      "opponent": "G5-D2_RESTON_WARD",
-      "points": 24,
-      "against": 15,
-      "result": "W",
-      "win": true,
-      "lost": false,
       "tie": false,
       "source": false
     },
@@ -22427,6 +18584,162 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279164,
+      "date": "2020-01-19",
+      "team": "B7-D1_FORT HUNT_KOELSCH",
+      "opponent": "B7-D1_CYA_CUBBAGE",
+      "points": 44,
+      "against": 55,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279164,
+      "date": "2020-01-19",
+      "team": "B7-D1_CYA_CUBBAGE",
+      "opponent": "B7-D1_FORT HUNT_KOELSCH",
+      "points": 55,
+      "against": 44,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278767,
+      "date": "2020-01-19",
+      "team": "G7-D1_MCLEAN_CRITTENBERGER",
+      "opponent": "G7-D1_SYA_BRUBAKER",
+      "points": 44,
+      "against": 24,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278767,
+      "date": "2020-01-19",
+      "team": "G7-D1_SYA_BRUBAKER",
+      "opponent": "G7-D1_MCLEAN_CRITTENBERGER",
+      "points": 24,
+      "against": 44,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6287518,
+      "date": "2020-01-19",
+      "team": "G8-D2_MT. VERNON_ELLING",
+      "opponent": "G8-D2_TURNPIKE_KOMAILY",
+      "points": 21,
+      "against": 29,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6287518,
+      "date": "2020-01-19",
+      "team": "G8-D2_TURNPIKE_KOMAILY",
+      "opponent": "G8-D2_MT. VERNON_ELLING",
+      "points": 29,
+      "against": 21,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333683,
+      "date": "2020-01-19",
+      "team": "G5-D2_RESTON_WARD",
+      "opponent": "G5-D2_FORT BELVOIR_WASHINGTON",
+      "points": 15,
+      "against": 24,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333683,
+      "date": "2020-01-19",
+      "team": "G5-D2_FORT BELVOIR_WASHINGTON",
+      "opponent": "G5-D2_RESTON_WARD",
+      "points": 24,
+      "against": 15,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289899,
+      "date": "2020-01-19",
+      "team": "G6-D2_SOUTH LOUDOUN_SAMSON",
+      "opponent": "G6-D2_LEE-MT. VERNON_HENDERSON",
+      "points": 32,
+      "against": 23,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289899,
+      "date": "2020-01-19",
+      "team": "G6-D2_LEE-MT. VERNON_HENDERSON",
+      "opponent": "G6-D2_SOUTH LOUDOUN_SAMSON",
+      "points": 23,
+      "against": 32,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333422,
+      "date": "2020-01-19",
+      "team": "B5-D1_GREAT FALLS_GOLDBERG",
+      "opponent": "B5-D1_CYA_ROSENBLATT",
+      "points": 43,
+      "against": 32,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333422,
+      "date": "2020-01-19",
+      "team": "B5-D1_CYA_ROSENBLATT",
+      "opponent": "B5-D1_GREAT FALLS_GOLDBERG",
+      "points": 32,
+      "against": 43,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -22505,32 +18818,6 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333422,
-      "date": "2020-01-19",
-      "team": "B5-D1_GREAT FALLS_GOLDBERG",
-      "opponent": "B5-D1_CYA_ROSENBLATT",
-      "points": 43,
-      "against": 32,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333422,
-      "date": "2020-01-19",
-      "team": "B5-D1_CYA_ROSENBLATT",
-      "opponent": "B5-D1_GREAT FALLS_GOLDBERG",
-      "points": 32,
-      "against": 43,
-      "result": "L",
-      "win": false,
-      "lost": true,
       "tie": false,
       "source": false
     },
@@ -22691,54 +18978,54 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6290499,
+      "game_id": 6287521,
       "date": "2020-01-19",
-      "team": "B6-D3_SPRINGFIELD_ALVAREZ",
-      "opponent": "B6-D3_GREAT FALLS_BRITT",
-      "points": 21,
-      "against": 58,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "G8-D2_VIENNA_BOND",
+      "opponent": "G8-D2_SYA_HESLEP",
+      "points": 50,
+      "against": 36,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6290499,
+      "game_id": 6287521,
       "date": "2020-01-19",
-      "team": "B6-D3_GREAT FALLS_BRITT",
-      "opponent": "B6-D3_SPRINGFIELD_ALVAREZ",
-      "points": 58,
-      "against": 21,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "G8-D2_SYA_HESLEP",
+      "opponent": "G8-D2_VIENNA_BOND",
+      "points": 36,
+      "against": 50,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
     {
-      "game_id": 6279163,
+      "game_id": 6278766,
       "date": "2020-01-19",
-      "team": "B7-D1_LEE DISTRICT_TROTTER",
-      "opponent": "B7-D1_VIENNA_STOLBURG",
-      "points": 44,
-      "against": 46,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "G7-D1_CYA_MAWLOUD",
+      "opponent": "G7-D1_BURKE_WYANT",
+      "points": 39,
+      "against": 36,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6279163,
+      "game_id": 6278766,
       "date": "2020-01-19",
-      "team": "B7-D1_VIENNA_STOLBURG",
-      "opponent": "B7-D1_LEE DISTRICT_TROTTER",
-      "points": 46,
-      "against": 44,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "G7-D1_BURKE_WYANT",
+      "opponent": "G7-D1_CYA_MAWLOUD",
+      "points": 36,
+      "against": 39,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -22795,54 +19082,54 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6287521,
+      "game_id": 6290499,
       "date": "2020-01-19",
-      "team": "G8-D2_VIENNA_BOND",
-      "opponent": "G8-D2_SYA_HESLEP",
-      "points": 50,
-      "against": 36,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "B6-D3_SPRINGFIELD_ALVAREZ",
+      "opponent": "B6-D3_GREAT FALLS_BRITT",
+      "points": 21,
+      "against": 58,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6287521,
+      "game_id": 6290499,
       "date": "2020-01-19",
-      "team": "G8-D2_SYA_HESLEP",
-      "opponent": "G8-D2_VIENNA_BOND",
-      "points": 36,
-      "against": 50,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "B6-D3_GREAT FALLS_BRITT",
+      "opponent": "B6-D3_SPRINGFIELD_ALVAREZ",
+      "points": 58,
+      "against": 21,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
     {
-      "game_id": 6278766,
+      "game_id": 6279163,
       "date": "2020-01-19",
-      "team": "G7-D1_CYA_MAWLOUD",
-      "opponent": "G7-D1_BURKE_WYANT",
-      "points": 39,
-      "against": 36,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "B7-D1_LEE DISTRICT_TROTTER",
+      "opponent": "B7-D1_VIENNA_STOLBURG",
+      "points": 44,
+      "against": 46,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6278766,
+      "game_id": 6279163,
       "date": "2020-01-19",
-      "team": "G7-D1_BURKE_WYANT",
-      "opponent": "G7-D1_CYA_MAWLOUD",
-      "points": 36,
-      "against": 39,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "B7-D1_VIENNA_STOLBURG",
+      "opponent": "B7-D1_LEE DISTRICT_TROTTER",
+      "points": 46,
+      "against": 44,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -22873,12 +19160,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6288779,
+      "game_id": 6333418,
       "date": "2020-01-19",
-      "team": "B6-D2_SYA_HILL",
-      "opponent": "B6-D2_HERNDON_JONES",
-      "points": 55,
-      "against": 57,
+      "team": "B5-D1_LEE MT. VERNON_BOSLEY",
+      "opponent": "B5-D1_BURKE_SMITH",
+      "points": 24,
+      "against": 53,
       "result": "L",
       "win": false,
       "lost": true,
@@ -22886,12 +19173,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6288779,
+      "game_id": 6333418,
       "date": "2020-01-19",
-      "team": "B6-D2_HERNDON_JONES",
-      "opponent": "B6-D2_SYA_HILL",
-      "points": 57,
-      "against": 55,
+      "team": "B5-D1_BURKE_SMITH",
+      "opponent": "B5-D1_LEE MT. VERNON_BOSLEY",
+      "points": 53,
+      "against": 24,
       "result": "W",
       "win": true,
       "lost": false,
@@ -22951,12 +19238,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333418,
+      "game_id": 6288779,
       "date": "2020-01-19",
-      "team": "B5-D1_LEE MT. VERNON_BOSLEY",
-      "opponent": "B5-D1_BURKE_SMITH",
-      "points": 24,
-      "against": 53,
+      "team": "B6-D2_SYA_HILL",
+      "opponent": "B6-D2_HERNDON_JONES",
+      "points": 55,
+      "against": 57,
       "result": "L",
       "win": false,
       "lost": true,
@@ -22964,64 +19251,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6333418,
+      "game_id": 6288779,
       "date": "2020-01-19",
-      "team": "B5-D1_BURKE_SMITH",
-      "opponent": "B5-D1_LEE MT. VERNON_BOSLEY",
-      "points": 53,
-      "against": 24,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279008,
-      "date": "2020-01-19",
-      "team": "B8-D2_SOUTH COUNTY_MATTHEWS",
-      "opponent": "B8-D2_MCLEAN_TURGEON",
-      "points": 37,
-      "against": 42,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279008,
-      "date": "2020-01-19",
-      "team": "B8-D2_MCLEAN_TURGEON",
-      "opponent": "B8-D2_SOUTH COUNTY_MATTHEWS",
-      "points": 42,
-      "against": 37,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279006,
-      "date": "2020-01-19",
-      "team": "B8-D2_VIENNA_DESENTI",
-      "opponent": "B8-D2_LEE-MT. VERNON_BOSLEY",
-      "points": 23,
-      "against": 49,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279006,
-      "date": "2020-01-19",
-      "team": "B8-D2_LEE-MT. VERNON_BOSLEY",
-      "opponent": "B8-D2_VIENNA_DESENTI",
-      "points": 49,
-      "against": 23,
+      "team": "B6-D2_HERNDON_JONES",
+      "opponent": "B6-D2_SYA_HILL",
+      "points": 57,
+      "against": 55,
       "result": "W",
       "win": true,
       "lost": false,
@@ -23055,38 +19290,38 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333685,
+      "game_id": 6279006,
       "date": "2020-01-19",
-      "team": "G5-D2_SOUTH LOUDOUN_OSHEA",
-      "opponent": "G5-D2_CYA_MAZID",
-      "points": 24,
-      "against": 20,
+      "team": "B8-D2_VIENNA_DESENTI",
+      "opponent": "B8-D2_LEE-MT. VERNON_BOSLEY",
+      "points": 23,
+      "against": 49,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279006,
+      "date": "2020-01-19",
+      "team": "B8-D2_LEE-MT. VERNON_BOSLEY",
+      "opponent": "B8-D2_VIENNA_DESENTI",
+      "points": 49,
+      "against": 23,
       "result": "W",
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333685,
-      "date": "2020-01-19",
-      "team": "G5-D2_CYA_MAZID",
-      "opponent": "G5-D2_SOUTH LOUDOUN_OSHEA",
-      "points": 20,
-      "against": 24,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
       "source": false
     },
     {
-      "game_id": 6279005,
+      "game_id": 6279008,
       "date": "2020-01-19",
-      "team": "B8-D2_CYA_DANN",
-      "opponent": "B8-D2_GAINESVILLE_COMPTON",
-      "points": 49,
-      "against": 68,
+      "team": "B8-D2_SOUTH COUNTY_MATTHEWS",
+      "opponent": "B8-D2_MCLEAN_TURGEON",
+      "points": 37,
+      "against": 42,
       "result": "L",
       "win": false,
       "lost": true,
@@ -23094,12 +19329,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6279005,
+      "game_id": 6279008,
       "date": "2020-01-19",
-      "team": "B8-D2_GAINESVILLE_COMPTON",
-      "opponent": "B8-D2_CYA_DANN",
-      "points": 68,
-      "against": 49,
+      "team": "B8-D2_MCLEAN_TURGEON",
+      "opponent": "B8-D2_SOUTH COUNTY_MATTHEWS",
+      "points": 42,
+      "against": 37,
       "result": "W",
       "win": true,
       "lost": false,
@@ -23155,6 +19390,58 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279005,
+      "date": "2020-01-19",
+      "team": "B8-D2_CYA_DANN",
+      "opponent": "B8-D2_GAINESVILLE_COMPTON",
+      "points": 49,
+      "against": 68,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279005,
+      "date": "2020-01-19",
+      "team": "B8-D2_GAINESVILLE_COMPTON",
+      "opponent": "B8-D2_CYA_DANN",
+      "points": 68,
+      "against": 49,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333685,
+      "date": "2020-01-19",
+      "team": "G5-D2_SOUTH LOUDOUN_OSHEA",
+      "opponent": "G5-D2_CYA_MAZID",
+      "points": 24,
+      "against": 20,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333685,
+      "date": "2020-01-19",
+      "team": "G5-D2_CYA_MAZID",
+      "opponent": "G5-D2_SOUTH LOUDOUN_OSHEA",
+      "points": 20,
+      "against": 24,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -23237,58 +19524,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279004,
-      "date": "2020-01-19",
-      "team": "B8-D2_SYA_MCGHEE",
-      "opponent": "B8-D2_HERNDON_HARLEY",
-      "points": 60,
-      "against": 49,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279004,
-      "date": "2020-01-19",
-      "team": "B8-D2_HERNDON_HARLEY",
-      "opponent": "B8-D2_SYA_MCGHEE",
-      "points": 49,
-      "against": 60,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278409,
-      "date": "2020-01-19",
-      "team": "B8-D1_VIENNA_MARSDEN",
-      "opponent": "B8-D1_GREAT FALLS_KRAWCZYK",
-      "points": 57,
-      "against": 21,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278409,
-      "date": "2020-01-19",
-      "team": "B8-D1_GREAT FALLS_KRAWCZYK",
-      "opponent": "B8-D1_VIENNA_MARSDEN",
-      "points": 21,
-      "against": 57,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6288418,
       "date": "2020-01-19",
       "team": "B6-D1_GREAT FALLS_BROWN",
@@ -23308,32 +19543,6 @@ var _MASTER_DATA = {
       "opponent": "B6-D1_GREAT FALLS_BROWN",
       "points": 52,
       "against": 36,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333720,
-      "date": "2020-01-19",
-      "team": "B5-D2_LEE MT. VERNON_DAY",
-      "opponent": "B5-D2_BRYC_MAYES",
-      "points": 26,
-      "against": 31,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333720,
-      "date": "2020-01-19",
-      "team": "B5-D2_BRYC_MAYES",
-      "opponent": "B5-D2_LEE MT. VERNON_DAY",
-      "points": 31,
-      "against": 26,
       "result": "W",
       "win": true,
       "lost": false,
@@ -23419,6 +19628,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6333720,
+      "date": "2020-01-19",
+      "team": "B5-D2_LEE MT. VERNON_DAY",
+      "opponent": "B5-D2_BRYC_MAYES",
+      "points": 26,
+      "against": 31,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333720,
+      "date": "2020-01-19",
+      "team": "B5-D2_BRYC_MAYES",
+      "opponent": "B5-D2_LEE MT. VERNON_DAY",
+      "points": 31,
+      "against": 26,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6335182,
       "date": "2020-01-19",
       "team": "B5-D3_GUM SPRINGS_SPROCKER",
@@ -23438,6 +19673,110 @@ var _MASTER_DATA = {
       "opponent": "B5-D3_GUM SPRINGS_SPROCKER",
       "points": 38,
       "against": 13,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279004,
+      "date": "2020-01-19",
+      "team": "B8-D2_SYA_MCGHEE",
+      "opponent": "B8-D2_HERNDON_HARLEY",
+      "points": 60,
+      "against": 49,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279004,
+      "date": "2020-01-19",
+      "team": "B8-D2_HERNDON_HARLEY",
+      "opponent": "B8-D2_SYA_MCGHEE",
+      "points": 49,
+      "against": 60,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278409,
+      "date": "2020-01-19",
+      "team": "B8-D1_VIENNA_MARSDEN",
+      "opponent": "B8-D1_GREAT FALLS_KRAWCZYK",
+      "points": 57,
+      "against": 21,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278409,
+      "date": "2020-01-19",
+      "team": "B8-D1_GREAT FALLS_KRAWCZYK",
+      "opponent": "B8-D1_VIENNA_MARSDEN",
+      "points": 21,
+      "against": 57,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333420,
+      "date": "2020-01-19",
+      "team": "B5-D1_GAINESVILLE_LY",
+      "opponent": "B5-D1_FORT HUNT_ZIPPEL",
+      "points": 24,
+      "against": 25,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333420,
+      "date": "2020-01-19",
+      "team": "B5-D1_FORT HUNT_ZIPPEL",
+      "opponent": "B5-D1_GAINESVILLE_LY",
+      "points": 25,
+      "against": 24,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333725,
+      "date": "2020-01-19",
+      "team": "B5-D2_FALLS CHURCH_GREINER",
+      "opponent": "B5-D2_BURKE_ASEFI",
+      "points": 34,
+      "against": 37,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333725,
+      "date": "2020-01-19",
+      "team": "B5-D2_BURKE_ASEFI",
+      "opponent": "B5-D2_FALLS CHURCH_GREINER",
+      "points": 37,
+      "against": 34,
       "result": "W",
       "win": true,
       "lost": false,
@@ -23523,12 +19862,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333725,
+      "game_id": 6333531,
       "date": "2020-01-19",
-      "team": "B5-D2_FALLS CHURCH_GREINER",
-      "opponent": "B5-D2_BURKE_ASEFI",
-      "points": 34,
-      "against": 37,
+      "team": "G5-D1_SOUTH LOUDOUN_KERR",
+      "opponent": "G5-D1_ARLINGTON_MCRAE",
+      "points": 13,
+      "against": 33,
       "result": "L",
       "win": false,
       "lost": true,
@@ -23536,67 +19875,15 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6333725,
+      "game_id": 6333531,
       "date": "2020-01-19",
-      "team": "B5-D2_BURKE_ASEFI",
-      "opponent": "B5-D2_FALLS CHURCH_GREINER",
-      "points": 37,
-      "against": 34,
+      "team": "G5-D1_ARLINGTON_MCRAE",
+      "opponent": "G5-D1_SOUTH LOUDOUN_KERR",
+      "points": 33,
+      "against": 13,
       "result": "W",
       "win": true,
       "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333420,
-      "date": "2020-01-19",
-      "team": "B5-D1_GAINESVILLE_LY",
-      "opponent": "B5-D1_FORT HUNT_ZIPPEL",
-      "points": 24,
-      "against": 25,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333420,
-      "date": "2020-01-19",
-      "team": "B5-D1_FORT HUNT_ZIPPEL",
-      "opponent": "B5-D1_GAINESVILLE_LY",
-      "points": 25,
-      "against": 24,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279166,
-      "date": "2020-01-19",
-      "team": "B7-D1_GAINESVILLE_WEINSCHENK",
-      "opponent": "B7-D1_BRYC_AQUIL",
-      "points": 62,
-      "against": 52,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279166,
-      "date": "2020-01-19",
-      "team": "B7-D1_BRYC_AQUIL",
-      "opponent": "B7-D1_GAINESVILLE_WEINSCHENK",
-      "points": 52,
-      "against": 62,
-      "result": "L",
-      "win": false,
-      "lost": true,
       "tie": false,
       "source": false
     },
@@ -23627,28 +19914,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333531,
+      "game_id": 6279166,
       "date": "2020-01-19",
-      "team": "G5-D1_SOUTH LOUDOUN_KERR",
-      "opponent": "G5-D1_ARLINGTON_MCRAE",
-      "points": 13,
-      "against": 33,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "B7-D1_GAINESVILLE_WEINSCHENK",
+      "opponent": "B7-D1_BRYC_AQUIL",
+      "points": 62,
+      "against": 52,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6333531,
+      "game_id": 6279166,
       "date": "2020-01-19",
-      "team": "G5-D1_ARLINGTON_MCRAE",
-      "opponent": "G5-D1_SOUTH LOUDOUN_KERR",
-      "points": 33,
-      "against": 13,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "B7-D1_BRYC_AQUIL",
+      "opponent": "B7-D1_GAINESVILLE_WEINSCHENK",
+      "points": 52,
+      "against": 62,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -23783,6 +20070,136 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6277837,
+      "date": "2020-01-19",
+      "team": "G8-D1_MCLEAN_MEGAS",
+      "opponent": "G8-D1_ARLINGTON_ABUNDO",
+      "points": 54,
+      "against": 27,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6277837,
+      "date": "2020-01-19",
+      "team": "G8-D1_ARLINGTON_ABUNDO",
+      "opponent": "G8-D1_MCLEAN_MEGAS",
+      "points": 27,
+      "against": 54,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333686,
+      "date": "2020-01-19",
+      "team": "G5-D2_SYA_MCGHEE",
+      "opponent": "G5-D2_BURKE_ROSE",
+      "points": 18,
+      "against": 19,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333686,
+      "date": "2020-01-19",
+      "team": "G5-D2_BURKE_ROSE",
+      "opponent": "G5-D2_SYA_MCGHEE",
+      "points": 19,
+      "against": 18,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333529,
+      "date": "2020-01-19",
+      "team": "G5-D1_VIENNA_KORMAN",
+      "opponent": "G5-D1_SPRINGFIELD_GOODMAN",
+      "points": 47,
+      "against": 12,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333529,
+      "date": "2020-01-19",
+      "team": "G5-D1_SPRINGFIELD_GOODMAN",
+      "opponent": "G5-D1_VIENNA_KORMAN",
+      "points": 12,
+      "against": 47,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289901,
+      "date": "2020-01-19",
+      "team": "G6-D2_SPRINGFIELD_BURDETTE",
+      "opponent": "G6-D2_GREAT FALLS_EXLEY",
+      "points": 10,
+      "against": 31,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289901,
+      "date": "2020-01-19",
+      "team": "G6-D2_GREAT FALLS_EXLEY",
+      "opponent": "G6-D2_SPRINGFIELD_BURDETTE",
+      "points": 31,
+      "against": 10,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279165,
+      "date": "2020-01-19",
+      "team": "B7-D1_RESTON_ROBINSON",
+      "opponent": "B7-D1_SPRINGFIELD_ARGUEDAS",
+      "points": 63,
+      "against": 51,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279165,
+      "date": "2020-01-19",
+      "team": "B7-D1_SPRINGFIELD_ARGUEDAS",
+      "opponent": "B7-D1_RESTON_ROBINSON",
+      "points": 51,
+      "against": 63,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6335184,
       "date": "2020-01-19",
       "team": "B5-D3_TURNPIKE_SYRON",
@@ -23835,32 +20252,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279165,
-      "date": "2020-01-19",
-      "team": "B7-D1_RESTON_ROBINSON",
-      "opponent": "B7-D1_SPRINGFIELD_ARGUEDAS",
-      "points": 63,
-      "against": 51,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279165,
-      "date": "2020-01-19",
-      "team": "B7-D1_SPRINGFIELD_ARGUEDAS",
-      "opponent": "B7-D1_RESTON_ROBINSON",
-      "points": 51,
-      "against": 63,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6290498,
       "date": "2020-01-19",
       "team": "B6-D3_ARLINGTON_NETTLES",
@@ -23883,110 +20274,6 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333529,
-      "date": "2020-01-19",
-      "team": "G5-D1_VIENNA_KORMAN",
-      "opponent": "G5-D1_SPRINGFIELD_GOODMAN",
-      "points": 47,
-      "against": 12,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333529,
-      "date": "2020-01-19",
-      "team": "G5-D1_SPRINGFIELD_GOODMAN",
-      "opponent": "G5-D1_VIENNA_KORMAN",
-      "points": 12,
-      "against": 47,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333686,
-      "date": "2020-01-19",
-      "team": "G5-D2_SYA_MCGHEE",
-      "opponent": "G5-D2_BURKE_ROSE",
-      "points": 18,
-      "against": 19,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333686,
-      "date": "2020-01-19",
-      "team": "G5-D2_BURKE_ROSE",
-      "opponent": "G5-D2_SYA_MCGHEE",
-      "points": 19,
-      "against": 18,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6289901,
-      "date": "2020-01-19",
-      "team": "G6-D2_SPRINGFIELD_BURDETTE",
-      "opponent": "G6-D2_GREAT FALLS_EXLEY",
-      "points": 10,
-      "against": 31,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289901,
-      "date": "2020-01-19",
-      "team": "G6-D2_GREAT FALLS_EXLEY",
-      "opponent": "G6-D2_SPRINGFIELD_BURDETTE",
-      "points": 31,
-      "against": 10,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6277837,
-      "date": "2020-01-19",
-      "team": "G8-D1_MCLEAN_MEGAS",
-      "opponent": "G8-D1_ARLINGTON_ABUNDO",
-      "points": 54,
-      "against": 27,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6277837,
-      "date": "2020-01-19",
-      "team": "G8-D1_ARLINGTON_ABUNDO",
-      "opponent": "G8-D1_MCLEAN_MEGAS",
-      "points": 27,
-      "against": 54,
-      "result": "L",
-      "win": false,
-      "lost": true,
       "tie": false,
       "source": false
     },
@@ -24095,28 +20382,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6286782,
+      "game_id": 6333419,
       "date": "2020-01-19",
-      "team": "G7-D2_GAINESVILLE_NAPLES",
-      "opponent": "G7-D2_CYA_FRANCIS",
-      "points": 44,
-      "against": 12,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "B5-D1_SYA_O-CONNOR",
+      "opponent": "B5-D1_SOUTH LOUDOUN_CHOI",
+      "points": 21,
+      "against": 27,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6286782,
+      "game_id": 6333419,
       "date": "2020-01-19",
-      "team": "G7-D2_CYA_FRANCIS",
-      "opponent": "G7-D2_GAINESVILLE_NAPLES",
-      "points": 12,
-      "against": 44,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "B5-D1_SOUTH LOUDOUN_CHOI",
+      "opponent": "B5-D1_SYA_O-CONNOR",
+      "points": 27,
+      "against": 21,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -24147,28 +20434,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333419,
+      "game_id": 6286782,
       "date": "2020-01-19",
-      "team": "B5-D1_SYA_O-CONNOR",
-      "opponent": "B5-D1_SOUTH LOUDOUN_CHOI",
-      "points": 21,
-      "against": 27,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "G7-D2_GAINESVILLE_NAPLES",
+      "opponent": "G7-D2_CYA_FRANCIS",
+      "points": 44,
+      "against": 12,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6333419,
+      "game_id": 6286782,
       "date": "2020-01-19",
-      "team": "B5-D1_SOUTH LOUDOUN_CHOI",
-      "opponent": "B5-D1_SYA_O-CONNOR",
-      "points": 27,
-      "against": 21,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "G7-D2_CYA_FRANCIS",
+      "opponent": "G7-D2_GAINESVILLE_NAPLES",
+      "points": 12,
+      "against": 44,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -24303,32 +20590,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6277836,
-      "date": "2020-01-19",
-      "team": "G8-D1_GAINESVILLE_GILLIAM",
-      "opponent": "G8-D1_BURKE_EDWARDS",
-      "points": 20,
-      "against": 38,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6277836,
-      "date": "2020-01-19",
-      "team": "G8-D1_BURKE_EDWARDS",
-      "opponent": "G8-D1_GAINESVILLE_GILLIAM",
-      "points": 38,
-      "against": 20,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6333530,
       "date": "2020-01-19",
       "team": "G5-D1_GREAT FALLS_NITOWSKI",
@@ -24348,6 +20609,32 @@ var _MASTER_DATA = {
       "opponent": "G5-D1_GREAT FALLS_NITOWSKI",
       "points": 42,
       "against": 29,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6277836,
+      "date": "2020-01-19",
+      "team": "G8-D1_GAINESVILLE_GILLIAM",
+      "opponent": "G8-D1_BURKE_EDWARDS",
+      "points": 20,
+      "against": 38,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6277836,
+      "date": "2020-01-19",
+      "team": "G8-D1_BURKE_EDWARDS",
+      "opponent": "G8-D1_GAINESVILLE_GILLIAM",
+      "points": 38,
+      "against": 20,
       "result": "W",
       "win": true,
       "lost": false,
@@ -24563,32 +20850,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6278986,
-      "date": "2020-01-22",
-      "team": "B8-D2_SOUTH LOUDOUN_CHOI",
-      "opponent": "B8-D2_SOUTH COUNTY_MATTHEWS",
-      "points": 49,
-      "against": 51,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278986,
-      "date": "2020-01-22",
-      "team": "B8-D2_SOUTH COUNTY_MATTHEWS",
-      "opponent": "B8-D2_SOUTH LOUDOUN_CHOI",
-      "points": 51,
-      "against": 49,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6277824,
       "date": "2020-01-22",
       "team": "G8-D1_ARLINGTON_ABUNDO",
@@ -24611,6 +20872,32 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278986,
+      "date": "2020-01-22",
+      "team": "B8-D2_SOUTH LOUDOUN_CHOI",
+      "opponent": "B8-D2_SOUTH COUNTY_MATTHEWS",
+      "points": 49,
+      "against": 51,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278986,
+      "date": "2020-01-22",
+      "team": "B8-D2_SOUTH COUNTY_MATTHEWS",
+      "opponent": "B8-D2_SOUTH LOUDOUN_CHOI",
+      "points": 51,
+      "against": 49,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -24693,32 +20980,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6289871,
-      "date": "2020-01-25",
-      "team": "G6-D2_SYA_LANGFORD",
-      "opponent": "G6-D2_RESTON_BARR",
-      "points": 18,
-      "against": 14,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289871,
-      "date": "2020-01-25",
-      "team": "G6-D2_RESTON_BARR",
-      "opponent": "G6-D2_SYA_LANGFORD",
-      "points": 14,
-      "against": 18,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6289595,
       "date": "2020-01-25",
       "team": "G6-D1_MCLEAN_MURRELL",
@@ -24741,6 +21002,32 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289871,
+      "date": "2020-01-25",
+      "team": "G6-D2_SYA_LANGFORD",
+      "opponent": "G6-D2_RESTON_BARR",
+      "points": 18,
+      "against": 14,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289871,
+      "date": "2020-01-25",
+      "team": "G6-D2_RESTON_BARR",
+      "opponent": "G6-D2_SYA_LANGFORD",
+      "points": 14,
+      "against": 18,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -24849,32 +21136,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6289872,
-      "date": "2020-01-25",
-      "team": "G6-D2_BURKE_SEIGLE",
-      "opponent": "G6-D2_GAINESVILLE_FURLONG",
-      "points": 32,
-      "against": 24,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289872,
-      "date": "2020-01-25",
-      "team": "G6-D2_GAINESVILLE_FURLONG",
-      "opponent": "G6-D2_BURKE_SEIGLE",
-      "points": 24,
-      "against": 32,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6289873,
       "date": "2020-01-25",
       "team": "G6-D2_VIENNA_GRIM",
@@ -24923,6 +21184,32 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289872,
+      "date": "2020-01-25",
+      "team": "G6-D2_BURKE_SEIGLE",
+      "opponent": "G6-D2_GAINESVILLE_FURLONG",
+      "points": 32,
+      "against": 24,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289872,
+      "date": "2020-01-25",
+      "team": "G6-D2_GAINESVILLE_FURLONG",
+      "opponent": "G6-D2_BURKE_SEIGLE",
+      "points": 24,
+      "against": 32,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -25005,6 +21292,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6333558,
+      "date": "2020-01-25",
+      "team": "G5-D1_VIENNA_KORMAN",
+      "opponent": "G5-D1_LEE MT. VERNON_BRELAND",
+      "points": 45,
+      "against": 8,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333558,
+      "date": "2020-01-25",
+      "team": "G5-D1_LEE MT. VERNON_BRELAND",
+      "opponent": "G5-D1_VIENNA_KORMAN",
+      "points": 8,
+      "against": 45,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6333561,
       "date": "2020-01-25",
       "team": "G5-D1_SPRINGFIELD_GOODMAN",
@@ -25053,32 +21366,6 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333558,
-      "date": "2020-01-25",
-      "team": "G5-D1_VIENNA_KORMAN",
-      "opponent": "G5-D1_LEE MT. VERNON_BRELAND",
-      "points": 45,
-      "against": 8,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333558,
-      "date": "2020-01-25",
-      "team": "G5-D1_LEE MT. VERNON_BRELAND",
-      "opponent": "G5-D1_VIENNA_KORMAN",
-      "points": 8,
-      "against": 45,
-      "result": "L",
-      "win": false,
-      "lost": true,
       "tie": false,
       "source": false
     },
@@ -25291,32 +21578,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333657,
-      "date": "2020-01-25",
-      "team": "G5-D2_SOUTH LOUDOUN_OSHEA",
-      "opponent": "G5-D2_RESTON_WARD",
-      "points": 14,
-      "against": 16,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333657,
-      "date": "2020-01-25",
-      "team": "G5-D2_RESTON_WARD",
-      "opponent": "G5-D2_SOUTH LOUDOUN_OSHEA",
-      "points": 16,
-      "against": 14,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6333659,
       "date": "2020-01-25",
       "team": "G5-D2_SYA_MCGHEE",
@@ -25339,6 +21600,32 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333657,
+      "date": "2020-01-25",
+      "team": "G5-D2_SOUTH LOUDOUN_OSHEA",
+      "opponent": "G5-D2_RESTON_WARD",
+      "points": 14,
+      "against": 16,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333657,
+      "date": "2020-01-25",
+      "team": "G5-D2_RESTON_WARD",
+      "opponent": "G5-D2_SOUTH LOUDOUN_OSHEA",
+      "points": 16,
+      "against": 14,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -25395,12 +21682,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6335566,
+      "game_id": 6290508,
       "date": "2020-01-25",
-      "team": "B8-D1_LEE DISTRICT_MCMINN",
-      "opponent": "B8-D1_GAINESVILLE_PAGE",
-      "points": 71,
-      "against": 60,
+      "team": "B6-D3_BRYC_SHIN",
+      "opponent": "B6-D3_BAILEYS_J. SMITH SR",
+      "points": 35,
+      "against": 29,
       "result": "W",
       "win": true,
       "lost": false,
@@ -25408,12 +21695,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6335566,
+      "game_id": 6290508,
       "date": "2020-01-25",
-      "team": "B8-D1_GAINESVILLE_PAGE",
-      "opponent": "B8-D1_LEE DISTRICT_MCMINN",
-      "points": 60,
-      "against": 71,
+      "team": "B6-D3_BAILEYS_J. SMITH SR",
+      "opponent": "B6-D3_BRYC_SHIN",
+      "points": 29,
+      "against": 35,
       "result": "L",
       "win": false,
       "lost": true,
@@ -25447,12 +21734,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6290508,
+      "game_id": 6335566,
       "date": "2020-01-25",
-      "team": "B6-D3_BRYC_SHIN",
-      "opponent": "B6-D3_BAILEYS_J. SMITH SR",
-      "points": 35,
-      "against": 29,
+      "team": "B8-D1_LEE DISTRICT_MCMINN",
+      "opponent": "B8-D1_GAINESVILLE_PAGE",
+      "points": 71,
+      "against": 60,
       "result": "W",
       "win": true,
       "lost": false,
@@ -25460,12 +21747,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6290508,
+      "game_id": 6335566,
       "date": "2020-01-25",
-      "team": "B6-D3_BAILEYS_J. SMITH SR",
-      "opponent": "B6-D3_BRYC_SHIN",
-      "points": 29,
-      "against": 35,
+      "team": "B8-D1_GAINESVILLE_PAGE",
+      "opponent": "B8-D1_LEE DISTRICT_MCMINN",
+      "points": 60,
+      "against": 71,
       "result": "L",
       "win": false,
       "lost": true,
@@ -25525,6 +21812,58 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6333769,
+      "date": "2020-01-25",
+      "team": "B5-D2_RESTON_DAOUD",
+      "opponent": "B5-D2_CYA_MARTIN",
+      "points": 26,
+      "against": 38,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333769,
+      "date": "2020-01-25",
+      "team": "B5-D2_CYA_MARTIN",
+      "opponent": "B5-D2_RESTON_DAOUD",
+      "points": 38,
+      "against": 26,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333768,
+      "date": "2020-01-25",
+      "team": "B5-D2_SYA_HARRIS",
+      "opponent": "B5-D2_BURKE_ASEFI",
+      "points": 33,
+      "against": 49,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333768,
+      "date": "2020-01-25",
+      "team": "B5-D2_BURKE_ASEFI",
+      "opponent": "B5-D2_SYA_HARRIS",
+      "points": 49,
+      "against": 33,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6279152,
       "date": "2020-01-25",
       "team": "B7-D1_LEE DISTRICT_TROTTER",
@@ -25577,32 +21916,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333769,
-      "date": "2020-01-25",
-      "team": "B5-D2_RESTON_DAOUD",
-      "opponent": "B5-D2_CYA_MARTIN",
-      "points": 26,
-      "against": 38,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333769,
-      "date": "2020-01-25",
-      "team": "B5-D2_CYA_MARTIN",
-      "opponent": "B5-D2_RESTON_DAOUD",
-      "points": 38,
-      "against": 26,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6335218,
       "date": "2020-01-25",
       "team": "B5-D3_FPYC_DAVIS",
@@ -25622,32 +21935,6 @@ var _MASTER_DATA = {
       "opponent": "B5-D3_FPYC_DAVIS",
       "points": 35,
       "against": 55,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6289580,
-      "date": "2020-01-25",
-      "team": "G6-D1_BURKE_COUTINHO",
-      "opponent": "G6-D1_SYA_MOORE",
-      "points": 32,
-      "against": 28,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289580,
-      "date": "2020-01-25",
-      "team": "G6-D1_SYA_MOORE",
-      "opponent": "G6-D1_BURKE_COUTINHO",
-      "points": 28,
-      "against": 32,
       "result": "L",
       "win": false,
       "lost": true,
@@ -25681,38 +21968,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333768,
+      "game_id": 6289580,
       "date": "2020-01-25",
-      "team": "B5-D2_SYA_HARRIS",
-      "opponent": "B5-D2_BURKE_ASEFI",
-      "points": 33,
-      "against": 49,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333768,
-      "date": "2020-01-25",
-      "team": "B5-D2_BURKE_ASEFI",
-      "opponent": "B5-D2_SYA_HARRIS",
-      "points": 49,
-      "against": 33,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6293187,
-      "date": "2020-01-25",
-      "team": "B8-D3_BURKE_SMYDRA",
-      "opponent": "B8-D3_LEE-MT. VERNON_PETERS",
-      "points": 39,
-      "against": 35,
+      "team": "G6-D1_BURKE_COUTINHO",
+      "opponent": "G6-D1_SYA_MOORE",
+      "points": 32,
+      "against": 28,
       "result": "W",
       "win": true,
       "lost": false,
@@ -25720,12 +21981,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6293187,
+      "game_id": 6289580,
       "date": "2020-01-25",
-      "team": "B8-D3_LEE-MT. VERNON_PETERS",
-      "opponent": "B8-D3_BURKE_SMYDRA",
-      "points": 35,
-      "against": 39,
+      "team": "G6-D1_SYA_MOORE",
+      "opponent": "G6-D1_BURKE_COUTINHO",
+      "points": 28,
+      "against": 32,
       "result": "L",
       "win": false,
       "lost": true,
@@ -25752,6 +22013,32 @@ var _MASTER_DATA = {
       "opponent": "B7-D2_TURNPIKE_BURNS",
       "points": 43,
       "against": 46,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6293187,
+      "date": "2020-01-25",
+      "team": "B8-D3_BURKE_SMYDRA",
+      "opponent": "B8-D3_LEE-MT. VERNON_PETERS",
+      "points": 39,
+      "against": 35,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6293187,
+      "date": "2020-01-25",
+      "team": "B8-D3_LEE-MT. VERNON_PETERS",
+      "opponent": "B8-D3_BURKE_SMYDRA",
+      "points": 35,
+      "against": 39,
       "result": "L",
       "win": false,
       "lost": true,
@@ -25837,6 +22124,58 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6333770,
+      "date": "2020-01-25",
+      "team": "B5-D2_SOUTH LOUDOUN_FIORILLO",
+      "opponent": "B5-D2_BURKE_MAYERNIK",
+      "points": 50,
+      "against": 35,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333770,
+      "date": "2020-01-25",
+      "team": "B5-D2_BURKE_MAYERNIK",
+      "opponent": "B5-D2_SOUTH LOUDOUN_FIORILLO",
+      "points": 35,
+      "against": 50,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290666,
+      "date": "2020-01-25",
+      "team": "B7-D3_CYA_PROCHAZKA",
+      "opponent": "B7-D3_HERNDON_PASSMORE",
+      "points": 36,
+      "against": 44,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290666,
+      "date": "2020-01-25",
+      "team": "B7-D3_HERNDON_PASSMORE",
+      "opponent": "B7-D3_CYA_PROCHAZKA",
+      "points": 44,
+      "against": 36,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6335220,
       "date": "2020-01-25",
       "team": "B5-D3_TURNPIKE_SYRON",
@@ -25889,80 +22228,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6290666,
+      "game_id": 6279153,
       "date": "2020-01-25",
-      "team": "B7-D3_CYA_PROCHAZKA",
-      "opponent": "B7-D3_HERNDON_PASSMORE",
-      "points": 36,
-      "against": 44,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290666,
-      "date": "2020-01-25",
-      "team": "B7-D3_HERNDON_PASSMORE",
-      "opponent": "B7-D3_CYA_PROCHAZKA",
+      "team": "B7-D1_MCLEAN_CAREY",
+      "opponent": "B7-D1_ARLINGTON_SHELLEY",
       "points": 44,
-      "against": 36,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333770,
-      "date": "2020-01-25",
-      "team": "B5-D2_SOUTH LOUDOUN_FIORILLO",
-      "opponent": "B5-D2_BURKE_MAYERNIK",
-      "points": 50,
-      "against": 35,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333770,
-      "date": "2020-01-25",
-      "team": "B5-D2_BURKE_MAYERNIK",
-      "opponent": "B5-D2_SOUTH LOUDOUN_FIORILLO",
-      "points": 35,
-      "against": 50,
+      "against": 47,
       "result": "L",
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6286805,
-      "date": "2020-01-25",
-      "team": "G7-D2_MT. VERNON_GAREY",
-      "opponent": "G7-D2_MCLEAN_MENDENHALL",
-      "points": 31,
-      "against": 28,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
       "source": true
     },
     {
-      "game_id": 6286805,
+      "game_id": 6279153,
       "date": "2020-01-25",
-      "team": "G7-D2_MCLEAN_MENDENHALL",
-      "opponent": "G7-D2_MT. VERNON_GAREY",
-      "points": 28,
-      "against": 31,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "B7-D1_ARLINGTON_SHELLEY",
+      "opponent": "B7-D1_MCLEAN_CAREY",
+      "points": 47,
+      "against": 44,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -25993,28 +22280,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279153,
+      "game_id": 6286805,
       "date": "2020-01-25",
-      "team": "B7-D1_MCLEAN_CAREY",
-      "opponent": "B7-D1_ARLINGTON_SHELLEY",
-      "points": 44,
-      "against": 47,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "G7-D2_MT. VERNON_GAREY",
+      "opponent": "G7-D2_MCLEAN_MENDENHALL",
+      "points": 31,
+      "against": 28,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6279153,
+      "game_id": 6286805,
       "date": "2020-01-25",
-      "team": "B7-D1_ARLINGTON_SHELLEY",
-      "opponent": "B7-D1_MCLEAN_CAREY",
-      "points": 47,
-      "against": 44,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "G7-D2_MCLEAN_MENDENHALL",
+      "opponent": "G7-D2_MT. VERNON_GAREY",
+      "points": 28,
+      "against": 31,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -26123,32 +22410,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6286806,
-      "date": "2020-01-25",
-      "team": "G7-D2_VIENNA_TOMLINSON",
-      "opponent": "G7-D2_BRYC_OCONNOR",
-      "points": 4,
-      "against": 29,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6286806,
-      "date": "2020-01-25",
-      "team": "G7-D2_BRYC_OCONNOR",
-      "opponent": "G7-D2_VIENNA_TOMLINSON",
-      "points": 29,
-      "against": 4,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6279151,
       "date": "2020-01-25",
       "team": "B7-D1_RESTON_ROBINSON",
@@ -26171,6 +22432,32 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6286806,
+      "date": "2020-01-25",
+      "team": "G7-D2_VIENNA_TOMLINSON",
+      "opponent": "G7-D2_BRYC_OCONNOR",
+      "points": 4,
+      "against": 29,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6286806,
+      "date": "2020-01-25",
+      "team": "G7-D2_BRYC_OCONNOR",
+      "opponent": "G7-D2_VIENNA_TOMLINSON",
+      "points": 29,
+      "against": 4,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -26201,32 +22488,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333660,
-      "date": "2020-01-25",
-      "team": "G5-D2_BAILEYS CC_MARSHALL",
-      "opponent": "G5-D2_CYA_MAZID",
-      "points": 3,
-      "against": 46,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333660,
-      "date": "2020-01-25",
-      "team": "G5-D2_CYA_MAZID",
-      "opponent": "G5-D2_BAILEYS CC_MARSHALL",
-      "points": 46,
-      "against": 3,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6333432,
       "date": "2020-01-25",
       "team": "B5-D1_GAINESVILLE_LY",
@@ -26246,6 +22507,32 @@ var _MASTER_DATA = {
       "opponent": "B5-D1_GAINESVILLE_LY",
       "points": 50,
       "against": 32,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333660,
+      "date": "2020-01-25",
+      "team": "G5-D2_BAILEYS CC_MARSHALL",
+      "opponent": "G5-D2_CYA_MAZID",
+      "points": 3,
+      "against": 46,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333660,
+      "date": "2020-01-25",
+      "team": "G5-D2_CYA_MAZID",
+      "opponent": "G5-D2_BAILEYS CC_MARSHALL",
+      "points": 46,
+      "against": 3,
       "result": "W",
       "win": true,
       "lost": false,
@@ -26357,32 +22644,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6289906,
-      "date": "2020-01-26",
-      "team": "G6-D2_CYA_MURPHY",
-      "opponent": "G6-D2_ARLINGTON_DECOU",
-      "points": 4,
-      "against": 38,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289906,
-      "date": "2020-01-26",
-      "team": "G6-D2_ARLINGTON_DECOU",
-      "opponent": "G6-D2_CYA_MURPHY",
-      "points": 38,
-      "against": 4,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6289592,
       "date": "2020-01-26",
       "team": "G6-D1_FORT HUNT_LOVING",
@@ -26402,6 +22663,32 @@ var _MASTER_DATA = {
       "opponent": "G6-D1_FORT HUNT_LOVING",
       "points": 46,
       "against": 14,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289906,
+      "date": "2020-01-26",
+      "team": "G6-D2_CYA_MURPHY",
+      "opponent": "G6-D2_ARLINGTON_DECOU",
+      "points": 4,
+      "against": 38,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289906,
+      "date": "2020-01-26",
+      "team": "G6-D2_ARLINGTON_DECOU",
+      "opponent": "G6-D2_CYA_MURPHY",
+      "points": 38,
+      "against": 4,
       "result": "W",
       "win": true,
       "lost": false,
@@ -26461,6 +22748,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6333731,
+      "date": "2020-01-26",
+      "team": "B5-D2_SYA_HARRIS",
+      "opponent": "B5-D2_MCLEAN_B BALL",
+      "points": 35,
+      "against": 43,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333731,
+      "date": "2020-01-26",
+      "team": "B5-D2_MCLEAN_B BALL",
+      "opponent": "B5-D2_SYA_HARRIS",
+      "points": 43,
+      "against": 35,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6279170,
       "date": "2020-01-26",
       "team": "B7-D1_BRYC_AQUIL",
@@ -26480,6 +22793,32 @@ var _MASTER_DATA = {
       "opponent": "B7-D1_BRYC_AQUIL",
       "points": 24,
       "against": 52,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6293207,
+      "date": "2020-01-26",
+      "team": "B8-D3_MANASSAS PARK_HOLDEN",
+      "opponent": "B8-D3_BAILEYS_TBD",
+      "points": 55,
+      "against": 24,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6293207,
+      "date": "2020-01-26",
+      "team": "B8-D3_BAILEYS_TBD",
+      "opponent": "B8-D3_MANASSAS PARK_HOLDEN",
+      "points": 24,
+      "against": 55,
       "result": "L",
       "win": false,
       "lost": true,
@@ -26509,58 +22848,6 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333731,
-      "date": "2020-01-26",
-      "team": "B5-D2_SYA_HARRIS",
-      "opponent": "B5-D2_MCLEAN_B BALL",
-      "points": 35,
-      "against": 43,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333731,
-      "date": "2020-01-26",
-      "team": "B5-D2_MCLEAN_B BALL",
-      "opponent": "B5-D2_SYA_HARRIS",
-      "points": 43,
-      "against": 35,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6293207,
-      "date": "2020-01-26",
-      "team": "B8-D3_MANASSAS PARK_HOLDEN",
-      "opponent": "B8-D3_BAILEYS_TBD",
-      "points": 55,
-      "against": 24,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6293207,
-      "date": "2020-01-26",
-      "team": "B8-D3_BAILEYS_TBD",
-      "opponent": "B8-D3_MANASSAS PARK_HOLDEN",
-      "points": 24,
-      "against": 55,
-      "result": "L",
-      "win": false,
-      "lost": true,
       "tie": false,
       "source": false
     },
@@ -26799,6 +23086,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6278417,
+      "date": "2020-01-26",
+      "team": "B8-D1_BURKE_SHOUMAN",
+      "opponent": "B8-D1_ARLINGTON_DAVIS",
+      "points": 59,
+      "against": 49,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278417,
+      "date": "2020-01-26",
+      "team": "B8-D1_ARLINGTON_DAVIS",
+      "opponent": "B8-D1_BURKE_SHOUMAN",
+      "points": 49,
+      "against": 59,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6279168,
       "date": "2020-01-26",
       "team": "B7-D1_VIENNA_STOLBURG",
@@ -26844,32 +23157,6 @@ var _MASTER_DATA = {
       "opponent": "B7-D3_HERNDON_PASSMORE",
       "points": 36,
       "against": 38,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278417,
-      "date": "2020-01-26",
-      "team": "B8-D1_BURKE_SHOUMAN",
-      "opponent": "B8-D1_ARLINGTON_DAVIS",
-      "points": 59,
-      "against": 49,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278417,
-      "date": "2020-01-26",
-      "team": "B8-D1_ARLINGTON_DAVIS",
-      "opponent": "B8-D1_BURKE_SHOUMAN",
-      "points": 49,
-      "against": 59,
       "result": "L",
       "win": false,
       "lost": true,
@@ -26925,32 +23212,6 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6289593,
-      "date": "2020-01-26",
-      "team": "G6-D1_SOUTH LOUDOUN_CHILDRESS",
-      "opponent": "G6-D1_VIENNA_PARRIS",
-      "points": 20,
-      "against": 24,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289593,
-      "date": "2020-01-26",
-      "team": "G6-D1_VIENNA_PARRIS",
-      "opponent": "G6-D1_SOUTH LOUDOUN_CHILDRESS",
-      "points": 24,
-      "against": 20,
-      "result": "W",
-      "win": true,
-      "lost": false,
       "tie": false,
       "source": false
     },
@@ -27033,32 +23294,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6335188,
-      "date": "2020-01-26",
-      "team": "B5-D3_ARLINGTON_PERKINS",
-      "opponent": "B5-D3_GAINESVILLE_MAXWELL",
-      "points": 29,
-      "against": 20,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6335188,
-      "date": "2020-01-26",
-      "team": "B5-D3_GAINESVILLE_MAXWELL",
-      "opponent": "B5-D3_ARLINGTON_PERKINS",
-      "points": 20,
-      "against": 29,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6289910,
       "date": "2020-01-26",
       "team": "G6-D2_FPYC_LESTER",
@@ -27081,6 +23316,58 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289593,
+      "date": "2020-01-26",
+      "team": "G6-D1_SOUTH LOUDOUN_CHILDRESS",
+      "opponent": "G6-D1_VIENNA_PARRIS",
+      "points": 20,
+      "against": 24,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289593,
+      "date": "2020-01-26",
+      "team": "G6-D1_VIENNA_PARRIS",
+      "opponent": "G6-D1_SOUTH LOUDOUN_CHILDRESS",
+      "points": 24,
+      "against": 20,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6335188,
+      "date": "2020-01-26",
+      "team": "B5-D3_ARLINGTON_PERKINS",
+      "opponent": "B5-D3_GAINESVILLE_MAXWELL",
+      "points": 29,
+      "against": 20,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6335188,
+      "date": "2020-01-26",
+      "team": "B5-D3_GAINESVILLE_MAXWELL",
+      "opponent": "B5-D3_ARLINGTON_PERKINS",
+      "points": 20,
+      "against": 29,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -27293,28 +23580,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6290684,
+      "game_id": 6279009,
       "date": "2020-01-26",
-      "team": "B7-D3_GREAT FALLS_WILLSON",
-      "opponent": "B7-D3_ARLINGTON_PARKER",
-      "points": 34,
-      "against": 37,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "B8-D2_FORT HUNT_FORTI",
+      "opponent": "B8-D2_ARLINGTON_MAHER",
+      "points": 65,
+      "against": 32,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6290684,
+      "game_id": 6279009,
       "date": "2020-01-26",
-      "team": "B7-D3_ARLINGTON_PARKER",
-      "opponent": "B7-D3_GREAT FALLS_WILLSON",
-      "points": 37,
-      "against": 34,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "B8-D2_ARLINGTON_MAHER",
+      "opponent": "B8-D2_FORT HUNT_FORTI",
+      "points": 32,
+      "against": 65,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -27345,6 +23632,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6290684,
+      "date": "2020-01-26",
+      "team": "B7-D3_GREAT FALLS_WILLSON",
+      "opponent": "B7-D3_ARLINGTON_PARKER",
+      "points": 34,
+      "against": 37,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290684,
+      "date": "2020-01-26",
+      "team": "B7-D3_ARLINGTON_PARKER",
+      "opponent": "B7-D3_GREAT FALLS_WILLSON",
+      "points": 37,
+      "against": 34,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6333728,
       "date": "2020-01-26",
       "team": "B5-D2_BURKE_MAYERNIK",
@@ -27364,6 +23677,32 @@ var _MASTER_DATA = {
       "opponent": "B5-D2_BURKE_MAYERNIK",
       "points": 50,
       "against": 27,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6286790,
+      "date": "2020-01-26",
+      "team": "G7-D2_VIENNA_TOMLINSON",
+      "opponent": "G7-D2_MCLEAN_MENDENHALL",
+      "points": 12,
+      "against": 42,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6286790,
+      "date": "2020-01-26",
+      "team": "G7-D2_MCLEAN_MENDENHALL",
+      "opponent": "G7-D2_VIENNA_TOMLINSON",
+      "points": 42,
+      "against": 12,
       "result": "W",
       "win": true,
       "lost": false,
@@ -27419,32 +23758,6 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6286790,
-      "date": "2020-01-26",
-      "team": "G7-D2_VIENNA_TOMLINSON",
-      "opponent": "G7-D2_MCLEAN_MENDENHALL",
-      "points": 12,
-      "against": 42,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6286790,
-      "date": "2020-01-26",
-      "team": "G7-D2_MCLEAN_MENDENHALL",
-      "opponent": "G7-D2_VIENNA_TOMLINSON",
-      "points": 42,
-      "against": 12,
-      "result": "W",
-      "win": true,
-      "lost": false,
       "tie": false,
       "source": false
     },
@@ -27527,32 +23840,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6290509,
-      "date": "2020-01-26",
-      "team": "B6-D3_LEE MT. VERNON_STEWART",
-      "opponent": "B6-D3_SOUTH COUNTY_JOHNSON",
-      "points": 15,
-      "against": 46,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290509,
-      "date": "2020-01-26",
-      "team": "B6-D3_SOUTH COUNTY_JOHNSON",
-      "opponent": "B6-D3_LEE MT. VERNON_STEWART",
-      "points": 46,
-      "against": 15,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6279172,
       "date": "2020-01-26",
       "team": "B7-D1_ARLINGTON_SHELLEY",
@@ -27605,12 +23892,38 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279009,
+      "game_id": 6290509,
       "date": "2020-01-26",
-      "team": "B8-D2_FORT HUNT_FORTI",
-      "opponent": "B8-D2_ARLINGTON_MAHER",
-      "points": 65,
-      "against": 32,
+      "team": "B6-D3_LEE MT. VERNON_STEWART",
+      "opponent": "B6-D3_SOUTH COUNTY_JOHNSON",
+      "points": 15,
+      "against": 46,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290509,
+      "date": "2020-01-26",
+      "team": "B6-D3_SOUTH COUNTY_JOHNSON",
+      "opponent": "B6-D3_LEE MT. VERNON_STEWART",
+      "points": 46,
+      "against": 15,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288785,
+      "date": "2020-01-26",
+      "team": "B6-D2_GAINESVILLE_MURRAY",
+      "opponent": "B6-D2_SYA_HILL",
+      "points": 34,
+      "against": 31,
       "result": "W",
       "win": true,
       "lost": false,
@@ -27618,12 +23931,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6279009,
+      "game_id": 6288785,
       "date": "2020-01-26",
-      "team": "B8-D2_ARLINGTON_MAHER",
-      "opponent": "B8-D2_FORT HUNT_FORTI",
-      "points": 32,
-      "against": 65,
+      "team": "B6-D2_SYA_HILL",
+      "opponent": "B6-D2_GAINESVILLE_MURRAY",
+      "points": 31,
+      "against": 34,
       "result": "L",
       "win": false,
       "lost": true,
@@ -27676,32 +23989,6 @@ var _MASTER_DATA = {
       "opponent": "B7-D1_SOUTH LOUDOUN_WEBB-",
       "points": 30,
       "against": 50,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288785,
-      "date": "2020-01-26",
-      "team": "B6-D2_GAINESVILLE_MURRAY",
-      "opponent": "B6-D2_SYA_HILL",
-      "points": 34,
-      "against": 31,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288785,
-      "date": "2020-01-26",
-      "team": "B6-D2_SYA_HILL",
-      "opponent": "B6-D2_GAINESVILLE_MURRAY",
-      "points": 31,
-      "against": 34,
       "result": "L",
       "win": false,
       "lost": true,
@@ -27787,32 +24074,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6287527,
-      "date": "2020-01-26",
-      "team": "G8-D2_BURKE_BYRNE",
-      "opponent": "G8-D2_VIENNA_BOND",
-      "points": 20,
-      "against": 52,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6287527,
-      "date": "2020-01-26",
-      "team": "G8-D2_VIENNA_BOND",
-      "opponent": "G8-D2_BURKE_BYRNE",
-      "points": 52,
-      "against": 20,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6278771,
       "date": "2020-01-26",
       "team": "G7-D1_SPRINGFIELD_DUCKETT",
@@ -27839,6 +24100,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6287527,
+      "date": "2020-01-26",
+      "team": "G8-D2_BURKE_BYRNE",
+      "opponent": "G8-D2_VIENNA_BOND",
+      "points": 20,
+      "against": 52,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6287527,
+      "date": "2020-01-26",
+      "team": "G8-D2_VIENNA_BOND",
+      "opponent": "G8-D2_BURKE_BYRNE",
+      "points": 52,
+      "against": 20,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6287526,
       "date": "2020-01-26",
       "team": "G8-D2_CYA_JONES",
@@ -27857,6 +24144,32 @@ var _MASTER_DATA = {
       "team": "G8-D2_FORT HUNT_HARRIS",
       "opponent": "G8-D2_CYA_JONES",
       "points": 29,
+      "against": 32,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333732,
+      "date": "2020-01-26",
+      "team": "B5-D2_BRYC_MAYES",
+      "opponent": "B5-D2_FALLS CHURCH_GREINER",
+      "points": 32,
+      "against": 22,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333732,
+      "date": "2020-01-26",
+      "team": "B5-D2_FALLS CHURCH_GREINER",
+      "opponent": "B5-D2_BRYC_MAYES",
+      "points": 22,
       "against": 32,
       "result": "L",
       "win": false,
@@ -27917,58 +24230,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333732,
-      "date": "2020-01-26",
-      "team": "B5-D2_BRYC_MAYES",
-      "opponent": "B5-D2_FALLS CHURCH_GREINER",
-      "points": 32,
-      "against": 22,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333732,
-      "date": "2020-01-26",
-      "team": "B5-D2_FALLS CHURCH_GREINER",
-      "opponent": "B5-D2_BRYC_MAYES",
-      "points": 22,
-      "against": 32,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6335190,
-      "date": "2020-01-26",
-      "team": "B5-D3_SOUTH COUNTY_ARORA",
-      "opponent": "B5-D3_HERNDON_BERMUDEZ",
-      "points": 36,
-      "against": 38,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6335190,
-      "date": "2020-01-26",
-      "team": "B5-D3_HERNDON_BERMUDEZ",
-      "opponent": "B5-D3_SOUTH COUNTY_ARORA",
-      "points": 38,
-      "against": 36,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6279171,
       "date": "2020-01-26",
       "team": "B7-D1_SPRINGFIELD_ARGUEDAS",
@@ -28021,6 +24282,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6335190,
+      "date": "2020-01-26",
+      "team": "B5-D3_SOUTH COUNTY_ARORA",
+      "opponent": "B5-D3_HERNDON_BERMUDEZ",
+      "points": 36,
+      "against": 38,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6335190,
+      "date": "2020-01-26",
+      "team": "B5-D3_HERNDON_BERMUDEZ",
+      "opponent": "B5-D3_SOUTH COUNTY_ARORA",
+      "points": 38,
+      "against": 36,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6278418,
       "date": "2020-01-26",
       "team": "B8-D1_MCLEAN_LEGGETT",
@@ -28047,12 +24334,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333730,
+      "game_id": 6288787,
       "date": "2020-01-26",
-      "team": "B5-D2_BURKE_ASEFI",
-      "opponent": "B5-D2_CYA_MARTIN",
-      "points": 40,
-      "against": 18,
+      "team": "B6-D2_FORT HUNT_FORTI",
+      "opponent": "B6-D2_VIENNA_CHOI",
+      "points": 44,
+      "against": 24,
       "result": "W",
       "win": true,
       "lost": false,
@@ -28060,12 +24347,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6333730,
+      "game_id": 6288787,
       "date": "2020-01-26",
-      "team": "B5-D2_CYA_MARTIN",
-      "opponent": "B5-D2_BURKE_ASEFI",
-      "points": 18,
-      "against": 40,
+      "team": "B6-D2_VIENNA_CHOI",
+      "opponent": "B6-D2_FORT HUNT_FORTI",
+      "points": 24,
+      "against": 44,
       "result": "L",
       "win": false,
       "lost": true,
@@ -28099,12 +24386,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6288787,
+      "game_id": 6333730,
       "date": "2020-01-26",
-      "team": "B6-D2_FORT HUNT_FORTI",
-      "opponent": "B6-D2_VIENNA_CHOI",
-      "points": 44,
-      "against": 24,
+      "team": "B5-D2_BURKE_ASEFI",
+      "opponent": "B5-D2_CYA_MARTIN",
+      "points": 40,
+      "against": 18,
       "result": "W",
       "win": true,
       "lost": false,
@@ -28112,12 +24399,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6288787,
+      "game_id": 6333730,
       "date": "2020-01-26",
-      "team": "B6-D2_VIENNA_CHOI",
-      "opponent": "B6-D2_FORT HUNT_FORTI",
-      "points": 24,
-      "against": 44,
+      "team": "B5-D2_CYA_MARTIN",
+      "opponent": "B5-D2_BURKE_ASEFI",
+      "points": 18,
+      "against": 40,
       "result": "L",
       "win": false,
       "lost": true,
@@ -28229,32 +24516,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6277839,
-      "date": "2020-01-26",
-      "team": "G8-D1_VIENNA_TROTTER",
-      "opponent": "G8-D1_MCLEAN_MEGAS",
-      "points": 20,
-      "against": 39,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6277839,
-      "date": "2020-01-26",
-      "team": "G8-D1_MCLEAN_MEGAS",
-      "opponent": "G8-D1_VIENNA_TROTTER",
-      "points": 39,
-      "against": 20,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6333426,
       "date": "2020-01-26",
       "team": "B5-D1_CYA_ROSENBLATT",
@@ -28274,6 +24535,32 @@ var _MASTER_DATA = {
       "opponent": "B5-D1_CYA_ROSENBLATT",
       "points": 41,
       "against": 33,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6277839,
+      "date": "2020-01-26",
+      "team": "G8-D1_VIENNA_TROTTER",
+      "opponent": "G8-D1_MCLEAN_MEGAS",
+      "points": 20,
+      "against": 39,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6277839,
+      "date": "2020-01-26",
+      "team": "G8-D1_MCLEAN_MEGAS",
+      "opponent": "G8-D1_VIENNA_TROTTER",
+      "points": 39,
+      "against": 20,
       "result": "W",
       "win": true,
       "lost": false,
@@ -28307,32 +24594,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279167,
-      "date": "2020-01-26",
-      "team": "B7-D1_SYA_MORIN",
-      "opponent": "B7-D1_LEE DISTRICT_TROTTER",
-      "points": 39,
-      "against": 40,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279167,
-      "date": "2020-01-26",
-      "team": "B7-D1_LEE DISTRICT_TROTTER",
-      "opponent": "B7-D1_SYA_MORIN",
-      "points": 40,
-      "against": 39,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6278773,
       "date": "2020-01-26",
       "team": "G7-D1_SYA_BRUBAKER",
@@ -28359,64 +24620,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333536,
+      "game_id": 6279167,
       "date": "2020-01-26",
-      "team": "G5-D1_ARLINGTON_MCRAE",
-      "opponent": "G5-D1_MCLEAN_A NORTON",
-      "points": 34,
-      "against": 17,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333536,
-      "date": "2020-01-26",
-      "team": "G5-D1_MCLEAN_A NORTON",
-      "opponent": "G5-D1_ARLINGTON_MCRAE",
-      "points": 17,
-      "against": 34,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333534,
-      "date": "2020-01-26",
-      "team": "G5-D1_SPRINGFIELD_GOODMAN",
-      "opponent": "G5-D1_SOUTH LOUDOUN_KERR",
-      "points": 21,
-      "against": 16,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333534,
-      "date": "2020-01-26",
-      "team": "G5-D1_SOUTH LOUDOUN_KERR",
-      "opponent": "G5-D1_SPRINGFIELD_GOODMAN",
-      "points": 16,
-      "against": 21,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333690,
-      "date": "2020-01-26",
-      "team": "G5-D2_CYA_MAZID",
-      "opponent": "G5-D2_RESTON_WARD",
-      "points": 10,
-      "against": 30,
+      "team": "B7-D1_SYA_MORIN",
+      "opponent": "B7-D1_LEE DISTRICT_TROTTER",
+      "points": 39,
+      "against": 40,
       "result": "L",
       "win": false,
       "lost": true,
@@ -28424,64 +24633,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6333690,
+      "game_id": 6279167,
       "date": "2020-01-26",
-      "team": "G5-D2_RESTON_WARD",
-      "opponent": "G5-D2_CYA_MAZID",
-      "points": 30,
-      "against": 10,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288390,
-      "date": "2020-01-26",
-      "team": "B6-D1_MT. VERNON_COLEMAN",
-      "opponent": "B6-D1_SOUTH LOUDOUN_KAHN",
-      "points": 38,
-      "against": 31,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288390,
-      "date": "2020-01-26",
-      "team": "B6-D1_SOUTH LOUDOUN_KAHN",
-      "opponent": "B6-D1_MT. VERNON_COLEMAN",
-      "points": 31,
-      "against": 38,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6287525,
-      "date": "2020-01-26",
-      "team": "G8-D2_TURNPIKE_KOMAILY",
-      "opponent": "G8-D2_MCLEAN_MCNICOLL",
-      "points": 29,
-      "against": 43,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6287525,
-      "date": "2020-01-26",
-      "team": "G8-D2_MCLEAN_MCNICOLL",
-      "opponent": "G8-D2_TURNPIKE_KOMAILY",
-      "points": 43,
-      "against": 29,
+      "team": "B7-D1_LEE DISTRICT_TROTTER",
+      "opponent": "B7-D1_SYA_MORIN",
+      "points": 40,
+      "against": 39,
       "result": "W",
       "win": true,
       "lost": false,
@@ -28541,12 +24698,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6335192,
+      "game_id": 6288390,
       "date": "2020-01-26",
-      "team": "B5-D3_SPRINGFIELD_MORRISON",
-      "opponent": "B5-D3_GUM SPRINGS_SPROCKER",
-      "points": 27,
-      "against": 23,
+      "team": "B6-D1_MT. VERNON_COLEMAN",
+      "opponent": "B6-D1_SOUTH LOUDOUN_KAHN",
+      "points": 38,
+      "against": 31,
       "result": "W",
       "win": true,
       "lost": false,
@@ -28554,12 +24711,116 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6335192,
+      "game_id": 6288390,
       "date": "2020-01-26",
-      "team": "B5-D3_GUM SPRINGS_SPROCKER",
-      "opponent": "B5-D3_SPRINGFIELD_MORRISON",
-      "points": 23,
-      "against": 27,
+      "team": "B6-D1_SOUTH LOUDOUN_KAHN",
+      "opponent": "B6-D1_MT. VERNON_COLEMAN",
+      "points": 31,
+      "against": 38,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6287525,
+      "date": "2020-01-26",
+      "team": "G8-D2_TURNPIKE_KOMAILY",
+      "opponent": "G8-D2_MCLEAN_MCNICOLL",
+      "points": 29,
+      "against": 43,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6287525,
+      "date": "2020-01-26",
+      "team": "G8-D2_MCLEAN_MCNICOLL",
+      "opponent": "G8-D2_TURNPIKE_KOMAILY",
+      "points": 43,
+      "against": 29,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333690,
+      "date": "2020-01-26",
+      "team": "G5-D2_CYA_MAZID",
+      "opponent": "G5-D2_RESTON_WARD",
+      "points": 10,
+      "against": 30,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333690,
+      "date": "2020-01-26",
+      "team": "G5-D2_RESTON_WARD",
+      "opponent": "G5-D2_CYA_MAZID",
+      "points": 30,
+      "against": 10,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333536,
+      "date": "2020-01-26",
+      "team": "G5-D1_ARLINGTON_MCRAE",
+      "opponent": "G5-D1_MCLEAN_A NORTON",
+      "points": 34,
+      "against": 17,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333536,
+      "date": "2020-01-26",
+      "team": "G5-D1_MCLEAN_A NORTON",
+      "opponent": "G5-D1_ARLINGTON_MCRAE",
+      "points": 17,
+      "against": 34,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333534,
+      "date": "2020-01-26",
+      "team": "G5-D1_SPRINGFIELD_GOODMAN",
+      "opponent": "G5-D1_SOUTH LOUDOUN_KERR",
+      "points": 21,
+      "against": 16,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333534,
+      "date": "2020-01-26",
+      "team": "G5-D1_SOUTH LOUDOUN_KERR",
+      "opponent": "G5-D1_SPRINGFIELD_GOODMAN",
+      "points": 16,
+      "against": 21,
       "result": "L",
       "win": false,
       "lost": true,
@@ -28619,6 +24880,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6335192,
+      "date": "2020-01-26",
+      "team": "B5-D3_SPRINGFIELD_MORRISON",
+      "opponent": "B5-D3_GUM SPRINGS_SPROCKER",
+      "points": 27,
+      "against": 23,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6335192,
+      "date": "2020-01-26",
+      "team": "B5-D3_GUM SPRINGS_SPROCKER",
+      "opponent": "B5-D3_SPRINGFIELD_MORRISON",
+      "points": 23,
+      "against": 27,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6279010,
       "date": "2020-01-26",
       "team": "B8-D2_HERNDON_HARLEY",
@@ -28638,32 +24925,6 @@ var _MASTER_DATA = {
       "opponent": "B8-D2_HERNDON_HARLEY",
       "points": 51,
       "against": 22,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278413,
-      "date": "2020-01-26",
-      "team": "B8-D1_FORT BELVOIR_MILES",
-      "opponent": "B8-D1_MCLEAN_TALLENT",
-      "points": 29,
-      "against": 53,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278413,
-      "date": "2020-01-26",
-      "team": "B8-D1_MCLEAN_TALLENT",
-      "opponent": "B8-D1_FORT BELVOIR_MILES",
-      "points": 53,
-      "against": 29,
       "result": "W",
       "win": true,
       "lost": false,
@@ -28723,12 +24984,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6288393,
+      "game_id": 6278413,
       "date": "2020-01-26",
-      "team": "B6-D1_JAMES LEE_WADE",
-      "opponent": "B6-D1_BURKE_RAPOZA",
-      "points": 37,
-      "against": 40,
+      "team": "B8-D1_FORT BELVOIR_MILES",
+      "opponent": "B8-D1_MCLEAN_TALLENT",
+      "points": 29,
+      "against": 53,
       "result": "L",
       "win": false,
       "lost": true,
@@ -28736,12 +24997,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6288393,
+      "game_id": 6278413,
       "date": "2020-01-26",
-      "team": "B6-D1_BURKE_RAPOZA",
-      "opponent": "B6-D1_JAMES LEE_WADE",
-      "points": 40,
-      "against": 37,
+      "team": "B8-D1_MCLEAN_TALLENT",
+      "opponent": "B8-D1_FORT BELVOIR_MILES",
+      "points": 53,
+      "against": 29,
       "result": "W",
       "win": true,
       "lost": false,
@@ -28768,6 +25029,32 @@ var _MASTER_DATA = {
       "opponent": "B6-D3_CYA_LUGO",
       "points": 45,
       "against": 33,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288393,
+      "date": "2020-01-26",
+      "team": "B6-D1_JAMES LEE_WADE",
+      "opponent": "B6-D1_BURKE_RAPOZA",
+      "points": 37,
+      "against": 40,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288393,
+      "date": "2020-01-26",
+      "team": "B6-D1_BURKE_RAPOZA",
+      "opponent": "B6-D1_JAMES LEE_WADE",
+      "points": 40,
+      "against": 37,
       "result": "W",
       "win": true,
       "lost": false,
@@ -28853,32 +25140,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6289576,
-      "date": "2020-01-27",
-      "team": "G6-D1_BURKE_COUTINHO",
-      "opponent": "G6-D1_VIENNA_PARRIS",
-      "points": 29,
-      "against": 30,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289576,
-      "date": "2020-01-27",
-      "team": "G6-D1_VIENNA_PARRIS",
-      "opponent": "G6-D1_BURKE_COUTINHO",
-      "points": 30,
-      "against": 29,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6278749,
       "date": "2020-01-27",
       "team": "G7-D1_ARLINGTON_EISENBERG",
@@ -28898,6 +25159,32 @@ var _MASTER_DATA = {
       "opponent": "G7-D1_ARLINGTON_EISENBERG",
       "points": 58,
       "against": 50,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289576,
+      "date": "2020-01-27",
+      "team": "G6-D1_BURKE_COUTINHO",
+      "opponent": "G6-D1_VIENNA_PARRIS",
+      "points": 29,
+      "against": 30,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289576,
+      "date": "2020-01-27",
+      "team": "G6-D1_VIENNA_PARRIS",
+      "opponent": "G6-D1_BURKE_COUTINHO",
+      "points": 30,
+      "against": 29,
       "result": "W",
       "win": true,
       "lost": false,
@@ -29087,32 +25374,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279148,
-      "date": "2020-01-28",
-      "team": "B7-D1_BRYC_AQUIL",
-      "opponent": "B7-D1_MCLEAN_CAREY",
-      "points": 38,
-      "against": 59,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279148,
-      "date": "2020-01-28",
-      "team": "B7-D1_MCLEAN_CAREY",
-      "opponent": "B7-D1_BRYC_AQUIL",
-      "points": 59,
-      "against": 38,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6287496,
       "date": "2020-01-28",
       "team": "G8-D2_FORT BELVOIR_EDWARDS",
@@ -29132,6 +25393,32 @@ var _MASTER_DATA = {
       "opponent": "G8-D2_FORT BELVOIR_EDWARDS",
       "points": 51,
       "against": 37,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279148,
+      "date": "2020-01-28",
+      "team": "B7-D1_BRYC_AQUIL",
+      "opponent": "B7-D1_MCLEAN_CAREY",
+      "points": 38,
+      "against": 59,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279148,
+      "date": "2020-01-28",
+      "team": "B7-D1_MCLEAN_CAREY",
+      "opponent": "B7-D1_BRYC_AQUIL",
+      "points": 59,
+      "against": 38,
       "result": "W",
       "win": true,
       "lost": false,
@@ -29477,32 +25764,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6287498,
-      "date": "2020-01-30",
-      "team": "G8-D2_CYA_RATHINAVELU",
-      "opponent": "G8-D2_FORT HUNT_HARRIS",
-      "points": 33,
-      "against": 35,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6287498,
-      "date": "2020-01-30",
-      "team": "G8-D2_FORT HUNT_HARRIS",
-      "opponent": "G8-D2_CYA_RATHINAVELU",
-      "points": 35,
-      "against": 33,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6287500,
       "date": "2020-01-30",
       "team": "G8-D2_BURKE_BYRNE",
@@ -29522,6 +25783,32 @@ var _MASTER_DATA = {
       "opponent": "G8-D2_BURKE_BYRNE",
       "points": 49,
       "against": 48,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6287498,
+      "date": "2020-01-30",
+      "team": "G8-D2_CYA_RATHINAVELU",
+      "opponent": "G8-D2_FORT HUNT_HARRIS",
+      "points": 33,
+      "against": 35,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6287498,
+      "date": "2020-01-30",
+      "team": "G8-D2_FORT HUNT_HARRIS",
+      "opponent": "G8-D2_CYA_RATHINAVELU",
+      "points": 35,
+      "against": 33,
       "result": "W",
       "win": true,
       "lost": false,
@@ -29607,6 +25894,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6333457,
+      "date": "2020-02-01",
+      "team": "B5-D1_GREAT FALLS_GOLDBERG",
+      "opponent": "B5-D1_MCLEAN_MARTIN",
+      "points": 26,
+      "against": 44,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333457,
+      "date": "2020-02-01",
+      "team": "B5-D1_MCLEAN_MARTIN",
+      "opponent": "B5-D1_GREAT FALLS_GOLDBERG",
+      "points": 44,
+      "against": 26,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6333454,
       "date": "2020-02-01",
       "team": "B5-D1_FORT HUNT_ZIPPEL",
@@ -29659,12 +25972,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333457,
+      "game_id": 6279593,
       "date": "2020-02-01",
-      "team": "B5-D1_GREAT FALLS_GOLDBERG",
-      "opponent": "B5-D1_MCLEAN_MARTIN",
-      "points": 26,
-      "against": 44,
+      "team": "B7-D2_ANNANDALE_NELSON",
+      "opponent": "B7-D2_ALEXANDRIA_MATTHEWS",
+      "points": 47,
+      "against": 58,
       "result": "L",
       "win": false,
       "lost": true,
@@ -29672,12 +25985,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6333457,
+      "game_id": 6279593,
       "date": "2020-02-01",
-      "team": "B5-D1_MCLEAN_MARTIN",
-      "opponent": "B5-D1_GREAT FALLS_GOLDBERG",
-      "points": 44,
-      "against": 26,
+      "team": "B7-D2_ALEXANDRIA_MATTHEWS",
+      "opponent": "B7-D2_ANNANDALE_NELSON",
+      "points": 58,
+      "against": 47,
       "result": "W",
       "win": true,
       "lost": false,
@@ -29704,32 +26017,6 @@ var _MASTER_DATA = {
       "opponent": "B5-D1_GAINESVILLE_LY",
       "points": 59,
       "against": 43,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279593,
-      "date": "2020-02-01",
-      "team": "B7-D2_ANNANDALE_NELSON",
-      "opponent": "B7-D2_ALEXANDRIA_MATTHEWS",
-      "points": 47,
-      "against": 58,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279593,
-      "date": "2020-02-01",
-      "team": "B7-D2_ALEXANDRIA_MATTHEWS",
-      "opponent": "B7-D2_ANNANDALE_NELSON",
-      "points": 58,
-      "against": 47,
       "result": "W",
       "win": true,
       "lost": false,
@@ -29841,32 +26128,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333774,
-      "date": "2020-02-01",
-      "team": "B5-D2_MCLEAN_B BALL",
-      "opponent": "B5-D2_FALLS CHURCH_GREINER",
-      "points": 32,
-      "against": 43,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333774,
-      "date": "2020-02-01",
-      "team": "B5-D2_FALLS CHURCH_GREINER",
-      "opponent": "B5-D2_MCLEAN_B BALL",
-      "points": 43,
-      "against": 32,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6290516,
       "date": "2020-02-01",
       "team": "B6-D3_SOUTH COUNTY_JOHNSON",
@@ -29889,6 +26150,32 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333774,
+      "date": "2020-02-01",
+      "team": "B5-D2_MCLEAN_B BALL",
+      "opponent": "B5-D2_FALLS CHURCH_GREINER",
+      "points": 32,
+      "against": 43,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333774,
+      "date": "2020-02-01",
+      "team": "B5-D2_FALLS CHURCH_GREINER",
+      "opponent": "B5-D2_MCLEAN_B BALL",
+      "points": 43,
+      "against": 32,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -29919,32 +26206,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333455,
-      "date": "2020-02-01",
-      "team": "B5-D1_SYA_O-CONNOR",
-      "opponent": "B5-D1_LEE MT. VERNON_BOSLEY",
-      "points": 45,
-      "against": 38,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333455,
-      "date": "2020-02-01",
-      "team": "B5-D1_LEE MT. VERNON_BOSLEY",
-      "opponent": "B5-D1_SYA_O-CONNOR",
-      "points": 38,
-      "against": 45,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6290515,
       "date": "2020-02-01",
       "team": "B6-D3_ARLINGTON_NETTLES",
@@ -29964,6 +26225,32 @@ var _MASTER_DATA = {
       "opponent": "B6-D3_ARLINGTON_NETTLES",
       "points": 23,
       "against": 60,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333455,
+      "date": "2020-02-01",
+      "team": "B5-D1_SYA_O-CONNOR",
+      "opponent": "B5-D1_LEE MT. VERNON_BOSLEY",
+      "points": 45,
+      "against": 38,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333455,
+      "date": "2020-02-01",
+      "team": "B5-D1_LEE MT. VERNON_BOSLEY",
+      "opponent": "B5-D1_SYA_O-CONNOR",
+      "points": 38,
+      "against": 45,
       "result": "L",
       "win": false,
       "lost": true,
@@ -30019,32 +26306,6 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278751,
-      "date": "2020-02-01",
-      "team": "G7-D1_SPRINGFIELD_DUCKETT",
-      "opponent": "G7-D1_VIENNA_YODER",
-      "points": 57,
-      "against": 39,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278751,
-      "date": "2020-02-01",
-      "team": "G7-D1_VIENNA_YODER",
-      "opponent": "G7-D1_SPRINGFIELD_DUCKETT",
-      "points": 39,
-      "against": 57,
-      "result": "L",
-      "win": false,
-      "lost": true,
       "tie": false,
       "source": false
     },
@@ -30127,12 +26388,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6335186,
+      "game_id": 6278751,
       "date": "2020-02-01",
-      "team": "B5-D3_HERNDON_BERMUDEZ",
-      "opponent": "B5-D3_SPRINGFIELD_MORRISON",
-      "points": 42,
-      "against": 40,
+      "team": "G7-D1_SPRINGFIELD_DUCKETT",
+      "opponent": "G7-D1_VIENNA_YODER",
+      "points": 57,
+      "against": 39,
       "result": "W",
       "win": true,
       "lost": false,
@@ -30140,12 +26401,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6335186,
+      "game_id": 6278751,
       "date": "2020-02-01",
-      "team": "B5-D3_SPRINGFIELD_MORRISON",
-      "opponent": "B5-D3_HERNDON_BERMUDEZ",
-      "points": 40,
-      "against": 42,
+      "team": "G7-D1_VIENNA_YODER",
+      "opponent": "G7-D1_SPRINGFIELD_DUCKETT",
+      "points": 39,
+      "against": 57,
       "result": "L",
       "win": false,
       "lost": true,
@@ -30172,6 +26433,32 @@ var _MASTER_DATA = {
       "opponent": "B6-D1_LEE DISTRICT_DIFFENBACH",
       "points": 42,
       "against": 65,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6335186,
+      "date": "2020-02-01",
+      "team": "B5-D3_HERNDON_BERMUDEZ",
+      "opponent": "B5-D3_SPRINGFIELD_MORRISON",
+      "points": 42,
+      "against": 40,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6335186,
+      "date": "2020-02-01",
+      "team": "B5-D3_SPRINGFIELD_MORRISON",
+      "opponent": "B5-D3_HERNDON_BERMUDEZ",
+      "points": 40,
+      "against": 42,
       "result": "L",
       "win": false,
       "lost": true,
@@ -30231,12 +26518,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6278755,
+      "game_id": 6279594,
       "date": "2020-02-01",
-      "team": "G7-D1_GREAT FALLS_BOND",
-      "opponent": "G7-D1_ARLINGTON_EISENBERG",
-      "points": 30,
-      "against": 60,
+      "team": "B7-D2_FORT BELVOIR_SHERN",
+      "opponent": "B7-D2_GAINESVILLE_SCHWEMER",
+      "points": 29,
+      "against": 52,
       "result": "L",
       "win": false,
       "lost": true,
@@ -30244,12 +26531,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6278755,
+      "game_id": 6279594,
       "date": "2020-02-01",
-      "team": "G7-D1_ARLINGTON_EISENBERG",
-      "opponent": "G7-D1_GREAT FALLS_BOND",
-      "points": 60,
-      "against": 30,
+      "team": "B7-D2_GAINESVILLE_SCHWEMER",
+      "opponent": "B7-D2_FORT BELVOIR_SHERN",
+      "points": 52,
+      "against": 29,
       "result": "W",
       "win": true,
       "lost": false,
@@ -30309,12 +26596,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279594,
+      "game_id": 6278755,
       "date": "2020-02-01",
-      "team": "B7-D2_FORT BELVOIR_SHERN",
-      "opponent": "B7-D2_GAINESVILLE_SCHWEMER",
-      "points": 29,
-      "against": 52,
+      "team": "G7-D1_GREAT FALLS_BOND",
+      "opponent": "G7-D1_ARLINGTON_EISENBERG",
+      "points": 30,
+      "against": 60,
       "result": "L",
       "win": false,
       "lost": true,
@@ -30322,41 +26609,15 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6279594,
+      "game_id": 6278755,
       "date": "2020-02-01",
-      "team": "B7-D2_GAINESVILLE_SCHWEMER",
-      "opponent": "B7-D2_FORT BELVOIR_SHERN",
-      "points": 52,
-      "against": 29,
+      "team": "G7-D1_ARLINGTON_EISENBERG",
+      "opponent": "G7-D1_GREAT FALLS_BOND",
+      "points": 60,
+      "against": 30,
       "result": "W",
       "win": true,
       "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333773,
-      "date": "2020-02-01",
-      "team": "B5-D2_VIENNA_LOCEY",
-      "opponent": "B5-D2_BRYC_MAYES",
-      "points": 44,
-      "against": 19,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333773,
-      "date": "2020-02-01",
-      "team": "B5-D2_BRYC_MAYES",
-      "opponent": "B5-D2_VIENNA_LOCEY",
-      "points": 19,
-      "against": 44,
-      "result": "L",
-      "win": false,
-      "lost": true,
       "tie": false,
       "source": false
     },
@@ -30409,6 +26670,32 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333773,
+      "date": "2020-02-01",
+      "team": "B5-D2_VIENNA_LOCEY",
+      "opponent": "B5-D2_BRYC_MAYES",
+      "points": 44,
+      "against": 19,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333773,
+      "date": "2020-02-01",
+      "team": "B5-D2_BRYC_MAYES",
+      "opponent": "B5-D2_VIENNA_LOCEY",
+      "points": 19,
+      "against": 44,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -30491,32 +26778,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6335183,
-      "date": "2020-02-01",
-      "team": "B5-D3_GAINESVILLE_MAXWELL",
-      "opponent": "B5-D3_BRYC_SHARMA",
-      "points": 29,
-      "against": 37,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6335183,
-      "date": "2020-02-01",
-      "team": "B5-D3_BRYC_SHARMA",
-      "opponent": "B5-D3_GAINESVILLE_MAXWELL",
-      "points": 37,
-      "against": 29,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6335187,
       "date": "2020-02-01",
       "team": "B5-D3_GAINESVILLE_JACKSON",
@@ -30539,6 +26800,32 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6335183,
+      "date": "2020-02-01",
+      "team": "B5-D3_GAINESVILLE_MAXWELL",
+      "opponent": "B5-D3_BRYC_SHARMA",
+      "points": 29,
+      "against": 37,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6335183,
+      "date": "2020-02-01",
+      "team": "B5-D3_BRYC_SHARMA",
+      "opponent": "B5-D3_GAINESVILLE_MAXWELL",
+      "points": 37,
+      "against": 29,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -30569,12 +26856,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333706,
+      "game_id": 6290707,
       "date": "2020-02-01",
-      "team": "B5-D2_LEE MT. VERNON_DAY",
-      "opponent": "B5-D2_BURKE_MAYERNIK",
-      "points": 37,
-      "against": 22,
+      "team": "B7-D3_SOUTH LOUDOUN_COOK",
+      "opponent": "B7-D3_GREAT FALLS_WILLSON",
+      "points": 34,
+      "against": 32,
       "result": "W",
       "win": true,
       "lost": false,
@@ -30582,12 +26869,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6333706,
+      "game_id": 6290707,
       "date": "2020-02-01",
-      "team": "B5-D2_BURKE_MAYERNIK",
-      "opponent": "B5-D2_LEE MT. VERNON_DAY",
-      "points": 22,
-      "against": 37,
+      "team": "B7-D3_GREAT FALLS_WILLSON",
+      "opponent": "B7-D3_SOUTH LOUDOUN_COOK",
+      "points": 32,
+      "against": 34,
       "result": "L",
       "win": false,
       "lost": true,
@@ -30621,12 +26908,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6290707,
+      "game_id": 6333706,
       "date": "2020-02-01",
-      "team": "B7-D3_SOUTH LOUDOUN_COOK",
-      "opponent": "B7-D3_GREAT FALLS_WILLSON",
-      "points": 34,
-      "against": 32,
+      "team": "B5-D2_LEE MT. VERNON_DAY",
+      "opponent": "B5-D2_BURKE_MAYERNIK",
+      "points": 37,
+      "against": 22,
       "result": "W",
       "win": true,
       "lost": false,
@@ -30634,12 +26921,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6290707,
+      "game_id": 6333706,
       "date": "2020-02-01",
-      "team": "B7-D3_GREAT FALLS_WILLSON",
-      "opponent": "B7-D3_SOUTH LOUDOUN_COOK",
-      "points": 32,
-      "against": 34,
+      "team": "B5-D2_BURKE_MAYERNIK",
+      "opponent": "B5-D2_LEE MT. VERNON_DAY",
+      "points": 22,
+      "against": 37,
       "result": "L",
       "win": false,
       "lost": true,
@@ -30673,32 +26960,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6290513,
-      "date": "2020-02-01",
-      "team": "B6-D3_BAILEYS_J. SMITH SR",
-      "opponent": "B6-D3_TURNPIKE_OURS",
-      "points": 17,
-      "against": 55,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290513,
-      "date": "2020-02-01",
-      "team": "B6-D3_TURNPIKE_OURS",
-      "opponent": "B6-D3_BAILEYS_J. SMITH SR",
-      "points": 55,
-      "against": 17,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6288433,
       "date": "2020-02-01",
       "team": "B6-D1_BURKE_RAPOZA",
@@ -30718,6 +26979,32 @@ var _MASTER_DATA = {
       "opponent": "B6-D1_BURKE_RAPOZA",
       "points": 50,
       "against": 33,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290513,
+      "date": "2020-02-01",
+      "team": "B6-D3_BAILEYS_J. SMITH SR",
+      "opponent": "B6-D3_TURNPIKE_OURS",
+      "points": 17,
+      "against": 55,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290513,
+      "date": "2020-02-01",
+      "team": "B6-D3_TURNPIKE_OURS",
+      "opponent": "B6-D3_BAILEYS_J. SMITH SR",
+      "points": 55,
+      "against": 17,
       "result": "W",
       "win": true,
       "lost": false,
@@ -30751,12 +27038,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279023,
+      "game_id": 6288762,
       "date": "2020-02-01",
-      "team": "B8-D2_ARLINGTON_MAHER",
-      "opponent": "B8-D2_CYA_SMITH",
-      "points": 55,
-      "against": 49,
+      "team": "B6-D2_SOUTH LOUDOUN_LANOUETTE",
+      "opponent": "B6-D2_VIENNA_CHOI",
+      "points": 47,
+      "against": 34,
       "result": "W",
       "win": true,
       "lost": false,
@@ -30764,15 +27051,67 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6279023,
+      "game_id": 6288762,
       "date": "2020-02-01",
-      "team": "B8-D2_CYA_SMITH",
-      "opponent": "B8-D2_ARLINGTON_MAHER",
-      "points": 49,
-      "against": 55,
+      "team": "B6-D2_VIENNA_CHOI",
+      "opponent": "B6-D2_SOUTH LOUDOUN_LANOUETTE",
+      "points": 34,
+      "against": 47,
       "result": "L",
       "win": false,
       "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288764,
+      "date": "2020-02-01",
+      "team": "B6-D2_MCLEAN_CICALE",
+      "opponent": "B6-D2_ANNANDALE_HWANG",
+      "points": 51,
+      "against": 14,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288764,
+      "date": "2020-02-01",
+      "team": "B6-D2_ANNANDALE_HWANG",
+      "opponent": "B6-D2_MCLEAN_CICALE",
+      "points": 14,
+      "against": 51,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6293226,
+      "date": "2020-02-01",
+      "team": "B8-D3_BURKE_SMYDRA",
+      "opponent": "B8-D3_FALLS CHURCH_SUTTON",
+      "points": 28,
+      "against": 42,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6293226,
+      "date": "2020-02-01",
+      "team": "B8-D3_FALLS CHURCH_SUTTON",
+      "opponent": "B8-D3_BURKE_SMYDRA",
+      "points": 42,
+      "against": 28,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -30799,6 +27138,84 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278390,
+      "date": "2020-02-01",
+      "team": "B8-D1_SPRINGFIELD_ROBINSON",
+      "opponent": "B8-D1_RESTON_LANSDOWNE",
+      "points": 45,
+      "against": 63,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278390,
+      "date": "2020-02-01",
+      "team": "B8-D1_RESTON_LANSDOWNE",
+      "opponent": "B8-D1_SPRINGFIELD_ROBINSON",
+      "points": 63,
+      "against": 45,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279023,
+      "date": "2020-02-01",
+      "team": "B8-D2_ARLINGTON_MAHER",
+      "opponent": "B8-D2_CYA_SMITH",
+      "points": 55,
+      "against": 49,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279023,
+      "date": "2020-02-01",
+      "team": "B8-D2_CYA_SMITH",
+      "opponent": "B8-D2_ARLINGTON_MAHER",
+      "points": 49,
+      "against": 55,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279595,
+      "date": "2020-02-01",
+      "team": "B7-D2_ARLINGTON_REMEDIOS",
+      "opponent": "B7-D2_TURNPIKE_BURNS",
+      "points": 53,
+      "against": 63,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279595,
+      "date": "2020-02-01",
+      "team": "B7-D2_TURNPIKE_BURNS",
+      "opponent": "B7-D2_ARLINGTON_REMEDIOS",
+      "points": 63,
+      "against": 53,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -30907,136 +27324,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6293226,
-      "date": "2020-02-01",
-      "team": "B8-D3_BURKE_SMYDRA",
-      "opponent": "B8-D3_FALLS CHURCH_SUTTON",
-      "points": 28,
-      "against": 42,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6293226,
-      "date": "2020-02-01",
-      "team": "B8-D3_FALLS CHURCH_SUTTON",
-      "opponent": "B8-D3_BURKE_SMYDRA",
-      "points": 42,
-      "against": 28,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278390,
-      "date": "2020-02-01",
-      "team": "B8-D1_SPRINGFIELD_ROBINSON",
-      "opponent": "B8-D1_RESTON_LANSDOWNE",
-      "points": 45,
-      "against": 63,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278390,
-      "date": "2020-02-01",
-      "team": "B8-D1_RESTON_LANSDOWNE",
-      "opponent": "B8-D1_SPRINGFIELD_ROBINSON",
-      "points": 63,
-      "against": 45,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288764,
-      "date": "2020-02-01",
-      "team": "B6-D2_MCLEAN_CICALE",
-      "opponent": "B6-D2_ANNANDALE_HWANG",
-      "points": 51,
-      "against": 14,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288764,
-      "date": "2020-02-01",
-      "team": "B6-D2_ANNANDALE_HWANG",
-      "opponent": "B6-D2_MCLEAN_CICALE",
-      "points": 14,
-      "against": 51,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288762,
-      "date": "2020-02-01",
-      "team": "B6-D2_SOUTH LOUDOUN_LANOUETTE",
-      "opponent": "B6-D2_VIENNA_CHOI",
-      "points": 47,
-      "against": 34,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288762,
-      "date": "2020-02-01",
-      "team": "B6-D2_VIENNA_CHOI",
-      "opponent": "B6-D2_SOUTH LOUDOUN_LANOUETTE",
-      "points": 34,
-      "against": 47,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279595,
-      "date": "2020-02-01",
-      "team": "B7-D2_ARLINGTON_REMEDIOS",
-      "opponent": "B7-D2_TURNPIKE_BURNS",
-      "points": 53,
-      "against": 63,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279595,
-      "date": "2020-02-01",
-      "team": "B7-D2_TURNPIKE_BURNS",
-      "opponent": "B7-D2_ARLINGTON_REMEDIOS",
-      "points": 63,
-      "against": 53,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6333665,
       "date": "2020-02-01",
       "team": "G5-D2_BURKE_ROSE",
@@ -31056,6 +27343,32 @@ var _MASTER_DATA = {
       "opponent": "G5-D2_BURKE_ROSE",
       "points": 8,
       "against": 44,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6287533,
+      "date": "2020-02-01",
+      "team": "G8-D2_VIENNA_BOND",
+      "opponent": "G8-D2_SOUTH LOUDOUN_SAMSON",
+      "points": 47,
+      "against": 12,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6287533,
+      "date": "2020-02-01",
+      "team": "G8-D2_SOUTH LOUDOUN_SAMSON",
+      "opponent": "G8-D2_VIENNA_BOND",
+      "points": 12,
+      "against": 47,
       "result": "L",
       "win": false,
       "lost": true,
@@ -31089,32 +27402,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6287533,
-      "date": "2020-02-01",
-      "team": "G8-D2_VIENNA_BOND",
-      "opponent": "G8-D2_SOUTH LOUDOUN_SAMSON",
-      "points": 47,
-      "against": 12,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6287533,
-      "date": "2020-02-01",
-      "team": "G8-D2_SOUTH LOUDOUN_SAMSON",
-      "opponent": "G8-D2_VIENNA_BOND",
-      "points": 12,
-      "against": 47,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6293209,
       "date": "2020-02-01",
       "team": "B8-D3_SOUTH LOUDOUN_MOSTEK",
@@ -31134,6 +27421,32 @@ var _MASTER_DATA = {
       "opponent": "B8-D3_SOUTH LOUDOUN_MOSTEK",
       "points": 51,
       "against": 61,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279018,
+      "date": "2020-02-01",
+      "team": "B8-D2_SOUTH LOUDOUN_CHOI",
+      "opponent": "B8-D2_LEE-MT. VERNON_BOSLEY",
+      "points": 51,
+      "against": 50,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279018,
+      "date": "2020-02-01",
+      "team": "B8-D2_LEE-MT. VERNON_BOSLEY",
+      "opponent": "B8-D2_SOUTH LOUDOUN_CHOI",
+      "points": 50,
+      "against": 51,
       "result": "L",
       "win": false,
       "lost": true,
@@ -31193,6 +27506,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6279596,
+      "date": "2020-02-01",
+      "team": "B7-D2_FALLS CHURCH_WHITAKER",
+      "opponent": "B7-D2_LEE-MT. VERNON_RUSH",
+      "points": 43,
+      "against": 31,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279596,
+      "date": "2020-02-01",
+      "team": "B7-D2_LEE-MT. VERNON_RUSH",
+      "opponent": "B7-D2_FALLS CHURCH_WHITAKER",
+      "points": 31,
+      "against": 43,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6278421,
       "date": "2020-02-01",
       "team": "B8-D1_VIENNA_MARSDEN",
@@ -31219,12 +27558,38 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279018,
+      "game_id": 6277855,
       "date": "2020-02-01",
-      "team": "B8-D2_SOUTH LOUDOUN_CHOI",
-      "opponent": "B8-D2_LEE-MT. VERNON_BOSLEY",
-      "points": 51,
-      "against": 50,
+      "team": "G8-D1_GREAT FALLS_KERRIGAN",
+      "opponent": "G8-D1_FPYC_LESTER",
+      "points": 31,
+      "against": 34,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6277855,
+      "date": "2020-02-01",
+      "team": "G8-D1_FPYC_LESTER",
+      "opponent": "G8-D1_GREAT FALLS_KERRIGAN",
+      "points": 34,
+      "against": 31,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333557,
+      "date": "2020-02-01",
+      "team": "G5-D1_SOUTH LOUDOUN_KERR",
+      "opponent": "G5-D1_GREAT FALLS_NITOWSKI",
+      "points": 30,
+      "against": 28,
       "result": "W",
       "win": true,
       "lost": false,
@@ -31232,12 +27597,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6279018,
+      "game_id": 6333557,
       "date": "2020-02-01",
-      "team": "B8-D2_LEE-MT. VERNON_BOSLEY",
-      "opponent": "B8-D2_SOUTH LOUDOUN_CHOI",
-      "points": 50,
-      "against": 51,
+      "team": "G5-D1_GREAT FALLS_NITOWSKI",
+      "opponent": "G5-D1_SOUTH LOUDOUN_KERR",
+      "points": 28,
+      "against": 30,
       "result": "L",
       "win": false,
       "lost": true,
@@ -31267,58 +27632,6 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279596,
-      "date": "2020-02-01",
-      "team": "B7-D2_FALLS CHURCH_WHITAKER",
-      "opponent": "B7-D2_LEE-MT. VERNON_RUSH",
-      "points": 43,
-      "against": 31,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279596,
-      "date": "2020-02-01",
-      "team": "B7-D2_LEE-MT. VERNON_RUSH",
-      "opponent": "B7-D2_FALLS CHURCH_WHITAKER",
-      "points": 31,
-      "against": 43,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333557,
-      "date": "2020-02-01",
-      "team": "G5-D1_SOUTH LOUDOUN_KERR",
-      "opponent": "G5-D1_GREAT FALLS_NITOWSKI",
-      "points": 30,
-      "against": 28,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333557,
-      "date": "2020-02-01",
-      "team": "G5-D1_GREAT FALLS_NITOWSKI",
-      "opponent": "G5-D1_SOUTH LOUDOUN_KERR",
-      "points": 28,
-      "against": 30,
-      "result": "L",
-      "win": false,
-      "lost": true,
       "tie": false,
       "source": false
     },
@@ -31375,28 +27688,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6277855,
+      "game_id": 6286771,
       "date": "2020-02-01",
-      "team": "G8-D1_GREAT FALLS_KERRIGAN",
-      "opponent": "G8-D1_FPYC_LESTER",
-      "points": 31,
-      "against": 34,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "G7-D2_MCLEAN_MENDENHALL",
+      "opponent": "G7-D2_CYA_FRANCIS",
+      "points": 28,
+      "against": 25,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6277855,
+      "game_id": 6286771,
       "date": "2020-02-01",
-      "team": "G8-D1_FPYC_LESTER",
-      "opponent": "G8-D1_GREAT FALLS_KERRIGAN",
-      "points": 34,
-      "against": 31,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "G7-D2_CYA_FRANCIS",
+      "opponent": "G7-D2_MCLEAN_MENDENHALL",
+      "points": 25,
+      "against": 28,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -31423,32 +27736,6 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6286771,
-      "date": "2020-02-01",
-      "team": "G7-D2_MCLEAN_MENDENHALL",
-      "opponent": "G7-D2_CYA_FRANCIS",
-      "points": 28,
-      "against": 25,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6286771,
-      "date": "2020-02-01",
-      "team": "G7-D2_CYA_FRANCIS",
-      "opponent": "G7-D2_MCLEAN_MENDENHALL",
-      "points": 25,
-      "against": 28,
-      "result": "L",
-      "win": false,
-      "lost": true,
       "tie": false,
       "source": false
     },
@@ -31498,6 +27785,84 @@ var _MASTER_DATA = {
       "opponent": "B5-D2_MANASSAS PARK_SOLOMON",
       "points": 23,
       "against": 31,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279021,
+      "date": "2020-02-01",
+      "team": "B8-D2_BRYC_THOMAS",
+      "opponent": "B8-D2_ARLINGTON_BALLARD",
+      "points": 38,
+      "against": 40,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279021,
+      "date": "2020-02-01",
+      "team": "B8-D2_ARLINGTON_BALLARD",
+      "opponent": "B8-D2_BRYC_THOMAS",
+      "points": 40,
+      "against": 38,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279024,
+      "date": "2020-02-01",
+      "team": "B8-D2_SOUTH COUNTY_MATTHEWS",
+      "opponent": "B8-D2_HERNDON_HARLEY",
+      "points": 54,
+      "against": 38,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279024,
+      "date": "2020-02-01",
+      "team": "B8-D2_HERNDON_HARLEY",
+      "opponent": "B8-D2_SOUTH COUNTY_MATTHEWS",
+      "points": 38,
+      "against": 54,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6335219,
+      "date": "2020-02-01",
+      "team": "B5-D3_FORT BELVOIR_HUNTER",
+      "opponent": "B5-D3_SOUTH COUNTY_ARORA",
+      "points": 29,
+      "against": 25,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6335219,
+      "date": "2020-02-01",
+      "team": "B5-D3_SOUTH COUNTY_ARORA",
+      "opponent": "B5-D3_FORT BELVOIR_HUNTER",
+      "points": 25,
+      "against": 29,
       "result": "L",
       "win": false,
       "lost": true,
@@ -31557,84 +27922,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279024,
-      "date": "2020-02-01",
-      "team": "B8-D2_SOUTH COUNTY_MATTHEWS",
-      "opponent": "B8-D2_HERNDON_HARLEY",
-      "points": 54,
-      "against": 38,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279024,
-      "date": "2020-02-01",
-      "team": "B8-D2_HERNDON_HARLEY",
-      "opponent": "B8-D2_SOUTH COUNTY_MATTHEWS",
-      "points": 38,
-      "against": 54,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279021,
-      "date": "2020-02-01",
-      "team": "B8-D2_BRYC_THOMAS",
-      "opponent": "B8-D2_ARLINGTON_BALLARD",
-      "points": 38,
-      "against": 40,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279021,
-      "date": "2020-02-01",
-      "team": "B8-D2_ARLINGTON_BALLARD",
-      "opponent": "B8-D2_BRYC_THOMAS",
-      "points": 40,
-      "against": 38,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6335219,
-      "date": "2020-02-01",
-      "team": "B5-D3_FORT BELVOIR_HUNTER",
-      "opponent": "B5-D3_SOUTH COUNTY_ARORA",
-      "points": 29,
-      "against": 25,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6335219,
-      "date": "2020-02-01",
-      "team": "B5-D3_SOUTH COUNTY_ARORA",
-      "opponent": "B5-D3_FORT BELVOIR_HUNTER",
-      "points": 25,
-      "against": 29,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6287519,
       "date": "2020-02-01",
       "team": "G8-D2_FORT HUNT_HARRIS",
@@ -31687,32 +27974,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6288791,
-      "date": "2020-02-02",
-      "team": "B6-D2_SYA_HILL",
-      "opponent": "B6-D2_FORT HUNT_FORTI",
-      "points": 38,
-      "against": 31,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288791,
-      "date": "2020-02-02",
-      "team": "B6-D2_FORT HUNT_FORTI",
-      "opponent": "B6-D2_SYA_HILL",
-      "points": 31,
-      "against": 38,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6278425,
       "date": "2020-02-02",
       "team": "B8-D1_ANNANDALE_NELSON",
@@ -31739,12 +28000,38 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333434,
+      "game_id": 6288791,
       "date": "2020-02-02",
-      "team": "B5-D1_GREAT FALLS_GOLDBERG",
-      "opponent": "B5-D1_ARLINGTON_SADAKA",
-      "points": 11,
-      "against": 29,
+      "team": "B6-D2_SYA_HILL",
+      "opponent": "B6-D2_FORT HUNT_FORTI",
+      "points": 38,
+      "against": 31,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288791,
+      "date": "2020-02-02",
+      "team": "B6-D2_FORT HUNT_FORTI",
+      "opponent": "B6-D2_SYA_HILL",
+      "points": 31,
+      "against": 38,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290686,
+      "date": "2020-02-02",
+      "team": "B7-D3_SPRINGFIELD_KELLY",
+      "opponent": "B7-D3_SOUTH LOUDOUN_COOK",
+      "points": 49,
+      "against": 59,
       "result": "L",
       "win": false,
       "lost": true,
@@ -31752,12 +28039,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6333434,
+      "game_id": 6290686,
       "date": "2020-02-02",
-      "team": "B5-D1_ARLINGTON_SADAKA",
-      "opponent": "B5-D1_GREAT FALLS_GOLDBERG",
-      "points": 29,
-      "against": 11,
+      "team": "B7-D3_SOUTH LOUDOUN_COOK",
+      "opponent": "B7-D3_SPRINGFIELD_KELLY",
+      "points": 59,
+      "against": 49,
       "result": "W",
       "win": true,
       "lost": false,
@@ -31791,28 +28078,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6278780,
+      "game_id": 6333434,
       "date": "2020-02-02",
-      "team": "G7-D1_FALLS CHURCH_MADISON",
-      "opponent": "G7-D1_SOUTH LOUDOUN_LISACK",
-      "points": 34,
-      "against": 27,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "B5-D1_GREAT FALLS_GOLDBERG",
+      "opponent": "B5-D1_ARLINGTON_SADAKA",
+      "points": 11,
+      "against": 29,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6278780,
+      "game_id": 6333434,
       "date": "2020-02-02",
-      "team": "G7-D1_SOUTH LOUDOUN_LISACK",
-      "opponent": "G7-D1_FALLS CHURCH_MADISON",
-      "points": 27,
-      "against": 34,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "B5-D1_ARLINGTON_SADAKA",
+      "opponent": "B5-D1_GREAT FALLS_GOLDBERG",
+      "points": 29,
+      "against": 11,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -31895,28 +28182,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6290686,
+      "game_id": 6278780,
       "date": "2020-02-02",
-      "team": "B7-D3_SPRINGFIELD_KELLY",
-      "opponent": "B7-D3_SOUTH LOUDOUN_COOK",
-      "points": 49,
-      "against": 59,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "G7-D1_FALLS CHURCH_MADISON",
+      "opponent": "G7-D1_SOUTH LOUDOUN_LISACK",
+      "points": 34,
+      "against": 27,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6290686,
+      "game_id": 6278780,
       "date": "2020-02-02",
-      "team": "B7-D3_SOUTH LOUDOUN_COOK",
-      "opponent": "B7-D3_SPRINGFIELD_KELLY",
-      "points": 59,
-      "against": 49,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "G7-D1_SOUTH LOUDOUN_LISACK",
+      "opponent": "G7-D1_FALLS CHURCH_MADISON",
+      "points": 27,
+      "against": 34,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -31973,32 +28260,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6290690,
-      "date": "2020-02-02",
-      "team": "B7-D3_GAINESVILLE_LINGENFELDER",
-      "opponent": "B7-D3_HERNDON_PASSMORE",
-      "points": 34,
-      "against": 50,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290690,
-      "date": "2020-02-02",
-      "team": "B7-D3_HERNDON_PASSMORE",
-      "opponent": "B7-D3_GAINESVILLE_LINGENFELDER",
-      "points": 50,
-      "against": 34,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6333538,
       "date": "2020-02-02",
       "team": "G5-D1_GAINESVILLE_JOHNSON",
@@ -32025,6 +28286,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6290690,
+      "date": "2020-02-02",
+      "team": "B7-D3_GAINESVILLE_LINGENFELDER",
+      "opponent": "B7-D3_HERNDON_PASSMORE",
+      "points": 34,
+      "against": 50,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290690,
+      "date": "2020-02-02",
+      "team": "B7-D3_HERNDON_PASSMORE",
+      "opponent": "B7-D3_GAINESVILLE_LINGENFELDER",
+      "points": 50,
+      "against": 34,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6333433,
       "date": "2020-02-02",
       "team": "B5-D1_LEE MT. VERNON_BOSLEY",
@@ -32044,32 +28331,6 @@ var _MASTER_DATA = {
       "opponent": "B5-D1_LEE MT. VERNON_BOSLEY",
       "points": 50,
       "against": 20,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6287535,
-      "date": "2020-02-02",
-      "team": "G8-D2_MT. VERNON_ELLING",
-      "opponent": "G8-D2_SYA_HESLEP",
-      "points": 29,
-      "against": 50,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6287535,
-      "date": "2020-02-02",
-      "team": "G8-D2_SYA_HESLEP",
-      "opponent": "G8-D2_MT. VERNON_ELLING",
-      "points": 50,
-      "against": 29,
       "result": "W",
       "win": true,
       "lost": false,
@@ -32129,6 +28390,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6287535,
+      "date": "2020-02-02",
+      "team": "G8-D2_MT. VERNON_ELLING",
+      "opponent": "G8-D2_SYA_HESLEP",
+      "points": 29,
+      "against": 50,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6287535,
+      "date": "2020-02-02",
+      "team": "G8-D2_SYA_HESLEP",
+      "opponent": "G8-D2_MT. VERNON_ELLING",
+      "points": 50,
+      "against": 29,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6333734,
       "date": "2020-02-02",
       "team": "B5-D2_VIENNA_DAVIS",
@@ -32155,12 +28442,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6290512,
+      "game_id": 6278778,
       "date": "2020-02-02",
-      "team": "B6-D3_SPRINGFIELD_ALVAREZ",
-      "opponent": "B6-D3_CYA_LUGO",
-      "points": 10,
-      "against": 48,
+      "team": "G7-D1_CYA_MAWLOUD",
+      "opponent": "G7-D1_ARLINGTON_EISENBERG",
+      "points": 19,
+      "against": 51,
       "result": "L",
       "win": false,
       "lost": true,
@@ -32168,12 +28455,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6290512,
+      "game_id": 6278778,
       "date": "2020-02-02",
-      "team": "B6-D3_CYA_LUGO",
-      "opponent": "B6-D3_SPRINGFIELD_ALVAREZ",
-      "points": 48,
-      "against": 10,
+      "team": "G7-D1_ARLINGTON_EISENBERG",
+      "opponent": "G7-D1_CYA_MAWLOUD",
+      "points": 51,
+      "against": 19,
       "result": "W",
       "win": true,
       "lost": false,
@@ -32181,12 +28468,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279017,
+      "game_id": 6333695,
       "date": "2020-02-02",
-      "team": "B8-D2_CYA_DANN",
-      "opponent": "B8-D2_FORT HUNT_FORTI",
-      "points": 40,
-      "against": 63,
+      "team": "G5-D2_FORT BELVOIR_WASHINGTON",
+      "opponent": "G5-D2_MCLEAN_B KIM",
+      "points": 13,
+      "against": 21,
       "result": "L",
       "win": false,
       "lost": true,
@@ -32194,12 +28481,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6279017,
+      "game_id": 6333695,
       "date": "2020-02-02",
-      "team": "B8-D2_FORT HUNT_FORTI",
-      "opponent": "B8-D2_CYA_DANN",
-      "points": 63,
-      "against": 40,
+      "team": "G5-D2_MCLEAN_B KIM",
+      "opponent": "G5-D2_FORT BELVOIR_WASHINGTON",
+      "points": 21,
+      "against": 13,
       "result": "W",
       "win": true,
       "lost": false,
@@ -32259,12 +28546,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6288796,
+      "game_id": 6290512,
       "date": "2020-02-02",
-      "team": "B6-D2_ANNANDALE_HWANG",
-      "opponent": "B6-D2_FALLS CHURCH_KUSIC",
-      "points": 41,
-      "against": 54,
+      "team": "B6-D3_SPRINGFIELD_ALVAREZ",
+      "opponent": "B6-D3_CYA_LUGO",
+      "points": 10,
+      "against": 48,
       "result": "L",
       "win": false,
       "lost": true,
@@ -32272,38 +28559,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6288796,
+      "game_id": 6290512,
       "date": "2020-02-02",
-      "team": "B6-D2_FALLS CHURCH_KUSIC",
-      "opponent": "B6-D2_ANNANDALE_HWANG",
-      "points": 54,
-      "against": 41,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288792,
-      "date": "2020-02-02",
-      "team": "B6-D2_VIENNA_CHOI",
-      "opponent": "B6-D2_FORT BELVOIR_TAYLOR JR",
-      "points": 42,
-      "against": 59,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288792,
-      "date": "2020-02-02",
-      "team": "B6-D2_FORT BELVOIR_TAYLOR JR",
-      "opponent": "B6-D2_VIENNA_CHOI",
-      "points": 59,
-      "against": 42,
+      "team": "B6-D3_CYA_LUGO",
+      "opponent": "B6-D3_SPRINGFIELD_ALVAREZ",
+      "points": 48,
+      "against": 10,
       "result": "W",
       "win": true,
       "lost": false,
@@ -32337,12 +28598,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333695,
+      "game_id": 6288792,
       "date": "2020-02-02",
-      "team": "G5-D2_FORT BELVOIR_WASHINGTON",
-      "opponent": "G5-D2_MCLEAN_B KIM",
-      "points": 13,
-      "against": 21,
+      "team": "B6-D2_VIENNA_CHOI",
+      "opponent": "B6-D2_FORT BELVOIR_TAYLOR JR",
+      "points": 42,
+      "against": 59,
       "result": "L",
       "win": false,
       "lost": true,
@@ -32350,12 +28611,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6333695,
+      "game_id": 6288792,
       "date": "2020-02-02",
-      "team": "G5-D2_MCLEAN_B KIM",
-      "opponent": "G5-D2_FORT BELVOIR_WASHINGTON",
-      "points": 21,
-      "against": 13,
+      "team": "B6-D2_FORT BELVOIR_TAYLOR JR",
+      "opponent": "B6-D2_VIENNA_CHOI",
+      "points": 59,
+      "against": 42,
       "result": "W",
       "win": true,
       "lost": false,
@@ -32363,12 +28624,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6278778,
+      "game_id": 6279017,
       "date": "2020-02-02",
-      "team": "G7-D1_CYA_MAWLOUD",
-      "opponent": "G7-D1_ARLINGTON_EISENBERG",
-      "points": 19,
-      "against": 51,
+      "team": "B8-D2_CYA_DANN",
+      "opponent": "B8-D2_FORT HUNT_FORTI",
+      "points": 40,
+      "against": 63,
       "result": "L",
       "win": false,
       "lost": true,
@@ -32376,12 +28637,38 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6278778,
+      "game_id": 6279017,
       "date": "2020-02-02",
-      "team": "G7-D1_ARLINGTON_EISENBERG",
-      "opponent": "G7-D1_CYA_MAWLOUD",
-      "points": 51,
-      "against": 19,
+      "team": "B8-D2_FORT HUNT_FORTI",
+      "opponent": "B8-D2_CYA_DANN",
+      "points": 63,
+      "against": 40,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288796,
+      "date": "2020-02-02",
+      "team": "B6-D2_ANNANDALE_HWANG",
+      "opponent": "B6-D2_FALLS CHURCH_KUSIC",
+      "points": 41,
+      "against": 54,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288796,
+      "date": "2020-02-02",
+      "team": "B6-D2_FALLS CHURCH_KUSIC",
+      "opponent": "B6-D2_ANNANDALE_HWANG",
+      "points": 54,
+      "against": 41,
       "result": "W",
       "win": true,
       "lost": false,
@@ -32597,6 +28884,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6287532,
+      "date": "2020-02-02",
+      "team": "G8-D2_FORT HUNT_HARRIS",
+      "opponent": "G8-D2_TURNPIKE_KOMAILY",
+      "points": 34,
+      "against": 33,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6287532,
+      "date": "2020-02-02",
+      "team": "G8-D2_TURNPIKE_KOMAILY",
+      "opponent": "G8-D2_FORT HUNT_HARRIS",
+      "points": 33,
+      "against": 34,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6278779,
       "date": "2020-02-02",
       "team": "G7-D1_FPYC_KOMAILY",
@@ -32623,12 +28936,38 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6287532,
+      "game_id": 6278776,
       "date": "2020-02-02",
-      "team": "G8-D2_FORT HUNT_HARRIS",
-      "opponent": "G8-D2_TURNPIKE_KOMAILY",
-      "points": 34,
-      "against": 33,
+      "team": "G7-D1_BURKE_WYANT",
+      "opponent": "G7-D1_BURKE_SEAY",
+      "points": 46,
+      "against": 50,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278776,
+      "date": "2020-02-02",
+      "team": "G7-D1_BURKE_SEAY",
+      "opponent": "G7-D1_BURKE_WYANT",
+      "points": 50,
+      "against": 46,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6277844,
+      "date": "2020-02-02",
+      "team": "G8-D1_CYA_MCCONNELL",
+      "opponent": "G8-D1_BURKE_EDWARDS",
+      "points": 32,
+      "against": 29,
       "result": "W",
       "win": true,
       "lost": false,
@@ -32636,12 +28975,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6287532,
+      "game_id": 6277844,
       "date": "2020-02-02",
-      "team": "G8-D2_TURNPIKE_KOMAILY",
-      "opponent": "G8-D2_FORT HUNT_HARRIS",
-      "points": 33,
-      "against": 34,
+      "team": "G8-D1_BURKE_EDWARDS",
+      "opponent": "G8-D1_CYA_MCCONNELL",
+      "points": 29,
+      "against": 32,
       "result": "L",
       "win": false,
       "lost": true,
@@ -32675,28 +29014,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6277844,
+      "game_id": 6333735,
       "date": "2020-02-02",
-      "team": "G8-D1_CYA_MCCONNELL",
-      "opponent": "G8-D1_BURKE_EDWARDS",
-      "points": 32,
-      "against": 29,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "B5-D2_BURKE_MAYERNIK",
+      "opponent": "B5-D2_BURKE_ASEFI",
+      "points": 37,
+      "against": 49,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6277844,
+      "game_id": 6333735,
       "date": "2020-02-02",
-      "team": "G8-D1_BURKE_EDWARDS",
-      "opponent": "G8-D1_CYA_MCCONNELL",
-      "points": 29,
-      "against": 32,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "B5-D2_BURKE_ASEFI",
+      "opponent": "B5-D2_BURKE_MAYERNIK",
+      "points": 49,
+      "against": 37,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -32746,32 +29085,6 @@ var _MASTER_DATA = {
       "opponent": "G6-D2_SYA_LANGFORD",
       "points": 30,
       "against": 11,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278776,
-      "date": "2020-02-02",
-      "team": "G7-D1_BURKE_WYANT",
-      "opponent": "G7-D1_BURKE_SEAY",
-      "points": 46,
-      "against": 50,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278776,
-      "date": "2020-02-02",
-      "team": "G7-D1_BURKE_SEAY",
-      "opponent": "G7-D1_BURKE_WYANT",
-      "points": 50,
-      "against": 46,
       "result": "W",
       "win": true,
       "lost": false,
@@ -32831,28 +29144,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333735,
+      "game_id": 6288793,
       "date": "2020-02-02",
-      "team": "B5-D2_BURKE_MAYERNIK",
-      "opponent": "B5-D2_BURKE_ASEFI",
-      "points": 37,
-      "against": 49,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "B6-D2_MCLEAN_CICALE",
+      "opponent": "B6-D2_HERNDON_JONES",
+      "points": 61,
+      "against": 55,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6333735,
+      "game_id": 6288793,
       "date": "2020-02-02",
-      "team": "B5-D2_BURKE_ASEFI",
-      "opponent": "B5-D2_BURKE_MAYERNIK",
-      "points": 49,
-      "against": 37,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "B6-D2_HERNDON_JONES",
+      "opponent": "B6-D2_MCLEAN_CICALE",
+      "points": 55,
+      "against": 61,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -32883,12 +29196,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6288793,
+      "game_id": 6333736,
       "date": "2020-02-02",
-      "team": "B6-D2_MCLEAN_CICALE",
-      "opponent": "B6-D2_HERNDON_JONES",
-      "points": 61,
-      "against": 55,
+      "team": "B5-D2_MCLEAN_B BALL",
+      "opponent": "B5-D2_SOUTH LOUDOUN_FIORILLO",
+      "points": 43,
+      "against": 42,
       "result": "W",
       "win": true,
       "lost": false,
@@ -32896,12 +29209,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6288793,
+      "game_id": 6333736,
       "date": "2020-02-02",
-      "team": "B6-D2_HERNDON_JONES",
-      "opponent": "B6-D2_MCLEAN_CICALE",
-      "points": 55,
-      "against": 61,
+      "team": "B5-D2_SOUTH LOUDOUN_FIORILLO",
+      "opponent": "B5-D2_MCLEAN_B BALL",
+      "points": 42,
+      "against": 43,
       "result": "L",
       "win": false,
       "lost": true,
@@ -32957,32 +29270,6 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333736,
-      "date": "2020-02-02",
-      "team": "B5-D2_MCLEAN_B BALL",
-      "opponent": "B5-D2_SOUTH LOUDOUN_FIORILLO",
-      "points": 43,
-      "against": 42,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333736,
-      "date": "2020-02-02",
-      "team": "B5-D2_SOUTH LOUDOUN_FIORILLO",
-      "opponent": "B5-D2_MCLEAN_B BALL",
-      "points": 42,
-      "against": 43,
-      "result": "L",
-      "win": false,
-      "lost": true,
       "tie": false,
       "source": false
     },
@@ -33091,6 +29378,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6279178,
+      "date": "2020-02-02",
+      "team": "B7-D1_GAINESVILLE_WEINSCHENK",
+      "opponent": "B7-D1_VIENNA_STOLBURG",
+      "points": 47,
+      "against": 25,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279178,
+      "date": "2020-02-02",
+      "team": "B7-D1_VIENNA_STOLBURG",
+      "opponent": "B7-D1_GAINESVILLE_WEINSCHENK",
+      "points": 25,
+      "against": 47,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6287536,
       "date": "2020-02-02",
       "team": "G8-D2_CYA_RATHINAVELU",
@@ -33139,84 +29452,6 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279178,
-      "date": "2020-02-02",
-      "team": "B7-D1_GAINESVILLE_WEINSCHENK",
-      "opponent": "B7-D1_VIENNA_STOLBURG",
-      "points": 47,
-      "against": 25,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279178,
-      "date": "2020-02-02",
-      "team": "B7-D1_VIENNA_STOLBURG",
-      "opponent": "B7-D1_GAINESVILLE_WEINSCHENK",
-      "points": 25,
-      "against": 47,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6290517,
-      "date": "2020-02-02",
-      "team": "B6-D3_SPRINGFIELD_WILSON",
-      "opponent": "B6-D3_BURKE_MITCHELL",
-      "points": 51,
-      "against": 34,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290517,
-      "date": "2020-02-02",
-      "team": "B6-D3_BURKE_MITCHELL",
-      "opponent": "B6-D3_SPRINGFIELD_WILSON",
-      "points": 34,
-      "against": 51,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288794,
-      "date": "2020-02-02",
-      "team": "B6-D2_ARLINGTON_GHARIANI",
-      "opponent": "B6-D2_CYA_ROBINSON",
-      "points": 51,
-      "against": 38,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288794,
-      "date": "2020-02-02",
-      "team": "B6-D2_CYA_ROBINSON",
-      "opponent": "B6-D2_ARLINGTON_GHARIANI",
-      "points": 38,
-      "against": 51,
-      "result": "L",
-      "win": false,
-      "lost": true,
       "tie": false,
       "source": false
     },
@@ -33299,32 +29534,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6278777,
-      "date": "2020-02-02",
-      "team": "G7-D1_GREAT FALLS_BOND",
-      "opponent": "G7-D1_SPRINGFIELD_DUCKETT",
-      "points": 24,
-      "against": 47,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278777,
-      "date": "2020-02-02",
-      "team": "G7-D1_SPRINGFIELD_DUCKETT",
-      "opponent": "G7-D1_GREAT FALLS_BOND",
-      "points": 47,
-      "against": 24,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6289921,
       "date": "2020-02-02",
       "team": "G6-D2_RESTON_BARR",
@@ -33377,6 +29586,58 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6278777,
+      "date": "2020-02-02",
+      "team": "G7-D1_GREAT FALLS_BOND",
+      "opponent": "G7-D1_SPRINGFIELD_DUCKETT",
+      "points": 24,
+      "against": 47,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278777,
+      "date": "2020-02-02",
+      "team": "G7-D1_SPRINGFIELD_DUCKETT",
+      "opponent": "G7-D1_GREAT FALLS_BOND",
+      "points": 47,
+      "against": 24,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290517,
+      "date": "2020-02-02",
+      "team": "B6-D3_SPRINGFIELD_WILSON",
+      "opponent": "B6-D3_BURKE_MITCHELL",
+      "points": 51,
+      "against": 34,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290517,
+      "date": "2020-02-02",
+      "team": "B6-D3_BURKE_MITCHELL",
+      "opponent": "B6-D3_SPRINGFIELD_WILSON",
+      "points": 34,
+      "against": 51,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6290689,
       "date": "2020-02-02",
       "team": "B7-D3_ALEXANDRIA_THOMAS",
@@ -33396,6 +29657,32 @@ var _MASTER_DATA = {
       "opponent": "B7-D3_ALEXANDRIA_THOMAS",
       "points": 50,
       "against": 56,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288794,
+      "date": "2020-02-02",
+      "team": "B6-D2_ARLINGTON_GHARIANI",
+      "opponent": "B6-D2_CYA_ROBINSON",
+      "points": 51,
+      "against": 38,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288794,
+      "date": "2020-02-02",
+      "team": "B6-D2_CYA_ROBINSON",
+      "opponent": "B6-D2_ARLINGTON_GHARIANI",
+      "points": 38,
+      "against": 51,
       "result": "L",
       "win": false,
       "lost": true,
@@ -34183,32 +30470,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333668,
-      "date": "2020-02-08",
-      "team": "G5-D2_BRYC_ALI",
-      "opponent": "G5-D2_VIENNA_KONSTAS",
-      "points": 22,
-      "against": 37,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333668,
-      "date": "2020-02-08",
-      "team": "G5-D2_VIENNA_KONSTAS",
-      "opponent": "G5-D2_BRYC_ALI",
-      "points": 37,
-      "against": 22,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6333672,
       "date": "2020-02-08",
       "team": "G5-D2_ARLINGTON_LOMAS",
@@ -34261,6 +30522,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6333668,
+      "date": "2020-02-08",
+      "team": "G5-D2_BRYC_ALI",
+      "opponent": "G5-D2_VIENNA_KONSTAS",
+      "points": 22,
+      "against": 37,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333668,
+      "date": "2020-02-08",
+      "team": "G5-D2_VIENNA_KONSTAS",
+      "opponent": "G5-D2_BRYC_ALI",
+      "points": 37,
+      "against": 22,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6333763,
       "date": "2020-02-08",
       "team": "B5-D2_BURKE_MAYERNIK",
@@ -34283,6 +30570,58 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288770,
+      "date": "2020-02-08",
+      "team": "B6-D2_BURKE_BUTTREY",
+      "opponent": "B6-D2_FORT HUNT_FORTI",
+      "points": 21,
+      "against": 48,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288770,
+      "date": "2020-02-08",
+      "team": "B6-D2_FORT HUNT_FORTI",
+      "opponent": "B6-D2_BURKE_BUTTREY",
+      "points": 48,
+      "against": 21,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333762,
+      "date": "2020-02-08",
+      "team": "B5-D2_FALLS CHURCH_GREINER",
+      "opponent": "B5-D2_RESTON_DAOUD",
+      "points": 49,
+      "against": 39,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333762,
+      "date": "2020-02-08",
+      "team": "B5-D2_RESTON_DAOUD",
+      "opponent": "B5-D2_FALLS CHURCH_GREINER",
+      "points": 39,
+      "against": 49,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -34339,32 +30678,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6288770,
-      "date": "2020-02-08",
-      "team": "B6-D2_BURKE_BUTTREY",
-      "opponent": "B6-D2_FORT HUNT_FORTI",
-      "points": 21,
-      "against": 48,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288770,
-      "date": "2020-02-08",
-      "team": "B6-D2_FORT HUNT_FORTI",
-      "opponent": "B6-D2_BURKE_BUTTREY",
-      "points": 48,
-      "against": 21,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6335221,
       "date": "2020-02-08",
       "team": "B5-D3_BRYC_SHARMA",
@@ -34391,32 +30704,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333762,
-      "date": "2020-02-08",
-      "team": "B5-D2_FALLS CHURCH_GREINER",
-      "opponent": "B5-D2_RESTON_DAOUD",
-      "points": 49,
-      "against": 39,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333762,
-      "date": "2020-02-08",
-      "team": "B5-D2_RESTON_DAOUD",
-      "opponent": "B5-D2_FALLS CHURCH_GREINER",
-      "points": 39,
-      "against": 49,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6333767,
       "date": "2020-02-08",
       "team": "B5-D2_LEE MT. VERNON_DAY",
@@ -34439,84 +30726,6 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288436,
-      "date": "2020-02-08",
-      "team": "B6-D1_MT. VERNON_COLEMAN",
-      "opponent": "B6-D1_JAMES LEE_HERRING",
-      "points": 51,
-      "against": 55,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288436,
-      "date": "2020-02-08",
-      "team": "B6-D1_JAMES LEE_HERRING",
-      "opponent": "B6-D1_MT. VERNON_COLEMAN",
-      "points": 55,
-      "against": 51,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333673,
-      "date": "2020-02-08",
-      "team": "G5-D2_SYA_MCGHEE",
-      "opponent": "G5-D2_FORT BELVOIR_WASHINGTON",
-      "points": 17,
-      "against": 13,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333673,
-      "date": "2020-02-08",
-      "team": "G5-D2_FORT BELVOIR_WASHINGTON",
-      "opponent": "G5-D2_SYA_MCGHEE",
-      "points": 13,
-      "against": 17,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288772,
-      "date": "2020-02-08",
-      "team": "B6-D2_ARLINGTON_GHARIANI",
-      "opponent": "B6-D2_GAINESVILLE_MURRAY",
-      "points": 43,
-      "against": 39,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288772,
-      "date": "2020-02-08",
-      "team": "B6-D2_GAINESVILLE_MURRAY",
-      "opponent": "B6-D2_ARLINGTON_GHARIANI",
-      "points": 39,
-      "against": 43,
-      "result": "L",
-      "win": false,
-      "lost": true,
       "tie": false,
       "source": false
     },
@@ -34573,11 +30782,37 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6288767,
+      "game_id": 6288772,
       "date": "2020-02-08",
-      "team": "B6-D2_SYA_HILL",
-      "opponent": "B6-D2_SOUTH LOUDOUN_LANOUETTE",
+      "team": "B6-D2_ARLINGTON_GHARIANI",
+      "opponent": "B6-D2_GAINESVILLE_MURRAY",
+      "points": 43,
+      "against": 39,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288772,
+      "date": "2020-02-08",
+      "team": "B6-D2_GAINESVILLE_MURRAY",
+      "opponent": "B6-D2_ARLINGTON_GHARIANI",
       "points": 39,
+      "against": 43,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288436,
+      "date": "2020-02-08",
+      "team": "B6-D1_MT. VERNON_COLEMAN",
+      "opponent": "B6-D1_JAMES LEE_HERRING",
+      "points": 51,
       "against": 55,
       "result": "L",
       "win": false,
@@ -34586,38 +30821,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6288767,
+      "game_id": 6288436,
       "date": "2020-02-08",
-      "team": "B6-D2_SOUTH LOUDOUN_LANOUETTE",
-      "opponent": "B6-D2_SYA_HILL",
+      "team": "B6-D1_JAMES LEE_HERRING",
+      "opponent": "B6-D1_MT. VERNON_COLEMAN",
       "points": 55,
-      "against": 39,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6290484,
-      "date": "2020-02-08",
-      "team": "B6-D3_BRYC_SHIN",
-      "opponent": "B6-D3_CYA_LUGO",
-      "points": 18,
       "against": 51,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290484,
-      "date": "2020-02-08",
-      "team": "B6-D3_CYA_LUGO",
-      "opponent": "B6-D3_BRYC_SHIN",
-      "points": 51,
-      "against": 18,
       "result": "W",
       "win": true,
       "lost": false,
@@ -34625,12 +30834,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6290489,
+      "game_id": 6333673,
       "date": "2020-02-08",
-      "team": "B6-D3_BURKE_MITCHELL",
-      "opponent": "B6-D3_TURNPIKE_OURS",
-      "points": 45,
-      "against": 41,
+      "team": "G5-D2_SYA_MCGHEE",
+      "opponent": "G5-D2_FORT BELVOIR_WASHINGTON",
+      "points": 17,
+      "against": 13,
       "result": "W",
       "win": true,
       "lost": false,
@@ -34638,12 +30847,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6290489,
+      "game_id": 6333673,
       "date": "2020-02-08",
-      "team": "B6-D3_TURNPIKE_OURS",
-      "opponent": "B6-D3_BURKE_MITCHELL",
-      "points": 41,
-      "against": 45,
+      "team": "G5-D2_FORT BELVOIR_WASHINGTON",
+      "opponent": "G5-D2_SYA_MCGHEE",
+      "points": 13,
+      "against": 17,
       "result": "L",
       "win": false,
       "lost": true,
@@ -34703,6 +30912,84 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6290484,
+      "date": "2020-02-08",
+      "team": "B6-D3_BRYC_SHIN",
+      "opponent": "B6-D3_CYA_LUGO",
+      "points": 18,
+      "against": 51,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290484,
+      "date": "2020-02-08",
+      "team": "B6-D3_CYA_LUGO",
+      "opponent": "B6-D3_BRYC_SHIN",
+      "points": 51,
+      "against": 18,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290489,
+      "date": "2020-02-08",
+      "team": "B6-D3_BURKE_MITCHELL",
+      "opponent": "B6-D3_TURNPIKE_OURS",
+      "points": 45,
+      "against": 41,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290489,
+      "date": "2020-02-08",
+      "team": "B6-D3_TURNPIKE_OURS",
+      "opponent": "B6-D3_BURKE_MITCHELL",
+      "points": 41,
+      "against": 45,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288767,
+      "date": "2020-02-08",
+      "team": "B6-D2_SYA_HILL",
+      "opponent": "B6-D2_SOUTH LOUDOUN_LANOUETTE",
+      "points": 39,
+      "against": 55,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288767,
+      "date": "2020-02-08",
+      "team": "B6-D2_SOUTH LOUDOUN_LANOUETTE",
+      "opponent": "B6-D2_SYA_HILL",
+      "points": 55,
+      "against": 39,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6333670,
       "date": "2020-02-08",
       "team": "G5-D2_BAILEYS CC_MARSHALL",
@@ -34722,32 +31009,6 @@ var _MASTER_DATA = {
       "opponent": "G5-D2_BAILEYS CC_MARSHALL",
       "points": 29,
       "against": 13,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288438,
-      "date": "2020-02-08",
-      "team": "B6-D1_RESTON_RIDGEWAY",
-      "opponent": "B6-D1_GREAT FALLS_BROWN",
-      "points": 23,
-      "against": 47,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288438,
-      "date": "2020-02-08",
-      "team": "B6-D1_GREAT FALLS_BROWN",
-      "opponent": "B6-D1_RESTON_RIDGEWAY",
-      "points": 47,
-      "against": 23,
       "result": "W",
       "win": true,
       "lost": false,
@@ -34781,12 +31042,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333564,
+      "game_id": 6333563,
       "date": "2020-02-08",
-      "team": "G5-D1_SPRINGFIELD_GOODMAN",
-      "opponent": "G5-D1_CYA_DOWLING",
-      "points": 29,
-      "against": 27,
+      "team": "G5-D1_LEE MT. VERNON_BRELAND",
+      "opponent": "G5-D1_GREAT FALLS_NITOWSKI",
+      "points": 28,
+      "against": 16,
       "result": "W",
       "win": true,
       "lost": false,
@@ -34794,12 +31055,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6333564,
+      "game_id": 6333563,
       "date": "2020-02-08",
-      "team": "G5-D1_CYA_DOWLING",
-      "opponent": "G5-D1_SPRINGFIELD_GOODMAN",
-      "points": 27,
-      "against": 29,
+      "team": "G5-D1_GREAT FALLS_NITOWSKI",
+      "opponent": "G5-D1_LEE MT. VERNON_BRELAND",
+      "points": 16,
+      "against": 28,
       "result": "L",
       "win": false,
       "lost": true,
@@ -34833,12 +31094,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333563,
+      "game_id": 6333564,
       "date": "2020-02-08",
-      "team": "G5-D1_LEE MT. VERNON_BRELAND",
-      "opponent": "G5-D1_GREAT FALLS_NITOWSKI",
-      "points": 28,
-      "against": 16,
+      "team": "G5-D1_SPRINGFIELD_GOODMAN",
+      "opponent": "G5-D1_CYA_DOWLING",
+      "points": 29,
+      "against": 27,
       "result": "W",
       "win": true,
       "lost": false,
@@ -34846,15 +31107,41 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6333563,
+      "game_id": 6333564,
       "date": "2020-02-08",
-      "team": "G5-D1_GREAT FALLS_NITOWSKI",
-      "opponent": "G5-D1_LEE MT. VERNON_BRELAND",
-      "points": 16,
-      "against": 28,
+      "team": "G5-D1_CYA_DOWLING",
+      "opponent": "G5-D1_SPRINGFIELD_GOODMAN",
+      "points": 27,
+      "against": 29,
       "result": "L",
       "win": false,
       "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288438,
+      "date": "2020-02-08",
+      "team": "B6-D1_RESTON_RIDGEWAY",
+      "opponent": "B6-D1_GREAT FALLS_BROWN",
+      "points": 23,
+      "against": 47,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288438,
+      "date": "2020-02-08",
+      "team": "B6-D1_GREAT FALLS_BROWN",
+      "opponent": "B6-D1_RESTON_RIDGEWAY",
+      "points": 47,
+      "against": 23,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -34963,6 +31250,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6278989,
+      "date": "2020-02-08",
+      "team": "B8-D2_BRYC_THOMAS",
+      "opponent": "B8-D2_GAINESVILLE_COMPTON",
+      "points": 39,
+      "against": 47,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278989,
+      "date": "2020-02-08",
+      "team": "B8-D2_GAINESVILLE_COMPTON",
+      "opponent": "B8-D2_BRYC_THOMAS",
+      "points": 47,
+      "against": 39,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6279598,
       "date": "2020-02-08",
       "team": "B7-D2_ALEXANDRIA_MATTHEWS",
@@ -34985,6 +31298,32 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289613,
+      "date": "2020-02-08",
+      "team": "G6-D1_SOUTH LOUDOUN_CHILDRESS",
+      "opponent": "G6-D1_FORT HUNT_LOVING",
+      "points": 31,
+      "against": 14,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289613,
+      "date": "2020-02-08",
+      "team": "G6-D1_FORT HUNT_LOVING",
+      "opponent": "G6-D1_SOUTH LOUDOUN_CHILDRESS",
+      "points": 14,
+      "against": 31,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -35041,32 +31380,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6289613,
-      "date": "2020-02-08",
-      "team": "G6-D1_SOUTH LOUDOUN_CHILDRESS",
-      "opponent": "G6-D1_FORT HUNT_LOVING",
-      "points": 31,
-      "against": 14,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289613,
-      "date": "2020-02-08",
-      "team": "G6-D1_FORT HUNT_LOVING",
-      "opponent": "G6-D1_SOUTH LOUDOUN_CHILDRESS",
-      "points": 14,
-      "against": 31,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6286748,
       "date": "2020-02-08",
       "team": "G7-D2_ARLINGTON_FILIDES",
@@ -35112,32 +31425,6 @@ var _MASTER_DATA = {
       "opponent": "G7-D2_SOUTH LOUDOUN_MCGOVERN",
       "points": 45,
       "against": 32,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278989,
-      "date": "2020-02-08",
-      "team": "B8-D2_BRYC_THOMAS",
-      "opponent": "B8-D2_GAINESVILLE_COMPTON",
-      "points": 39,
-      "against": 47,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278989,
-      "date": "2020-02-08",
-      "team": "B8-D2_GAINESVILLE_COMPTON",
-      "opponent": "B8-D2_BRYC_THOMAS",
-      "points": 47,
-      "against": 39,
       "result": "W",
       "win": true,
       "lost": false,
@@ -35379,6 +31666,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6279599,
+      "date": "2020-02-08",
+      "team": "B7-D2_FPYC_VARNER",
+      "opponent": "B7-D2_FORT BELVOIR_SHERN",
+      "points": 60,
+      "against": 25,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279599,
+      "date": "2020-02-08",
+      "team": "B7-D2_FORT BELVOIR_SHERN",
+      "opponent": "B7-D2_FPYC_VARNER",
+      "points": 25,
+      "against": 60,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6278992,
       "date": "2020-02-08",
       "team": "B8-D2_CYA_DANN",
@@ -35431,32 +31744,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333463,
-      "date": "2020-02-08",
-      "team": "B5-D1_MCLEAN_MARTIN",
-      "opponent": "B5-D1_GAINESVILLE_LY",
-      "points": 53,
-      "against": 59,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333463,
-      "date": "2020-02-08",
-      "team": "B5-D1_GAINESVILLE_LY",
-      "opponent": "B5-D1_MCLEAN_MARTIN",
-      "points": 59,
-      "against": 53,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6279601,
       "date": "2020-02-08",
       "team": "B7-D2_GAINESVILLE_SCHWEMER",
@@ -35483,28 +31770,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279599,
+      "game_id": 6333463,
       "date": "2020-02-08",
-      "team": "B7-D2_FPYC_VARNER",
-      "opponent": "B7-D2_FORT BELVOIR_SHERN",
-      "points": 60,
-      "against": 25,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "B5-D1_MCLEAN_MARTIN",
+      "opponent": "B5-D1_GAINESVILLE_LY",
+      "points": 53,
+      "against": 59,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6279599,
+      "game_id": 6333463,
       "date": "2020-02-08",
-      "team": "B7-D2_FORT BELVOIR_SHERN",
-      "opponent": "B7-D2_FPYC_VARNER",
-      "points": 25,
-      "against": 60,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "B5-D1_GAINESVILLE_LY",
+      "opponent": "B5-D1_MCLEAN_MARTIN",
+      "points": 59,
+      "against": 53,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -35587,84 +31874,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6290485,
-      "date": "2020-02-08",
-      "team": "B6-D3_SPRINGFIELD_ALVAREZ",
-      "opponent": "B6-D3_RESTON_LEGLER",
-      "points": 19,
-      "against": 36,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290485,
-      "date": "2020-02-08",
-      "team": "B6-D3_RESTON_LEGLER",
-      "opponent": "B6-D3_SPRINGFIELD_ALVAREZ",
-      "points": 36,
-      "against": 19,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279600,
-      "date": "2020-02-08",
-      "team": "B7-D2_TURNPIKE_BURNS",
-      "opponent": "B7-D2_ANNANDALE_NELSON",
-      "points": 47,
-      "against": 48,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279600,
-      "date": "2020-02-08",
-      "team": "B7-D2_ANNANDALE_NELSON",
-      "opponent": "B7-D2_TURNPIKE_BURNS",
-      "points": 48,
-      "against": 47,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6287543,
-      "date": "2020-02-08",
-      "team": "G8-D2_CYA_JONES",
-      "opponent": "G8-D2_CYA_RATHINAVELU",
-      "points": 38,
-      "against": 34,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6287543,
-      "date": "2020-02-08",
-      "team": "G8-D2_CYA_RATHINAVELU",
-      "opponent": "G8-D2_CYA_JONES",
-      "points": 34,
-      "against": 38,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6335223,
       "date": "2020-02-08",
       "team": "B5-D3_CYA_RIVERS",
@@ -35717,12 +31926,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333737,
+      "game_id": 6279600,
       "date": "2020-02-08",
-      "team": "B5-D2_CYA_MARTIN",
-      "opponent": "B5-D2_BRYC_MAYES",
-      "points": 34,
-      "against": 35,
+      "team": "B7-D2_TURNPIKE_BURNS",
+      "opponent": "B7-D2_ANNANDALE_NELSON",
+      "points": 47,
+      "against": 48,
       "result": "L",
       "win": false,
       "lost": true,
@@ -35730,12 +31939,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6333737,
+      "game_id": 6279600,
       "date": "2020-02-08",
-      "team": "B5-D2_BRYC_MAYES",
-      "opponent": "B5-D2_CYA_MARTIN",
-      "points": 35,
-      "against": 34,
+      "team": "B7-D2_ANNANDALE_NELSON",
+      "opponent": "B7-D2_TURNPIKE_BURNS",
+      "points": 48,
+      "against": 47,
       "result": "W",
       "win": true,
       "lost": false,
@@ -35743,12 +31952,38 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6278996,
+      "game_id": 6290485,
       "date": "2020-02-08",
-      "team": "B8-D2_VIENNA_DESENTI",
-      "opponent": "B8-D2_SYA_MCGHEE",
-      "points": 64,
-      "against": 46,
+      "team": "B6-D3_SPRINGFIELD_ALVAREZ",
+      "opponent": "B6-D3_RESTON_LEGLER",
+      "points": 19,
+      "against": 36,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290485,
+      "date": "2020-02-08",
+      "team": "B6-D3_RESTON_LEGLER",
+      "opponent": "B6-D3_SPRINGFIELD_ALVAREZ",
+      "points": 36,
+      "against": 19,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6287543,
+      "date": "2020-02-08",
+      "team": "G8-D2_CYA_JONES",
+      "opponent": "G8-D2_CYA_RATHINAVELU",
+      "points": 38,
+      "against": 34,
       "result": "W",
       "win": true,
       "lost": false,
@@ -35756,12 +31991,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6278996,
+      "game_id": 6287543,
       "date": "2020-02-08",
-      "team": "B8-D2_SYA_MCGHEE",
-      "opponent": "B8-D2_VIENNA_DESENTI",
-      "points": 46,
-      "against": 64,
+      "team": "G8-D2_CYA_RATHINAVELU",
+      "opponent": "G8-D2_CYA_JONES",
+      "points": 34,
+      "against": 38,
       "result": "L",
       "win": false,
       "lost": true,
@@ -35795,6 +32030,58 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6278996,
+      "date": "2020-02-08",
+      "team": "B8-D2_VIENNA_DESENTI",
+      "opponent": "B8-D2_SYA_MCGHEE",
+      "points": 64,
+      "against": 46,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278996,
+      "date": "2020-02-08",
+      "team": "B8-D2_SYA_MCGHEE",
+      "opponent": "B8-D2_VIENNA_DESENTI",
+      "points": 46,
+      "against": 64,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333737,
+      "date": "2020-02-08",
+      "team": "B5-D2_CYA_MARTIN",
+      "opponent": "B5-D2_BRYC_MAYES",
+      "points": 34,
+      "against": 35,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333737,
+      "date": "2020-02-08",
+      "team": "B5-D2_BRYC_MAYES",
+      "opponent": "B5-D2_CYA_MARTIN",
+      "points": 35,
+      "against": 34,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6278427,
       "date": "2020-02-08",
       "team": "B8-D1_CYA_LEE",
@@ -35814,32 +32101,6 @@ var _MASTER_DATA = {
       "opponent": "B8-D1_CYA_LEE",
       "points": 54,
       "against": 34,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279602,
-      "date": "2020-02-08",
-      "team": "B7-D2_SOUTH LOUDOUN_ACKLEY",
-      "opponent": "B7-D2_ARLINGTON_REMEDIOS",
-      "points": 41,
-      "against": 49,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279602,
-      "date": "2020-02-08",
-      "team": "B7-D2_ARLINGTON_REMEDIOS",
-      "opponent": "B7-D2_SOUTH LOUDOUN_ACKLEY",
-      "points": 49,
-      "against": 41,
       "result": "W",
       "win": true,
       "lost": false,
@@ -35899,6 +32160,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6279602,
+      "date": "2020-02-08",
+      "team": "B7-D2_SOUTH LOUDOUN_ACKLEY",
+      "opponent": "B7-D2_ARLINGTON_REMEDIOS",
+      "points": 41,
+      "against": 49,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279602,
+      "date": "2020-02-08",
+      "team": "B7-D2_ARLINGTON_REMEDIOS",
+      "opponent": "B7-D2_SOUTH LOUDOUN_ACKLEY",
+      "points": 49,
+      "against": 41,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6277818,
       "date": "2020-02-08",
       "team": "G8-D1_BURKE_EDWARDS",
@@ -35947,58 +32234,6 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6289600,
-      "date": "2020-02-09",
-      "team": "G6-D1_FORT HUNT_LOVING",
-      "opponent": "G6-D1_ARLINGTON_PIACENZA",
-      "points": 13,
-      "against": 30,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289600,
-      "date": "2020-02-09",
-      "team": "G6-D1_ARLINGTON_PIACENZA",
-      "opponent": "G6-D1_FORT HUNT_LOVING",
-      "points": 30,
-      "against": 13,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6289603,
-      "date": "2020-02-09",
-      "team": "G6-D1_MCLEAN_MURRELL",
-      "opponent": "G6-D1_SYA_MOORE",
-      "points": 20,
-      "against": 26,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289603,
-      "date": "2020-02-09",
-      "team": "G6-D1_SYA_MOORE",
-      "opponent": "G6-D1_MCLEAN_MURRELL",
-      "points": 26,
-      "against": 20,
-      "result": "W",
-      "win": true,
-      "lost": false,
       "tie": false,
       "source": false
     },
@@ -36055,38 +32290,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6288797,
+      "game_id": 6289600,
       "date": "2020-02-09",
-      "team": "B6-D2_FORT BELVOIR_TAYLOR JR",
-      "opponent": "B6-D2_SYA_HILL",
-      "points": 59,
-      "against": 37,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288797,
-      "date": "2020-02-09",
-      "team": "B6-D2_SYA_HILL",
-      "opponent": "B6-D2_FORT BELVOIR_TAYLOR JR",
-      "points": 37,
-      "against": 59,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6293225,
-      "date": "2020-02-09",
-      "team": "B8-D3_RESTON_BIRKLAND",
-      "opponent": "B8-D3_LEE-MT. VERNON_PETERS",
-      "points": 50,
-      "against": 63,
+      "team": "G6-D1_FORT HUNT_LOVING",
+      "opponent": "G6-D1_ARLINGTON_PIACENZA",
+      "points": 13,
+      "against": 30,
       "result": "L",
       "win": false,
       "lost": true,
@@ -36094,12 +32303,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6293225,
+      "game_id": 6289600,
       "date": "2020-02-09",
-      "team": "B8-D3_LEE-MT. VERNON_PETERS",
-      "opponent": "B8-D3_RESTON_BIRKLAND",
-      "points": 63,
-      "against": 50,
+      "team": "G6-D1_ARLINGTON_PIACENZA",
+      "opponent": "G6-D1_FORT HUNT_LOVING",
+      "points": 30,
+      "against": 13,
       "result": "W",
       "win": true,
       "lost": false,
@@ -36107,12 +32316,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6290691,
+      "game_id": 6289603,
       "date": "2020-02-09",
-      "team": "B7-D3_BURKE_DISILVESTRO",
-      "opponent": "B7-D3_ARLINGTON_PARKER",
-      "points": 47,
-      "against": 54,
+      "team": "G6-D1_MCLEAN_MURRELL",
+      "opponent": "G6-D1_SYA_MOORE",
+      "points": 20,
+      "against": 26,
       "result": "L",
       "win": false,
       "lost": true,
@@ -36120,38 +32329,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6290691,
+      "game_id": 6289603,
       "date": "2020-02-09",
-      "team": "B7-D3_ARLINGTON_PARKER",
-      "opponent": "B7-D3_BURKE_DISILVESTRO",
-      "points": 54,
-      "against": 47,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6293215,
-      "date": "2020-02-09",
-      "team": "B8-D3_MANASSAS PARK_HOLDEN",
-      "opponent": "B8-D3_BURKE_SMYDRA",
-      "points": 47,
-      "against": 56,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6293215,
-      "date": "2020-02-09",
-      "team": "B8-D3_BURKE_SMYDRA",
-      "opponent": "B8-D3_MANASSAS PARK_HOLDEN",
-      "points": 56,
-      "against": 47,
+      "team": "G6-D1_SYA_MOORE",
+      "opponent": "G6-D1_MCLEAN_MURRELL",
+      "points": 26,
+      "against": 20,
       "result": "W",
       "win": true,
       "lost": false,
@@ -36237,6 +32420,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6288797,
+      "date": "2020-02-09",
+      "team": "B6-D2_FORT BELVOIR_TAYLOR JR",
+      "opponent": "B6-D2_SYA_HILL",
+      "points": 59,
+      "against": 37,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288797,
+      "date": "2020-02-09",
+      "team": "B6-D2_SYA_HILL",
+      "opponent": "B6-D2_FORT BELVOIR_TAYLOR JR",
+      "points": 37,
+      "against": 59,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6333740,
       "date": "2020-02-09",
       "team": "B5-D2_BURKE_ASEFI",
@@ -36263,6 +32472,58 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6293225,
+      "date": "2020-02-09",
+      "team": "B8-D3_RESTON_BIRKLAND",
+      "opponent": "B8-D3_LEE-MT. VERNON_PETERS",
+      "points": 50,
+      "against": 63,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6293225,
+      "date": "2020-02-09",
+      "team": "B8-D3_LEE-MT. VERNON_PETERS",
+      "opponent": "B8-D3_RESTON_BIRKLAND",
+      "points": 63,
+      "against": 50,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6293215,
+      "date": "2020-02-09",
+      "team": "B8-D3_MANASSAS PARK_HOLDEN",
+      "opponent": "B8-D3_BURKE_SMYDRA",
+      "points": 47,
+      "against": 56,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6293215,
+      "date": "2020-02-09",
+      "team": "B8-D3_BURKE_SMYDRA",
+      "opponent": "B8-D3_MANASSAS PARK_HOLDEN",
+      "points": 56,
+      "against": 47,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6288799,
       "date": "2020-02-09",
       "team": "B6-D2_GAINESVILLE_MURRAY",
@@ -36282,6 +32543,32 @@ var _MASTER_DATA = {
       "opponent": "B6-D2_GAINESVILLE_MURRAY",
       "points": 62,
       "against": 56,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290691,
+      "date": "2020-02-09",
+      "team": "B7-D3_BURKE_DISILVESTRO",
+      "opponent": "B7-D3_ARLINGTON_PARKER",
+      "points": 47,
+      "against": 54,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290691,
+      "date": "2020-02-09",
+      "team": "B7-D3_ARLINGTON_PARKER",
+      "opponent": "B7-D3_BURKE_DISILVESTRO",
+      "points": 54,
+      "against": 47,
       "result": "W",
       "win": true,
       "lost": false,
@@ -36367,32 +32654,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6278785,
-      "date": "2020-02-09",
-      "team": "G7-D1_SYA_BRUBAKER",
-      "opponent": "G7-D1_FORT HUNT_HEINER",
-      "points": 30,
-      "against": 42,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278785,
-      "date": "2020-02-09",
-      "team": "G7-D1_FORT HUNT_HEINER",
-      "opponent": "G7-D1_SYA_BRUBAKER",
-      "points": 42,
-      "against": 30,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6277847,
       "date": "2020-02-09",
       "team": "G8-D1_ARLINGTON_ABUNDO",
@@ -36412,6 +32673,32 @@ var _MASTER_DATA = {
       "opponent": "G8-D1_ARLINGTON_ABUNDO",
       "points": 55,
       "against": 45,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278785,
+      "date": "2020-02-09",
+      "team": "G7-D1_SYA_BRUBAKER",
+      "opponent": "G7-D1_FORT HUNT_HEINER",
+      "points": 30,
+      "against": 42,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278785,
+      "date": "2020-02-09",
+      "team": "G7-D1_FORT HUNT_HEINER",
+      "opponent": "G7-D1_SYA_BRUBAKER",
+      "points": 42,
+      "against": 30,
       "result": "W",
       "win": true,
       "lost": false,
@@ -36471,12 +32758,64 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333741,
+      "game_id": 6279557,
       "date": "2020-02-09",
-      "team": "B5-D2_RESTON_DAOUD",
-      "opponent": "B5-D2_MCLEAN_B BALL",
-      "points": 32,
-      "against": 30,
+      "team": "B7-D2_ARLINGTON_REMEDIOS",
+      "opponent": "B7-D2_CYA_UTTERBACK",
+      "points": 48,
+      "against": 53,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279557,
+      "date": "2020-02-09",
+      "team": "B7-D2_CYA_UTTERBACK",
+      "opponent": "B7-D2_ARLINGTON_REMEDIOS",
+      "points": 53,
+      "against": 48,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289926,
+      "date": "2020-02-09",
+      "team": "G6-D2_BRYC_DUDLEY",
+      "opponent": "G6-D2_ARLINGTON_DECOU",
+      "points": 20,
+      "against": 40,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289926,
+      "date": "2020-02-09",
+      "team": "G6-D2_ARLINGTON_DECOU",
+      "opponent": "G6-D2_BRYC_DUDLEY",
+      "points": 40,
+      "against": 20,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279029,
+      "date": "2020-02-09",
+      "team": "B8-D2_BRYC_THOMAS",
+      "opponent": "B8-D2_ARLINGTON_MAHER",
+      "points": 46,
+      "against": 42,
       "result": "W",
       "win": true,
       "lost": false,
@@ -36484,12 +32823,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6333741,
+      "game_id": 6279029,
       "date": "2020-02-09",
-      "team": "B5-D2_MCLEAN_B BALL",
-      "opponent": "B5-D2_RESTON_DAOUD",
-      "points": 30,
-      "against": 32,
+      "team": "B8-D2_ARLINGTON_MAHER",
+      "opponent": "B8-D2_BRYC_THOMAS",
+      "points": 42,
+      "against": 46,
       "result": "L",
       "win": false,
       "lost": true,
@@ -36497,28 +32836,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333435,
+      "game_id": 6289928,
       "date": "2020-02-09",
-      "team": "B5-D1_RESTON_BYRNES",
-      "opponent": "B5-D1_MCLEAN_MARTIN",
-      "points": 31,
-      "against": 34,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "G6-D2_BURKE_SEIGLE",
+      "opponent": "G6-D2_VIENNA_GRIM",
+      "points": 30,
+      "against": 20,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6333435,
+      "game_id": 6289928,
       "date": "2020-02-09",
-      "team": "B5-D1_MCLEAN_MARTIN",
-      "opponent": "B5-D1_RESTON_BYRNES",
-      "points": 34,
-      "against": 31,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "G6-D2_VIENNA_GRIM",
+      "opponent": "G6-D2_BURKE_SEIGLE",
+      "points": 20,
+      "against": 30,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -36575,54 +32914,54 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6289928,
+      "game_id": 6333435,
       "date": "2020-02-09",
-      "team": "G6-D2_BURKE_SEIGLE",
-      "opponent": "G6-D2_VIENNA_GRIM",
-      "points": 30,
-      "against": 20,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "B5-D1_RESTON_BYRNES",
+      "opponent": "B5-D1_MCLEAN_MARTIN",
+      "points": 31,
+      "against": 34,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6289928,
+      "game_id": 6333435,
       "date": "2020-02-09",
-      "team": "G6-D2_VIENNA_GRIM",
-      "opponent": "G6-D2_BURKE_SEIGLE",
-      "points": 20,
-      "against": 30,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "B5-D1_MCLEAN_MARTIN",
+      "opponent": "B5-D1_RESTON_BYRNES",
+      "points": 34,
+      "against": 31,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
     {
-      "game_id": 6289926,
+      "game_id": 6333741,
       "date": "2020-02-09",
-      "team": "G6-D2_BRYC_DUDLEY",
-      "opponent": "G6-D2_ARLINGTON_DECOU",
-      "points": 20,
-      "against": 40,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "B5-D2_RESTON_DAOUD",
+      "opponent": "B5-D2_MCLEAN_B BALL",
+      "points": 32,
+      "against": 30,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6289926,
+      "game_id": 6333741,
       "date": "2020-02-09",
-      "team": "G6-D2_ARLINGTON_DECOU",
-      "opponent": "G6-D2_BRYC_DUDLEY",
-      "points": 40,
-      "against": 20,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "B5-D2_MCLEAN_B BALL",
+      "opponent": "B5-D2_RESTON_DAOUD",
+      "points": 30,
+      "against": 32,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -36679,84 +33018,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6335202,
-      "date": "2020-02-09",
-      "team": "B5-D3_SOUTH COUNTY_ARORA",
-      "opponent": "B5-D3_GAINESVILLE_MAXWELL",
-      "points": 18,
-      "against": 30,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6335202,
-      "date": "2020-02-09",
-      "team": "B5-D3_GAINESVILLE_MAXWELL",
-      "opponent": "B5-D3_SOUTH COUNTY_ARORA",
-      "points": 30,
-      "against": 18,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279557,
-      "date": "2020-02-09",
-      "team": "B7-D2_ARLINGTON_REMEDIOS",
-      "opponent": "B7-D2_CYA_UTTERBACK",
-      "points": 48,
-      "against": 53,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279557,
-      "date": "2020-02-09",
-      "team": "B7-D2_CYA_UTTERBACK",
-      "opponent": "B7-D2_ARLINGTON_REMEDIOS",
-      "points": 53,
-      "against": 48,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279029,
-      "date": "2020-02-09",
-      "team": "B8-D2_BRYC_THOMAS",
-      "opponent": "B8-D2_ARLINGTON_MAHER",
-      "points": 46,
-      "against": 42,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279029,
-      "date": "2020-02-09",
-      "team": "B8-D2_ARLINGTON_MAHER",
-      "opponent": "B8-D2_BRYC_THOMAS",
-      "points": 42,
-      "against": 46,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6290692,
       "date": "2020-02-09",
       "team": "B7-D3_SOUTH COUNTY_LLOYD",
@@ -36776,6 +33037,32 @@ var _MASTER_DATA = {
       "opponent": "B7-D3_SOUTH COUNTY_LLOYD",
       "points": 41,
       "against": 73,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288802,
+      "date": "2020-02-09",
+      "team": "B6-D2_FALLS CHURCH_KUSIC",
+      "opponent": "B6-D2_VIENNA_CHOI",
+      "points": 34,
+      "against": 22,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288802,
+      "date": "2020-02-09",
+      "team": "B6-D2_VIENNA_CHOI",
+      "opponent": "B6-D2_FALLS CHURCH_KUSIC",
+      "points": 22,
+      "against": 34,
       "result": "L",
       "win": false,
       "lost": true,
@@ -36809,28 +33096,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6288802,
+      "game_id": 6335202,
       "date": "2020-02-09",
-      "team": "B6-D2_FALLS CHURCH_KUSIC",
-      "opponent": "B6-D2_VIENNA_CHOI",
-      "points": 34,
-      "against": 22,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "B5-D3_SOUTH COUNTY_ARORA",
+      "opponent": "B5-D3_GAINESVILLE_MAXWELL",
+      "points": 18,
+      "against": 30,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6288802,
+      "game_id": 6335202,
       "date": "2020-02-09",
-      "team": "B6-D2_VIENNA_CHOI",
-      "opponent": "B6-D2_FALLS CHURCH_KUSIC",
-      "points": 22,
-      "against": 34,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "B5-D3_GAINESVILLE_MAXWELL",
+      "opponent": "B5-D3_SOUTH COUNTY_ARORA",
+      "points": 30,
+      "against": 18,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -36965,32 +33252,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279027,
-      "date": "2020-02-09",
-      "team": "B8-D2_FPYC_RAGAN",
-      "opponent": "B8-D2_SYA_MCGHEE",
-      "points": 35,
-      "against": 36,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279027,
-      "date": "2020-02-09",
-      "team": "B8-D2_SYA_MCGHEE",
-      "opponent": "B8-D2_FPYC_RAGAN",
-      "points": 36,
-      "against": 35,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6279561,
       "date": "2020-02-09",
       "team": "B7-D2_ALEXANDRIA_MATTHEWS",
@@ -37013,6 +33274,32 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279027,
+      "date": "2020-02-09",
+      "team": "B8-D2_FPYC_RAGAN",
+      "opponent": "B8-D2_SYA_MCGHEE",
+      "points": 35,
+      "against": 36,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279027,
+      "date": "2020-02-09",
+      "team": "B8-D2_SYA_MCGHEE",
+      "opponent": "B8-D2_FPYC_RAGAN",
+      "points": 36,
+      "against": 35,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -37069,12 +33356,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6287542,
+      "game_id": 6333545,
       "date": "2020-02-09",
-      "team": "G8-D2_SYA_HESLEP",
-      "opponent": "G8-D2_MCLEAN_MCNICOLL",
-      "points": 80,
-      "against": 59,
+      "team": "G5-D1_ARLINGTON_MCRAE",
+      "opponent": "G5-D1_GREAT FALLS_NITOWSKI",
+      "points": 37,
+      "against": 12,
       "result": "W",
       "win": true,
       "lost": false,
@@ -37082,12 +33369,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6287542,
+      "game_id": 6333545,
       "date": "2020-02-09",
-      "team": "G8-D2_MCLEAN_MCNICOLL",
-      "opponent": "G8-D2_SYA_HESLEP",
-      "points": 59,
-      "against": 80,
+      "team": "G5-D1_GREAT FALLS_NITOWSKI",
+      "opponent": "G5-D1_ARLINGTON_MCRAE",
+      "points": 12,
+      "against": 37,
       "result": "L",
       "win": false,
       "lost": true,
@@ -37173,12 +33460,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333545,
+      "game_id": 6287542,
       "date": "2020-02-09",
-      "team": "G5-D1_ARLINGTON_MCRAE",
-      "opponent": "G5-D1_GREAT FALLS_NITOWSKI",
-      "points": 37,
-      "against": 12,
+      "team": "G8-D2_SYA_HESLEP",
+      "opponent": "G8-D2_MCLEAN_MCNICOLL",
+      "points": 80,
+      "against": 59,
       "result": "W",
       "win": true,
       "lost": false,
@@ -37186,142 +33473,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6333545,
+      "game_id": 6287542,
       "date": "2020-02-09",
-      "team": "G5-D1_GREAT FALLS_NITOWSKI",
-      "opponent": "G5-D1_ARLINGTON_MCRAE",
-      "points": 12,
-      "against": 37,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6290693,
-      "date": "2020-02-09",
-      "team": "B7-D3_CYA_PROCHAZKA",
-      "opponent": "B7-D3_ALEXANDRIA_THOMAS",
-      "points": 57,
-      "against": 47,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290693,
-      "date": "2020-02-09",
-      "team": "B7-D3_ALEXANDRIA_THOMAS",
-      "opponent": "B7-D3_CYA_PROCHAZKA",
-      "points": 47,
-      "against": 57,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279559,
-      "date": "2020-02-09",
-      "team": "B7-D2_ANNANDALE_NELSON",
-      "opponent": "B7-D2_FALLS CHURCH_WHITAKER",
-      "points": 40,
-      "against": 49,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279559,
-      "date": "2020-02-09",
-      "team": "B7-D2_FALLS CHURCH_WHITAKER",
-      "opponent": "B7-D2_ANNANDALE_NELSON",
-      "points": 49,
-      "against": 40,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6290524,
-      "date": "2020-02-09",
-      "team": "B6-D3_BURKE_MITCHELL",
-      "opponent": "B6-D3_SPRINGFIELD_ALVAREZ",
-      "points": 40,
-      "against": 24,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290524,
-      "date": "2020-02-09",
-      "team": "B6-D3_SPRINGFIELD_ALVAREZ",
-      "opponent": "B6-D3_BURKE_MITCHELL",
-      "points": 24,
-      "against": 40,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333440,
-      "date": "2020-02-09",
-      "team": "B5-D1_CYA_ROSENBLATT",
-      "opponent": "B5-D1_SYA_O-CONNOR",
-      "points": 44,
-      "against": 43,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333440,
-      "date": "2020-02-09",
-      "team": "B5-D1_SYA_O-CONNOR",
-      "opponent": "B5-D1_CYA_ROSENBLATT",
-      "points": 43,
-      "against": 44,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6335577,
-      "date": "2020-02-09",
-      "team": "B8-D1_SOUTH COUNTY_JACKSON",
-      "opponent": "B8-D1_LEE DISTRICT_MCMINN",
-      "points": 46,
-      "against": 44,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6335577,
-      "date": "2020-02-09",
-      "team": "B8-D1_LEE DISTRICT_MCMINN",
-      "opponent": "B8-D1_SOUTH COUNTY_JACKSON",
-      "points": 44,
-      "against": 46,
+      "team": "G8-D2_MCLEAN_MCNICOLL",
+      "opponent": "G8-D2_SYA_HESLEP",
+      "points": 59,
+      "against": 80,
       "result": "L",
       "win": false,
       "lost": true,
@@ -37355,12 +33512,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333742,
+      "game_id": 6335577,
       "date": "2020-02-09",
-      "team": "B5-D2_BRYC_MAYES",
-      "opponent": "B5-D2_BURKE_MAYERNIK",
-      "points": 33,
-      "against": 29,
+      "team": "B8-D1_SOUTH COUNTY_JACKSON",
+      "opponent": "B8-D1_LEE DISTRICT_MCMINN",
+      "points": 46,
+      "against": 44,
       "result": "W",
       "win": true,
       "lost": false,
@@ -37368,12 +33525,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6333742,
+      "game_id": 6335577,
       "date": "2020-02-09",
-      "team": "B5-D2_BURKE_MAYERNIK",
-      "opponent": "B5-D2_BRYC_MAYES",
-      "points": 29,
-      "against": 33,
+      "team": "B8-D1_LEE DISTRICT_MCMINN",
+      "opponent": "B8-D1_SOUTH COUNTY_JACKSON",
+      "points": 44,
+      "against": 46,
       "result": "L",
       "win": false,
       "lost": true,
@@ -37381,12 +33538,38 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279030,
+      "game_id": 6333440,
       "date": "2020-02-09",
-      "team": "B8-D2_HERNDON_HARLEY",
-      "opponent": "B8-D2_MCLEAN_TURGEON",
-      "points": 58,
-      "against": 63,
+      "team": "B5-D1_CYA_ROSENBLATT",
+      "opponent": "B5-D1_SYA_O-CONNOR",
+      "points": 44,
+      "against": 43,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333440,
+      "date": "2020-02-09",
+      "team": "B5-D1_SYA_O-CONNOR",
+      "opponent": "B5-D1_CYA_ROSENBLATT",
+      "points": 43,
+      "against": 44,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279559,
+      "date": "2020-02-09",
+      "team": "B7-D2_ANNANDALE_NELSON",
+      "opponent": "B7-D2_FALLS CHURCH_WHITAKER",
+      "points": 40,
+      "against": 49,
       "result": "L",
       "win": false,
       "lost": true,
@@ -37394,15 +33577,67 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6279030,
+      "game_id": 6279559,
       "date": "2020-02-09",
-      "team": "B8-D2_MCLEAN_TURGEON",
-      "opponent": "B8-D2_HERNDON_HARLEY",
-      "points": 63,
-      "against": 58,
+      "team": "B7-D2_FALLS CHURCH_WHITAKER",
+      "opponent": "B7-D2_ANNANDALE_NELSON",
+      "points": 49,
+      "against": 40,
       "result": "W",
       "win": true,
       "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290693,
+      "date": "2020-02-09",
+      "team": "B7-D3_CYA_PROCHAZKA",
+      "opponent": "B7-D3_ALEXANDRIA_THOMAS",
+      "points": 57,
+      "against": 47,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290693,
+      "date": "2020-02-09",
+      "team": "B7-D3_ALEXANDRIA_THOMAS",
+      "opponent": "B7-D3_CYA_PROCHAZKA",
+      "points": 47,
+      "against": 57,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290524,
+      "date": "2020-02-09",
+      "team": "B6-D3_BURKE_MITCHELL",
+      "opponent": "B6-D3_SPRINGFIELD_ALVAREZ",
+      "points": 40,
+      "against": 24,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290524,
+      "date": "2020-02-09",
+      "team": "B6-D3_SPRINGFIELD_ALVAREZ",
+      "opponent": "B6-D3_BURKE_MITCHELL",
+      "points": 24,
+      "against": 40,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -37433,12 +33668,38 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333438,
+      "game_id": 6279030,
       "date": "2020-02-09",
-      "team": "B5-D1_ARLINGTON_SADAKA",
-      "opponent": "B5-D1_GAINESVILLE_LY",
-      "points": 46,
-      "against": 21,
+      "team": "B8-D2_HERNDON_HARLEY",
+      "opponent": "B8-D2_MCLEAN_TURGEON",
+      "points": 58,
+      "against": 63,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279030,
+      "date": "2020-02-09",
+      "team": "B8-D2_MCLEAN_TURGEON",
+      "opponent": "B8-D2_HERNDON_HARLEY",
+      "points": 63,
+      "against": 58,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333742,
+      "date": "2020-02-09",
+      "team": "B5-D2_BRYC_MAYES",
+      "opponent": "B5-D2_BURKE_MAYERNIK",
+      "points": 33,
+      "against": 29,
       "result": "W",
       "win": true,
       "lost": false,
@@ -37446,12 +33707,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6333438,
+      "game_id": 6333742,
       "date": "2020-02-09",
-      "team": "B5-D1_GAINESVILLE_LY",
-      "opponent": "B5-D1_ARLINGTON_SADAKA",
-      "points": 21,
-      "against": 46,
+      "team": "B5-D2_BURKE_MAYERNIK",
+      "opponent": "B5-D2_BRYC_MAYES",
+      "points": 29,
+      "against": 33,
       "result": "L",
       "win": false,
       "lost": true,
@@ -37511,6 +33772,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6333438,
+      "date": "2020-02-09",
+      "team": "B5-D1_ARLINGTON_SADAKA",
+      "opponent": "B5-D1_GAINESVILLE_LY",
+      "points": 46,
+      "against": 21,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333438,
+      "date": "2020-02-09",
+      "team": "B5-D1_GAINESVILLE_LY",
+      "opponent": "B5-D1_ARLINGTON_SADAKA",
+      "points": 21,
+      "against": 46,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6289923,
       "date": "2020-02-09",
       "team": "G6-D2_FPYC_LESTER",
@@ -37563,32 +33850,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279181,
-      "date": "2020-02-09",
-      "team": "B7-D1_SOUTH LOUDOUN_WEBB-",
-      "opponent": "B7-D1_LEE DISTRICT_TROTTER",
-      "points": 49,
-      "against": 30,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279181,
-      "date": "2020-02-09",
-      "team": "B7-D1_LEE DISTRICT_TROTTER",
-      "opponent": "B7-D1_SOUTH LOUDOUN_WEBB-",
-      "points": 30,
-      "against": 49,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6289601,
       "date": "2020-02-09",
       "team": "G6-D1_GAINESVILLE_HOLDER",
@@ -37615,6 +33876,84 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6279181,
+      "date": "2020-02-09",
+      "team": "B7-D1_SOUTH LOUDOUN_WEBB-",
+      "opponent": "B7-D1_LEE DISTRICT_TROTTER",
+      "points": 49,
+      "against": 30,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279181,
+      "date": "2020-02-09",
+      "team": "B7-D1_LEE DISTRICT_TROTTER",
+      "opponent": "B7-D1_SOUTH LOUDOUN_WEBB-",
+      "points": 30,
+      "against": 49,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279031,
+      "date": "2020-02-09",
+      "team": "B8-D2_CYA_SMITH",
+      "opponent": "B8-D2_CYA_DANN",
+      "points": 43,
+      "against": 45,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279031,
+      "date": "2020-02-09",
+      "team": "B8-D2_CYA_DANN",
+      "opponent": "B8-D2_CYA_SMITH",
+      "points": 45,
+      "against": 43,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279025,
+      "date": "2020-02-09",
+      "team": "B8-D2_FORT HUNT_FORTI",
+      "opponent": "B8-D2_VIENNA_DESENTI",
+      "points": 50,
+      "against": 64,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279025,
+      "date": "2020-02-09",
+      "team": "B8-D2_VIENNA_DESENTI",
+      "opponent": "B8-D2_FORT HUNT_FORTI",
+      "points": 64,
+      "against": 50,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6288394,
       "date": "2020-02-09",
       "team": "B6-D1_ARLINGTON_LOWEN",
@@ -37634,84 +33973,6 @@ var _MASTER_DATA = {
       "opponent": "B6-D1_ARLINGTON_LOWEN",
       "points": 41,
       "against": 60,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288401,
-      "date": "2020-02-09",
-      "team": "B6-D1_GAINESVILLE_COOK",
-      "opponent": "B6-D1_CYA_JONES",
-      "points": 30,
-      "against": 40,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288401,
-      "date": "2020-02-09",
-      "team": "B6-D1_CYA_JONES",
-      "opponent": "B6-D1_GAINESVILLE_COOK",
-      "points": 40,
-      "against": 30,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6335205,
-      "date": "2020-02-09",
-      "team": "B5-D3_CYA_RIVERS",
-      "opponent": "B5-D3_TURNPIKE_SYRON",
-      "points": 44,
-      "against": 42,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6335205,
-      "date": "2020-02-09",
-      "team": "B5-D3_TURNPIKE_SYRON",
-      "opponent": "B5-D3_CYA_RIVERS",
-      "points": 42,
-      "against": 44,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333745,
-      "date": "2020-02-09",
-      "team": "B5-D2_SYA_HARRIS",
-      "opponent": "B5-D2_LEE MT. VERNON_DAY",
-      "points": 25,
-      "against": 15,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333745,
-      "date": "2020-02-09",
-      "team": "B5-D2_LEE MT. VERNON_DAY",
-      "opponent": "B5-D2_SYA_HARRIS",
-      "points": 15,
-      "against": 25,
       "result": "L",
       "win": false,
       "lost": true,
@@ -37797,6 +34058,84 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6288401,
+      "date": "2020-02-09",
+      "team": "B6-D1_GAINESVILLE_COOK",
+      "opponent": "B6-D1_CYA_JONES",
+      "points": 30,
+      "against": 40,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288401,
+      "date": "2020-02-09",
+      "team": "B6-D1_CYA_JONES",
+      "opponent": "B6-D1_GAINESVILLE_COOK",
+      "points": 40,
+      "against": 30,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6335205,
+      "date": "2020-02-09",
+      "team": "B5-D3_CYA_RIVERS",
+      "opponent": "B5-D3_TURNPIKE_SYRON",
+      "points": 44,
+      "against": 42,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6335205,
+      "date": "2020-02-09",
+      "team": "B5-D3_TURNPIKE_SYRON",
+      "opponent": "B5-D3_CYA_RIVERS",
+      "points": 42,
+      "against": 44,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333745,
+      "date": "2020-02-09",
+      "team": "B5-D2_SYA_HARRIS",
+      "opponent": "B5-D2_LEE MT. VERNON_DAY",
+      "points": 25,
+      "against": 15,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333745,
+      "date": "2020-02-09",
+      "team": "B5-D2_LEE MT. VERNON_DAY",
+      "opponent": "B5-D2_SYA_HARRIS",
+      "points": 15,
+      "against": 25,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6333744,
       "date": "2020-02-09",
       "team": "B5-D2_ARLINGTON_MCLEAN",
@@ -37816,6 +34155,58 @@ var _MASTER_DATA = {
       "opponent": "B5-D2_ARLINGTON_MCLEAN",
       "points": 40,
       "against": 41,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288800,
+      "date": "2020-02-09",
+      "team": "B6-D2_CYA_ROBINSON",
+      "opponent": "B6-D2_ANNANDALE_HWANG",
+      "points": 55,
+      "against": 45,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288800,
+      "date": "2020-02-09",
+      "team": "B6-D2_ANNANDALE_HWANG",
+      "opponent": "B6-D2_CYA_ROBINSON",
+      "points": 45,
+      "against": 55,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290694,
+      "date": "2020-02-09",
+      "team": "B7-D3_HERNDON_PASSMORE",
+      "opponent": "B7-D3_SYA_DOWNEY",
+      "points": 66,
+      "against": 47,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290694,
+      "date": "2020-02-09",
+      "team": "B7-D3_SYA_DOWNEY",
+      "opponent": "B7-D3_HERNDON_PASSMORE",
+      "points": 47,
+      "against": 66,
       "result": "L",
       "win": false,
       "lost": true,
@@ -37871,162 +34262,6 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279025,
-      "date": "2020-02-09",
-      "team": "B8-D2_FORT HUNT_FORTI",
-      "opponent": "B8-D2_VIENNA_DESENTI",
-      "points": 50,
-      "against": 64,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279025,
-      "date": "2020-02-09",
-      "team": "B8-D2_VIENNA_DESENTI",
-      "opponent": "B8-D2_FORT HUNT_FORTI",
-      "points": 64,
-      "against": 50,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6279031,
-      "date": "2020-02-09",
-      "team": "B8-D2_CYA_SMITH",
-      "opponent": "B8-D2_CYA_DANN",
-      "points": 43,
-      "against": 45,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279031,
-      "date": "2020-02-09",
-      "team": "B8-D2_CYA_DANN",
-      "opponent": "B8-D2_CYA_SMITH",
-      "points": 45,
-      "against": 43,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6290694,
-      "date": "2020-02-09",
-      "team": "B7-D3_HERNDON_PASSMORE",
-      "opponent": "B7-D3_SYA_DOWNEY",
-      "points": 66,
-      "against": 47,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290694,
-      "date": "2020-02-09",
-      "team": "B7-D3_SYA_DOWNEY",
-      "opponent": "B7-D3_HERNDON_PASSMORE",
-      "points": 47,
-      "against": 66,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288800,
-      "date": "2020-02-09",
-      "team": "B6-D2_CYA_ROBINSON",
-      "opponent": "B6-D2_ANNANDALE_HWANG",
-      "points": 55,
-      "against": 45,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288800,
-      "date": "2020-02-09",
-      "team": "B6-D2_ANNANDALE_HWANG",
-      "opponent": "B6-D2_CYA_ROBINSON",
-      "points": 45,
-      "against": 55,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6293213,
-      "date": "2020-02-09",
-      "team": "B8-D3_LEE-MT. VERNON_SIMONIK",
-      "opponent": "B8-D3_SOUTH LOUDOUN_MOSTEK",
-      "points": 47,
-      "against": 65,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6293213,
-      "date": "2020-02-09",
-      "team": "B8-D3_SOUTH LOUDOUN_MOSTEK",
-      "opponent": "B8-D3_LEE-MT. VERNON_SIMONIK",
-      "points": 65,
-      "against": 47,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278433,
-      "date": "2020-02-09",
-      "team": "B8-D1_BURKE_SHOUMAN",
-      "opponent": "B8-D1_MCLEAN_TALLENT",
-      "points": 89,
-      "against": 64,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278433,
-      "date": "2020-02-09",
-      "team": "B8-D1_MCLEAN_TALLENT",
-      "opponent": "B8-D1_BURKE_SHOUMAN",
-      "points": 64,
-      "against": 89,
-      "result": "L",
-      "win": false,
-      "lost": true,
       "tie": false,
       "source": false
     },
@@ -38109,6 +34344,58 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6293213,
+      "date": "2020-02-09",
+      "team": "B8-D3_LEE-MT. VERNON_SIMONIK",
+      "opponent": "B8-D3_SOUTH LOUDOUN_MOSTEK",
+      "points": 47,
+      "against": 65,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6293213,
+      "date": "2020-02-09",
+      "team": "B8-D3_SOUTH LOUDOUN_MOSTEK",
+      "opponent": "B8-D3_LEE-MT. VERNON_SIMONIK",
+      "points": 65,
+      "against": 47,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278433,
+      "date": "2020-02-09",
+      "team": "B8-D1_BURKE_SHOUMAN",
+      "opponent": "B8-D1_MCLEAN_TALLENT",
+      "points": 89,
+      "against": 64,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278433,
+      "date": "2020-02-09",
+      "team": "B8-D1_MCLEAN_TALLENT",
+      "opponent": "B8-D1_BURKE_SHOUMAN",
+      "points": 64,
+      "against": 89,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6287517,
       "date": "2020-02-09",
       "team": "G8-D2_FORT BELVOIR_EDWARDS",
@@ -38180,240 +34467,6 @@ var _MASTER_DATA = {
       "opponent": "B7-D1_VIENNA_STOLBURG",
       "points": 58,
       "against": 48,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6290522,
-      "date": "2020-02-09",
-      "team": "B6-D3_BRYC_SHIN",
-      "opponent": "B6-D3_SPRINGFIELD_WILSON",
-      "points": 4,
-      "against": 45,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290522,
-      "date": "2020-02-09",
-      "team": "B6-D3_SPRINGFIELD_WILSON",
-      "opponent": "B6-D3_BRYC_SHIN",
-      "points": 45,
-      "against": 4,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333746,
-      "date": "2020-02-09",
-      "team": "B5-D2_VIENNA_LOCEY",
-      "opponent": "B5-D2_FALLS CHURCH_GREINER",
-      "points": 51,
-      "against": 38,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333746,
-      "date": "2020-02-09",
-      "team": "B5-D2_FALLS CHURCH_GREINER",
-      "opponent": "B5-D2_VIENNA_LOCEY",
-      "points": 38,
-      "against": 51,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6335201,
-      "date": "2020-02-09",
-      "team": "B5-D3_BRYC_SHARMA",
-      "opponent": "B5-D3_FORT BELVOIR_HUNTER",
-      "points": 38,
-      "against": 28,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6335201,
-      "date": "2020-02-09",
-      "team": "B5-D3_FORT BELVOIR_HUNTER",
-      "opponent": "B5-D3_BRYC_SHARMA",
-      "points": 28,
-      "against": 38,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6286799,
-      "date": "2020-02-09",
-      "team": "G7-D2_RESTON_ZEBERLEIN",
-      "opponent": "G7-D2_MT. VERNON_GAREY",
-      "points": 35,
-      "against": 40,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6286799,
-      "date": "2020-02-09",
-      "team": "G7-D2_MT. VERNON_GAREY",
-      "opponent": "G7-D2_RESTON_ZEBERLEIN",
-      "points": 40,
-      "against": 35,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333699,
-      "date": "2020-02-09",
-      "team": "G5-D2_ARLINGTON_LOMAS",
-      "opponent": "G5-D2_VIENNA_KONSTAS",
-      "points": 20,
-      "against": 13,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333699,
-      "date": "2020-02-09",
-      "team": "G5-D2_VIENNA_KONSTAS",
-      "opponent": "G5-D2_ARLINGTON_LOMAS",
-      "points": 13,
-      "against": 20,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333544,
-      "date": "2020-02-09",
-      "team": "G5-D1_SPRINGFIELD_GOODMAN",
-      "opponent": "G5-D1_LEE MT. VERNON_BRELAND",
-      "points": 14,
-      "against": 17,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333544,
-      "date": "2020-02-09",
-      "team": "G5-D1_LEE MT. VERNON_BRELAND",
-      "opponent": "G5-D1_SPRINGFIELD_GOODMAN",
-      "points": 17,
-      "against": 14,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333701,
-      "date": "2020-02-09",
-      "team": "G5-D2_SYA_ANDERSEN",
-      "opponent": "G5-D2_BAILEYS CC_MARSHALL",
-      "points": 43,
-      "against": 9,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333701,
-      "date": "2020-02-09",
-      "team": "G5-D2_BAILEYS CC_MARSHALL",
-      "opponent": "G5-D2_SYA_ANDERSEN",
-      "points": 9,
-      "against": 43,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333702,
-      "date": "2020-02-09",
-      "team": "G5-D2_MCLEAN_B KIM",
-      "opponent": "G5-D2_CYA_MAZID",
-      "points": 23,
-      "against": 13,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333702,
-      "date": "2020-02-09",
-      "team": "G5-D2_CYA_MAZID",
-      "opponent": "G5-D2_MCLEAN_B KIM",
-      "points": 13,
-      "against": 23,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333546,
-      "date": "2020-02-09",
-      "team": "G5-D1_FORT HUNT_GAREY",
-      "opponent": "G5-D1_VIENNA_KORMAN",
-      "points": 16,
-      "against": 42,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333546,
-      "date": "2020-02-09",
-      "team": "G5-D1_VIENNA_KORMAN",
-      "opponent": "G5-D1_FORT HUNT_GAREY",
-      "points": 42,
-      "against": 16,
       "result": "W",
       "win": true,
       "lost": false,
@@ -38499,6 +34552,240 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6333546,
+      "date": "2020-02-09",
+      "team": "G5-D1_FORT HUNT_GAREY",
+      "opponent": "G5-D1_VIENNA_KORMAN",
+      "points": 16,
+      "against": 42,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333546,
+      "date": "2020-02-09",
+      "team": "G5-D1_VIENNA_KORMAN",
+      "opponent": "G5-D1_FORT HUNT_GAREY",
+      "points": 42,
+      "against": 16,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333746,
+      "date": "2020-02-09",
+      "team": "B5-D2_VIENNA_LOCEY",
+      "opponent": "B5-D2_FALLS CHURCH_GREINER",
+      "points": 51,
+      "against": 38,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333746,
+      "date": "2020-02-09",
+      "team": "B5-D2_FALLS CHURCH_GREINER",
+      "opponent": "B5-D2_VIENNA_LOCEY",
+      "points": 38,
+      "against": 51,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6335201,
+      "date": "2020-02-09",
+      "team": "B5-D3_BRYC_SHARMA",
+      "opponent": "B5-D3_FORT BELVOIR_HUNTER",
+      "points": 38,
+      "against": 28,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6335201,
+      "date": "2020-02-09",
+      "team": "B5-D3_FORT BELVOIR_HUNTER",
+      "opponent": "B5-D3_BRYC_SHARMA",
+      "points": 28,
+      "against": 38,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290522,
+      "date": "2020-02-09",
+      "team": "B6-D3_BRYC_SHIN",
+      "opponent": "B6-D3_SPRINGFIELD_WILSON",
+      "points": 4,
+      "against": 45,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290522,
+      "date": "2020-02-09",
+      "team": "B6-D3_SPRINGFIELD_WILSON",
+      "opponent": "B6-D3_BRYC_SHIN",
+      "points": 45,
+      "against": 4,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333701,
+      "date": "2020-02-09",
+      "team": "G5-D2_SYA_ANDERSEN",
+      "opponent": "G5-D2_BAILEYS CC_MARSHALL",
+      "points": 43,
+      "against": 9,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333701,
+      "date": "2020-02-09",
+      "team": "G5-D2_BAILEYS CC_MARSHALL",
+      "opponent": "G5-D2_SYA_ANDERSEN",
+      "points": 9,
+      "against": 43,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6286799,
+      "date": "2020-02-09",
+      "team": "G7-D2_RESTON_ZEBERLEIN",
+      "opponent": "G7-D2_MT. VERNON_GAREY",
+      "points": 35,
+      "against": 40,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6286799,
+      "date": "2020-02-09",
+      "team": "G7-D2_MT. VERNON_GAREY",
+      "opponent": "G7-D2_RESTON_ZEBERLEIN",
+      "points": 40,
+      "against": 35,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333544,
+      "date": "2020-02-09",
+      "team": "G5-D1_SPRINGFIELD_GOODMAN",
+      "opponent": "G5-D1_LEE MT. VERNON_BRELAND",
+      "points": 14,
+      "against": 17,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333544,
+      "date": "2020-02-09",
+      "team": "G5-D1_LEE MT. VERNON_BRELAND",
+      "opponent": "G5-D1_SPRINGFIELD_GOODMAN",
+      "points": 17,
+      "against": 14,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333699,
+      "date": "2020-02-09",
+      "team": "G5-D2_ARLINGTON_LOMAS",
+      "opponent": "G5-D2_VIENNA_KONSTAS",
+      "points": 20,
+      "against": 13,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333699,
+      "date": "2020-02-09",
+      "team": "G5-D2_VIENNA_KONSTAS",
+      "opponent": "G5-D2_ARLINGTON_LOMAS",
+      "points": 13,
+      "against": 20,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333702,
+      "date": "2020-02-09",
+      "team": "G5-D2_MCLEAN_B KIM",
+      "opponent": "G5-D2_CYA_MAZID",
+      "points": 23,
+      "against": 13,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333702,
+      "date": "2020-02-09",
+      "team": "G5-D2_CYA_MAZID",
+      "opponent": "G5-D2_MCLEAN_B KIM",
+      "points": 13,
+      "against": 23,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6277848,
       "date": "2020-02-09",
       "team": "G8-D1_SPRINGFIELD_WILSON",
@@ -38518,32 +34805,6 @@ var _MASTER_DATA = {
       "opponent": "G8-D1_SPRINGFIELD_WILSON",
       "points": 46,
       "against": 42,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6277846,
-      "date": "2020-02-09",
-      "team": "G8-D1_GREAT FALLS_KERRIGAN",
-      "opponent": "G8-D1_MCLEAN_MEGAS",
-      "points": 35,
-      "against": 51,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6277846,
-      "date": "2020-02-09",
-      "team": "G8-D1_MCLEAN_MEGAS",
-      "opponent": "G8-D1_GREAT FALLS_KERRIGAN",
-      "points": 51,
-      "against": 35,
       "result": "W",
       "win": true,
       "lost": false,
@@ -38573,6 +34834,32 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6277846,
+      "date": "2020-02-09",
+      "team": "G8-D1_GREAT FALLS_KERRIGAN",
+      "opponent": "G8-D1_MCLEAN_MEGAS",
+      "points": 35,
+      "against": 51,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6277846,
+      "date": "2020-02-09",
+      "team": "G8-D1_MCLEAN_MEGAS",
+      "opponent": "G8-D1_GREAT FALLS_KERRIGAN",
+      "points": 51,
+      "against": 35,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -38681,32 +34968,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6278775,
-      "date": "2020-02-11",
-      "team": "G7-D1_FORT HUNT_HEINER",
-      "opponent": "G7-D1_VIENNA_YODER",
-      "points": 44,
-      "against": 28,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278775,
-      "date": "2020-02-11",
-      "team": "G7-D1_VIENNA_YODER",
-      "opponent": "G7-D1_FORT HUNT_HEINER",
-      "points": 28,
-      "against": 44,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6287503,
       "date": "2020-02-11",
       "team": "G8-D2_FORT BELVOIR_EDWARDS",
@@ -38726,6 +34987,32 @@ var _MASTER_DATA = {
       "opponent": "G8-D2_FORT BELVOIR_EDWARDS",
       "points": 35,
       "against": 42,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278775,
+      "date": "2020-02-11",
+      "team": "G7-D1_FORT HUNT_HEINER",
+      "opponent": "G7-D1_VIENNA_YODER",
+      "points": 44,
+      "against": 28,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278775,
+      "date": "2020-02-11",
+      "team": "G7-D1_VIENNA_YODER",
+      "opponent": "G7-D1_FORT HUNT_HEINER",
+      "points": 28,
+      "against": 44,
       "result": "L",
       "win": false,
       "lost": true,
@@ -38889,32 +35176,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6278375,
-      "date": "2020-02-12",
-      "team": "B8-D1_CYA_LEE",
-      "opponent": "B8-D1_GAINESVILLE_PAGE",
-      "points": 76,
-      "against": 63,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278375,
-      "date": "2020-02-12",
-      "team": "B8-D1_GAINESVILLE_PAGE",
-      "opponent": "B8-D1_CYA_LEE",
-      "points": 63,
-      "against": 76,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6279177,
       "date": "2020-02-12",
       "team": "B7-D1_LEE DISTRICT_TROTTER",
@@ -38937,6 +35198,32 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278375,
+      "date": "2020-02-12",
+      "team": "B8-D1_CYA_LEE",
+      "opponent": "B8-D1_GAINESVILLE_PAGE",
+      "points": 76,
+      "against": 63,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278375,
+      "date": "2020-02-12",
+      "team": "B8-D1_GAINESVILLE_PAGE",
+      "opponent": "B8-D1_CYA_LEE",
+      "points": 63,
+      "against": 76,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -39097,54 +35384,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333676,
+      "game_id": 6288447,
       "date": "2020-02-15",
-      "team": "G5-D2_GAINESVILLE_HAMPSON",
-      "opponent": "G5-D2_RESTON_WARD",
-      "points": 19,
-      "against": 20,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333676,
-      "date": "2020-02-15",
-      "team": "G5-D2_RESTON_WARD",
-      "opponent": "G5-D2_GAINESVILLE_HAMPSON",
-      "points": 20,
-      "against": 19,
+      "team": "B6-D1_BURKE_RAPOZA",
+      "opponent": "B6-D1_VIENNA_EPPS",
+      "points": 46,
+      "against": 29,
       "result": "W",
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333677,
-      "date": "2020-02-15",
-      "team": "G5-D2_BURKE_PRICE",
-      "opponent": "G5-D2_ARLINGTON_LOMAS",
-      "points": 2,
-      "against": 39,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
       "source": true
     },
     {
-      "game_id": 6333677,
+      "game_id": 6288447,
       "date": "2020-02-15",
-      "team": "G5-D2_ARLINGTON_LOMAS",
-      "opponent": "G5-D2_BURKE_PRICE",
-      "points": 39,
-      "against": 2,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "B6-D1_VIENNA_EPPS",
+      "opponent": "B6-D1_BURKE_RAPOZA",
+      "points": 29,
+      "against": 46,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -39175,12 +35436,90 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6288447,
+      "game_id": 6333677,
       "date": "2020-02-15",
-      "team": "B6-D1_BURKE_RAPOZA",
-      "opponent": "B6-D1_VIENNA_EPPS",
-      "points": 46,
-      "against": 29,
+      "team": "G5-D2_BURKE_PRICE",
+      "opponent": "G5-D2_ARLINGTON_LOMAS",
+      "points": 2,
+      "against": 39,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333677,
+      "date": "2020-02-15",
+      "team": "G5-D2_ARLINGTON_LOMAS",
+      "opponent": "G5-D2_BURKE_PRICE",
+      "points": 39,
+      "against": 2,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333676,
+      "date": "2020-02-15",
+      "team": "G5-D2_GAINESVILLE_HAMPSON",
+      "opponent": "G5-D2_RESTON_WARD",
+      "points": 19,
+      "against": 20,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333676,
+      "date": "2020-02-15",
+      "team": "G5-D2_RESTON_WARD",
+      "opponent": "G5-D2_GAINESVILLE_HAMPSON",
+      "points": 20,
+      "against": 19,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333679,
+      "date": "2020-02-15",
+      "team": "G5-D2_BURKE_ROSE",
+      "opponent": "G5-D2_SYA_ANDERSEN",
+      "points": 19,
+      "against": 20,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333679,
+      "date": "2020-02-15",
+      "team": "G5-D2_SYA_ANDERSEN",
+      "opponent": "G5-D2_BURKE_ROSE",
+      "points": 20,
+      "against": 19,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289583,
+      "date": "2020-02-15",
+      "team": "G6-D1_FORT HUNT_LOVING",
+      "opponent": "G6-D1_MCLEAN_MURRELL",
+      "points": 33,
+      "against": 31,
       "result": "W",
       "win": true,
       "lost": false,
@@ -39188,12 +35527,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6288447,
+      "game_id": 6289583,
       "date": "2020-02-15",
-      "team": "B6-D1_VIENNA_EPPS",
-      "opponent": "B6-D1_BURKE_RAPOZA",
-      "points": 29,
-      "against": 46,
+      "team": "G6-D1_MCLEAN_MURRELL",
+      "opponent": "G6-D1_FORT HUNT_LOVING",
+      "points": 31,
+      "against": 33,
       "result": "L",
       "win": false,
       "lost": true,
@@ -39253,58 +35592,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6289583,
-      "date": "2020-02-15",
-      "team": "G6-D1_FORT HUNT_LOVING",
-      "opponent": "G6-D1_MCLEAN_MURRELL",
-      "points": 33,
-      "against": 31,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289583,
-      "date": "2020-02-15",
-      "team": "G6-D1_MCLEAN_MURRELL",
-      "opponent": "G6-D1_FORT HUNT_LOVING",
-      "points": 31,
-      "against": 33,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333679,
-      "date": "2020-02-15",
-      "team": "G5-D2_BURKE_ROSE",
-      "opponent": "G5-D2_SYA_ANDERSEN",
-      "points": 19,
-      "against": 20,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333679,
-      "date": "2020-02-15",
-      "team": "G5-D2_SYA_ANDERSEN",
-      "opponent": "G5-D2_BURKE_ROSE",
-      "points": 20,
-      "against": 19,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6333680,
       "date": "2020-02-15",
       "team": "G5-D2_CYA_MAZID",
@@ -39327,32 +35614,6 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6286793,
-      "date": "2020-02-15",
-      "team": "G7-D2_GAINESVILLE_NAPLES",
-      "opponent": "G7-D2_ARLINGTON_FILIDES",
-      "points": 36,
-      "against": 15,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6286793,
-      "date": "2020-02-15",
-      "team": "G7-D2_ARLINGTON_FILIDES",
-      "opponent": "G7-D2_GAINESVILLE_NAPLES",
-      "points": 15,
-      "against": 36,
-      "result": "L",
-      "win": false,
-      "lost": true,
       "tie": false,
       "source": false
     },
@@ -39435,6 +35696,58 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6333675,
+      "date": "2020-02-15",
+      "team": "G5-D2_BRYC_ALI",
+      "opponent": "G5-D2_BAILEYS CC_MARSHALL",
+      "points": 24,
+      "against": 10,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333675,
+      "date": "2020-02-15",
+      "team": "G5-D2_BAILEYS CC_MARSHALL",
+      "opponent": "G5-D2_BRYC_ALI",
+      "points": 10,
+      "against": 24,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6286793,
+      "date": "2020-02-15",
+      "team": "G7-D2_GAINESVILLE_NAPLES",
+      "opponent": "G7-D2_ARLINGTON_FILIDES",
+      "points": 36,
+      "against": 21,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6286793,
+      "date": "2020-02-15",
+      "team": "G7-D2_ARLINGTON_FILIDES",
+      "opponent": "G7-D2_GAINESVILLE_NAPLES",
+      "points": 21,
+      "against": 36,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6335229,
       "date": "2020-02-15",
       "team": "B5-D3_SOUTH COUNTY_ARORA",
@@ -39454,32 +35767,6 @@ var _MASTER_DATA = {
       "opponent": "B5-D3_SOUTH COUNTY_ARORA",
       "points": 35,
       "against": 13,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6287546,
-      "date": "2020-02-15",
-      "team": "G8-D2_BAILEYS CC_HUDSON",
-      "opponent": "G8-D2_ARLINGTON_SCARCELLA",
-      "points": 30,
-      "against": 31,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6287546,
-      "date": "2020-02-15",
-      "team": "G8-D2_ARLINGTON_SCARCELLA",
-      "opponent": "G8-D2_BAILEYS CC_HUDSON",
-      "points": 31,
-      "against": 30,
       "result": "W",
       "win": true,
       "lost": false,
@@ -39513,12 +35800,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6335228,
+      "game_id": 6287546,
       "date": "2020-02-15",
-      "team": "B5-D3_GUM SPRINGS_SPROCKER",
-      "opponent": "B5-D3_FPYC_DAVIS",
-      "points": 25,
-      "against": 50,
+      "team": "G8-D2_BAILEYS CC_HUDSON",
+      "opponent": "G8-D2_ARLINGTON_SCARCELLA",
+      "points": 30,
+      "against": 31,
       "result": "L",
       "win": false,
       "lost": true,
@@ -39526,12 +35813,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6335228,
+      "game_id": 6287546,
       "date": "2020-02-15",
-      "team": "B5-D3_FPYC_DAVIS",
-      "opponent": "B5-D3_GUM SPRINGS_SPROCKER",
-      "points": 50,
-      "against": 25,
+      "team": "G8-D2_ARLINGTON_SCARCELLA",
+      "opponent": "G8-D2_BAILEYS CC_HUDSON",
+      "points": 31,
+      "against": 30,
       "result": "W",
       "win": true,
       "lost": false,
@@ -39565,12 +35852,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6278747,
+      "game_id": 6335228,
       "date": "2020-02-15",
-      "team": "G7-D1_SOUTH LOUDOUN_LISACK",
-      "opponent": "G7-D1_SPRINGFIELD_DUCKETT",
-      "points": 27,
-      "against": 38,
+      "team": "B5-D3_GUM SPRINGS_SPROCKER",
+      "opponent": "B5-D3_FPYC_DAVIS",
+      "points": 25,
+      "against": 50,
       "result": "L",
       "win": false,
       "lost": true,
@@ -39578,12 +35865,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6278747,
+      "game_id": 6335228,
       "date": "2020-02-15",
-      "team": "G7-D1_SPRINGFIELD_DUCKETT",
-      "opponent": "G7-D1_SOUTH LOUDOUN_LISACK",
-      "points": 38,
-      "against": 27,
+      "team": "B5-D3_FPYC_DAVIS",
+      "opponent": "B5-D3_GUM SPRINGS_SPROCKER",
+      "points": 50,
+      "against": 25,
       "result": "W",
       "win": true,
       "lost": false,
@@ -39617,12 +35904,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6289918,
+      "game_id": 6278747,
       "date": "2020-02-15",
-      "team": "G6-D2_BRYC_DUDLEY",
-      "opponent": "G6-D2_SPRINGFIELD_MARSHALL",
-      "points": 12,
-      "against": 46,
+      "team": "G7-D1_SOUTH LOUDOUN_LISACK",
+      "opponent": "G7-D1_SPRINGFIELD_DUCKETT",
+      "points": 27,
+      "against": 38,
       "result": "L",
       "win": false,
       "lost": true,
@@ -39630,12 +35917,12 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6289918,
+      "game_id": 6278747,
       "date": "2020-02-15",
-      "team": "G6-D2_SPRINGFIELD_MARSHALL",
-      "opponent": "G6-D2_BRYC_DUDLEY",
-      "points": 46,
-      "against": 12,
+      "team": "G7-D1_SPRINGFIELD_DUCKETT",
+      "opponent": "G7-D1_SOUTH LOUDOUN_LISACK",
+      "points": 38,
+      "against": 27,
       "result": "W",
       "win": true,
       "lost": false,
@@ -39688,6 +35975,32 @@ var _MASTER_DATA = {
       "opponent": "B7-D1_CYA_CUBBAGE",
       "points": 56,
       "against": 53,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289918,
+      "date": "2020-02-15",
+      "team": "G6-D2_BRYC_DUDLEY",
+      "opponent": "G6-D2_SPRINGFIELD_MARSHALL",
+      "points": 12,
+      "against": 46,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289918,
+      "date": "2020-02-15",
+      "team": "G6-D2_SPRINGFIELD_MARSHALL",
+      "opponent": "G6-D2_BRYC_DUDLEY",
+      "points": 46,
+      "against": 12,
       "result": "W",
       "win": true,
       "lost": false,
@@ -39792,84 +36105,6 @@ var _MASTER_DATA = {
       "opponent": "B7-D2_GAINESVILLE_SCHWEMER",
       "points": 45,
       "against": 55,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6289609,
-      "date": "2020-02-15",
-      "team": "G6-D1_CYA_KANG",
-      "opponent": "G6-D1_VIENNA_PARRIS",
-      "points": 49,
-      "against": 16,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6289609,
-      "date": "2020-02-15",
-      "team": "G6-D1_VIENNA_PARRIS",
-      "opponent": "G6-D1_CYA_KANG",
-      "points": 16,
-      "against": 49,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6333554,
-      "date": "2020-02-15",
-      "team": "G5-D1_CYA_DOWLING",
-      "opponent": "G5-D1_VIENNA_KORMAN",
-      "points": 23,
-      "against": 42,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6333554,
-      "date": "2020-02-15",
-      "team": "G5-D1_VIENNA_KORMAN",
-      "opponent": "G5-D1_CYA_DOWLING",
-      "points": 42,
-      "against": 23,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6290527,
-      "date": "2020-02-15",
-      "team": "B6-D3_SPRINGFIELD_WILSON",
-      "opponent": "B6-D3_BAILEYS_J. SMITH SR",
-      "points": 43,
-      "against": 14,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290527,
-      "date": "2020-02-15",
-      "team": "B6-D3_BAILEYS_J. SMITH SR",
-      "opponent": "B6-D3_SPRINGFIELD_WILSON",
-      "points": 14,
-      "against": 43,
       "result": "L",
       "win": false,
       "lost": true,
@@ -40033,12 +36268,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6287549,
+      "game_id": 6290527,
       "date": "2020-02-15",
-      "team": "G8-D2_SYA_HESLEP",
-      "opponent": "G8-D2_FORT HUNT_HARRIS",
-      "points": 45,
-      "against": 32,
+      "team": "B6-D3_SPRINGFIELD_WILSON",
+      "opponent": "B6-D3_BAILEYS_J. SMITH SR",
+      "points": 43,
+      "against": 14,
       "result": "W",
       "win": true,
       "lost": false,
@@ -40046,15 +36281,67 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6287549,
+      "game_id": 6290527,
       "date": "2020-02-15",
-      "team": "G8-D2_FORT HUNT_HARRIS",
-      "opponent": "G8-D2_SYA_HESLEP",
-      "points": 32,
-      "against": 45,
+      "team": "B6-D3_BAILEYS_J. SMITH SR",
+      "opponent": "B6-D3_SPRINGFIELD_WILSON",
+      "points": 14,
+      "against": 43,
       "result": "L",
       "win": false,
       "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289609,
+      "date": "2020-02-15",
+      "team": "G6-D1_CYA_KANG",
+      "opponent": "G6-D1_VIENNA_PARRIS",
+      "points": 49,
+      "against": 16,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289609,
+      "date": "2020-02-15",
+      "team": "G6-D1_VIENNA_PARRIS",
+      "opponent": "G6-D1_CYA_KANG",
+      "points": 16,
+      "against": 49,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333554,
+      "date": "2020-02-15",
+      "team": "G5-D1_CYA_DOWLING",
+      "opponent": "G5-D1_VIENNA_KORMAN",
+      "points": 23,
+      "against": 42,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333554,
+      "date": "2020-02-15",
+      "team": "G5-D1_VIENNA_KORMAN",
+      "opponent": "G5-D1_CYA_DOWLING",
+      "points": 42,
+      "against": 23,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -40085,6 +36372,32 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6287549,
+      "date": "2020-02-15",
+      "team": "G8-D2_SYA_HESLEP",
+      "opponent": "G8-D2_FORT HUNT_HARRIS",
+      "points": 45,
+      "against": 32,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6287549,
+      "date": "2020-02-15",
+      "team": "G8-D2_FORT HUNT_HARRIS",
+      "opponent": "G8-D2_SYA_HESLEP",
+      "points": 32,
+      "against": 45,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6333748,
       "date": "2020-02-15",
       "team": "B5-D2_MANASSAS PARK_SOLOMON",
@@ -40107,110 +36420,6 @@ var _MASTER_DATA = {
       "result": "L",
       "win": false,
       "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288444,
-      "date": "2020-02-15",
-      "team": "B6-D1_GAINESVILLE_COOK",
-      "opponent": "B6-D1_RESTON_RIDGEWAY",
-      "points": 24,
-      "against": 36,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288444,
-      "date": "2020-02-15",
-      "team": "B6-D1_RESTON_RIDGEWAY",
-      "opponent": "B6-D1_GAINESVILLE_COOK",
-      "points": 36,
-      "against": 24,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6290670,
-      "date": "2020-02-15",
-      "team": "B7-D3_GAINESVILLE_LINGENFELDER",
-      "opponent": "B7-D3_SYA_DOWNEY",
-      "points": 54,
-      "against": 26,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6290670,
-      "date": "2020-02-15",
-      "team": "B7-D3_SYA_DOWNEY",
-      "opponent": "B7-D3_GAINESVILLE_LINGENFELDER",
-      "points": 26,
-      "against": 54,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6278422,
-      "date": "2020-02-15",
-      "team": "B8-D1_SPRINGFIELD_ROBINSON",
-      "opponent": "B8-D1_GREAT FALLS_KRAWCZYK",
-      "points": 56,
-      "against": 60,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6278422,
-      "date": "2020-02-15",
-      "team": "B8-D1_GREAT FALLS_KRAWCZYK",
-      "opponent": "B8-D1_SPRINGFIELD_ROBINSON",
-      "points": 60,
-      "against": 56,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 6288809,
-      "date": "2020-02-15",
-      "team": "B6-D2_ARLINGTON_GHARIANI",
-      "opponent": "B6-D2_ANNANDALE_HWANG",
-      "points": 36,
-      "against": 46,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6288809,
-      "date": "2020-02-15",
-      "team": "B6-D2_ANNANDALE_HWANG",
-      "opponent": "B6-D2_ARLINGTON_GHARIANI",
-      "points": 46,
-      "against": 36,
-      "result": "W",
-      "win": true,
-      "lost": false,
       "tie": false,
       "source": false
     },
@@ -40267,12 +36476,12 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6333678,
+      "game_id": 6288444,
       "date": "2020-02-15",
-      "team": "G5-D2_FORT BELVOIR_WASHINGTON",
-      "opponent": "G5-D2_SOUTH LOUDOUN_OSHEA",
-      "points": 13,
-      "against": 17,
+      "team": "B6-D1_GAINESVILLE_COOK",
+      "opponent": "B6-D1_RESTON_RIDGEWAY",
+      "points": 24,
+      "against": 36,
       "result": "L",
       "win": false,
       "lost": true,
@@ -40280,12 +36489,38 @@ var _MASTER_DATA = {
       "source": true
     },
     {
-      "game_id": 6333678,
+      "game_id": 6288444,
       "date": "2020-02-15",
-      "team": "G5-D2_SOUTH LOUDOUN_OSHEA",
-      "opponent": "G5-D2_FORT BELVOIR_WASHINGTON",
-      "points": 17,
-      "against": 13,
+      "team": "B6-D1_RESTON_RIDGEWAY",
+      "opponent": "B6-D1_GAINESVILLE_COOK",
+      "points": 36,
+      "against": 24,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278422,
+      "date": "2020-02-15",
+      "team": "B8-D1_SPRINGFIELD_ROBINSON",
+      "opponent": "B8-D1_GREAT FALLS_KRAWCZYK",
+      "points": 56,
+      "against": 60,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278422,
+      "date": "2020-02-15",
+      "team": "B8-D1_GREAT FALLS_KRAWCZYK",
+      "opponent": "B8-D1_SPRINGFIELD_ROBINSON",
+      "points": 60,
+      "against": 56,
       "result": "W",
       "win": true,
       "lost": false,
@@ -40319,6 +36554,110 @@ var _MASTER_DATA = {
       "source": false
     },
     {
+      "game_id": 6333678,
+      "date": "2020-02-15",
+      "team": "G5-D2_FORT BELVOIR_WASHINGTON",
+      "opponent": "G5-D2_SOUTH LOUDOUN_OSHEA",
+      "points": 13,
+      "against": 17,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333678,
+      "date": "2020-02-15",
+      "team": "G5-D2_SOUTH LOUDOUN_OSHEA",
+      "opponent": "G5-D2_FORT BELVOIR_WASHINGTON",
+      "points": 17,
+      "against": 13,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290670,
+      "date": "2020-02-15",
+      "team": "B7-D3_GAINESVILLE_LINGENFELDER",
+      "opponent": "B7-D3_SYA_DOWNEY",
+      "points": 54,
+      "against": 26,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290670,
+      "date": "2020-02-15",
+      "team": "B7-D3_SYA_DOWNEY",
+      "opponent": "B7-D3_GAINESVILLE_LINGENFELDER",
+      "points": 26,
+      "against": 54,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288809,
+      "date": "2020-02-15",
+      "team": "B6-D2_ARLINGTON_GHARIANI",
+      "opponent": "B6-D2_ANNANDALE_HWANG",
+      "points": 36,
+      "against": 46,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288809,
+      "date": "2020-02-15",
+      "team": "B6-D2_ANNANDALE_HWANG",
+      "opponent": "B6-D2_ARLINGTON_GHARIANI",
+      "points": 46,
+      "against": 36,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288448,
+      "date": "2020-02-15",
+      "team": "B6-D1_JAMES LEE_HERRING",
+      "opponent": "B6-D1_MCLEAN_JACKSON",
+      "points": 51,
+      "against": 38,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288448,
+      "date": "2020-02-15",
+      "team": "B6-D1_MCLEAN_JACKSON",
+      "opponent": "B6-D1_JAMES LEE_HERRING",
+      "points": 38,
+      "against": 51,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
       "game_id": 6287547,
       "date": "2020-02-15",
       "team": "G8-D2_SOUTH LOUDOUN_SAMSON",
@@ -40341,6 +36680,84 @@ var _MASTER_DATA = {
       "result": "W",
       "win": true,
       "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288446,
+      "date": "2020-02-15",
+      "team": "B6-D1_JAMES LEE_WADE",
+      "opponent": "B6-D1_MANASSAS PARK_GASKINS",
+      "points": 25,
+      "against": 53,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288446,
+      "date": "2020-02-15",
+      "team": "B6-D1_MANASSAS PARK_GASKINS",
+      "opponent": "B6-D1_JAMES LEE_WADE",
+      "points": 53,
+      "against": 25,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6287550,
+      "date": "2020-02-15",
+      "team": "G8-D2_TURNPIKE_KOMAILY",
+      "opponent": "G8-D2_CYA_RATHINAVELU",
+      "points": 59,
+      "against": 37,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6287550,
+      "date": "2020-02-15",
+      "team": "G8-D2_CYA_RATHINAVELU",
+      "opponent": "G8-D2_TURNPIKE_KOMAILY",
+      "points": 37,
+      "against": 59,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278419,
+      "date": "2020-02-15",
+      "team": "B8-D1_MCLEAN_TALLENT",
+      "opponent": "B8-D1_CYA_LEE",
+      "points": 63,
+      "against": 54,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278419,
+      "date": "2020-02-15",
+      "team": "B8-D1_CYA_LEE",
+      "opponent": "B8-D1_MCLEAN_TALLENT",
+      "points": 54,
+      "against": 63,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": false
     },
@@ -40423,28 +36840,28 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6287550,
+      "game_id": 6279002,
       "date": "2020-02-15",
-      "team": "G8-D2_TURNPIKE_KOMAILY",
-      "opponent": "G8-D2_CYA_RATHINAVELU",
-      "points": 59,
-      "against": 37,
-      "result": "W",
-      "win": true,
-      "lost": false,
+      "team": "B8-D2_CYA_DANN",
+      "opponent": "B8-D2_SOUTH LOUDOUN_CHOI",
+      "points": 39,
+      "against": 68,
+      "result": "L",
+      "win": false,
+      "lost": true,
       "tie": false,
       "source": true
     },
     {
-      "game_id": 6287550,
+      "game_id": 6279002,
       "date": "2020-02-15",
-      "team": "G8-D2_CYA_RATHINAVELU",
-      "opponent": "G8-D2_TURNPIKE_KOMAILY",
-      "points": 37,
-      "against": 59,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "team": "B8-D2_SOUTH LOUDOUN_CHOI",
+      "opponent": "B8-D2_CYA_DANN",
+      "points": 68,
+      "against": 39,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -40475,32 +36892,6 @@ var _MASTER_DATA = {
       "source": false
     },
     {
-      "game_id": 6279002,
-      "date": "2020-02-15",
-      "team": "B8-D2_CYA_DANN",
-      "opponent": "B8-D2_SOUTH LOUDOUN_CHOI",
-      "points": 39,
-      "against": 68,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 6279002,
-      "date": "2020-02-15",
-      "team": "B8-D2_SOUTH LOUDOUN_CHOI",
-      "opponent": "B8-D2_CYA_DANN",
-      "points": 68,
-      "against": 39,
-      "result": "W",
-      "win": true,
-      "lost": false,
-      "tie": false,
-      "source": false
-    },
-    {
       "game_id": 6335198,
       "date": "2020-02-15",
       "team": "B5-D3_GAINESVILLE_MAXWELL",
@@ -40525,61 +36916,6064 @@ var _MASTER_DATA = {
       "lost": false,
       "tie": false,
       "source": false
+    },
+    {
+      "game_id": 6278788,
+      "date": "2020-02-16",
+      "team": "G7-D1_FPYC_KOMAILY",
+      "opponent": "G7-D1_MCLEAN_CRITTENBERGER",
+      "points": 35,
+      "against": 48,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278788,
+      "date": "2020-02-16",
+      "team": "G7-D1_MCLEAN_CRITTENBERGER",
+      "opponent": "G7-D1_FPYC_KOMAILY",
+      "points": 48,
+      "against": 35,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6286800,
+      "date": "2020-02-16",
+      "team": "G7-D2_CYA_FRANCIS",
+      "opponent": "G7-D2_VIENNA_TOMLINSON",
+      "points": 34,
+      "against": 26,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6286800,
+      "date": "2020-02-16",
+      "team": "G7-D2_VIENNA_TOMLINSON",
+      "opponent": "G7-D2_CYA_FRANCIS",
+      "points": 26,
+      "against": 34,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289612,
+      "date": "2020-02-16",
+      "team": "G6-D1_VIENNA_PARRIS",
+      "opponent": "G6-D1_BURKE_COUTINHO",
+      "points": 33,
+      "against": 45,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289612,
+      "date": "2020-02-16",
+      "team": "G6-D1_BURKE_COUTINHO",
+      "opponent": "G6-D1_VIENNA_PARRIS",
+      "points": 45,
+      "against": 33,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289606,
+      "date": "2020-02-16",
+      "team": "G6-D1_SYA_MOORE",
+      "opponent": "G6-D1_GAINESVILLE_HOLDER",
+      "points": 27,
+      "against": 24,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289606,
+      "date": "2020-02-16",
+      "team": "G6-D1_GAINESVILLE_HOLDER",
+      "opponent": "G6-D1_SYA_MOORE",
+      "points": 24,
+      "against": 27,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289930,
+      "date": "2020-02-16",
+      "team": "G6-D2_SPRINGFIELD_BURDETTE",
+      "opponent": "G6-D2_CYA_MURPHY",
+      "points": 11,
+      "against": 15,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289930,
+      "date": "2020-02-16",
+      "team": "G6-D2_CYA_MURPHY",
+      "opponent": "G6-D2_SPRINGFIELD_BURDETTE",
+      "points": 15,
+      "against": 11,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279037,
+      "date": "2020-02-16",
+      "team": "B8-D2_CYA_DANN",
+      "opponent": "B8-D2_BRYC_THOMAS",
+      "points": 34,
+      "against": 40,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279037,
+      "date": "2020-02-16",
+      "team": "B8-D2_BRYC_THOMAS",
+      "opponent": "B8-D2_CYA_DANN",
+      "points": 40,
+      "against": 34,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278435,
+      "date": "2020-02-16",
+      "team": "B8-D1_TURNPIKE_DONOVAN",
+      "opponent": "B8-D1_CYA_LEE",
+      "points": 53,
+      "against": 45,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278435,
+      "date": "2020-02-16",
+      "team": "B8-D1_CYA_LEE",
+      "opponent": "B8-D1_TURNPIKE_DONOVAN",
+      "points": 45,
+      "against": 53,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278436,
+      "date": "2020-02-16",
+      "team": "B8-D1_SOUTH LOUDOUN_COOK",
+      "opponent": "B8-D1_GAINESVILLE_PAGE",
+      "points": 83,
+      "against": 84,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278436,
+      "date": "2020-02-16",
+      "team": "B8-D1_GAINESVILLE_PAGE",
+      "opponent": "B8-D1_SOUTH LOUDOUN_COOK",
+      "points": 84,
+      "against": 83,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333747,
+      "date": "2020-02-16",
+      "team": "B5-D2_BURKE_ASEFI",
+      "opponent": "B5-D2_BRYC_MAYES",
+      "points": 47,
+      "against": 45,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333747,
+      "date": "2020-02-16",
+      "team": "B5-D2_BRYC_MAYES",
+      "opponent": "B5-D2_BURKE_ASEFI",
+      "points": 45,
+      "against": 47,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6293218,
+      "date": "2020-02-16",
+      "team": "B8-D3_BURKE_SMYDRA",
+      "opponent": "B8-D3_LEE-MT. VERNON_SIMONIK",
+      "points": 47,
+      "against": 42,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6293218,
+      "date": "2020-02-16",
+      "team": "B8-D3_LEE-MT. VERNON_SIMONIK",
+      "opponent": "B8-D3_BURKE_SMYDRA",
+      "points": 42,
+      "against": 47,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288808,
+      "date": "2020-02-16",
+      "team": "B6-D2_SYA_HILL",
+      "opponent": "B6-D2_FALLS CHURCH_KUSIC",
+      "points": 42,
+      "against": 40,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288808,
+      "date": "2020-02-16",
+      "team": "B6-D2_FALLS CHURCH_KUSIC",
+      "opponent": "B6-D2_SYA_HILL",
+      "points": 40,
+      "against": 42,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290525,
+      "date": "2020-02-16",
+      "team": "B6-D3_ARLINGTON_NETTLES",
+      "opponent": "B6-D3_TURNPIKE_OURS",
+      "points": 38,
+      "against": 62,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290525,
+      "date": "2020-02-16",
+      "team": "B6-D3_TURNPIKE_OURS",
+      "opponent": "B6-D3_ARLINGTON_NETTLES",
+      "points": 62,
+      "against": 38,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288449,
+      "date": "2020-02-16",
+      "team": "B6-D1_CYA_JONES",
+      "opponent": "B6-D1_SOUTH LOUDOUN_KAHN",
+      "points": 57,
+      "against": 62,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288449,
+      "date": "2020-02-16",
+      "team": "B6-D1_SOUTH LOUDOUN_KAHN",
+      "opponent": "B6-D1_CYA_JONES",
+      "points": 62,
+      "against": 57,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278789,
+      "date": "2020-02-16",
+      "team": "G7-D1_BURKE_WYANT",
+      "opponent": "G7-D1_SOUTH LOUDOUN_LISACK",
+      "points": 29,
+      "against": 33,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278789,
+      "date": "2020-02-16",
+      "team": "G7-D1_SOUTH LOUDOUN_LISACK",
+      "opponent": "G7-D1_BURKE_WYANT",
+      "points": 33,
+      "against": 29,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333442,
+      "date": "2020-02-16",
+      "team": "B5-D1_FORT HUNT_ZIPPEL",
+      "opponent": "B5-D1_ARLINGTON_SADAKA",
+      "points": 21,
+      "against": 49,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333442,
+      "date": "2020-02-16",
+      "team": "B5-D1_ARLINGTON_SADAKA",
+      "opponent": "B5-D1_FORT HUNT_ZIPPEL",
+      "points": 49,
+      "against": 21,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6277849,
+      "date": "2020-02-16",
+      "team": "G8-D1_BURKE_EDWARDS",
+      "opponent": "G8-D1_ARLINGTON_ABUNDO",
+      "points": 64,
+      "against": 32,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6277849,
+      "date": "2020-02-16",
+      "team": "G8-D1_ARLINGTON_ABUNDO",
+      "opponent": "G8-D1_BURKE_EDWARDS",
+      "points": 32,
+      "against": 64,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278787,
+      "date": "2020-02-16",
+      "team": "G7-D1_BURKE_SEAY",
+      "opponent": "G7-D1_ARLINGTON_EISENBERG",
+      "points": 24,
+      "against": 51,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278787,
+      "date": "2020-02-16",
+      "team": "G7-D1_ARLINGTON_EISENBERG",
+      "opponent": "G7-D1_BURKE_SEAY",
+      "points": 51,
+      "against": 24,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290697,
+      "date": "2020-02-16",
+      "team": "B7-D3_GAINESVILLE_LINGENFELDER",
+      "opponent": "B7-D3_CYA_PROCHAZKA",
+      "points": 58,
+      "against": 60,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290697,
+      "date": "2020-02-16",
+      "team": "B7-D3_CYA_PROCHAZKA",
+      "opponent": "B7-D3_GAINESVILLE_LINGENFELDER",
+      "points": 60,
+      "against": 58,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6293217,
+      "date": "2020-02-16",
+      "team": "B8-D3_BAILEYS_TBD",
+      "opponent": "B8-D3_FALLS CHURCH_SUTTON",
+      "points": 25,
+      "against": 54,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6293217,
+      "date": "2020-02-16",
+      "team": "B8-D3_FALLS CHURCH_SUTTON",
+      "opponent": "B8-D3_BAILEYS_TBD",
+      "points": 54,
+      "against": 25,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288804,
+      "date": "2020-02-16",
+      "team": "B6-D2_ANNANDALE_HWANG",
+      "opponent": "B6-D2_BURKE_BUTTREY",
+      "points": 39,
+      "against": 44,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288804,
+      "date": "2020-02-16",
+      "team": "B6-D2_BURKE_BUTTREY",
+      "opponent": "B6-D2_ANNANDALE_HWANG",
+      "points": 44,
+      "against": 39,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290526,
+      "date": "2020-02-16",
+      "team": "B6-D3_LEE MT. VERNON_STEWART",
+      "opponent": "B6-D3_GREAT FALLS_BRITT",
+      "points": 20,
+      "against": 55,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290526,
+      "date": "2020-02-16",
+      "team": "B6-D3_GREAT FALLS_BRITT",
+      "opponent": "B6-D3_LEE MT. VERNON_STEWART",
+      "points": 55,
+      "against": 20,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279035,
+      "date": "2020-02-16",
+      "team": "B8-D2_ARLINGTON_MAHER",
+      "opponent": "B8-D2_ARLINGTON_BALLARD",
+      "points": 50,
+      "against": 54,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279035,
+      "date": "2020-02-16",
+      "team": "B8-D2_ARLINGTON_BALLARD",
+      "opponent": "B8-D2_ARLINGTON_MAHER",
+      "points": 54,
+      "against": 50,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333751,
+      "date": "2020-02-16",
+      "team": "B5-D2_CYA_MARTIN",
+      "opponent": "B5-D2_VIENNA_LOCEY",
+      "points": 19,
+      "against": 37,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333751,
+      "date": "2020-02-16",
+      "team": "B5-D2_VIENNA_LOCEY",
+      "opponent": "B5-D2_CYA_MARTIN",
+      "points": 37,
+      "against": 19,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6293216,
+      "date": "2020-02-16",
+      "team": "B8-D3_RESTON_BIRKLAND",
+      "opponent": "B8-D3_MANASSAS PARK_HOLDEN",
+      "points": 55,
+      "against": 49,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6293216,
+      "date": "2020-02-16",
+      "team": "B8-D3_MANASSAS PARK_HOLDEN",
+      "opponent": "B8-D3_RESTON_BIRKLAND",
+      "points": 49,
+      "against": 55,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333551,
+      "date": "2020-02-16",
+      "team": "G5-D1_FORT HUNT_GAREY",
+      "opponent": "G5-D1_CYA_DOWLING",
+      "points": 25,
+      "against": 17,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333551,
+      "date": "2020-02-16",
+      "team": "G5-D1_CYA_DOWLING",
+      "opponent": "G5-D1_FORT HUNT_GAREY",
+      "points": 17,
+      "against": 25,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289931,
+      "date": "2020-02-16",
+      "team": "G6-D2_SOUTH LOUDOUN_SAMSON",
+      "opponent": "G6-D2_FALLS CHURCH_PAPADOPOULOS",
+      "points": 14,
+      "against": 17,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289931,
+      "date": "2020-02-16",
+      "team": "G6-D2_FALLS CHURCH_PAPADOPOULOS",
+      "opponent": "G6-D2_SOUTH LOUDOUN_SAMSON",
+      "points": 17,
+      "against": 14,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289605,
+      "date": "2020-02-16",
+      "team": "G6-D1_ARLINGTON_PIACENZA",
+      "opponent": "G6-D1_CYA_KANG",
+      "points": 21,
+      "against": 52,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289605,
+      "date": "2020-02-16",
+      "team": "G6-D1_CYA_KANG",
+      "opponent": "G6-D1_ARLINGTON_PIACENZA",
+      "points": 52,
+      "against": 21,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6286801,
+      "date": "2020-02-16",
+      "team": "G7-D2_LEE-MT. VERNON_CARTER",
+      "opponent": "G7-D2_SOUTH LOUDOUN_MCGOVERN",
+      "points": 24,
+      "against": 45,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6286801,
+      "date": "2020-02-16",
+      "team": "G7-D2_SOUTH LOUDOUN_MCGOVERN",
+      "opponent": "G7-D2_LEE-MT. VERNON_CARTER",
+      "points": 45,
+      "against": 24,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6335209,
+      "date": "2020-02-16",
+      "team": "B5-D3_FPYC_DAVIS",
+      "opponent": "B5-D3_SPRINGFIELD_MORRISON",
+      "points": 39,
+      "against": 30,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6335209,
+      "date": "2020-02-16",
+      "team": "B5-D3_SPRINGFIELD_MORRISON",
+      "opponent": "B5-D3_FPYC_DAVIS",
+      "points": 30,
+      "against": 39,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278437,
+      "date": "2020-02-16",
+      "team": "B8-D1_SPRINGFIELD_ROBINSON",
+      "opponent": "B8-D1_FORT BELVOIR_MILES",
+      "points": 78,
+      "against": 59,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278437,
+      "date": "2020-02-16",
+      "team": "B8-D1_FORT BELVOIR_MILES",
+      "opponent": "B8-D1_SPRINGFIELD_ROBINSON",
+      "points": 59,
+      "against": 78,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278442,
+      "date": "2020-02-16",
+      "team": "B8-D1_LEE DISTRICT_MCMINN",
+      "opponent": "B8-D1_GREAT FALLS_KRAWCZYK",
+      "points": 65,
+      "against": 53,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278442,
+      "date": "2020-02-16",
+      "team": "B8-D1_GREAT FALLS_KRAWCZYK",
+      "opponent": "B8-D1_LEE DISTRICT_MCMINN",
+      "points": 53,
+      "against": 65,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279039,
+      "date": "2020-02-16",
+      "team": "B8-D2_VIENNA_DESENTI",
+      "opponent": "B8-D2_CYA_SMITH",
+      "points": 58,
+      "against": 17,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279039,
+      "date": "2020-02-16",
+      "team": "B8-D2_CYA_SMITH",
+      "opponent": "B8-D2_VIENNA_DESENTI",
+      "points": 17,
+      "against": 58,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289604,
+      "date": "2020-02-16",
+      "team": "G6-D1_SOUTH LOUDOUN_CHILDRESS",
+      "opponent": "G6-D1_MCLEAN_MURRELL",
+      "points": 32,
+      "against": 20,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289604,
+      "date": "2020-02-16",
+      "team": "G6-D1_MCLEAN_MURRELL",
+      "opponent": "G6-D1_SOUTH LOUDOUN_CHILDRESS",
+      "points": 20,
+      "against": 32,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333444,
+      "date": "2020-02-16",
+      "team": "B5-D1_GAINESVILLE_LY",
+      "opponent": "B5-D1_SOUTH LOUDOUN_STEMBERGER",
+      "points": 30,
+      "against": 39,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333444,
+      "date": "2020-02-16",
+      "team": "B5-D1_SOUTH LOUDOUN_STEMBERGER",
+      "opponent": "B5-D1_GAINESVILLE_LY",
+      "points": 39,
+      "against": 30,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290531,
+      "date": "2020-02-16",
+      "team": "B6-D3_SOUTH LOUDOUN_WEBB",
+      "opponent": "B6-D3_BURKE_MITCHELL",
+      "points": 56,
+      "against": 35,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290531,
+      "date": "2020-02-16",
+      "team": "B6-D3_BURKE_MITCHELL",
+      "opponent": "B6-D3_SOUTH LOUDOUN_WEBB",
+      "points": 35,
+      "against": 56,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333441,
+      "date": "2020-02-16",
+      "team": "B5-D1_LEE MT. VERNON_BOSLEY",
+      "opponent": "B5-D1_RESTON_BYRNES",
+      "points": 11,
+      "against": 46,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333441,
+      "date": "2020-02-16",
+      "team": "B5-D1_RESTON_BYRNES",
+      "opponent": "B5-D1_LEE MT. VERNON_BOSLEY",
+      "points": 46,
+      "against": 11,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279034,
+      "date": "2020-02-16",
+      "team": "B8-D2_SOUTH LOUDOUN_CHOI",
+      "opponent": "B8-D2_FPYC_RAGAN",
+      "points": 69,
+      "against": 43,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279034,
+      "date": "2020-02-16",
+      "team": "B8-D2_FPYC_RAGAN",
+      "opponent": "B8-D2_SOUTH LOUDOUN_CHOI",
+      "points": 43,
+      "against": 69,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6287522,
+      "date": "2020-02-16",
+      "team": "G8-D2_CYA_RATHINAVELU",
+      "opponent": "G8-D2_BURKE_BYRNE",
+      "points": 39,
+      "against": 25,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6287522,
+      "date": "2020-02-16",
+      "team": "G8-D2_BURKE_BYRNE",
+      "opponent": "G8-D2_CYA_RATHINAVELU",
+      "points": 25,
+      "against": 39,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279190,
+      "date": "2020-02-16",
+      "team": "B7-D1_GAINESVILLE_WEINSCHENK",
+      "opponent": "B7-D1_SPRINGFIELD_ARGUEDAS",
+      "points": 58,
+      "against": 31,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279190,
+      "date": "2020-02-16",
+      "team": "B7-D1_SPRINGFIELD_ARGUEDAS",
+      "opponent": "B7-D1_GAINESVILLE_WEINSCHENK",
+      "points": 31,
+      "against": 58,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278792,
+      "date": "2020-02-16",
+      "team": "G7-D1_FALLS CHURCH_MADISON",
+      "opponent": "G7-D1_SYA_BRUBAKER",
+      "points": 56,
+      "against": 40,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278792,
+      "date": "2020-02-16",
+      "team": "G7-D1_SYA_BRUBAKER",
+      "opponent": "G7-D1_FALLS CHURCH_MADISON",
+      "points": 40,
+      "against": 56,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6277851,
+      "date": "2020-02-16",
+      "team": "G8-D1_CYA_MCCONNELL",
+      "opponent": "G8-D1_VIENNA_TROTTER",
+      "points": 46,
+      "against": 18,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6277851,
+      "date": "2020-02-16",
+      "team": "G8-D1_VIENNA_TROTTER",
+      "opponent": "G8-D1_CYA_MCCONNELL",
+      "points": 18,
+      "against": 46,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333548,
+      "date": "2020-02-16",
+      "team": "G5-D1_GAINESVILLE_JOHNSON",
+      "opponent": "G5-D1_ARLINGTON_MCRAE",
+      "points": 20,
+      "against": 40,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333548,
+      "date": "2020-02-16",
+      "team": "G5-D1_ARLINGTON_MCRAE",
+      "opponent": "G5-D1_GAINESVILLE_JOHNSON",
+      "points": 40,
+      "against": 20,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290530,
+      "date": "2020-02-16",
+      "team": "B6-D3_SOUTH COUNTY_JOHNSON",
+      "opponent": "B6-D3_CYA_LUGO",
+      "points": 49,
+      "against": 34,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290530,
+      "date": "2020-02-16",
+      "team": "B6-D3_CYA_LUGO",
+      "opponent": "B6-D3_SOUTH COUNTY_JOHNSON",
+      "points": 34,
+      "against": 49,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279185,
+      "date": "2020-02-16",
+      "team": "B7-D1_BRYC_AQUIL",
+      "opponent": "B7-D1_ARLINGTON_SHELLEY",
+      "points": 42,
+      "against": 54,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279185,
+      "date": "2020-02-16",
+      "team": "B7-D1_ARLINGTON_SHELLEY",
+      "opponent": "B7-D1_BRYC_AQUIL",
+      "points": 54,
+      "against": 42,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278441,
+      "date": "2020-02-16",
+      "team": "B8-D1_VIENNA_MARSDEN",
+      "opponent": "B8-D1_BURKE_SHOUMAN",
+      "points": 69,
+      "against": 68,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278441,
+      "date": "2020-02-16",
+      "team": "B8-D1_BURKE_SHOUMAN",
+      "opponent": "B8-D1_VIENNA_MARSDEN",
+      "points": 68,
+      "against": 69,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289932,
+      "date": "2020-02-16",
+      "team": "G6-D2_ARLINGTON_DECOU",
+      "opponent": "G6-D2_SPRINGFIELD_MARSHALL",
+      "points": 31,
+      "against": 34,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289932,
+      "date": "2020-02-16",
+      "team": "G6-D2_SPRINGFIELD_MARSHALL",
+      "opponent": "G6-D2_ARLINGTON_DECOU",
+      "points": 34,
+      "against": 31,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279040,
+      "date": "2020-02-16",
+      "team": "B8-D2_SOUTH COUNTY_MATTHEWS",
+      "opponent": "B8-D2_GAINESVILLE_COMPTON",
+      "points": 50,
+      "against": 55,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279040,
+      "date": "2020-02-16",
+      "team": "B8-D2_GAINESVILLE_COMPTON",
+      "opponent": "B8-D2_SOUTH COUNTY_MATTHEWS",
+      "points": 55,
+      "against": 50,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333698,
+      "date": "2020-02-16",
+      "team": "G5-D2_SOUTH LOUDOUN_OSHEA",
+      "opponent": "G5-D2_BURKE_PRICE",
+      "points": 21,
+      "against": 4,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333698,
+      "date": "2020-02-16",
+      "team": "G5-D2_BURKE_PRICE",
+      "opponent": "G5-D2_SOUTH LOUDOUN_OSHEA",
+      "points": 4,
+      "against": 21,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6286802,
+      "date": "2020-02-16",
+      "team": "G7-D2_GAINESVILLE_NAPLES",
+      "opponent": "G7-D2_SPRINGFIELD_DUCKETT",
+      "points": 46,
+      "against": 8,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6286802,
+      "date": "2020-02-16",
+      "team": "G7-D2_SPRINGFIELD_DUCKETT",
+      "opponent": "G7-D2_GAINESVILLE_NAPLES",
+      "points": 8,
+      "against": 46,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6335207,
+      "date": "2020-02-16",
+      "team": "B5-D3_FORT BELVOIR_HUNTER",
+      "opponent": "B5-D3_ARLINGTON_PERKINS",
+      "points": 27,
+      "against": 43,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6335207,
+      "date": "2020-02-16",
+      "team": "B5-D3_ARLINGTON_PERKINS",
+      "opponent": "B5-D3_FORT BELVOIR_HUNTER",
+      "points": 43,
+      "against": 27,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290699,
+      "date": "2020-02-16",
+      "team": "B7-D3_SOUTH LOUDOUN_COOK",
+      "opponent": "B7-D3_SOUTH COUNTY_LLOYD",
+      "points": 48,
+      "against": 66,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290699,
+      "date": "2020-02-16",
+      "team": "B7-D3_SOUTH COUNTY_LLOYD",
+      "opponent": "B7-D3_SOUTH LOUDOUN_COOK",
+      "points": 66,
+      "against": 48,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333552,
+      "date": "2020-02-16",
+      "team": "G5-D1_LEE MT. VERNON_BRELAND",
+      "opponent": "G5-D1_SOUTH LOUDOUN_KERR",
+      "points": 28,
+      "against": 20,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333552,
+      "date": "2020-02-16",
+      "team": "G5-D1_SOUTH LOUDOUN_KERR",
+      "opponent": "G5-D1_LEE MT. VERNON_BRELAND",
+      "points": 20,
+      "against": 28,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279038,
+      "date": "2020-02-16",
+      "team": "B8-D2_MCLEAN_TURGEON",
+      "opponent": "B8-D2_LEE-MT. VERNON_BOSLEY",
+      "points": 31,
+      "against": 49,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279038,
+      "date": "2020-02-16",
+      "team": "B8-D2_LEE-MT. VERNON_BOSLEY",
+      "opponent": "B8-D2_MCLEAN_TURGEON",
+      "points": 49,
+      "against": 31,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288450,
+      "date": "2020-02-16",
+      "team": "B6-D1_MT. VERNON_COLEMAN",
+      "opponent": "B6-D1_GAINESVILLE_COOK",
+      "points": 55,
+      "against": 29,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288450,
+      "date": "2020-02-16",
+      "team": "B6-D1_GAINESVILLE_COOK",
+      "opponent": "B6-D1_MT. VERNON_COLEMAN",
+      "points": 29,
+      "against": 55,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288803,
+      "date": "2020-02-16",
+      "team": "B6-D2_HERNDON_JONES",
+      "opponent": "B6-D2_GAINESVILLE_MURRAY",
+      "points": 54,
+      "against": 44,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288803,
+      "date": "2020-02-16",
+      "team": "B6-D2_GAINESVILLE_MURRAY",
+      "opponent": "B6-D2_HERNDON_JONES",
+      "points": 44,
+      "against": 54,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278791,
+      "date": "2020-02-16",
+      "team": "G7-D1_CYA_MAWLOUD",
+      "opponent": "G7-D1_VIENNA_YODER",
+      "points": 19,
+      "against": 33,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278791,
+      "date": "2020-02-16",
+      "team": "G7-D1_VIENNA_YODER",
+      "opponent": "G7-D1_CYA_MAWLOUD",
+      "points": 33,
+      "against": 19,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290528,
+      "date": "2020-02-16",
+      "team": "B6-D3_RESTON_LEGLER",
+      "opponent": "B6-D3_FPYC_MALESKY",
+      "points": 25,
+      "against": 37,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290528,
+      "date": "2020-02-16",
+      "team": "B6-D3_FPYC_MALESKY",
+      "opponent": "B6-D3_RESTON_LEGLER",
+      "points": 37,
+      "against": 25,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333445,
+      "date": "2020-02-16",
+      "team": "B5-D1_SYA_O-CONNOR",
+      "opponent": "B5-D1_MCLEAN_MARTIN",
+      "points": 40,
+      "against": 66,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333445,
+      "date": "2020-02-16",
+      "team": "B5-D1_MCLEAN_MARTIN",
+      "opponent": "B5-D1_SYA_O-CONNOR",
+      "points": 66,
+      "against": 40,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279189,
+      "date": "2020-02-16",
+      "team": "B7-D1_FORT HUNT_KOELSCH",
+      "opponent": "B7-D1_SYA_MORIN",
+      "points": 56,
+      "against": 40,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279189,
+      "date": "2020-02-16",
+      "team": "B7-D1_SYA_MORIN",
+      "opponent": "B7-D1_FORT HUNT_KOELSCH",
+      "points": 40,
+      "against": 56,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279187,
+      "date": "2020-02-16",
+      "team": "B7-D1_CYA_CUBBAGE",
+      "opponent": "B7-D1_VIENNA_STOLBURG",
+      "points": 75,
+      "against": 65,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279187,
+      "date": "2020-02-16",
+      "team": "B7-D1_VIENNA_STOLBURG",
+      "opponent": "B7-D1_CYA_CUBBAGE",
+      "points": 65,
+      "against": 75,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333749,
+      "date": "2020-02-16",
+      "team": "B5-D2_BURKE_MAYERNIK",
+      "opponent": "B5-D2_ARLINGTON_MCLEAN",
+      "points": 5,
+      "against": 41,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333749,
+      "date": "2020-02-16",
+      "team": "B5-D2_ARLINGTON_MCLEAN",
+      "opponent": "B5-D2_BURKE_MAYERNIK",
+      "points": 41,
+      "against": 5,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6335211,
+      "date": "2020-02-16",
+      "team": "B5-D3_CYA_RIVERS",
+      "opponent": "B5-D3_BRYC_SHARMA",
+      "points": 37,
+      "against": 40,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6335211,
+      "date": "2020-02-16",
+      "team": "B5-D3_BRYC_SHARMA",
+      "opponent": "B5-D3_CYA_RIVERS",
+      "points": 40,
+      "against": 37,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6286803,
+      "date": "2020-02-16",
+      "team": "G7-D2_BRYC_OCONNOR",
+      "opponent": "G7-D2_ARLINGTON_FILIDES",
+      "points": 30,
+      "against": 38,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6286803,
+      "date": "2020-02-16",
+      "team": "G7-D2_ARLINGTON_FILIDES",
+      "opponent": "G7-D2_BRYC_OCONNOR",
+      "points": 38,
+      "against": 30,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333696,
+      "date": "2020-02-16",
+      "team": "G5-D2_SYA_MCGHEE",
+      "opponent": "G5-D2_BRYC_ALI",
+      "points": 22,
+      "against": 12,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333696,
+      "date": "2020-02-16",
+      "team": "G5-D2_BRYC_ALI",
+      "opponent": "G5-D2_SYA_MCGHEE",
+      "points": 12,
+      "against": 22,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333700,
+      "date": "2020-02-16",
+      "team": "G5-D2_GAINESVILLE_HAMPSON",
+      "opponent": "G5-D2_FORT BELVOIR_WASHINGTON",
+      "points": 22,
+      "against": 25,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333700,
+      "date": "2020-02-16",
+      "team": "G5-D2_FORT BELVOIR_WASHINGTON",
+      "opponent": "G5-D2_GAINESVILLE_HAMPSON",
+      "points": 25,
+      "against": 22,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289933,
+      "date": "2020-02-16",
+      "team": "G6-D2_LEE-MT. VERNON_HENDERSON",
+      "opponent": "G6-D2_GREAT FALLS_EXLEY",
+      "points": 30,
+      "against": 6,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289933,
+      "date": "2020-02-16",
+      "team": "G6-D2_GREAT FALLS_EXLEY",
+      "opponent": "G6-D2_LEE-MT. VERNON_HENDERSON",
+      "points": 6,
+      "against": 30,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288806,
+      "date": "2020-02-16",
+      "team": "B6-D2_VIENNA_CHOI",
+      "opponent": "B6-D2_CYA_ROBINSON",
+      "points": 42,
+      "against": 41,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288806,
+      "date": "2020-02-16",
+      "team": "B6-D2_CYA_ROBINSON",
+      "opponent": "B6-D2_VIENNA_CHOI",
+      "points": 41,
+      "against": 42,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279033,
+      "date": "2020-02-16",
+      "team": "B8-D2_SYA_MCGHEE",
+      "opponent": "B8-D2_FORT HUNT_FORTI",
+      "points": 62,
+      "against": 70,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279033,
+      "date": "2020-02-16",
+      "team": "B8-D2_FORT HUNT_FORTI",
+      "opponent": "B8-D2_SYA_MCGHEE",
+      "points": 70,
+      "against": 62,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290695,
+      "date": "2020-02-16",
+      "team": "B7-D3_ALEXANDRIA_THOMAS",
+      "opponent": "B7-D3_BURKE_DISILVESTRO",
+      "points": 55,
+      "against": 44,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290695,
+      "date": "2020-02-16",
+      "team": "B7-D3_BURKE_DISILVESTRO",
+      "opponent": "B7-D3_ALEXANDRIA_THOMAS",
+      "points": 44,
+      "against": 55,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333750,
+      "date": "2020-02-16",
+      "team": "B5-D2_LEE MT. VERNON_DAY",
+      "opponent": "B5-D2_SOUTH LOUDOUN_FIORILLO",
+      "points": 38,
+      "against": 48,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333750,
+      "date": "2020-02-16",
+      "team": "B5-D2_SOUTH LOUDOUN_FIORILLO",
+      "opponent": "B5-D2_LEE MT. VERNON_DAY",
+      "points": 48,
+      "against": 38,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6335206,
+      "date": "2020-02-16",
+      "team": "B5-D3_GAINESVILLE_MAXWELL",
+      "opponent": "B5-D3_HERNDON_BERMUDEZ",
+      "points": 48,
+      "against": 21,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6335206,
+      "date": "2020-02-16",
+      "team": "B5-D3_HERNDON_BERMUDEZ",
+      "opponent": "B5-D3_GAINESVILLE_MAXWELL",
+      "points": 21,
+      "against": 48,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6279188,
+      "date": "2020-02-16",
+      "team": "B7-D1_GREAT FALLS_NICKLES",
+      "opponent": "B7-D1_SOUTH LOUDOUN_WEBB-",
+      "points": 39,
+      "against": 62,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6279188,
+      "date": "2020-02-16",
+      "team": "B7-D1_SOUTH LOUDOUN_WEBB-",
+      "opponent": "B7-D1_GREAT FALLS_NICKLES",
+      "points": 62,
+      "against": 39,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288805,
+      "date": "2020-02-16",
+      "team": "B6-D2_MCLEAN_CICALE",
+      "opponent": "B6-D2_FORT HUNT_FORTI",
+      "points": 43,
+      "against": 39,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288805,
+      "date": "2020-02-16",
+      "team": "B6-D2_FORT HUNT_FORTI",
+      "opponent": "B6-D2_MCLEAN_CICALE",
+      "points": 39,
+      "against": 43,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290698,
+      "date": "2020-02-16",
+      "team": "B7-D3_SYA_DOWNEY",
+      "opponent": "B7-D3_GREAT FALLS_WILLSON",
+      "points": 37,
+      "against": 35,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290698,
+      "date": "2020-02-16",
+      "team": "B7-D3_GREAT FALLS_WILLSON",
+      "opponent": "B7-D3_SYA_DOWNEY",
+      "points": 35,
+      "against": 37,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289937,
+      "date": "2020-02-16",
+      "team": "G6-D2_RESTON_BARR",
+      "opponent": "G6-D2_FPYC_LESTER",
+      "points": 35,
+      "against": 18,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289937,
+      "date": "2020-02-16",
+      "team": "G6-D2_FPYC_LESTER",
+      "opponent": "G6-D2_RESTON_BARR",
+      "points": 18,
+      "against": 35,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6278790,
+      "date": "2020-02-16",
+      "team": "G7-D1_FORT HUNT_HEINER",
+      "opponent": "G7-D1_SPRINGFIELD_DUCKETT",
+      "points": 39,
+      "against": 32,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6278790,
+      "date": "2020-02-16",
+      "team": "G7-D1_SPRINGFIELD_DUCKETT",
+      "opponent": "G7-D1_FORT HUNT_HEINER",
+      "points": 32,
+      "against": 39,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333549,
+      "date": "2020-02-16",
+      "team": "G5-D1_GREAT FALLS_NITOWSKI",
+      "opponent": "G5-D1_SPRINGFIELD_GOODMAN",
+      "points": 17,
+      "against": 23,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333549,
+      "date": "2020-02-16",
+      "team": "G5-D1_SPRINGFIELD_GOODMAN",
+      "opponent": "G5-D1_GREAT FALLS_NITOWSKI",
+      "points": 23,
+      "against": 17,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6286804,
+      "date": "2020-02-16",
+      "team": "G7-D2_MCLEAN_MENDENHALL",
+      "opponent": "G7-D2_RESTON_ZEBERLEIN",
+      "points": 44,
+      "against": 17,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6286804,
+      "date": "2020-02-16",
+      "team": "G7-D2_RESTON_ZEBERLEIN",
+      "opponent": "G7-D2_MCLEAN_MENDENHALL",
+      "points": 17,
+      "against": 44,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289934,
+      "date": "2020-02-16",
+      "team": "G6-D2_VIENNA_GRIM",
+      "opponent": "G6-D2_BRYC_DUDLEY",
+      "points": 33,
+      "against": 15,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289934,
+      "date": "2020-02-16",
+      "team": "G6-D2_BRYC_DUDLEY",
+      "opponent": "G6-D2_VIENNA_GRIM",
+      "points": 15,
+      "against": 33,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6289936,
+      "date": "2020-02-16",
+      "team": "G6-D2_SYA_LANGFORD",
+      "opponent": "G6-D2_BURKE_SEIGLE",
+      "points": 9,
+      "against": 26,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6289936,
+      "date": "2020-02-16",
+      "team": "G6-D2_BURKE_SEIGLE",
+      "opponent": "G6-D2_SYA_LANGFORD",
+      "points": 26,
+      "against": 9,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333697,
+      "date": "2020-02-16",
+      "team": "G5-D2_RESTON_WARD",
+      "opponent": "G5-D2_BURKE_ROSE",
+      "points": 13,
+      "against": 16,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333697,
+      "date": "2020-02-16",
+      "team": "G5-D2_BURKE_ROSE",
+      "opponent": "G5-D2_RESTON_WARD",
+      "points": 16,
+      "against": 13,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333443,
+      "date": "2020-02-16",
+      "team": "B5-D1_GREAT FALLS_GOLDBERG",
+      "opponent": "B5-D1_SOUTH LOUDOUN_CHOI",
+      "points": 43,
+      "against": 45,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333443,
+      "date": "2020-02-16",
+      "team": "B5-D1_SOUTH LOUDOUN_CHOI",
+      "opponent": "B5-D1_GREAT FALLS_GOLDBERG",
+      "points": 45,
+      "against": 43,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6290696,
+      "date": "2020-02-16",
+      "team": "B7-D3_SPRINGFIELD_KELLY",
+      "opponent": "B7-D3_HERNDON_PASSMORE",
+      "points": 24,
+      "against": 60,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6290696,
+      "date": "2020-02-16",
+      "team": "B7-D3_HERNDON_PASSMORE",
+      "opponent": "B7-D3_SPRINGFIELD_KELLY",
+      "points": 60,
+      "against": 24,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6288807,
+      "date": "2020-02-16",
+      "team": "B6-D2_SOUTH LOUDOUN_LANOUETTE",
+      "opponent": "B6-D2_FORT BELVOIR_TAYLOR JR",
+      "points": 54,
+      "against": 61,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6288807,
+      "date": "2020-02-16",
+      "team": "B6-D2_FORT BELVOIR_TAYLOR JR",
+      "opponent": "B6-D2_SOUTH LOUDOUN_LANOUETTE",
+      "points": 61,
+      "against": 54,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6287523,
+      "date": "2020-02-16",
+      "team": "G8-D2_SOUTH LOUDOUN_SAMSON",
+      "opponent": "G8-D2_SOUTH LOUDOUN_STROHECKER",
+      "points": 14,
+      "against": 38,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6287523,
+      "date": "2020-02-16",
+      "team": "G8-D2_SOUTH LOUDOUN_STROHECKER",
+      "opponent": "G8-D2_SOUTH LOUDOUN_SAMSON",
+      "points": 38,
+      "against": 14,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333550,
+      "date": "2020-02-16",
+      "team": "G5-D1_VIENNA_KORMAN",
+      "opponent": "G5-D1_MCLEAN_A NORTON",
+      "points": 41,
+      "against": 9,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333550,
+      "date": "2020-02-16",
+      "team": "G5-D1_MCLEAN_A NORTON",
+      "opponent": "G5-D1_VIENNA_KORMAN",
+      "points": 9,
+      "against": 41,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333446,
+      "date": "2020-02-16",
+      "team": "B5-D1_CYA_ROSENBLATT",
+      "opponent": "B5-D1_BURKE_SMITH",
+      "points": 23,
+      "against": 55,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333446,
+      "date": "2020-02-16",
+      "team": "B5-D1_BURKE_SMITH",
+      "opponent": "B5-D1_CYA_ROSENBLATT",
+      "points": 55,
+      "against": 23,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 6333753,
+      "date": "2020-02-16",
+      "team": "B5-D2_VIENNA_DAVIS",
+      "opponent": "B5-D2_MCLEAN_B BALL",
+      "points": 55,
+      "against": 45,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 6333753,
+      "date": "2020-02-16",
+      "team": "B5-D2_MCLEAN_B BALL",
+      "opponent": "B5-D2_VIENNA_DAVIS",
+      "points": 45,
+      "against": 55,
+      "result": "L",
+      "win": false,
+      "lost": true,
+      "tie": false,
+      "source": false
+    }
+  ],
+  "teams": [
+    {
+      "team_id": "B5-D1_ARLINGTON_SADAKA",
+      "division": "B5-D1",
+      "club": "ARLINGTON",
+      "coach": "SADAKA",
+      "record": "8-1-0"
+    },
+    {
+      "team_id": "B5-D1_BURKE_SMITH",
+      "division": "B5-D1",
+      "club": "BURKE",
+      "coach": "SMITH",
+      "record": "9-0-0"
+    },
+    {
+      "team_id": "B5-D1_CYA_ROSENBLATT",
+      "division": "B5-D1",
+      "club": "CYA",
+      "coach": "ROSENBLATT",
+      "record": "3-6-0"
+    },
+    {
+      "team_id": "B5-D1_FORT HUNT_ZIPPEL",
+      "division": "B5-D1",
+      "club": "FORT HUNT",
+      "coach": "ZIPPEL",
+      "record": "2-7-0"
+    },
+    {
+      "team_id": "B5-D1_GAINESVILLE_LY",
+      "division": "B5-D1",
+      "club": "GAINESVILLE",
+      "coach": "LY",
+      "record": "3-6-0"
+    },
+    {
+      "team_id": "B5-D1_GREAT FALLS_GOLDBERG",
+      "division": "B5-D1",
+      "club": "GREAT FALLS",
+      "coach": "GOLDBERG",
+      "record": "4-5-0"
+    },
+    {
+      "team_id": "B5-D1_LEE MT. VERNON_BOSLEY",
+      "division": "B5-D1",
+      "club": "LEE MT. VERNON",
+      "coach": "BOSLEY",
+      "record": "1-8-0"
+    },
+    {
+      "team_id": "B5-D1_MCLEAN_MARTIN",
+      "division": "B5-D1",
+      "club": "MCLEAN",
+      "coach": "MARTIN",
+      "record": "4-5-0"
+    },
+    {
+      "team_id": "B5-D1_RESTON_BYRNES",
+      "division": "B5-D1",
+      "club": "RESTON",
+      "coach": "BYRNES",
+      "record": "6-3-0"
+    },
+    {
+      "team_id": "B5-D1_SOUTH LOUDOUN_CHOI",
+      "division": "B5-D1",
+      "club": "SOUTH LOUDOUN",
+      "coach": "CHOI",
+      "record": "5-4-0"
+    },
+    {
+      "team_id": "B5-D1_SOUTH LOUDOUN_STEMBERGER",
+      "division": "B5-D1",
+      "club": "SOUTH LOUDOUN",
+      "coach": "STEMBERGER",
+      "record": "7-2-0"
+    },
+    {
+      "team_id": "B5-D1_SYA_O-CONNOR",
+      "division": "B5-D1",
+      "club": "SYA",
+      "coach": "O-CONNOR",
+      "record": "2-7-0"
+    },
+    {
+      "team_id": "B5-D2_ARLINGTON_MCLEAN",
+      "division": "B5-D2",
+      "club": "ARLINGTON",
+      "coach": "MCLEAN",
+      "record": "8-2-0"
+    },
+    {
+      "team_id": "B5-D2_BRYC_MAYES",
+      "division": "B5-D2",
+      "club": "BRYC",
+      "coach": "MAYES",
+      "record": "6-4-0"
+    },
+    {
+      "team_id": "B5-D2_BURKE_ASEFI",
+      "division": "B5-D2",
+      "club": "BURKE",
+      "coach": "ASEFI",
+      "record": "5-5-0"
+    },
+    {
+      "team_id": "B5-D2_BURKE_MAYERNIK",
+      "division": "B5-D2",
+      "club": "BURKE",
+      "coach": "MAYERNIK",
+      "record": "2-8-0"
+    },
+    {
+      "team_id": "B5-D2_CYA_MARTIN",
+      "division": "B5-D2",
+      "club": "CYA",
+      "coach": "MARTIN",
+      "record": "3-7-0"
+    },
+    {
+      "team_id": "B5-D2_FALLS CHURCH_GREINER",
+      "division": "B5-D2",
+      "club": "FALLS CHURCH",
+      "coach": "GREINER",
+      "record": "4-5-0"
+    },
+    {
+      "team_id": "B5-D2_LEE MT. VERNON_DAY",
+      "division": "B5-D2",
+      "club": "LEE MT. VERNON",
+      "coach": "DAY",
+      "record": "3-7-0"
+    },
+    {
+      "team_id": "B5-D2_MANASSAS PARK_SOLOMON",
+      "division": "B5-D2",
+      "club": "MANASSAS PARK",
+      "coach": "SOLOMON",
+      "record": "10-0-0"
+    },
+    {
+      "team_id": "B5-D2_MCLEAN_B BALL",
+      "division": "B5-D2",
+      "club": "MCLEAN",
+      "coach": "B BALL",
+      "record": "3-7-0"
+    },
+    {
+      "team_id": "B5-D2_RESTON_DAOUD",
+      "division": "B5-D2",
+      "club": "RESTON",
+      "coach": "DAOUD",
+      "record": "2-8-0"
+    },
+    {
+      "team_id": "B5-D2_SOUTH LOUDOUN_FIORILLO",
+      "division": "B5-D2",
+      "club": "SOUTH LOUDOUN",
+      "coach": "FIORILLO",
+      "record": "3-7-0"
+    },
+    {
+      "team_id": "B5-D2_SYA_HARRIS",
+      "division": "B5-D2",
+      "club": "SYA",
+      "coach": "HARRIS",
+      "record": "4-5-0"
+    },
+    {
+      "team_id": "B5-D2_VIENNA_DAVIS",
+      "division": "B5-D2",
+      "club": "VIENNA",
+      "coach": "DAVIS",
+      "record": "7-3-0"
+    },
+    {
+      "team_id": "B5-D2_VIENNA_LOCEY",
+      "division": "B5-D2",
+      "club": "VIENNA",
+      "coach": "LOCEY",
+      "record": "9-1-0"
+    },
+    {
+      "team_id": "B5-D3_ARLINGTON_PERKINS",
+      "division": "B5-D3",
+      "club": "ARLINGTON",
+      "coach": "PERKINS",
+      "record": "9-1-0"
+    },
+    {
+      "team_id": "B5-D3_BRYC_SHARMA",
+      "division": "B5-D3",
+      "club": "BRYC",
+      "coach": "SHARMA",
+      "record": "8-1-0"
+    },
+    {
+      "team_id": "B5-D3_CYA_RIVERS",
+      "division": "B5-D3",
+      "club": "CYA",
+      "coach": "RIVERS",
+      "record": "3-7-0"
+    },
+    {
+      "team_id": "B5-D3_FORT BELVOIR_HUNTER",
+      "division": "B5-D3",
+      "club": "FORT BELVOIR",
+      "coach": "HUNTER",
+      "record": "2-7-0"
+    },
+    {
+      "team_id": "B5-D3_FPYC_DAVIS",
+      "division": "B5-D3",
+      "club": "FPYC",
+      "coach": "DAVIS",
+      "record": "8-1-0"
+    },
+    {
+      "team_id": "B5-D3_GAINESVILLE_JACKSON",
+      "division": "B5-D3",
+      "club": "GAINESVILLE",
+      "coach": "JACKSON",
+      "record": "3-5-0"
+    },
+    {
+      "team_id": "B5-D3_GAINESVILLE_MAXWELL",
+      "division": "B5-D3",
+      "club": "GAINESVILLE",
+      "coach": "MAXWELL",
+      "record": "6-3-0"
+    },
+    {
+      "team_id": "B5-D3_GUM SPRINGS_SPROCKER",
+      "division": "B5-D3",
+      "club": "GUM SPRINGS",
+      "coach": "SPROCKER",
+      "record": "0-8-0"
+    },
+    {
+      "team_id": "B5-D3_HERNDON_BERMUDEZ",
+      "division": "B5-D3",
+      "club": "HERNDON",
+      "coach": "BERMUDEZ",
+      "record": "5-4-0"
+    },
+    {
+      "team_id": "B5-D3_SOUTH COUNTY_ARORA",
+      "division": "B5-D3",
+      "club": "SOUTH COUNTY",
+      "coach": "ARORA",
+      "record": "2-6-0"
+    },
+    {
+      "team_id": "B5-D3_SPRINGFIELD_MORRISON",
+      "division": "B5-D3",
+      "club": "SPRINGFIELD",
+      "coach": "MORRISON",
+      "record": "6-3-0"
+    },
+    {
+      "team_id": "B5-D3_TURNPIKE_SYRON",
+      "division": "B5-D3",
+      "club": "TURNPIKE",
+      "coach": "SYRON",
+      "record": "1-7-0"
+    },
+    {
+      "team_id": "B6-D1_ARLINGTON_LOWEN",
+      "division": "B6-D1",
+      "club": "ARLINGTON",
+      "coach": "LOWEN",
+      "record": "11-1-0"
+    },
+    {
+      "team_id": "B6-D1_BRYC_GONZALEZ",
+      "division": "B6-D1",
+      "club": "BRYC",
+      "coach": "GONZALEZ",
+      "record": "10-2-0"
+    },
+    {
+      "team_id": "B6-D1_BURKE_RAPOZA",
+      "division": "B6-D1",
+      "club": "BURKE",
+      "coach": "RAPOZA",
+      "record": "6-7-0"
+    },
+    {
+      "team_id": "B6-D1_CYA_JONES",
+      "division": "B6-D1",
+      "club": "CYA",
+      "coach": "JONES",
+      "record": "5-7-0"
+    },
+    {
+      "team_id": "B6-D1_GAINESVILLE_COOK",
+      "division": "B6-D1",
+      "club": "GAINESVILLE",
+      "coach": "COOK",
+      "record": "2-11-0"
+    },
+    {
+      "team_id": "B6-D1_GREAT FALLS_BROWN",
+      "division": "B6-D1",
+      "club": "GREAT FALLS",
+      "coach": "BROWN",
+      "record": "9-3-0"
+    },
+    {
+      "team_id": "B6-D1_JAMES LEE_HERRING",
+      "division": "B6-D1",
+      "club": "JAMES LEE",
+      "coach": "HERRING",
+      "record": "9-3-0"
+    },
+    {
+      "team_id": "B6-D1_JAMES LEE_WADE",
+      "division": "B6-D1",
+      "club": "JAMES LEE",
+      "coach": "WADE",
+      "record": "1-11-0"
+    },
+    {
+      "team_id": "B6-D1_LEE DISTRICT_DIFFENBACH",
+      "division": "B6-D1",
+      "club": "LEE DISTRICT",
+      "coach": "DIFFENBACH",
+      "record": "10-2-0"
+    },
+    {
+      "team_id": "B6-D1_MANASSAS PARK_GASKINS",
+      "division": "B6-D1",
+      "club": "MANASSAS PARK",
+      "coach": "GASKINS",
+      "record": "9-2-0"
+    },
+    {
+      "team_id": "B6-D1_MCLEAN_JACKSON",
+      "division": "B6-D1",
+      "club": "MCLEAN",
+      "coach": "JACKSON",
+      "record": "5-5-0"
+    },
+    {
+      "team_id": "B6-D1_MT. VERNON_COLEMAN",
+      "division": "B6-D1",
+      "club": "MT. VERNON",
+      "coach": "COLEMAN",
+      "record": "3-10-0"
+    },
+    {
+      "team_id": "B6-D1_RESTON_RIDGEWAY",
+      "division": "B6-D1",
+      "club": "RESTON",
+      "coach": "RIDGEWAY",
+      "record": "3-9-0"
+    },
+    {
+      "team_id": "B6-D1_SOUTH LOUDOUN_KAHN",
+      "division": "B6-D1",
+      "club": "SOUTH LOUDOUN",
+      "coach": "KAHN",
+      "record": "4-9-0"
+    },
+    {
+      "team_id": "B6-D1_VIENNA_EPPS",
+      "division": "B6-D1",
+      "club": "VIENNA",
+      "coach": "EPPS",
+      "record": "3-8-0"
+    },
+    {
+      "team_id": "B6-D2_ANNANDALE_HWANG",
+      "division": "B6-D2",
+      "club": "ANNANDALE",
+      "coach": "HWANG",
+      "record": "1-12-0"
+    },
+    {
+      "team_id": "B6-D2_ARLINGTON_GHARIANI",
+      "division": "B6-D2",
+      "club": "ARLINGTON",
+      "coach": "GHARIANI",
+      "record": "6-7-0"
+    },
+    {
+      "team_id": "B6-D2_BURKE_BUTTREY",
+      "division": "B6-D2",
+      "club": "BURKE",
+      "coach": "BUTTREY",
+      "record": "5-7-0"
+    },
+    {
+      "team_id": "B6-D2_CYA_ROBINSON",
+      "division": "B6-D2",
+      "club": "CYA",
+      "coach": "ROBINSON",
+      "record": "1-11-0"
+    },
+    {
+      "team_id": "B6-D2_FALLS CHURCH_KUSIC",
+      "division": "B6-D2",
+      "club": "FALLS CHURCH",
+      "coach": "KUSIC",
+      "record": "4-8-0"
+    },
+    {
+      "team_id": "B6-D2_FORT BELVOIR_TAYLOR JR",
+      "division": "B6-D2",
+      "club": "FORT BELVOIR",
+      "coach": "TAYLOR JR",
+      "record": "11-1-0"
+    },
+    {
+      "team_id": "B6-D2_FORT HUNT_FORTI",
+      "division": "B6-D2",
+      "club": "FORT HUNT",
+      "coach": "FORTI",
+      "record": "8-5-0"
+    },
+    {
+      "team_id": "B6-D2_GAINESVILLE_MURRAY",
+      "division": "B6-D2",
+      "club": "GAINESVILLE",
+      "coach": "MURRAY",
+      "record": "7-6-0"
+    },
+    {
+      "team_id": "B6-D2_HERNDON_JONES",
+      "division": "B6-D2",
+      "club": "HERNDON",
+      "coach": "JONES",
+      "record": "9-3-0"
+    },
+    {
+      "team_id": "B6-D2_MCLEAN_CICALE",
+      "division": "B6-D2",
+      "club": "MCLEAN",
+      "coach": "CICALE",
+      "record": "12-0-0"
+    },
+    {
+      "team_id": "B6-D2_SOUTH LOUDOUN_LANOUETTE",
+      "division": "B6-D2",
+      "club": "SOUTH LOUDOUN",
+      "coach": "LANOUETTE",
+      "record": "6-6-0"
+    },
+    {
+      "team_id": "B6-D2_SYA_HILL",
+      "division": "B6-D2",
+      "club": "SYA",
+      "coach": "HILL",
+      "record": "7-5-0"
+    },
+    {
+      "team_id": "B6-D2_VIENNA_CHOI",
+      "division": "B6-D2",
+      "club": "VIENNA",
+      "coach": "CHOI",
+      "record": "3-9-0"
+    },
+    {
+      "team_id": "B6-D3_ARLINGTON_NETTLES",
+      "division": "B6-D3",
+      "club": "ARLINGTON",
+      "coach": "NETTLES",
+      "record": "6-7-0"
+    },
+    {
+      "team_id": "B6-D3_BAILEYS_J. SMITH SR",
+      "division": "B6-D3",
+      "club": "BAILEYS",
+      "coach": "J. SMITH SR",
+      "record": "0-12-0"
+    },
+    {
+      "team_id": "B6-D3_BRYC_SHIN",
+      "division": "B6-D3",
+      "club": "BRYC",
+      "coach": "SHIN",
+      "record": "1-10-0"
+    },
+    {
+      "team_id": "B6-D3_BURKE_MITCHELL",
+      "division": "B6-D3",
+      "club": "BURKE",
+      "coach": "MITCHELL",
+      "record": "8-5-0"
+    },
+    {
+      "team_id": "B6-D3_CYA_LUGO",
+      "division": "B6-D3",
+      "club": "CYA",
+      "coach": "LUGO",
+      "record": "6-7-0"
+    },
+    {
+      "team_id": "B6-D3_FPYC_MALESKY",
+      "division": "B6-D3",
+      "club": "FPYC",
+      "coach": "MALESKY",
+      "record": "12-0-0"
+    },
+    {
+      "team_id": "B6-D3_GREAT FALLS_BRITT",
+      "division": "B6-D3",
+      "club": "GREAT FALLS",
+      "coach": "BRITT",
+      "record": "6-6-0"
+    },
+    {
+      "team_id": "B6-D3_LEE MT. VERNON_STEWART",
+      "division": "B6-D3",
+      "club": "LEE MT. VERNON",
+      "coach": "STEWART",
+      "record": "5-8-0"
+    },
+    {
+      "team_id": "B6-D3_RESTON_LEGLER",
+      "division": "B6-D3",
+      "club": "RESTON",
+      "coach": "LEGLER",
+      "record": "3-10-0"
+    },
+    {
+      "team_id": "B6-D3_SOUTH COUNTY_JOHNSON",
+      "division": "B6-D3",
+      "club": "SOUTH COUNTY",
+      "coach": "JOHNSON",
+      "record": "12-1-0"
+    },
+    {
+      "team_id": "B6-D3_SOUTH LOUDOUN_WEBB",
+      "division": "B6-D3",
+      "club": "SOUTH LOUDOUN",
+      "coach": "WEBB",
+      "record": "11-2-0"
+    },
+    {
+      "team_id": "B6-D3_SPRINGFIELD_ALVAREZ",
+      "division": "B6-D3",
+      "club": "SPRINGFIELD",
+      "coach": "ALVAREZ",
+      "record": "1-11-0"
+    },
+    {
+      "team_id": "B6-D3_SPRINGFIELD_WILSON",
+      "division": "B6-D3",
+      "club": "SPRINGFIELD",
+      "coach": "WILSON",
+      "record": "10-3-0"
+    },
+    {
+      "team_id": "B6-D3_TURNPIKE_OURS",
+      "division": "B6-D3",
+      "club": "TURNPIKE",
+      "coach": "OURS",
+      "record": "7-6-0"
+    },
+    {
+      "team_id": "B7-D1_ARLINGTON_SHELLEY",
+      "division": "B7-D1",
+      "club": "ARLINGTON",
+      "coach": "SHELLEY",
+      "record": "10-3-0"
+    },
+    {
+      "team_id": "B7-D1_BRYC_AQUIL",
+      "division": "B7-D1",
+      "club": "BRYC",
+      "coach": "AQUIL",
+      "record": "5-8-0"
+    },
+    {
+      "team_id": "B7-D1_CYA_CUBBAGE",
+      "division": "B7-D1",
+      "club": "CYA",
+      "coach": "CUBBAGE",
+      "record": "8-5-0"
+    },
+    {
+      "team_id": "B7-D1_FORT HUNT_KOELSCH",
+      "division": "B7-D1",
+      "club": "FORT HUNT",
+      "coach": "KOELSCH",
+      "record": "5-8-0"
+    },
+    {
+      "team_id": "B7-D1_GAINESVILLE_WEINSCHENK",
+      "division": "B7-D1",
+      "club": "GAINESVILLE",
+      "coach": "WEINSCHENK",
+      "record": "10-3-0"
+    },
+    {
+      "team_id": "B7-D1_GREAT FALLS_NICKLES",
+      "division": "B7-D1",
+      "club": "GREAT FALLS",
+      "coach": "NICKLES",
+      "record": "2-11-0"
+    },
+    {
+      "team_id": "B7-D1_LEE DISTRICT_TROTTER",
+      "division": "B7-D1",
+      "club": "LEE DISTRICT",
+      "coach": "TROTTER",
+      "record": "2-11-0"
+    },
+    {
+      "team_id": "B7-D1_MCLEAN_CAREY",
+      "division": "B7-D1",
+      "club": "MCLEAN",
+      "coach": "CAREY",
+      "record": "11-2-0"
+    },
+    {
+      "team_id": "B7-D1_RESTON_ROBINSON",
+      "division": "B7-D1",
+      "club": "RESTON",
+      "coach": "ROBINSON",
+      "record": "11-1-0"
+    },
+    {
+      "team_id": "B7-D1_SOUTH LOUDOUN_WEBB-",
+      "division": "B7-D1",
+      "club": "SOUTH LOUDOUN",
+      "coach": "WEBB-",
+      "record": "11-2-0"
+    },
+    {
+      "team_id": "B7-D1_SPRINGFIELD_ARGUEDAS",
+      "division": "B7-D1",
+      "club": "SPRINGFIELD",
+      "coach": "ARGUEDAS",
+      "record": "5-8-0"
+    },
+    {
+      "team_id": "B7-D1_SYA_MORIN",
+      "division": "B7-D1",
+      "club": "SYA",
+      "coach": "MORIN",
+      "record": "1-12-0"
+    },
+    {
+      "team_id": "B7-D1_VIENNA_STOLBURG",
+      "division": "B7-D1",
+      "club": "VIENNA",
+      "coach": "STOLBURG",
+      "record": "3-10-0"
+    },
+    {
+      "team_id": "B7-D2_ALEXANDRIA_MATTHEWS",
+      "division": "B7-D2",
+      "club": "ALEXANDRIA",
+      "coach": "MATTHEWS",
+      "record": "2-10-0"
+    },
+    {
+      "team_id": "B7-D2_ANNANDALE_NELSON",
+      "division": "B7-D2",
+      "club": "ANNANDALE",
+      "coach": "NELSON",
+      "record": "3-9-0"
+    },
+    {
+      "team_id": "B7-D2_ARLINGTON_REMEDIOS",
+      "division": "B7-D2",
+      "club": "ARLINGTON",
+      "coach": "REMEDIOS",
+      "record": "6-6-0"
+    },
+    {
+      "team_id": "B7-D2_BURKE_STURTEVANT",
+      "division": "B7-D2",
+      "club": "BURKE",
+      "coach": "STURTEVANT",
+      "record": "5-7-0"
+    },
+    {
+      "team_id": "B7-D2_CYA_UTTERBACK",
+      "division": "B7-D2",
+      "club": "CYA",
+      "coach": "UTTERBACK",
+      "record": "9-3-0"
+    },
+    {
+      "team_id": "B7-D2_FALLS CHURCH_WHITAKER",
+      "division": "B7-D2",
+      "club": "FALLS CHURCH",
+      "coach": "WHITAKER",
+      "record": "11-1-0"
+    },
+    {
+      "team_id": "B7-D2_FORT BELVOIR_SHERN",
+      "division": "B7-D2",
+      "club": "FORT BELVOIR",
+      "coach": "SHERN",
+      "record": "0-12-0"
+    },
+    {
+      "team_id": "B7-D2_FPYC_VARNER",
+      "division": "B7-D2",
+      "club": "FPYC",
+      "coach": "VARNER",
+      "record": "11-1-0"
+    },
+    {
+      "team_id": "B7-D2_GAINESVILLE_SCHWEMER",
+      "division": "B7-D2",
+      "club": "GAINESVILLE",
+      "coach": "SCHWEMER",
+      "record": "6-5-1"
+    },
+    {
+      "team_id": "B7-D2_LEE-MT. VERNON_RUSH",
+      "division": "B7-D2",
+      "club": "LEE-MT. VERNON",
+      "coach": "RUSH",
+      "record": "4-7-0"
+    },
+    {
+      "team_id": "B7-D2_MCLEAN_NANCE",
+      "division": "B7-D2",
+      "club": "MCLEAN",
+      "coach": "NANCE",
+      "record": "5-8-0"
+    },
+    {
+      "team_id": "B7-D2_SOUTH LOUDOUN_ACKLEY",
+      "division": "B7-D2",
+      "club": "SOUTH LOUDOUN",
+      "coach": "ACKLEY",
+      "record": "8-3-1"
+    },
+    {
+      "team_id": "B7-D2_TURNPIKE_BURNS",
+      "division": "B7-D2",
+      "club": "TURNPIKE",
+      "coach": "BURNS",
+      "record": "8-4-0"
+    },
+    {
+      "team_id": "B7-D2_VIENNA_MORTON",
+      "division": "B7-D2",
+      "club": "VIENNA",
+      "coach": "MORTON",
+      "record": "5-7-0"
+    },
+    {
+      "team_id": "B7-D3_ALEXANDRIA_THOMAS",
+      "division": "B7-D3",
+      "club": "ALEXANDRIA",
+      "coach": "THOMAS",
+      "record": "5-8-0"
+    },
+    {
+      "team_id": "B7-D3_ARLINGTON_PARKER",
+      "division": "B7-D3",
+      "club": "ARLINGTON",
+      "coach": "PARKER",
+      "record": "8-5-0"
+    },
+    {
+      "team_id": "B7-D3_BURKE_DISILVESTRO",
+      "division": "B7-D3",
+      "club": "BURKE",
+      "coach": "DISILVESTRO",
+      "record": "4-9-0"
+    },
+    {
+      "team_id": "B7-D3_CYA_PROCHAZKA",
+      "division": "B7-D3",
+      "club": "CYA",
+      "coach": "PROCHAZKA",
+      "record": "10-3-0"
+    },
+    {
+      "team_id": "B7-D3_GAINESVILLE_LINGENFELDER",
+      "division": "B7-D3",
+      "club": "GAINESVILLE",
+      "coach": "LINGENFELDER",
+      "record": "9-4-0"
+    },
+    {
+      "team_id": "B7-D3_GREAT FALLS_WILLSON",
+      "division": "B7-D3",
+      "club": "GREAT FALLS",
+      "coach": "WILLSON",
+      "record": "4-9-0"
+    },
+    {
+      "team_id": "B7-D3_HERNDON_PASSMORE",
+      "division": "B7-D3",
+      "club": "HERNDON",
+      "coach": "PASSMORE",
+      "record": "12-2-0"
+    },
+    {
+      "team_id": "B7-D3_SOUTH COUNTY_LLOYD",
+      "division": "B7-D3",
+      "club": "SOUTH COUNTY",
+      "coach": "LLOYD",
+      "record": "12-1-0"
+    },
+    {
+      "team_id": "B7-D3_SOUTH LOUDOUN_COOK",
+      "division": "B7-D3",
+      "club": "SOUTH LOUDOUN",
+      "coach": "COOK",
+      "record": "6-7-0"
+    },
+    {
+      "team_id": "B7-D3_SPRINGFIELD_KELLY",
+      "division": "B7-D3",
+      "club": "SPRINGFIELD",
+      "coach": "KELLY",
+      "record": "0-13-0"
+    },
+    {
+      "team_id": "B7-D3_SYA_DOWNEY",
+      "division": "B7-D3",
+      "club": "SYA",
+      "coach": "DOWNEY",
+      "record": "2-11-0"
+    },
+    {
+      "team_id": "B8-D1_ANNANDALE_NELSON",
+      "division": "B8-D1",
+      "club": "ANNANDALE",
+      "coach": "NELSON",
+      "record": "8-4-0"
+    },
+    {
+      "team_id": "B8-D1_ARLINGTON_DAVIS",
+      "division": "B8-D1",
+      "club": "ARLINGTON",
+      "coach": "DAVIS",
+      "record": "4-8-0"
+    },
+    {
+      "team_id": "B8-D1_BURKE_SHOUMAN",
+      "division": "B8-D1",
+      "club": "BURKE",
+      "coach": "SHOUMAN",
+      "record": "6-7-0"
+    },
+    {
+      "team_id": "B8-D1_CYA_LEE",
+      "division": "B8-D1",
+      "club": "CYA",
+      "coach": "LEE",
+      "record": "5-8-0"
+    },
+    {
+      "team_id": "B8-D1_FORT BELVOIR_MILES",
+      "division": "B8-D1",
+      "club": "FORT BELVOIR",
+      "coach": "MILES",
+      "record": "2-11-0"
+    },
+    {
+      "team_id": "B8-D1_GAINESVILLE_PAGE",
+      "division": "B8-D1",
+      "club": "GAINESVILLE",
+      "coach": "PAGE",
+      "record": "2-11-0"
+    },
+    {
+      "team_id": "B8-D1_GREAT FALLS_KRAWCZYK",
+      "division": "B8-D1",
+      "club": "GREAT FALLS",
+      "coach": "KRAWCZYK",
+      "record": "4-8-0"
+    },
+    {
+      "team_id": "B8-D1_LEE DISTRICT_MCMINN",
+      "division": "B8-D1",
+      "club": "LEE DISTRICT",
+      "coach": "MCMINN",
+      "record": "8-4-0"
+    },
+    {
+      "team_id": "B8-D1_MANASSAS PARK_VICK",
+      "division": "B8-D1",
+      "club": "MANASSAS PARK",
+      "coach": "VICK",
+      "record": "12-1-0"
+    },
+    {
+      "team_id": "B8-D1_MCLEAN_LEGGETT",
+      "division": "B8-D1",
+      "club": "MCLEAN",
+      "coach": "LEGGETT",
+      "record": "9-2-0"
+    },
+    {
+      "team_id": "B8-D1_MCLEAN_TALLENT",
+      "division": "B8-D1",
+      "club": "MCLEAN",
+      "coach": "TALLENT",
+      "record": "7-5-0"
+    },
+    {
+      "team_id": "B8-D1_RESTON_LANSDOWNE",
+      "division": "B8-D1",
+      "club": "RESTON",
+      "coach": "LANSDOWNE",
+      "record": "9-3-0"
+    },
+    {
+      "team_id": "B8-D1_SOUTH COUNTY_JACKSON",
+      "division": "B8-D1",
+      "club": "SOUTH COUNTY",
+      "coach": "JACKSON",
+      "record": "8-5-0"
+    },
+    {
+      "team_id": "B8-D1_SOUTH LOUDOUN_COOK",
+      "division": "B8-D1",
+      "club": "SOUTH LOUDOUN",
+      "coach": "COOK",
+      "record": "0-13-0"
+    },
+    {
+      "team_id": "B8-D1_SPRINGFIELD_ROBINSON",
+      "division": "B8-D1",
+      "club": "SPRINGFIELD",
+      "coach": "ROBINSON",
+      "record": "7-5-0"
+    },
+    {
+      "team_id": "B8-D1_TURNPIKE_DONOVAN",
+      "division": "B8-D1",
+      "club": "TURNPIKE",
+      "coach": "DONOVAN",
+      "record": "6-6-0"
+    },
+    {
+      "team_id": "B8-D1_VIENNA_MARSDEN",
+      "division": "B8-D1",
+      "club": "VIENNA",
+      "coach": "MARSDEN",
+      "record": "11-2-0"
+    },
+    {
+      "team_id": "B8-D2_ARLINGTON_BALLARD",
+      "division": "B8-D2",
+      "club": "ARLINGTON",
+      "coach": "BALLARD",
+      "record": "9-4-0"
+    },
+    {
+      "team_id": "B8-D2_ARLINGTON_MAHER",
+      "division": "B8-D2",
+      "club": "ARLINGTON",
+      "coach": "MAHER",
+      "record": "4-9-0"
+    },
+    {
+      "team_id": "B8-D2_BRYC_THOMAS",
+      "division": "B8-D2",
+      "club": "BRYC",
+      "coach": "THOMAS",
+      "record": "6-7-0"
+    },
+    {
+      "team_id": "B8-D2_CYA_DANN",
+      "division": "B8-D2",
+      "club": "CYA",
+      "coach": "DANN",
+      "record": "3-10-0"
+    },
+    {
+      "team_id": "B8-D2_CYA_SMITH",
+      "division": "B8-D2",
+      "club": "CYA",
+      "coach": "SMITH",
+      "record": "2-11-0"
+    },
+    {
+      "team_id": "B8-D2_FORT HUNT_FORTI",
+      "division": "B8-D2",
+      "club": "FORT HUNT",
+      "coach": "FORTI",
+      "record": "11-2-0"
+    },
+    {
+      "team_id": "B8-D2_FPYC_RAGAN",
+      "division": "B8-D2",
+      "club": "FPYC",
+      "coach": "RAGAN",
+      "record": "3-10-0"
+    },
+    {
+      "team_id": "B8-D2_GAINESVILLE_COMPTON",
+      "division": "B8-D2",
+      "club": "GAINESVILLE",
+      "coach": "COMPTON",
+      "record": "4-9-0"
+    },
+    {
+      "team_id": "B8-D2_HERNDON_HARLEY",
+      "division": "B8-D2",
+      "club": "HERNDON",
+      "coach": "HARLEY",
+      "record": "6-7-0"
+    },
+    {
+      "team_id": "B8-D2_LEE-MT. VERNON_BOSLEY",
+      "division": "B8-D2",
+      "club": "LEE-MT. VERNON",
+      "coach": "BOSLEY",
+      "record": "10-3-0"
+    },
+    {
+      "team_id": "B8-D2_MCLEAN_TURGEON",
+      "division": "B8-D2",
+      "club": "MCLEAN",
+      "coach": "TURGEON",
+      "record": "2-11-0"
+    },
+    {
+      "team_id": "B8-D2_SOUTH COUNTY_MATTHEWS",
+      "division": "B8-D2",
+      "club": "SOUTH COUNTY",
+      "coach": "MATTHEWS",
+      "record": "4-9-0"
+    },
+    {
+      "team_id": "B8-D2_SOUTH LOUDOUN_CHOI",
+      "division": "B8-D2",
+      "club": "SOUTH LOUDOUN",
+      "coach": "CHOI",
+      "record": "10-3-0"
+    },
+    {
+      "team_id": "B8-D2_SYA_MCGHEE",
+      "division": "B8-D2",
+      "club": "SYA",
+      "coach": "MCGHEE",
+      "record": "9-4-0"
+    },
+    {
+      "team_id": "B8-D2_VIENNA_DESENTI",
+      "division": "B8-D2",
+      "club": "VIENNA",
+      "coach": "DESENTI",
+      "record": "12-1-0"
+    },
+    {
+      "team_id": "B8-D3_BAILEYS_TBD",
+      "division": "B8-D3",
+      "club": "BAILEYS",
+      "coach": "TBD",
+      "record": "0-13-0"
+    },
+    {
+      "team_id": "B8-D3_BURKE_PETRO",
+      "division": "B8-D3",
+      "club": "BURKE",
+      "coach": "PETRO",
+      "record": "6-7-0"
+    },
+    {
+      "team_id": "B8-D3_BURKE_SMYDRA",
+      "division": "B8-D3",
+      "club": "BURKE",
+      "coach": "SMYDRA",
+      "record": "6-7-0"
+    },
+    {
+      "team_id": "B8-D3_FALLS CHURCH_SUTTON",
+      "division": "B8-D3",
+      "club": "FALLS CHURCH",
+      "coach": "SUTTON",
+      "record": "11-2-0"
+    },
+    {
+      "team_id": "B8-D3_LEE-MT. VERNON_PETERS",
+      "division": "B8-D3",
+      "club": "LEE-MT. VERNON",
+      "coach": "PETERS",
+      "record": "9-4-0"
+    },
+    {
+      "team_id": "B8-D3_LEE-MT. VERNON_SIMONIK",
+      "division": "B8-D3",
+      "club": "LEE-MT. VERNON",
+      "coach": "SIMONIK",
+      "record": "3-10-0"
+    },
+    {
+      "team_id": "B8-D3_MANASSAS PARK_HOLDEN",
+      "division": "B8-D3",
+      "club": "MANASSAS PARK",
+      "coach": "HOLDEN",
+      "record": "5-7-0"
+    },
+    {
+      "team_id": "B8-D3_RESTON_BIRKLAND",
+      "division": "B8-D3",
+      "club": "RESTON",
+      "coach": "BIRKLAND",
+      "record": "6-7-0"
+    },
+    {
+      "team_id": "B8-D3_SOUTH LOUDOUN_MOSTEK",
+      "division": "B8-D3",
+      "club": "SOUTH LOUDOUN",
+      "coach": "MOSTEK",
+      "record": "12-1-0"
+    },
+    {
+      "team_id": "G5-D1_ARLINGTON_MCRAE",
+      "division": "G5-D1",
+      "club": "ARLINGTON",
+      "coach": "MCRAE",
+      "record": "9-1-0"
+    },
+    {
+      "team_id": "G5-D1_CYA_DOWLING",
+      "division": "G5-D1",
+      "club": "CYA",
+      "coach": "DOWLING",
+      "record": "5-5-0"
+    },
+    {
+      "team_id": "G5-D1_FORT HUNT_GAREY",
+      "division": "G5-D1",
+      "club": "FORT HUNT",
+      "coach": "GAREY",
+      "record": "3-7-0"
+    },
+    {
+      "team_id": "G5-D1_GAINESVILLE_JOHNSON",
+      "division": "G5-D1",
+      "club": "GAINESVILLE",
+      "coach": "JOHNSON",
+      "record": "3-7-0"
+    },
+    {
+      "team_id": "G5-D1_GREAT FALLS_NITOWSKI",
+      "division": "G5-D1",
+      "club": "GREAT FALLS",
+      "coach": "NITOWSKI",
+      "record": "2-8-0"
+    },
+    {
+      "team_id": "G5-D1_LEE MT. VERNON_BRELAND",
+      "division": "G5-D1",
+      "club": "LEE MT. VERNON",
+      "coach": "BRELAND",
+      "record": "8-2-0"
+    },
+    {
+      "team_id": "G5-D1_MCLEAN_A NORTON",
+      "division": "G5-D1",
+      "club": "MCLEAN",
+      "coach": "A NORTON",
+      "record": "4-6-0"
+    },
+    {
+      "team_id": "G5-D1_SOUTH LOUDOUN_KERR",
+      "division": "G5-D1",
+      "club": "SOUTH LOUDOUN",
+      "coach": "KERR",
+      "record": "3-7-0"
+    },
+    {
+      "team_id": "G5-D1_SPRINGFIELD_GOODMAN",
+      "division": "G5-D1",
+      "club": "SPRINGFIELD",
+      "coach": "GOODMAN",
+      "record": "4-6-0"
+    },
+    {
+      "team_id": "G5-D1_VIENNA_KORMAN",
+      "division": "G5-D1",
+      "club": "VIENNA",
+      "coach": "KORMAN",
+      "record": "9-1-0"
+    },
+    {
+      "team_id": "G5-D2_ARLINGTON_LOMAS",
+      "division": "G5-D2",
+      "club": "ARLINGTON",
+      "coach": "LOMAS",
+      "record": "9-0-0"
+    },
+    {
+      "team_id": "G5-D2_BAILEYS CC_MARSHALL",
+      "division": "G5-D2",
+      "club": "BAILEYS CC",
+      "coach": "MARSHALL",
+      "record": "0-9-0"
+    },
+    {
+      "team_id": "G5-D2_BRYC_ALI",
+      "division": "G5-D2",
+      "club": "BRYC",
+      "coach": "ALI",
+      "record": "2-7-0"
+    },
+    {
+      "team_id": "G5-D2_BURKE_PRICE",
+      "division": "G5-D2",
+      "club": "BURKE",
+      "coach": "PRICE",
+      "record": "1-8-0"
+    },
+    {
+      "team_id": "G5-D2_BURKE_ROSE",
+      "division": "G5-D2",
+      "club": "BURKE",
+      "coach": "ROSE",
+      "record": "4-4-1"
+    },
+    {
+      "team_id": "G5-D2_CYA_MAZID",
+      "division": "G5-D2",
+      "club": "CYA",
+      "coach": "MAZID",
+      "record": "3-6-0"
+    },
+    {
+      "team_id": "G5-D2_FORT BELVOIR_WASHINGTON",
+      "division": "G5-D2",
+      "club": "FORT BELVOIR",
+      "coach": "WASHINGTON",
+      "record": "4-5-0"
+    },
+    {
+      "team_id": "G5-D2_GAINESVILLE_HAMPSON",
+      "division": "G5-D2",
+      "club": "GAINESVILLE",
+      "coach": "HAMPSON",
+      "record": "4-5-0"
+    },
+    {
+      "team_id": "G5-D2_MCLEAN_B KIM",
+      "division": "G5-D2",
+      "club": "MCLEAN",
+      "coach": "B KIM",
+      "record": "4-5-0"
+    },
+    {
+      "team_id": "G5-D2_RESTON_WARD",
+      "division": "G5-D2",
+      "club": "RESTON",
+      "coach": "WARD",
+      "record": "3-6-0"
+    },
+    {
+      "team_id": "G5-D2_SOUTH LOUDOUN_OSHEA",
+      "division": "G5-D2",
+      "club": "SOUTH LOUDOUN",
+      "coach": "OSHEA",
+      "record": "5-3-1"
+    },
+    {
+      "team_id": "G5-D2_SYA_ANDERSEN",
+      "division": "G5-D2",
+      "club": "SYA",
+      "coach": "ANDERSEN",
+      "record": "9-0-0"
+    },
+    {
+      "team_id": "G5-D2_SYA_MCGHEE",
+      "division": "G5-D2",
+      "club": "SYA",
+      "coach": "MCGHEE",
+      "record": "7-2-0"
+    },
+    {
+      "team_id": "G5-D2_VIENNA_KONSTAS",
+      "division": "G5-D2",
+      "club": "VIENNA",
+      "coach": "KONSTAS",
+      "record": "7-2-0"
+    },
+    {
+      "team_id": "G6-D1_ARLINGTON_PIACENZA",
+      "division": "G6-D1",
+      "club": "ARLINGTON",
+      "coach": "PIACENZA",
+      "record": "8-5-0"
+    },
+    {
+      "team_id": "G6-D1_BURKE_COUTINHO",
+      "division": "G6-D1",
+      "club": "BURKE",
+      "coach": "COUTINHO",
+      "record": "9-4-0"
+    },
+    {
+      "team_id": "G6-D1_CYA_KANG",
+      "division": "G6-D1",
+      "club": "CYA",
+      "coach": "KANG",
+      "record": "10-3-0"
+    },
+    {
+      "team_id": "G6-D1_FORT HUNT_LOVING",
+      "division": "G6-D1",
+      "club": "FORT HUNT",
+      "coach": "LOVING",
+      "record": "2-11-0"
+    },
+    {
+      "team_id": "G6-D1_GAINESVILLE_HOLDER",
+      "division": "G6-D1",
+      "club": "GAINESVILLE",
+      "coach": "HOLDER",
+      "record": "11-3-0"
+    },
+    {
+      "team_id": "G6-D1_MCLEAN_MURRELL",
+      "division": "G6-D1",
+      "club": "MCLEAN",
+      "coach": "MURRELL",
+      "record": "0-13-0"
+    },
+    {
+      "team_id": "G6-D1_SOUTH LOUDOUN_CHILDRESS",
+      "division": "G6-D1",
+      "club": "SOUTH LOUDOUN",
+      "coach": "CHILDRESS",
+      "record": "7-6-0"
+    },
+    {
+      "team_id": "G6-D1_SYA_MOORE",
+      "division": "G6-D1",
+      "club": "SYA",
+      "coach": "MOORE",
+      "record": "6-7-0"
+    },
+    {
+      "team_id": "G6-D1_VIENNA_PARRIS",
+      "division": "G6-D1",
+      "club": "VIENNA",
+      "coach": "PARRIS",
+      "record": "6-7-0"
+    },
+    {
+      "team_id": "G6-D2_ARLINGTON_DECOU",
+      "division": "G6-D2",
+      "club": "ARLINGTON",
+      "coach": "DECOU",
+      "record": "10-2-0"
+    },
+    {
+      "team_id": "G6-D2_BRYC_DUDLEY",
+      "division": "G6-D2",
+      "club": "BRYC",
+      "coach": "DUDLEY",
+      "record": "0-12-0"
+    },
+    {
+      "team_id": "G6-D2_BURKE_SEIGLE",
+      "division": "G6-D2",
+      "club": "BURKE",
+      "coach": "SEIGLE",
+      "record": "12-1-0"
+    },
+    {
+      "team_id": "G6-D2_CYA_MURPHY",
+      "division": "G6-D2",
+      "club": "CYA",
+      "coach": "MURPHY",
+      "record": "5-7-0"
+    },
+    {
+      "team_id": "G6-D2_FALLS CHURCH_PAPADOPOULOS",
+      "division": "G6-D2",
+      "club": "FALLS CHURCH",
+      "coach": "PAPADOPOULOS",
+      "record": "9-4-0"
+    },
+    {
+      "team_id": "G6-D2_FPYC_LESTER",
+      "division": "G6-D2",
+      "club": "FPYC",
+      "coach": "LESTER",
+      "record": "4-8-0"
+    },
+    {
+      "team_id": "G6-D2_GAINESVILLE_FURLONG",
+      "division": "G6-D2",
+      "club": "GAINESVILLE",
+      "coach": "FURLONG",
+      "record": "2-9-0"
+    },
+    {
+      "team_id": "G6-D2_GREAT FALLS_EXLEY",
+      "division": "G6-D2",
+      "club": "GREAT FALLS",
+      "coach": "EXLEY",
+      "record": "8-4-0"
+    },
+    {
+      "team_id": "G6-D2_LEE-MT. VERNON_HENDERSON",
+      "division": "G6-D2",
+      "club": "LEE-MT. VERNON",
+      "coach": "HENDERSON",
+      "record": "8-4-0"
+    },
+    {
+      "team_id": "G6-D2_MCLEAN_EDWARDS",
+      "division": "G6-D2",
+      "club": "MCLEAN",
+      "coach": "EDWARDS",
+      "record": "5-6-0"
+    },
+    {
+      "team_id": "G6-D2_RESTON_BARR",
+      "division": "G6-D2",
+      "club": "RESTON",
+      "coach": "BARR",
+      "record": "5-8-0"
+    },
+    {
+      "team_id": "G6-D2_SOUTH LOUDOUN_SAMSON",
+      "division": "G6-D2",
+      "club": "SOUTH LOUDOUN",
+      "coach": "SAMSON",
+      "record": "8-5-0"
+    },
+    {
+      "team_id": "G6-D2_SPRINGFIELD_BURDETTE",
+      "division": "G6-D2",
+      "club": "SPRINGFIELD",
+      "coach": "BURDETTE",
+      "record": "0-12-0"
+    },
+    {
+      "team_id": "G6-D2_SPRINGFIELD_MARSHALL",
+      "division": "G6-D2",
+      "club": "SPRINGFIELD",
+      "coach": "MARSHALL",
+      "record": "10-2-0"
+    },
+    {
+      "team_id": "G6-D2_SYA_LANGFORD",
+      "division": "G6-D2",
+      "club": "SYA",
+      "coach": "LANGFORD",
+      "record": "8-4-0"
+    },
+    {
+      "team_id": "G6-D2_VIENNA_GRIM",
+      "division": "G6-D2",
+      "club": "VIENNA",
+      "coach": "GRIM",
+      "record": "3-9-0"
+    },
+    {
+      "team_id": "G7-D1_ARLINGTON_EISENBERG",
+      "division": "G7-D1",
+      "club": "ARLINGTON",
+      "coach": "EISENBERG",
+      "record": "10-3-0"
+    },
+    {
+      "team_id": "G7-D1_BURKE_SEAY",
+      "division": "G7-D1",
+      "club": "BURKE",
+      "coach": "SEAY",
+      "record": "8-5-0"
+    },
+    {
+      "team_id": "G7-D1_BURKE_WYANT",
+      "division": "G7-D1",
+      "club": "BURKE",
+      "coach": "WYANT",
+      "record": "3-10-0"
+    },
+    {
+      "team_id": "G7-D1_CYA_MAWLOUD",
+      "division": "G7-D1",
+      "club": "CYA",
+      "coach": "MAWLOUD",
+      "record": "7-6-0"
+    },
+    {
+      "team_id": "G7-D1_FALLS CHURCH_MADISON",
+      "division": "G7-D1",
+      "club": "FALLS CHURCH",
+      "coach": "MADISON",
+      "record": "10-3-0"
+    },
+    {
+      "team_id": "G7-D1_FORT HUNT_HEINER",
+      "division": "G7-D1",
+      "club": "FORT HUNT",
+      "coach": "HEINER",
+      "record": "8-5-0"
+    },
+    {
+      "team_id": "G7-D1_FPYC_KOMAILY",
+      "division": "G7-D1",
+      "club": "FPYC",
+      "coach": "KOMAILY",
+      "record": "7-6-0"
+    },
+    {
+      "team_id": "G7-D1_GREAT FALLS_BOND",
+      "division": "G7-D1",
+      "club": "GREAT FALLS",
+      "coach": "BOND",
+      "record": "0-12-0"
+    },
+    {
+      "team_id": "G7-D1_MCLEAN_CRITTENBERGER",
+      "division": "G7-D1",
+      "club": "MCLEAN",
+      "coach": "CRITTENBERGER",
+      "record": "12-1-0"
+    },
+    {
+      "team_id": "G7-D1_SOUTH LOUDOUN_LISACK",
+      "division": "G7-D1",
+      "club": "SOUTH LOUDOUN",
+      "coach": "LISACK",
+      "record": "4-9-0"
+    },
+    {
+      "team_id": "G7-D1_SPRINGFIELD_DUCKETT",
+      "division": "G7-D1",
+      "club": "SPRINGFIELD",
+      "coach": "DUCKETT",
+      "record": "7-6-0"
+    },
+    {
+      "team_id": "G7-D1_SYA_BRUBAKER",
+      "division": "G7-D1",
+      "club": "SYA",
+      "coach": "BRUBAKER",
+      "record": "1-12-0"
+    },
+    {
+      "team_id": "G7-D1_VIENNA_YODER",
+      "division": "G7-D1",
+      "club": "VIENNA",
+      "coach": "YODER",
+      "record": "7-6-0"
+    },
+    {
+      "team_id": "G7-D2_ARLINGTON_FILIDES",
+      "division": "G7-D2",
+      "club": "ARLINGTON",
+      "coach": "FILIDES",
+      "record": "9-4-0"
+    },
+    {
+      "team_id": "G7-D2_BRYC_OCONNOR",
+      "division": "G7-D2",
+      "club": "BRYC",
+      "coach": "OCONNOR",
+      "record": "11-2-0"
+    },
+    {
+      "team_id": "G7-D2_CYA_FRANCIS",
+      "division": "G7-D2",
+      "club": "CYA",
+      "coach": "FRANCIS",
+      "record": "4-9-0"
+    },
+    {
+      "team_id": "G7-D2_GAINESVILLE_NAPLES",
+      "division": "G7-D2",
+      "club": "GAINESVILLE",
+      "coach": "NAPLES",
+      "record": "13-0-0"
+    },
+    {
+      "team_id": "G7-D2_LEE-MT. VERNON_CARTER",
+      "division": "G7-D2",
+      "club": "LEE-MT. VERNON",
+      "coach": "CARTER",
+      "record": "4-9-0"
+    },
+    {
+      "team_id": "G7-D2_MCLEAN_MENDENHALL",
+      "division": "G7-D2",
+      "club": "MCLEAN",
+      "coach": "MENDENHALL",
+      "record": "9-5-0"
+    },
+    {
+      "team_id": "G7-D2_MT. VERNON_GAREY",
+      "division": "G7-D2",
+      "club": "MT. VERNON",
+      "coach": "GAREY",
+      "record": "10-3-0"
+    },
+    {
+      "team_id": "G7-D2_RESTON_ZEBERLEIN",
+      "division": "G7-D2",
+      "club": "RESTON",
+      "coach": "ZEBERLEIN",
+      "record": "7-6-0"
+    },
+    {
+      "team_id": "G7-D2_SOUTH LOUDOUN_MCGOVERN",
+      "division": "G7-D2",
+      "club": "SOUTH LOUDOUN",
+      "coach": "MCGOVERN",
+      "record": "4-9-0"
+    },
+    {
+      "team_id": "G7-D2_SPRINGFIELD_DUCKETT",
+      "division": "G7-D2",
+      "club": "SPRINGFIELD",
+      "coach": "DUCKETT",
+      "record": "1-12-0"
+    },
+    {
+      "team_id": "G7-D2_VIENNA_TOMLINSON",
+      "division": "G7-D2",
+      "club": "VIENNA",
+      "coach": "TOMLINSON",
+      "record": "0-13-0"
+    },
+    {
+      "team_id": "G8-D1_ARLINGTON_ABUNDO",
+      "division": "G8-D1",
+      "club": "ARLINGTON",
+      "coach": "ABUNDO",
+      "record": "5-8-0"
+    },
+    {
+      "team_id": "G8-D1_BURKE_EDWARDS",
+      "division": "G8-D1",
+      "club": "BURKE",
+      "coach": "EDWARDS",
+      "record": "9-4-0"
+    },
+    {
+      "team_id": "G8-D1_CYA_MCCONNELL",
+      "division": "G8-D1",
+      "club": "CYA",
+      "coach": "MCCONNELL",
+      "record": "13-0-0"
+    },
+    {
+      "team_id": "G8-D1_FPYC_LESTER",
+      "division": "G8-D1",
+      "club": "FPYC",
+      "coach": "LESTER",
+      "record": "4-8-0"
+    },
+    {
+      "team_id": "G8-D1_GAINESVILLE_GILLIAM",
+      "division": "G8-D1",
+      "club": "GAINESVILLE",
+      "coach": "GILLIAM",
+      "record": "6-7-0"
+    },
+    {
+      "team_id": "G8-D1_GREAT FALLS_KERRIGAN",
+      "division": "G8-D1",
+      "club": "GREAT FALLS",
+      "coach": "KERRIGAN",
+      "record": "2-10-0"
+    },
+    {
+      "team_id": "G8-D1_MCLEAN_MEGAS",
+      "division": "G8-D1",
+      "club": "MCLEAN",
+      "coach": "MEGAS",
+      "record": "11-2-0"
+    },
+    {
+      "team_id": "G8-D1_SPRINGFIELD_WILSON",
+      "division": "G8-D1",
+      "club": "SPRINGFIELD",
+      "coach": "WILSON",
+      "record": "4-8-0"
+    },
+    {
+      "team_id": "G8-D1_VIENNA_TROTTER",
+      "division": "G8-D1",
+      "club": "VIENNA",
+      "coach": "TROTTER",
+      "record": "3-10-0"
+    },
+    {
+      "team_id": "G8-D2_ARLINGTON_SCARCELLA",
+      "division": "G8-D2",
+      "club": "ARLINGTON",
+      "coach": "SCARCELLA",
+      "record": "1-11-0"
+    },
+    {
+      "team_id": "G8-D2_BAILEYS CC_HUDSON",
+      "division": "G8-D2",
+      "club": "BAILEYS CC",
+      "coach": "HUDSON",
+      "record": "2-11-0"
+    },
+    {
+      "team_id": "G8-D2_BURKE_BYRNE",
+      "division": "G8-D2",
+      "club": "BURKE",
+      "coach": "BYRNE",
+      "record": "4-9-0"
+    },
+    {
+      "team_id": "G8-D2_CYA_JONES",
+      "division": "G8-D2",
+      "club": "CYA",
+      "coach": "JONES",
+      "record": "11-2-0"
+    },
+    {
+      "team_id": "G8-D2_CYA_RATHINAVELU",
+      "division": "G8-D2",
+      "club": "CYA",
+      "coach": "RATHINAVELU",
+      "record": "6-7-0"
+    },
+    {
+      "team_id": "G8-D2_FORT BELVOIR_EDWARDS",
+      "division": "G8-D2",
+      "club": "FORT BELVOIR",
+      "coach": "EDWARDS",
+      "record": "5-8-0"
+    },
+    {
+      "team_id": "G8-D2_FORT HUNT_HARRIS",
+      "division": "G8-D2",
+      "club": "FORT HUNT",
+      "coach": "HARRIS",
+      "record": "10-3-0"
+    },
+    {
+      "team_id": "G8-D2_MCLEAN_MCNICOLL",
+      "division": "G8-D2",
+      "club": "MCLEAN",
+      "coach": "MCNICOLL",
+      "record": "9-4-0"
+    },
+    {
+      "team_id": "G8-D2_MT. VERNON_ELLING",
+      "division": "G8-D2",
+      "club": "MT. VERNON",
+      "coach": "ELLING",
+      "record": "4-9-0"
+    },
+    {
+      "team_id": "G8-D2_SOUTH LOUDOUN_SAMSON",
+      "division": "G8-D2",
+      "club": "SOUTH LOUDOUN",
+      "coach": "SAMSON",
+      "record": "1-11-0"
+    },
+    {
+      "team_id": "G8-D2_SOUTH LOUDOUN_STROHECKER",
+      "division": "G8-D2",
+      "club": "SOUTH LOUDOUN",
+      "coach": "STROHECKER",
+      "record": "7-6-0"
+    },
+    {
+      "team_id": "G8-D2_SYA_HESLEP",
+      "division": "G8-D2",
+      "club": "SYA",
+      "coach": "HESLEP",
+      "record": "10-3-0"
+    },
+    {
+      "team_id": "G8-D2_TURNPIKE_KOMAILY",
+      "division": "G8-D2",
+      "club": "TURNPIKE",
+      "coach": "KOMAILY",
+      "record": "9-4-0"
+    },
+    {
+      "team_id": "G8-D2_VIENNA_BOND",
+      "division": "G8-D2",
+      "club": "VIENNA",
+      "coach": "BOND",
+      "record": "11-2-0"
     }
   ],
   "lottery": {
-    "SYA": 5,
-    "FORT BELVOIR": 25,
-    "SPRINGFIELD": 13,
-    "CYA": 14,
-    "BRYC": 3,
-    "LEE-MT. VERNON": 12,
-    "MT. VERNON": 26,
-    "BURKE": 4,
     "FORT HUNT": 24,
-    "MANASSAS PARK": 10,
-    "VIENNA": 8,
-    "GREAT FALLS": 1,
-    "FPYC": 19,
-    "LEE DISTRICT": 22,
-    "JAMES LEE": 27,
-    "BAILEYS CC": 20,
-    "ALEXANDRIA": 28,
-    "RESTON": 18,
-    "HERNDON": 21,
-    "FALLS CHURCH": 23,
-    "ARLINGTON": 15,
-    "SOUTH COUNTY": 7,
-    "TURNPIKE": 9,
-    "BAILEYS": 20,
     "ANNANDALE": 6,
-    "GUM SPRINGS": 11,
+    "LEE-MT. VERNON": 12,
+    "SOUTH COUNTY": 7,
+    "BURKE": 4,
+    "FALLS CHURCH": 23,
     "GAINESVILLE": 16,
+    "ALEXANDRIA": 28,
+    "BAILEYS CC": 20,
+    "FORT BELVOIR": 25,
+    "GREAT FALLS": 1,
+    "MT. VERNON": 26,
+    "TURNPIKE": 9,
     "SOUTH LOUDOUN": 17,
+    "MANASSAS PARK": 10,
+    "HERNDON": 21,
+    "BRYC": 3,
+    "JAMES LEE": 27,
+    "RESTON": 18,
+    "MCLEAN": 2,
+    "FPYC": 19,
+    "SYA": 5,
+    "BAILEYS": 20,
+    "LEE DISTRICT": 22,
     "LEE MT. VERNON": 12,
-    "MCLEAN": 2
+    "ARLINGTON": 15,
+    "GUM SPRINGS": 11,
+    "CYA": 14,
+    "VIENNA": 8,
+    "SPRINGFIELD": 13
   },
-  "spots": {
-    "G7-D1": 10,
-    "B6-D2": 10,
-    "G7-D2": 8,
-    "B7-D1": 10,
-    "B8-D2": 12,
-    "G6-D2": 12,
-    "G8-D1": 8,
-    "B8-D1": 13,
-    "G5-D1": 8,
-    "B5-D1": 9,
-    "G5-D2": 11,
-    "G8-D2": 11,
-    "B6-D1": 11,
-    "B6-D3": 11,
-    "B7-D2": 11,
-    "B5-D2": 11,
-    "G6-D1": 8,
-    "B7-D3": 8,
-    "B8-D3": 8,
-    "B5-D3": 9
-  },
-  "run_date": "2020-02-16 10:22:13"
+  "rankings": [
+    {
+      "team_id": "B5-D1_BURKE_SMITH",
+      "rank": 1,
+      "details": [
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B5-D1_ARLINGTON_SADAKA",
+      "rank": 2,
+      "details": [
+        "0.889"
+      ]
+    },
+    {
+      "team_id": "B5-D1_SOUTH LOUDOUN_STEMBERGER",
+      "rank": 3,
+      "details": [
+        "0.778"
+      ]
+    },
+    {
+      "team_id": "B5-D1_RESTON_BYRNES",
+      "rank": 4,
+      "details": [
+        "0.667"
+      ]
+    },
+    {
+      "team_id": "B5-D1_SOUTH LOUDOUN_CHOI",
+      "rank": 5,
+      "details": [
+        "0.556"
+      ]
+    },
+    {
+      "team_id": "B5-D1_MCLEAN_MARTIN",
+      "rank": 6,
+      "details": [
+        "0.444",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B5-D1_GREAT FALLS_GOLDBERG",
+      "rank": 7,
+      "details": [
+        "0.444",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B5-D1_GAINESVILLE_LY",
+      "rank": 8,
+      "details": [
+        "0.333",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B5-D1_CYA_ROSENBLATT",
+      "rank": 9,
+      "details": [
+        "0.333",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B5-D1_SYA_O-CONNOR",
+      "rank": 10,
+      "details": [
+        "0.222",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B5-D1_FORT HUNT_ZIPPEL",
+      "rank": 11,
+      "details": [
+        "0.222",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B5-D1_LEE MT. VERNON_BOSLEY",
+      "rank": 12,
+      "details": [
+        "0.111"
+      ]
+    },
+    {
+      "team_id": "B5-D2_MANASSAS PARK_SOLOMON",
+      "rank": 1,
+      "details": [
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B5-D2_VIENNA_LOCEY",
+      "rank": 2,
+      "details": [
+        "0.900"
+      ]
+    },
+    {
+      "team_id": "B5-D2_ARLINGTON_MCLEAN",
+      "rank": 3,
+      "details": [
+        "0.800"
+      ]
+    },
+    {
+      "team_id": "B5-D2_VIENNA_DAVIS",
+      "rank": 4,
+      "details": [
+        "0.700"
+      ]
+    },
+    {
+      "team_id": "B5-D2_BRYC_MAYES",
+      "rank": 5,
+      "details": [
+        "0.600"
+      ]
+    },
+    {
+      "team_id": "B5-D2_BURKE_ASEFI",
+      "rank": 6,
+      "details": [
+        "0.500"
+      ]
+    },
+    {
+      "team_id": "B5-D2_SYA_HARRIS",
+      "rank": 7,
+      "details": [
+        "0.444",
+        "-----",
+        5
+      ]
+    },
+    {
+      "team_id": "B5-D2_FALLS CHURCH_GREINER",
+      "rank": 8,
+      "details": [
+        "0.444",
+        "-----",
+        23
+      ]
+    },
+    {
+      "team_id": "B5-D2_MCLEAN_B BALL",
+      "rank": 9,
+      "details": [
+        "0.300",
+        "1.000",
+        "-----",
+        2
+      ]
+    },
+    {
+      "team_id": "B5-D2_CYA_MARTIN",
+      "rank": 10,
+      "details": [
+        "0.300",
+        "1.000",
+        "-----",
+        14
+      ]
+    },
+    {
+      "team_id": "B5-D2_SOUTH LOUDOUN_FIORILLO",
+      "rank": 11,
+      "details": [
+        "0.300",
+        "0.333"
+      ]
+    },
+    {
+      "team_id": "B5-D2_LEE MT. VERNON_DAY",
+      "rank": 12,
+      "details": [
+        "0.300",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B5-D2_BURKE_MAYERNIK",
+      "rank": 13,
+      "details": [
+        "0.200",
+        "-----",
+        4
+      ]
+    },
+    {
+      "team_id": "B5-D2_RESTON_DAOUD",
+      "rank": 14,
+      "details": [
+        "0.200",
+        "-----",
+        18
+      ]
+    },
+    {
+      "team_id": "B5-D3_ARLINGTON_PERKINS",
+      "rank": 1,
+      "details": [
+        "0.900"
+      ]
+    },
+    {
+      "team_id": "B5-D3_BRYC_SHARMA",
+      "rank": 2,
+      "details": [
+        "0.889",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B5-D3_FPYC_DAVIS",
+      "rank": 3,
+      "details": [
+        "0.889",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B5-D3_SPRINGFIELD_MORRISON",
+      "rank": 4,
+      "details": [
+        "0.667",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B5-D3_GAINESVILLE_MAXWELL",
+      "rank": 5,
+      "details": [
+        "0.667",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B5-D3_HERNDON_BERMUDEZ",
+      "rank": 6,
+      "details": [
+        "0.556"
+      ]
+    },
+    {
+      "team_id": "B5-D3_GAINESVILLE_JACKSON",
+      "rank": 7,
+      "details": [
+        "0.375"
+      ]
+    },
+    {
+      "team_id": "B5-D3_CYA_RIVERS",
+      "rank": 8,
+      "details": [
+        "0.300"
+      ]
+    },
+    {
+      "team_id": "B5-D3_SOUTH COUNTY_ARORA",
+      "rank": 9,
+      "details": [
+        "0.250"
+      ]
+    },
+    {
+      "team_id": "B5-D3_FORT BELVOIR_HUNTER",
+      "rank": 10,
+      "details": [
+        "0.222"
+      ]
+    },
+    {
+      "team_id": "B5-D3_TURNPIKE_SYRON",
+      "rank": 11,
+      "details": [
+        "0.125"
+      ]
+    },
+    {
+      "team_id": "B5-D3_GUM SPRINGS_SPROCKER",
+      "rank": 12,
+      "details": [
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B6-D1_ARLINGTON_LOWEN",
+      "rank": 1,
+      "details": [
+        "0.917"
+      ]
+    },
+    {
+      "team_id": "B6-D1_LEE DISTRICT_DIFFENBACH",
+      "rank": 2,
+      "details": [
+        "0.833",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B6-D1_BRYC_GONZALEZ",
+      "rank": 3,
+      "details": [
+        "0.833",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B6-D1_MANASSAS PARK_GASKINS",
+      "rank": 4,
+      "details": [
+        "0.818"
+      ]
+    },
+    {
+      "team_id": "B6-D1_GREAT FALLS_BROWN",
+      "rank": 5,
+      "details": [
+        "0.750",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B6-D1_JAMES LEE_HERRING",
+      "rank": 6,
+      "details": [
+        "0.750",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B6-D1_MCLEAN_JACKSON",
+      "rank": 7,
+      "details": [
+        "0.500"
+      ]
+    },
+    {
+      "team_id": "B6-D1_BURKE_RAPOZA",
+      "rank": 8,
+      "details": [
+        "0.462"
+      ]
+    },
+    {
+      "team_id": "B6-D1_CYA_JONES",
+      "rank": 9,
+      "details": [
+        "0.417"
+      ]
+    },
+    {
+      "team_id": "B6-D1_SOUTH LOUDOUN_KAHN",
+      "rank": 10,
+      "details": [
+        "0.308"
+      ]
+    },
+    {
+      "team_id": "B6-D1_VIENNA_EPPS",
+      "rank": 11,
+      "details": [
+        "0.273"
+      ]
+    },
+    {
+      "team_id": "B6-D1_RESTON_RIDGEWAY",
+      "rank": 12,
+      "details": [
+        "0.250"
+      ]
+    },
+    {
+      "team_id": "B6-D1_MT. VERNON_COLEMAN",
+      "rank": 13,
+      "details": [
+        "0.231"
+      ]
+    },
+    {
+      "team_id": "B6-D1_GAINESVILLE_COOK",
+      "rank": 14,
+      "details": [
+        "0.154"
+      ]
+    },
+    {
+      "team_id": "B6-D1_JAMES LEE_WADE",
+      "rank": 15,
+      "details": [
+        "0.083"
+      ]
+    },
+    {
+      "team_id": "B6-D2_MCLEAN_CICALE",
+      "rank": 1,
+      "details": [
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B6-D2_FORT BELVOIR_TAYLOR JR",
+      "rank": 2,
+      "details": [
+        "0.917"
+      ]
+    },
+    {
+      "team_id": "B6-D2_HERNDON_JONES",
+      "rank": 3,
+      "details": [
+        "0.750"
+      ]
+    },
+    {
+      "team_id": "B6-D2_FORT HUNT_FORTI",
+      "rank": 4,
+      "details": [
+        "0.615"
+      ]
+    },
+    {
+      "team_id": "B6-D2_SYA_HILL",
+      "rank": 5,
+      "details": [
+        "0.583"
+      ]
+    },
+    {
+      "team_id": "B6-D2_GAINESVILLE_MURRAY",
+      "rank": 6,
+      "details": [
+        "0.538"
+      ]
+    },
+    {
+      "team_id": "B6-D2_SOUTH LOUDOUN_LANOUETTE",
+      "rank": 7,
+      "details": [
+        "0.500"
+      ]
+    },
+    {
+      "team_id": "B6-D2_ARLINGTON_GHARIANI",
+      "rank": 8,
+      "details": [
+        "0.462"
+      ]
+    },
+    {
+      "team_id": "B6-D2_BURKE_BUTTREY",
+      "rank": 9,
+      "details": [
+        "0.417"
+      ]
+    },
+    {
+      "team_id": "B6-D2_FALLS CHURCH_KUSIC",
+      "rank": 10,
+      "details": [
+        "0.333"
+      ]
+    },
+    {
+      "team_id": "B6-D2_VIENNA_CHOI",
+      "rank": 11,
+      "details": [
+        "0.250"
+      ]
+    },
+    {
+      "team_id": "B6-D2_CYA_ROBINSON",
+      "rank": 12,
+      "details": [
+        "0.083"
+      ]
+    },
+    {
+      "team_id": "B6-D2_ANNANDALE_HWANG",
+      "rank": 13,
+      "details": [
+        "0.077"
+      ]
+    },
+    {
+      "team_id": "B6-D3_FPYC_MALESKY",
+      "rank": 1,
+      "details": [
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B6-D3_SOUTH COUNTY_JOHNSON",
+      "rank": 2,
+      "details": [
+        "0.923"
+      ]
+    },
+    {
+      "team_id": "B6-D3_SOUTH LOUDOUN_WEBB",
+      "rank": 3,
+      "details": [
+        "0.846"
+      ]
+    },
+    {
+      "team_id": "B6-D3_SPRINGFIELD_WILSON",
+      "rank": 4,
+      "details": [
+        "0.769"
+      ]
+    },
+    {
+      "team_id": "B6-D3_BURKE_MITCHELL",
+      "rank": 5,
+      "details": [
+        "0.615"
+      ]
+    },
+    {
+      "team_id": "B6-D3_TURNPIKE_OURS",
+      "rank": 6,
+      "details": [
+        "0.538"
+      ]
+    },
+    {
+      "team_id": "B6-D3_GREAT FALLS_BRITT",
+      "rank": 7,
+      "details": [
+        "0.500"
+      ]
+    },
+    {
+      "team_id": "B6-D3_CYA_LUGO",
+      "rank": 8,
+      "details": [
+        "0.462",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B6-D3_ARLINGTON_NETTLES",
+      "rank": 9,
+      "details": [
+        "0.462",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B6-D3_LEE MT. VERNON_STEWART",
+      "rank": 10,
+      "details": [
+        "0.385"
+      ]
+    },
+    {
+      "team_id": "B6-D3_RESTON_LEGLER",
+      "rank": 11,
+      "details": [
+        "0.231"
+      ]
+    },
+    {
+      "team_id": "B6-D3_BRYC_SHIN",
+      "rank": 12,
+      "details": [
+        "0.091"
+      ]
+    },
+    {
+      "team_id": "B6-D3_SPRINGFIELD_ALVAREZ",
+      "rank": 13,
+      "details": [
+        "0.083"
+      ]
+    },
+    {
+      "team_id": "B6-D3_BAILEYS_J. SMITH SR",
+      "rank": 14,
+      "details": [
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B7-D1_RESTON_ROBINSON",
+      "rank": 1,
+      "details": [
+        "0.917"
+      ]
+    },
+    {
+      "team_id": "B7-D1_MCLEAN_CAREY",
+      "rank": 2,
+      "details": [
+        "0.846",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B7-D1_SOUTH LOUDOUN_WEBB-",
+      "rank": 3,
+      "details": [
+        "0.846",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B7-D1_GAINESVILLE_WEINSCHENK",
+      "rank": 4,
+      "details": [
+        "0.769",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B7-D1_ARLINGTON_SHELLEY",
+      "rank": 5,
+      "details": [
+        "0.769",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B7-D1_CYA_CUBBAGE",
+      "rank": 6,
+      "details": [
+        "0.615"
+      ]
+    },
+    {
+      "team_id": "B7-D1_SPRINGFIELD_ARGUEDAS",
+      "rank": 7,
+      "details": [
+        "0.385",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B7-D1_BRYC_AQUIL",
+      "rank": 8,
+      "details": [
+        "0.385",
+        "0.500"
+      ]
+    },
+    {
+      "team_id": "B7-D1_FORT HUNT_KOELSCH",
+      "rank": 9,
+      "details": [
+        "0.385",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B7-D1_VIENNA_STOLBURG",
+      "rank": 10,
+      "details": [
+        "0.231"
+      ]
+    },
+    {
+      "team_id": "B7-D1_GREAT FALLS_NICKLES",
+      "rank": 11,
+      "details": [
+        "0.154",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B7-D1_LEE DISTRICT_TROTTER",
+      "rank": 12,
+      "details": [
+        "0.154",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B7-D1_SYA_MORIN",
+      "rank": 13,
+      "details": [
+        "0.077"
+      ]
+    },
+    {
+      "team_id": "B7-D2_FPYC_VARNER",
+      "rank": 1,
+      "details": [
+        "0.917",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B7-D2_FALLS CHURCH_WHITAKER",
+      "rank": 2,
+      "details": [
+        "0.917",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B7-D2_CYA_UTTERBACK",
+      "rank": 3,
+      "details": [
+        "0.750"
+      ]
+    },
+    {
+      "team_id": "B7-D2_SOUTH LOUDOUN_ACKLEY",
+      "rank": 4,
+      "details": [
+        "0.708"
+      ]
+    },
+    {
+      "team_id": "B7-D2_TURNPIKE_BURNS",
+      "rank": 5,
+      "details": [
+        "0.667"
+      ]
+    },
+    {
+      "team_id": "B7-D2_GAINESVILLE_SCHWEMER",
+      "rank": 6,
+      "details": [
+        "0.542"
+      ]
+    },
+    {
+      "team_id": "B7-D2_ARLINGTON_REMEDIOS",
+      "rank": 7,
+      "details": [
+        "0.500"
+      ]
+    },
+    {
+      "team_id": "B7-D2_VIENNA_MORTON",
+      "rank": 8,
+      "details": [
+        "0.417",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B7-D2_BURKE_STURTEVANT",
+      "rank": 9,
+      "details": [
+        "0.417",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B7-D2_MCLEAN_NANCE",
+      "rank": 10,
+      "details": [
+        "0.385"
+      ]
+    },
+    {
+      "team_id": "B7-D2_LEE-MT. VERNON_RUSH",
+      "rank": 11,
+      "details": [
+        "0.364"
+      ]
+    },
+    {
+      "team_id": "B7-D2_ANNANDALE_NELSON",
+      "rank": 12,
+      "details": [
+        "0.250"
+      ]
+    },
+    {
+      "team_id": "B7-D2_ALEXANDRIA_MATTHEWS",
+      "rank": 13,
+      "details": [
+        "0.167"
+      ]
+    },
+    {
+      "team_id": "B7-D2_FORT BELVOIR_SHERN",
+      "rank": 14,
+      "details": [
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B7-D3_SOUTH COUNTY_LLOYD",
+      "rank": 1,
+      "details": [
+        "0.923"
+      ]
+    },
+    {
+      "team_id": "B7-D3_HERNDON_PASSMORE",
+      "rank": 2,
+      "details": [
+        "0.857"
+      ]
+    },
+    {
+      "team_id": "B7-D3_CYA_PROCHAZKA",
+      "rank": 3,
+      "details": [
+        "0.769"
+      ]
+    },
+    {
+      "team_id": "B7-D3_GAINESVILLE_LINGENFELDER",
+      "rank": 4,
+      "details": [
+        "0.692"
+      ]
+    },
+    {
+      "team_id": "B7-D3_ARLINGTON_PARKER",
+      "rank": 5,
+      "details": [
+        "0.615"
+      ]
+    },
+    {
+      "team_id": "B7-D3_SOUTH LOUDOUN_COOK",
+      "rank": 6,
+      "details": [
+        "0.462"
+      ]
+    },
+    {
+      "team_id": "B7-D3_ALEXANDRIA_THOMAS",
+      "rank": 7,
+      "details": [
+        "0.385"
+      ]
+    },
+    {
+      "team_id": "B7-D3_BURKE_DISILVESTRO",
+      "rank": 8,
+      "details": [
+        "0.308",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B7-D3_GREAT FALLS_WILLSON",
+      "rank": 9,
+      "details": [
+        "0.308",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B7-D3_SYA_DOWNEY",
+      "rank": 10,
+      "details": [
+        "0.154"
+      ]
+    },
+    {
+      "team_id": "B7-D3_SPRINGFIELD_KELLY",
+      "rank": 11,
+      "details": [
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B8-D1_MANASSAS PARK_VICK",
+      "rank": 1,
+      "details": [
+        "0.923"
+      ]
+    },
+    {
+      "team_id": "B8-D1_VIENNA_MARSDEN",
+      "rank": 2,
+      "details": [
+        "0.846"
+      ]
+    },
+    {
+      "team_id": "B8-D1_MCLEAN_LEGGETT",
+      "rank": 3,
+      "details": [
+        "0.818"
+      ]
+    },
+    {
+      "team_id": "B8-D1_RESTON_LANSDOWNE",
+      "rank": 4,
+      "details": [
+        "0.750"
+      ]
+    },
+    {
+      "team_id": "B8-D1_ANNANDALE_NELSON",
+      "rank": 5,
+      "details": [
+        "0.667",
+        "-----",
+        6
+      ]
+    },
+    {
+      "team_id": "B8-D1_LEE DISTRICT_MCMINN",
+      "rank": 6,
+      "details": [
+        "0.667",
+        "-----",
+        22
+      ]
+    },
+    {
+      "team_id": "B8-D1_SOUTH COUNTY_JACKSON",
+      "rank": 7,
+      "details": [
+        "0.615"
+      ]
+    },
+    {
+      "team_id": "B8-D1_SPRINGFIELD_ROBINSON",
+      "rank": 8,
+      "details": [
+        "0.583",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B8-D1_MCLEAN_TALLENT",
+      "rank": 9,
+      "details": [
+        "0.583",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B8-D1_TURNPIKE_DONOVAN",
+      "rank": 10,
+      "details": [
+        "0.500"
+      ]
+    },
+    {
+      "team_id": "B8-D1_BURKE_SHOUMAN",
+      "rank": 11,
+      "details": [
+        "0.462"
+      ]
+    },
+    {
+      "team_id": "B8-D1_CYA_LEE",
+      "rank": 12,
+      "details": [
+        "0.385"
+      ]
+    },
+    {
+      "team_id": "B8-D1_ARLINGTON_DAVIS",
+      "rank": 13,
+      "details": [
+        "0.333",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B8-D1_GREAT FALLS_KRAWCZYK",
+      "rank": 14,
+      "details": [
+        "0.333",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B8-D1_GAINESVILLE_PAGE",
+      "rank": 15,
+      "details": [
+        "0.154",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B8-D1_FORT BELVOIR_MILES",
+      "rank": 16,
+      "details": [
+        "0.154",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B8-D1_SOUTH LOUDOUN_COOK",
+      "rank": 17,
+      "details": [
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B8-D2_VIENNA_DESENTI",
+      "rank": 1,
+      "details": [
+        "0.923"
+      ]
+    },
+    {
+      "team_id": "B8-D2_FORT HUNT_FORTI",
+      "rank": 2,
+      "details": [
+        "0.846"
+      ]
+    },
+    {
+      "team_id": "B8-D2_SOUTH LOUDOUN_CHOI",
+      "rank": 3,
+      "details": [
+        "0.769",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B8-D2_LEE-MT. VERNON_BOSLEY",
+      "rank": 4,
+      "details": [
+        "0.769",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B8-D2_SYA_MCGHEE",
+      "rank": 5,
+      "details": [
+        "0.692",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B8-D2_ARLINGTON_BALLARD",
+      "rank": 6,
+      "details": [
+        "0.692",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B8-D2_BRYC_THOMAS",
+      "rank": 7,
+      "details": [
+        "0.462",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B8-D2_HERNDON_HARLEY",
+      "rank": 8,
+      "details": [
+        "0.462",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B8-D2_SOUTH COUNTY_MATTHEWS",
+      "rank": 9,
+      "details": [
+        "0.308",
+        "0.500",
+        7
+      ]
+    },
+    {
+      "team_id": "B8-D2_ARLINGTON_MAHER",
+      "rank": 10,
+      "details": [
+        "0.308",
+        "0.500",
+        15
+      ]
+    },
+    {
+      "team_id": "B8-D2_GAINESVILLE_COMPTON",
+      "rank": 11,
+      "details": [
+        "0.308",
+        "0.500",
+        16
+      ]
+    },
+    {
+      "team_id": "B8-D2_FPYC_RAGAN",
+      "rank": 12,
+      "details": [
+        "0.231",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B8-D2_CYA_DANN",
+      "rank": 13,
+      "details": [
+        "0.231",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B8-D2_CYA_SMITH",
+      "rank": 14,
+      "details": [
+        "0.154",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B8-D2_MCLEAN_TURGEON",
+      "rank": 15,
+      "details": [
+        "0.154",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B8-D3_SOUTH LOUDOUN_MOSTEK",
+      "rank": 1,
+      "details": [
+        "0.923"
+      ]
+    },
+    {
+      "team_id": "B8-D3_FALLS CHURCH_SUTTON",
+      "rank": 2,
+      "details": [
+        "0.846"
+      ]
+    },
+    {
+      "team_id": "B8-D3_LEE-MT. VERNON_PETERS",
+      "rank": 3,
+      "details": [
+        "0.692"
+      ]
+    },
+    {
+      "team_id": "B8-D3_BURKE_PETRO",
+      "rank": 4,
+      "details": [
+        "0.462",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "B8-D3_RESTON_BIRKLAND",
+      "rank": 5,
+      "details": [
+        "0.462",
+        "0.667"
+      ]
+    },
+    {
+      "team_id": "B8-D3_BURKE_SMYDRA",
+      "rank": 6,
+      "details": [
+        "0.462",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "B8-D3_MANASSAS PARK_HOLDEN",
+      "rank": 7,
+      "details": [
+        "0.417"
+      ]
+    },
+    {
+      "team_id": "B8-D3_LEE-MT. VERNON_SIMONIK",
+      "rank": 8,
+      "details": [
+        "0.231"
+      ]
+    },
+    {
+      "team_id": "B8-D3_BAILEYS_TBD",
+      "rank": 9,
+      "details": [
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "G5-D1_VIENNA_KORMAN",
+      "rank": 1,
+      "details": [
+        "0.900",
+        "0.500",
+        8
+      ]
+    },
+    {
+      "team_id": "G5-D1_ARLINGTON_MCRAE",
+      "rank": 2,
+      "details": [
+        "0.900",
+        "0.500",
+        15
+      ]
+    },
+    {
+      "team_id": "G5-D1_LEE MT. VERNON_BRELAND",
+      "rank": 3,
+      "details": [
+        "0.800"
+      ]
+    },
+    {
+      "team_id": "G5-D1_CYA_DOWLING",
+      "rank": 4,
+      "details": [
+        "0.500"
+      ]
+    },
+    {
+      "team_id": "G5-D1_SPRINGFIELD_GOODMAN",
+      "rank": 5,
+      "details": [
+        "0.400",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "G5-D1_MCLEAN_A NORTON",
+      "rank": 6,
+      "details": [
+        "0.400",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "G5-D1_SOUTH LOUDOUN_KERR",
+      "rank": 7,
+      "details": [
+        "0.300",
+        "0.667"
+      ]
+    },
+    {
+      "team_id": "G5-D1_GAINESVILLE_JOHNSON",
+      "rank": 8,
+      "details": [
+        "0.300",
+        "0.500"
+      ]
+    },
+    {
+      "team_id": "G5-D1_FORT HUNT_GAREY",
+      "rank": 9,
+      "details": [
+        "0.300",
+        "0.333"
+      ]
+    },
+    {
+      "team_id": "G5-D1_GREAT FALLS_NITOWSKI",
+      "rank": 10,
+      "details": [
+        "0.200"
+      ]
+    },
+    {
+      "team_id": "G5-D2_SYA_ANDERSEN",
+      "rank": 1,
+      "details": [
+        "1.000",
+        "-----",
+        5
+      ]
+    },
+    {
+      "team_id": "G5-D2_ARLINGTON_LOMAS",
+      "rank": 2,
+      "details": [
+        "1.000",
+        "-----",
+        15
+      ]
+    },
+    {
+      "team_id": "G5-D2_VIENNA_KONSTAS",
+      "rank": 3,
+      "details": [
+        "0.778",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "G5-D2_SYA_MCGHEE",
+      "rank": 4,
+      "details": [
+        "0.778",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "G5-D2_SOUTH LOUDOUN_OSHEA",
+      "rank": 5,
+      "details": [
+        "0.611"
+      ]
+    },
+    {
+      "team_id": "G5-D2_BURKE_ROSE",
+      "rank": 6,
+      "details": [
+        "0.500"
+      ]
+    },
+    {
+      "team_id": "G5-D2_MCLEAN_B KIM",
+      "rank": 7,
+      "details": [
+        "0.444",
+        "0.500",
+        2
+      ]
+    },
+    {
+      "team_id": "G5-D2_GAINESVILLE_HAMPSON",
+      "rank": 8,
+      "details": [
+        "0.444",
+        "0.500",
+        16
+      ]
+    },
+    {
+      "team_id": "G5-D2_FORT BELVOIR_WASHINGTON",
+      "rank": 9,
+      "details": [
+        "0.444",
+        "0.500",
+        25
+      ]
+    },
+    {
+      "team_id": "G5-D2_RESTON_WARD",
+      "rank": 10,
+      "details": [
+        "0.333",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "G5-D2_CYA_MAZID",
+      "rank": 11,
+      "details": [
+        "0.333",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "G5-D2_BRYC_ALI",
+      "rank": 12,
+      "details": [
+        "0.222"
+      ]
+    },
+    {
+      "team_id": "G5-D2_BURKE_PRICE",
+      "rank": 13,
+      "details": [
+        "0.111"
+      ]
+    },
+    {
+      "team_id": "G5-D2_BAILEYS CC_MARSHALL",
+      "rank": 14,
+      "details": [
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "G6-D1_GAINESVILLE_HOLDER",
+      "rank": 1,
+      "details": [
+        "0.786"
+      ]
+    },
+    {
+      "team_id": "G6-D1_CYA_KANG",
+      "rank": 2,
+      "details": [
+        "0.769"
+      ]
+    },
+    {
+      "team_id": "G6-D1_BURKE_COUTINHO",
+      "rank": 3,
+      "details": [
+        "0.692"
+      ]
+    },
+    {
+      "team_id": "G6-D1_ARLINGTON_PIACENZA",
+      "rank": 4,
+      "details": [
+        "0.615"
+      ]
+    },
+    {
+      "team_id": "G6-D1_SOUTH LOUDOUN_CHILDRESS",
+      "rank": 5,
+      "details": [
+        "0.538"
+      ]
+    },
+    {
+      "team_id": "G6-D1_VIENNA_PARRIS",
+      "rank": 6,
+      "details": [
+        "0.462",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "G6-D1_SYA_MOORE",
+      "rank": 7,
+      "details": [
+        "0.462",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "G6-D1_FORT HUNT_LOVING",
+      "rank": 8,
+      "details": [
+        "0.154"
+      ]
+    },
+    {
+      "team_id": "G6-D1_MCLEAN_MURRELL",
+      "rank": 9,
+      "details": [
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "G6-D2_BURKE_SEIGLE",
+      "rank": 1,
+      "details": [
+        "0.923"
+      ]
+    },
+    {
+      "team_id": "G6-D2_SPRINGFIELD_MARSHALL",
+      "rank": 2,
+      "details": [
+        "0.833",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "G6-D2_ARLINGTON_DECOU",
+      "rank": 3,
+      "details": [
+        "0.833",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "G6-D2_FALLS CHURCH_PAPADOPOULOS",
+      "rank": 4,
+      "details": [
+        "0.692"
+      ]
+    },
+    {
+      "team_id": "G6-D2_SYA_LANGFORD",
+      "rank": 5,
+      "details": [
+        "0.667",
+        "1.000",
+        "-----",
+        5
+      ]
+    },
+    {
+      "team_id": "G6-D2_LEE-MT. VERNON_HENDERSON",
+      "rank": 6,
+      "details": [
+        "0.667",
+        "1.000",
+        "-----",
+        12
+      ]
+    },
+    {
+      "team_id": "G6-D2_GREAT FALLS_EXLEY",
+      "rank": 7,
+      "details": [
+        "0.667",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "G6-D2_SOUTH LOUDOUN_SAMSON",
+      "rank": 8,
+      "details": [
+        "0.615"
+      ]
+    },
+    {
+      "team_id": "G6-D2_MCLEAN_EDWARDS",
+      "rank": 9,
+      "details": [
+        "0.455"
+      ]
+    },
+    {
+      "team_id": "G6-D2_CYA_MURPHY",
+      "rank": 10,
+      "details": [
+        "0.417"
+      ]
+    },
+    {
+      "team_id": "G6-D2_RESTON_BARR",
+      "rank": 11,
+      "details": [
+        "0.385"
+      ]
+    },
+    {
+      "team_id": "G6-D2_FPYC_LESTER",
+      "rank": 12,
+      "details": [
+        "0.333"
+      ]
+    },
+    {
+      "team_id": "G6-D2_VIENNA_GRIM",
+      "rank": 13,
+      "details": [
+        "0.250"
+      ]
+    },
+    {
+      "team_id": "G6-D2_GAINESVILLE_FURLONG",
+      "rank": 14,
+      "details": [
+        "0.182"
+      ]
+    },
+    {
+      "team_id": "G6-D2_BRYC_DUDLEY",
+      "rank": 15,
+      "details": [
+        "0.000",
+        "-----",
+        3
+      ]
+    },
+    {
+      "team_id": "G6-D2_SPRINGFIELD_BURDETTE",
+      "rank": 16,
+      "details": [
+        "0.000",
+        "-----",
+        13
+      ]
+    },
+    {
+      "team_id": "G7-D1_MCLEAN_CRITTENBERGER",
+      "rank": 1,
+      "details": [
+        "0.923"
+      ]
+    },
+    {
+      "team_id": "G7-D1_ARLINGTON_EISENBERG",
+      "rank": 2,
+      "details": [
+        "0.769",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "G7-D1_FALLS CHURCH_MADISON",
+      "rank": 3,
+      "details": [
+        "0.769",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "G7-D1_BURKE_SEAY",
+      "rank": 4,
+      "details": [
+        "0.615",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "G7-D1_FORT HUNT_HEINER",
+      "rank": 5,
+      "details": [
+        "0.615",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "G7-D1_SPRINGFIELD_DUCKETT",
+      "rank": 6,
+      "details": [
+        "0.538",
+        "0.667",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "G7-D1_FPYC_KOMAILY",
+      "rank": 7,
+      "details": [
+        "0.538",
+        "0.667",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "G7-D1_VIENNA_YODER",
+      "rank": 8,
+      "details": [
+        "0.538",
+        "0.500"
+      ]
+    },
+    {
+      "team_id": "G7-D1_CYA_MAWLOUD",
+      "rank": 9,
+      "details": [
+        "0.538",
+        "0.250"
+      ]
+    },
+    {
+      "team_id": "G7-D1_SOUTH LOUDOUN_LISACK",
+      "rank": 10,
+      "details": [
+        "0.308"
+      ]
+    },
+    {
+      "team_id": "G7-D1_BURKE_WYANT",
+      "rank": 11,
+      "details": [
+        "0.231"
+      ]
+    },
+    {
+      "team_id": "G7-D1_SYA_BRUBAKER",
+      "rank": 12,
+      "details": [
+        "0.077"
+      ]
+    },
+    {
+      "team_id": "G7-D1_GREAT FALLS_BOND",
+      "rank": 13,
+      "details": [
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "G7-D2_GAINESVILLE_NAPLES",
+      "rank": 1,
+      "details": [
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "G7-D2_BRYC_OCONNOR",
+      "rank": 2,
+      "details": [
+        "0.846"
+      ]
+    },
+    {
+      "team_id": "G7-D2_MT. VERNON_GAREY",
+      "rank": 3,
+      "details": [
+        "0.769"
+      ]
+    },
+    {
+      "team_id": "G7-D2_ARLINGTON_FILIDES",
+      "rank": 4,
+      "details": [
+        "0.692"
+      ]
+    },
+    {
+      "team_id": "G7-D2_MCLEAN_MENDENHALL",
+      "rank": 5,
+      "details": [
+        "0.643"
+      ]
+    },
+    {
+      "team_id": "G7-D2_RESTON_ZEBERLEIN",
+      "rank": 6,
+      "details": [
+        "0.538"
+      ]
+    },
+    {
+      "team_id": "G7-D2_SOUTH LOUDOUN_MCGOVERN",
+      "rank": 7,
+      "details": [
+        "0.308",
+        "0.667"
+      ]
+    },
+    {
+      "team_id": "G7-D2_CYA_FRANCIS",
+      "rank": 8,
+      "details": [
+        "0.308",
+        "0.500"
+      ]
+    },
+    {
+      "team_id": "G7-D2_LEE-MT. VERNON_CARTER",
+      "rank": 9,
+      "details": [
+        "0.308",
+        "0.333"
+      ]
+    },
+    {
+      "team_id": "G7-D2_SPRINGFIELD_DUCKETT",
+      "rank": 10,
+      "details": [
+        "0.077"
+      ]
+    },
+    {
+      "team_id": "G7-D2_VIENNA_TOMLINSON",
+      "rank": 11,
+      "details": [
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "G8-D1_CYA_MCCONNELL",
+      "rank": 1,
+      "details": [
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "G8-D1_MCLEAN_MEGAS",
+      "rank": 2,
+      "details": [
+        "0.846"
+      ]
+    },
+    {
+      "team_id": "G8-D1_BURKE_EDWARDS",
+      "rank": 3,
+      "details": [
+        "0.692"
+      ]
+    },
+    {
+      "team_id": "G8-D1_GAINESVILLE_GILLIAM",
+      "rank": 4,
+      "details": [
+        "0.462"
+      ]
+    },
+    {
+      "team_id": "G8-D1_ARLINGTON_ABUNDO",
+      "rank": 5,
+      "details": [
+        "0.385"
+      ]
+    },
+    {
+      "team_id": "G8-D1_FPYC_LESTER",
+      "rank": 6,
+      "details": [
+        "0.333",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "G8-D1_SPRINGFIELD_WILSON",
+      "rank": 7,
+      "details": [
+        "0.333",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "G8-D1_VIENNA_TROTTER",
+      "rank": 8,
+      "details": [
+        "0.231"
+      ]
+    },
+    {
+      "team_id": "G8-D1_GREAT FALLS_KERRIGAN",
+      "rank": 9,
+      "details": [
+        "0.167"
+      ]
+    },
+    {
+      "team_id": "G8-D2_CYA_JONES",
+      "rank": 1,
+      "details": [
+        "0.846",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "G8-D2_VIENNA_BOND",
+      "rank": 2,
+      "details": [
+        "0.846",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "G8-D2_SYA_HESLEP",
+      "rank": 3,
+      "details": [
+        "0.769",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "G8-D2_FORT HUNT_HARRIS",
+      "rank": 4,
+      "details": [
+        "0.769",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "G8-D2_MCLEAN_MCNICOLL",
+      "rank": 5,
+      "details": [
+        "0.692",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "G8-D2_TURNPIKE_KOMAILY",
+      "rank": 6,
+      "details": [
+        "0.692",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "G8-D2_SOUTH LOUDOUN_STROHECKER",
+      "rank": 7,
+      "details": [
+        "0.538"
+      ]
+    },
+    {
+      "team_id": "G8-D2_CYA_RATHINAVELU",
+      "rank": 8,
+      "details": [
+        "0.462"
+      ]
+    },
+    {
+      "team_id": "G8-D2_FORT BELVOIR_EDWARDS",
+      "rank": 9,
+      "details": [
+        "0.385"
+      ]
+    },
+    {
+      "team_id": "G8-D2_BURKE_BYRNE",
+      "rank": 10,
+      "details": [
+        "0.308",
+        "1.000"
+      ]
+    },
+    {
+      "team_id": "G8-D2_MT. VERNON_ELLING",
+      "rank": 11,
+      "details": [
+        "0.308",
+        "0.000"
+      ]
+    },
+    {
+      "team_id": "G8-D2_BAILEYS CC_HUDSON",
+      "rank": 12,
+      "details": [
+        "0.154"
+      ]
+    },
+    {
+      "team_id": "G8-D2_ARLINGTON_SCARCELLA",
+      "rank": 13,
+      "details": [
+        "0.083",
+        "-----",
+        15
+      ]
+    },
+    {
+      "team_id": "G8-D2_SOUTH LOUDOUN_SAMSON",
+      "rank": 14,
+      "details": [
+        "0.083",
+        "-----",
+        17
+      ]
+    }
+  ],
+  "divisions": [
+    "B5-D1",
+    "B5-D2",
+    "B5-D3",
+    "B6-D1",
+    "B6-D2",
+    "B6-D3",
+    "B7-D1",
+    "B7-D2",
+    "B7-D3",
+    "B8-D1",
+    "B8-D2",
+    "B8-D3",
+    "G5-D1",
+    "G5-D2",
+    "G6-D1",
+    "G6-D2",
+    "G7-D1",
+    "G7-D2",
+    "G8-D1",
+    "G8-D2"
+  ],
+  "run_date": "2020-02-16 21:35:47"
 };
