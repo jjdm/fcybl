@@ -129,7 +129,10 @@
                             </th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody ng-if="d == 'B8-D1'">
+                        <th colspan="8">Awaiting final game reporting.</th>
+                    </tbody>
+                    <tbody ng-if="d != 'B8-D1'">
                         <tr ng-repeat="r in rc.findRankingsForDivision(d)" ng-value="t = rc.findTeam(r.team_id)" ng-class="{ 'playoffs': r.rank == spot }">
                             <th scope="row" ng-class="{ 'playoffs': r.rank <= spot }">{{ r.rank }}</th>
                             <td>
