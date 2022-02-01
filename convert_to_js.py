@@ -8,7 +8,9 @@ from collections import namedtuple
 from operator import attrgetter
 from itertools import groupby
 
-SPECIAL_FOR_2019 = True  # reminder to remove this next year if needed. B8-D1_LEE DISTRICT_MCMINN changed divisions.
+TESTING = False
+SPECIAL_FOR_2022_CHANGED_DIVISIONS = True  # reminder to remove this next year if needed. B8-D1_LEE DISTRICT_MCMINN changed divisions.
+SPECIAL_FOR_2022_SC_NAME_ISSUE = True
 
 ExcelRow = namedtuple('ExcelRow', 'db_id, date, team, opponent, points, against')
 Team = namedtuple('Team', 'team_id, division, club, coach')
@@ -18,59 +20,50 @@ WinPercent = namedtuple('WinPercent', 'team_id, percent, no_games')
 Rank = namedtuple('Rank', 'team_id, rank, details')
 
 LOTTERY_PICKS = {
-    'GREAT FALLS': 1,
-    'MCLEAN': 2,
+    'ANNANDALE': 1,
+    'ARLINGTON': 2,
     'BRYC': 3,
     'BURKE': 4,
-    'SYA': 5,
-    'ANNANDALE': 6,
-    'SOUTH COUNTY': 7,
-    'VIENNA': 8,
-    'TURNPIKE': 9,
-    'MANASSAS PARK': 10,
+    'CYA': 5,
+    'FALLS CHURCH': 6,
+    'FORT BELVOIR': 7,
+    'FORT HUNT': 8,
+    'FPYC': 9,
+    'GREAT FALLS': 10,
     'GUM SPRINGS': 11,
-    'LEE MT. VERNON': 12,
-    'LEE-MT. VERNON': 12,
-    'SPRINGFIELD': 13,
-    'CYA': 14,
-    'ARLINGTON': 15,
-    'GAINESVILLE': 16,
-    'SOUTH LOUDOUN': 17,
-    'RESTON': 18,
-    'FPYC': 19,
-    'BAILEYS': 20,
-    'BAILEYS CC': 20,
-    'HERNDON': 21,
-    'LEE DISTRICT': 22,
-    'FALLS CHURCH': 23,
-    'FORT HUNT': 24,
-    'FORT BELVOIR': 25,
-    'MT. VERNON': 26,
-    'JAMES LEE': 27,
-    'ALEXANDRIA': 28
+    'HERNDON': 12,
+    'LEE DISTRICT': 13,
+    'LEE DISTRICT CC': 13,
+    'LEE-MT. VERNON': 14,
+    'LEE-MT.VERNON': 14,
+    'MT. VERNON': 14,
+    'MCLEAN': 15,
+    'RESTON': 16,
+    'SOUTH COUNTY': 17,
+    'SPRINGFIELD': 18,
+    'SYA': 19,
+    'TURNPIKE': 20,
+    'TURPIKE': 20,
+    'VIENNA': 21,
 }
 
 DIVISION_PLAYOFF_SPOTS = {
-    "B5-D1": 9,
-    "B5-D2": 11,
-    "B5-D3": 9,
-    "B6-D1": 11,
-    "B6-D2": 10,
-    "B6-D3": 11,
-    "B7-D1": 10,
-    "B7-D2": 11,
-    "B7-D3": 8,
-    "B8-D1": 13,
-    "B8-D2": 12,
-    "B8-D3": 8,
-    "G5-D1": 8,
-    "G5-D2": 11,
-    "G6-D1": 8,
-    "G6-D2": 12,
-    "G7-D1": 10,
-    "G7-D2": 8,
-    "G8-D1": 8,
-    "G8-D2": 11
+    'B5-D1': '--',
+    'B5-D2': '--',
+    'B6-D1': '--',
+    'B6-D2': '--',
+    'B7-D1': '--',
+    'B7-D2': '--',
+    'B8-D1': '--',
+    'B8-D2': '--',
+    'B8-D3': '--',
+    'G5-D1': '--',
+    'G6-D1': '--',
+    'G6-D2': '--',
+    'G7-D1': '--',
+    'G7-D2': '--',
+    'G8-D1': '--',
+    'G8-D2': '--',
 }
 
 
@@ -98,23 +91,28 @@ def read_excel(excel):
     for curr_row in range(worksheet.nrows):
         if(curr_row == 0):
             continue  # do not need headers
-        db_id = clean_number(worksheet.cell_value(curr_row, 12))
+        raw_date = datetime.datetime(*xlrd.xldate_as_tuple(worksheet.cell_value(curr_row, 1), workbook.datemode))
+        yesterday = datetime.datetime.now() - datetime.timedelta(days = 1)
+        if(raw_date > yesterday):
+            continue # future game
+        date = raw_date.strftime('%Y-%m-%d')
         team = clean_column(worksheet.cell_value(curr_row, 4))
         opponent = clean_column(worksheet.cell_value(curr_row, 7))
+        if(not opponent):
+            continue # not a real game
         points = clean_number(worksheet.cell_value(curr_row, 10))
+        points = 0 if not points else points
         against = clean_number(worksheet.cell_value(curr_row, 11))
-        if(not(team and opponent and (points or against))):
-            continue  # not a real game (can be 0 if forfeit)
-        date = datetime.datetime(*xlrd.xldate_as_tuple(worksheet.cell_value(curr_row, 1), workbook.datemode))
-        date = date.strftime('%Y-%m-%d')
-        if("2019" in date and "5TH" in team.upper()):
-            continue  # skip pool play games
+        against = 0 if not against else against
+        db_id = clean_number(worksheet.cell_value(curr_row, 12))
         row = ExcelRow(db_id, date, team, opponent, points, against)
         rows.append(row)
     return rows
 
 
 def build_team(raw):
+    if(SPECIAL_FOR_2022_SC_NAME_ISSUE):
+        raw = raw.replace("South County 5-2 Arora", "South County B5-2 Arora")
     parts = raw.split(">")
     division = clean_column(parts[2]).upper().replace("BOYS ", "B").replace("GIRLS ", "G").replace("TH GRADE DIVISION ", "-D")
     t_raw = clean_column(parts[3]).upper()
@@ -127,6 +125,13 @@ def build_team(raw):
 
 
 def build_games(t1, t2, row):
+    # default as loss for both teams if score isn't entered
+    score_not_entered = row.points == 0 and row.against == 0
+    if(score_not_entered):
+        t1_game = Game(row.db_id, row.date, t1.team_id, t2.team_id, row.points, row.against, "L", False, True, False, True)
+        t2_game = Game(row.db_id, row.date, t2.team_id, t1.team_id, row.against, row.points, "L", False, True, False, False)
+        return (t1_game, t2_game)
+    # determine win/loss/tie if there is a score
     t1_wins = row.points > row.against
     t1_loses = row.points < row.against
     t1_ties = row.points == row.against
@@ -191,7 +196,7 @@ def rank(games, group, start, mapping, all_teams, level):
         # calculate winning percentage against the group
         group_percents = []
         for team in group:
-            if(SPECIAL_FOR_2019 and level == 0):
+            if(SPECIAL_FOR_2022_CHANGED_DIVISIONS and level == 0):
                 # One team changed divisions in the middle of the year. For iteration 1, need to compare against all teams.
                 group = all_teams
             win_percent = calculate_win_percent(games, team, group)
@@ -271,8 +276,19 @@ def print_to_json(results, rankings, excel):
         'rankings': rankings_list
     }
     output = "var _MASTER_DATA = " + json.dumps(object, indent=2) + ";"
-    print(output)
+    log(output)
 
+
+def log(message):
+    print(message)
+    
+def test():
+    excel = find_excel()
+    rows = read_excel(excel)
+    results = build_teams_and_games(rows)
+    clubs = sorted(set([x.club for x in results.teams]))
+    for c in clubs:
+        print(c)
 
 def main():
     excel = find_excel()
@@ -283,4 +299,7 @@ def main():
 
 
 if (__name__ == "__main__"):
-    main()
+    if TESTING:
+        test()
+    else:
+        main()

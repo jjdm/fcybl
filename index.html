@@ -2,14 +2,15 @@
 <html lang="en">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158597576-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-158597576-1');
-    </script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158597576-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-158597576-1');
+	</script>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -70,11 +71,7 @@
                 </p>
             </div>
             <div class="col-lg-12">
-                <p>The following rankings are based on game results from the 2019-2020 FCYBL season.</p>
-                <p>
-                    For an extract of this page, you can download the
-                    <span class="fileIcon pdf"><a target="_blank" href="./docs/FCYBL Rankings.pdf?v={{ rc.master.run_date }}">PDF version</a></span>.
-                </p>
+                <p>The following rankings are based on game results from the 2021-2022 FCYBL season.</p>
                 <p class="lead">
                     Boys:
                     <span ng-repeat="d in rc.master.divisions" ng-if="d.startsWith('B')">
@@ -103,6 +100,8 @@
                             When teams can no longer be compared based on winning percentage within their sub-group, the lottery draw is used.
                             <br />
                             &nbsp; &nbsp; <span class="text-muted">- This can be seen when the tiebreaker (TB) is an integer (no decimals).</span>
+							<br />
+							&nbsp; &nbsp; <span class="text-muted">- As of 2/1/2022, the lottery draw is a placeholder (alphabetical).</span>
                         </li>
                     </ul>
                 </p>
