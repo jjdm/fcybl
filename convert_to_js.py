@@ -20,31 +20,31 @@ WinPercent = namedtuple('WinPercent', 'team_id, percent, no_games')
 Rank = namedtuple('Rank', 'team_id, rank, details')
 
 LOTTERY_PICKS = {
-    'ANNANDALE': 1,
-    'ARLINGTON': 2,
-    'BRYC': 3,
-    'BURKE': 4,
-    'CYA': 5,
-    'FALLS CHURCH': 6,
-    'FORT BELVOIR': 7,
-    'FORT HUNT': 8,
+    'ANNANDALE': 2,
+    'ARLINGTON': 5,
+    'BRYC': 7,
+    'BURKE': 12,
+    'CYA': 11,
+    'FALLS CHURCH': 4,
+    'FORT BELVOIR': 10,
+    'FORT HUNT': 19,
     'FPYC': 9,
-    'GREAT FALLS': 10,
-    'GUM SPRINGS': 11,
-    'HERNDON': 12,
-    'LEE DISTRICT': 13,
-    'LEE DISTRICT CC': 13,
-    'LEE-MT. VERNON': 14,
-    'LEE-MT.VERNON': 14,
-    'MT. VERNON': 14,
-    'MCLEAN': 15,
-    'RESTON': 16,
-    'SOUTH COUNTY': 17,
-    'SPRINGFIELD': 18,
-    'SYA': 19,
-    'TURNPIKE': 20,
-    'TURPIKE': 20,
-    'VIENNA': 21,
+    'GREAT FALLS': 21,
+    'GUM SPRINGS': 3,
+    'HERNDON': 14,
+    'LEE DISTRICT': 17,
+    'LEE DISTRICT CC': 17,
+    'LEE-MT. VERNON': 18,
+    'LEE-MT.VERNON': 18,
+    'MT. VERNON': 16,
+    'MCLEAN': 1,
+    'RESTON': 20,
+    'SOUTH COUNTY': 13,
+    'SPRINGFIELD': 22,
+    'SYA': 8,
+    'TURNPIKE': 6,
+    'TURPIKE': 6,
+    'VIENNA': 15,
 }
 
 DIVISION_PLAYOFF_SPOTS = {
@@ -281,7 +281,7 @@ def print_to_json(results, rankings, excel):
 
 def log(message):
     print(message)
-    
+
 def test():
     excel = find_excel()
     rows = read_excel(excel)

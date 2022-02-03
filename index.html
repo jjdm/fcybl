@@ -100,8 +100,6 @@
                             When teams can no longer be compared based on winning percentage within their sub-group, the lottery draw is used.
                             <br />
                             &nbsp; &nbsp; <span class="text-muted">- This can be seen when the tiebreaker (TB) is an integer (no decimals).</span>
-							<br />
-							&nbsp; &nbsp; <span class="text-muted">- As of 2/1/2022, the lottery draw is a placeholder (alphabetical).</span>
                         </li>
                     </ul>
                 </p>
@@ -128,10 +126,7 @@
                             </th>
                         </tr>
                     </thead>
-                    <tbody ng-if="d == 'B8-D1'">
-                        <th colspan="8">Awaiting final game reporting.</th>
-                    </tbody>
-                    <tbody ng-if="d != 'B8-D1'">
+                    <tbody>
                         <tr ng-repeat="r in rc.findRankingsForDivision(d)" ng-value="t = rc.findTeam(r.team_id)" ng-class="{ 'playoffs': r.rank == spot }">
                             <th scope="row" ng-class="{ 'playoffs': r.rank <= spot }">{{ r.rank }}</th>
                             <td>
