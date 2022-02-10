@@ -1,6 +1,6 @@
 var _MASTER_DATA = {
-  "excel": "FCYBL Schedule as of 2-8-22.xlsx",
-  "run_date": "2022-02-10 12:23:39",
+  "excel": "FCYBL Schedule as of 2-10-22.xlsx",
+  "run_date": "2022-02-10 13:06:27",
   "divisions": [
     "B5-D1",
     "B5-D2",
@@ -179,7 +179,7 @@ var _MASTER_DATA = {
       "division": "B6-D1",
       "club": "ARLINGTON",
       "coach": "JONES",
-      "record": "9-2-0"
+      "record": "10-1-0"
     },
     {
       "team_id": "B6-D1_BURKE_RAYBON",
@@ -214,14 +214,14 @@ var _MASTER_DATA = {
       "division": "B6-D1",
       "club": "MCLEAN",
       "coach": "LEGGETT",
-      "record": "10-2-0"
+      "record": "11-1-0"
     },
     {
       "team_id": "B6-D1_RESTON_DOUAD",
       "division": "B6-D1",
       "club": "RESTON",
       "coach": "DOUAD",
-      "record": "6-5-0"
+      "record": "7-4-0"
     },
     {
       "team_id": "B6-D1_VIENNA_EPPS",
@@ -417,7 +417,7 @@ var _MASTER_DATA = {
       "division": "B7-D2",
       "club": "BRYC",
       "coach": "SHARMA",
-      "record": "8-3-0"
+      "record": "9-2-0"
     },
     {
       "team_id": "B7-D2_BURKE_DISILVESTRO",
@@ -438,7 +438,7 @@ var _MASTER_DATA = {
       "division": "B7-D2",
       "club": "FALLS CHURCH",
       "coach": "GREINER",
-      "record": "7-4-0"
+      "record": "8-3-0"
     },
     {
       "team_id": "B7-D2_FORT HUNT_ZIPPEL",
@@ -487,7 +487,7 @@ var _MASTER_DATA = {
       "division": "B7-D2",
       "club": "RESTON",
       "coach": "LOVE",
-      "record": "4-7-0"
+      "record": "5-6-0"
     },
     {
       "team_id": "B7-D2_SPRINGFIELD_MORRISON",
@@ -508,7 +508,7 @@ var _MASTER_DATA = {
       "division": "B7-D2",
       "club": "TURNPIKE",
       "coach": "SYRON",
-      "record": "1-10-0"
+      "record": "2-9-0"
     },
     {
       "team_id": "B7-D2_VIENNA_DESENTI",
@@ -550,7 +550,7 @@ var _MASTER_DATA = {
       "division": "B8-D1",
       "club": "GREAT FALLS",
       "coach": "BROWN",
-      "record": "6-6-0"
+      "record": "7-5-0"
     },
     {
       "team_id": "B8-D1_HERNDON_JONES",
@@ -592,7 +592,7 @@ var _MASTER_DATA = {
       "division": "B8-D2",
       "club": "BRYC",
       "coach": "SHIN",
-      "record": "3-6-0"
+      "record": "4-5-0"
     },
     {
       "team_id": "B8-D2_BURKE_MITCHELL",
@@ -844,7 +844,7 @@ var _MASTER_DATA = {
       "division": "G6-D2",
       "club": "BRYC",
       "coach": "SHIN",
-      "record": "7-4-0"
+      "record": "8-3-0"
     },
     {
       "team_id": "G6-D2_BURKE_IGL",
@@ -872,7 +872,7 @@ var _MASTER_DATA = {
       "division": "G6-D2",
       "club": "SYA",
       "coach": "SMITH",
-      "record": "5-5-0"
+      "record": "6-4-0"
     },
     {
       "team_id": "G7-D1_ARLINGTON_LOMAS",
@@ -928,7 +928,7 @@ var _MASTER_DATA = {
       "division": "G7-D1",
       "club": "MCLEAN",
       "coach": "NORTON",
-      "record": "7-6-0"
+      "record": "8-5-0"
     },
     {
       "team_id": "G7-D1_SYA_ANDERSEN",
@@ -1019,7 +1019,7 @@ var _MASTER_DATA = {
       "division": "G8-D1",
       "club": "SYA",
       "coach": "MOORE",
-      "record": "8-3-0"
+      "record": "9-2-0"
     },
     {
       "team_id": "G8-D1_VIENNA_TROTTER",
@@ -22014,11 +22014,11 @@ var _MASTER_DATA = {
       "date": "2022-02-08",
       "team": "B6-D1_MCLEAN_LEGGETT",
       "opponent": "B6-D1_GREAT FALLS_KLEIN",
-      "points": 0,
-      "against": 0,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "points": 44,
+      "against": 24,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
@@ -22027,8 +22027,8 @@ var _MASTER_DATA = {
       "date": "2022-02-08",
       "team": "B6-D1_GREAT FALLS_KLEIN",
       "opponent": "B6-D1_MCLEAN_LEGGETT",
-      "points": 0,
-      "against": 0,
+      "points": 24,
+      "against": 44,
       "result": "L",
       "win": false,
       "lost": true,
@@ -22040,11 +22040,11 @@ var _MASTER_DATA = {
       "date": "2022-02-08",
       "team": "G6-D2_SYA_SMITH",
       "opponent": "G6-D2_BURKE_IGL",
-      "points": 0,
-      "against": 0,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "points": 29,
+      "against": 23,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
@@ -22053,8 +22053,8 @@ var _MASTER_DATA = {
       "date": "2022-02-08",
       "team": "G6-D2_BURKE_IGL",
       "opponent": "G6-D2_SYA_SMITH",
-      "points": 0,
-      "against": 0,
+      "points": 23,
+      "against": 29,
       "result": "L",
       "win": false,
       "lost": true,
@@ -22066,11 +22066,11 @@ var _MASTER_DATA = {
       "date": "2022-02-08",
       "team": "B6-D1_ARLINGTON_JONES",
       "opponent": "B6-D1_VIENNA_EPPS",
-      "points": 0,
-      "against": 0,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "points": 54,
+      "against": 22,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
@@ -22079,8 +22079,8 @@ var _MASTER_DATA = {
       "date": "2022-02-08",
       "team": "B6-D1_VIENNA_EPPS",
       "opponent": "B6-D1_ARLINGTON_JONES",
-      "points": 0,
-      "against": 0,
+      "points": 22,
+      "against": 54,
       "result": "L",
       "win": false,
       "lost": true,
@@ -22092,11 +22092,11 @@ var _MASTER_DATA = {
       "date": "2022-02-08",
       "team": "B7-D2_RESTON_LOVE",
       "opponent": "B7-D2_FPYC_DAVIS",
-      "points": 0,
-      "against": 0,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "points": 50,
+      "against": 47,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
@@ -22105,8 +22105,8 @@ var _MASTER_DATA = {
       "date": "2022-02-08",
       "team": "B7-D2_FPYC_DAVIS",
       "opponent": "B7-D2_RESTON_LOVE",
-      "points": 0,
-      "against": 0,
+      "points": 47,
+      "against": 50,
       "result": "L",
       "win": false,
       "lost": true,
@@ -22118,8 +22118,8 @@ var _MASTER_DATA = {
       "date": "2022-02-08",
       "team": "B7-D2_SYA_LIVINGSTON",
       "opponent": "B7-D2_FALLS CHURCH_GREINER",
-      "points": 0,
-      "against": 0,
+      "points": 46,
+      "against": 59,
       "result": "L",
       "win": false,
       "lost": true,
@@ -22131,11 +22131,11 @@ var _MASTER_DATA = {
       "date": "2022-02-08",
       "team": "B7-D2_FALLS CHURCH_GREINER",
       "opponent": "B7-D2_SYA_LIVINGSTON",
-      "points": 0,
-      "against": 0,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "points": 59,
+      "against": 46,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -22144,11 +22144,11 @@ var _MASTER_DATA = {
       "date": "2022-02-08",
       "team": "B8-D2_BRYC_SHIN",
       "opponent": "B8-D2_SYA_HILL",
-      "points": 0,
-      "against": 0,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "points": 64,
+      "against": 61,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
@@ -22157,34 +22157,8 @@ var _MASTER_DATA = {
       "date": "2022-02-08",
       "team": "B8-D2_SYA_HILL",
       "opponent": "B8-D2_BRYC_SHIN",
-      "points": 0,
-      "against": 0,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": false
-    },
-    {
-      "game_id": 7022244,
-      "date": "2022-02-08",
-      "team": "B7-D2_TURNPIKE_SYRON",
-      "opponent": "B7-D2_CYA_ATKINSON",
-      "points": 0,
-      "against": 0,
-      "result": "L",
-      "win": false,
-      "lost": true,
-      "tie": false,
-      "source": true
-    },
-    {
-      "game_id": 7022244,
-      "date": "2022-02-08",
-      "team": "B7-D2_CYA_ATKINSON",
-      "opponent": "B7-D2_TURNPIKE_SYRON",
-      "points": 0,
-      "against": 0,
+      "points": 61,
+      "against": 64,
       "result": "L",
       "win": false,
       "lost": true,
@@ -22196,8 +22170,8 @@ var _MASTER_DATA = {
       "date": "2022-02-08",
       "team": "B7-D2_VIENNA_DESENTI",
       "opponent": "B7-D2_BRYC_SHARMA",
-      "points": 0,
-      "against": 0,
+      "points": 41,
+      "against": 46,
       "result": "L",
       "win": false,
       "lost": true,
@@ -22209,8 +22183,34 @@ var _MASTER_DATA = {
       "date": "2022-02-08",
       "team": "B7-D2_BRYC_SHARMA",
       "opponent": "B7-D2_VIENNA_DESENTI",
-      "points": 0,
-      "against": 0,
+      "points": 46,
+      "against": 41,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": false
+    },
+    {
+      "game_id": 7022244,
+      "date": "2022-02-08",
+      "team": "B7-D2_TURNPIKE_SYRON",
+      "opponent": "B7-D2_CYA_ATKINSON",
+      "points": 39,
+      "against": 31,
+      "result": "W",
+      "win": true,
+      "lost": false,
+      "tie": false,
+      "source": true
+    },
+    {
+      "game_id": 7022244,
+      "date": "2022-02-08",
+      "team": "B7-D2_CYA_ATKINSON",
+      "opponent": "B7-D2_TURNPIKE_SYRON",
+      "points": 31,
+      "against": 39,
       "result": "L",
       "win": false,
       "lost": true,
@@ -22222,8 +22222,8 @@ var _MASTER_DATA = {
       "date": "2022-02-09",
       "team": "B6-D1_FORT HUNT_ESTENSON",
       "opponent": "B6-D1_RESTON_DOUAD",
-      "points": 0,
-      "against": 0,
+      "points": 37,
+      "against": 53,
       "result": "L",
       "win": false,
       "lost": true,
@@ -22235,11 +22235,11 @@ var _MASTER_DATA = {
       "date": "2022-02-09",
       "team": "B6-D1_RESTON_DOUAD",
       "opponent": "B6-D1_FORT HUNT_ESTENSON",
-      "points": 0,
-      "against": 0,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "points": 53,
+      "against": 37,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -22248,8 +22248,8 @@ var _MASTER_DATA = {
       "date": "2022-02-09",
       "team": "G6-D2_MCLEAN_GUPTA",
       "opponent": "G6-D2_BRYC_SHIN",
-      "points": 0,
-      "against": 0,
+      "points": 10,
+      "against": 33,
       "result": "L",
       "win": false,
       "lost": true,
@@ -22261,11 +22261,11 @@ var _MASTER_DATA = {
       "date": "2022-02-09",
       "team": "G6-D2_BRYC_SHIN",
       "opponent": "G6-D2_MCLEAN_GUPTA",
-      "points": 0,
-      "against": 0,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "points": 33,
+      "against": 10,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -22274,11 +22274,11 @@ var _MASTER_DATA = {
       "date": "2022-02-09",
       "team": "B8-D1_GREAT FALLS_BROWN",
       "opponent": "B8-D1_HERNDON_JONES",
-      "points": 0,
-      "against": 0,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "points": 60,
+      "against": 52,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": true
     },
@@ -22287,8 +22287,8 @@ var _MASTER_DATA = {
       "date": "2022-02-09",
       "team": "B8-D1_HERNDON_JONES",
       "opponent": "B8-D1_GREAT FALLS_BROWN",
-      "points": 0,
-      "against": 0,
+      "points": 52,
+      "against": 60,
       "result": "L",
       "win": false,
       "lost": true,
@@ -22300,8 +22300,8 @@ var _MASTER_DATA = {
       "date": "2022-02-09",
       "team": "G8-D1_BURKE_COUTINHO",
       "opponent": "G8-D1_SYA_MOORE",
-      "points": 0,
-      "against": 0,
+      "points": 45,
+      "against": 50,
       "result": "L",
       "win": false,
       "lost": true,
@@ -22313,11 +22313,11 @@ var _MASTER_DATA = {
       "date": "2022-02-09",
       "team": "G8-D1_SYA_MOORE",
       "opponent": "G8-D1_BURKE_COUTINHO",
-      "points": 0,
-      "against": 0,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "points": 50,
+      "against": 45,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     },
@@ -22326,8 +22326,8 @@ var _MASTER_DATA = {
       "date": "2022-02-09",
       "team": "G7-D1_LEE DISTRICT_TICKNER",
       "opponent": "G7-D1_MCLEAN_NORTON",
-      "points": 0,
-      "against": 0,
+      "points": 24,
+      "against": 43,
       "result": "L",
       "win": false,
       "lost": true,
@@ -22339,11 +22339,11 @@ var _MASTER_DATA = {
       "date": "2022-02-09",
       "team": "G7-D1_MCLEAN_NORTON",
       "opponent": "G7-D1_LEE DISTRICT_TICKNER",
-      "points": 0,
-      "against": 0,
-      "result": "L",
-      "win": false,
-      "lost": true,
+      "points": 43,
+      "against": 24,
+      "result": "W",
+      "win": true,
+      "lost": false,
       "tie": false,
       "source": false
     }
@@ -22566,32 +22566,28 @@ var _MASTER_DATA = {
       "team_id": "B6-D1_MCLEAN_LEGGETT",
       "rank": 1,
       "details": [
-        "0.833"
+        "0.917"
       ]
     },
     {
       "team_id": "B6-D1_ARLINGTON_JONES",
       "rank": 2,
       "details": [
-        "0.818"
-      ]
-    },
-    {
-      "team_id": "B6-D1_BURKE_RAYBON",
-      "rank": 3,
-      "details": [
-        "0.545",
-        "-----",
-        12
+        "0.909"
       ]
     },
     {
       "team_id": "B6-D1_RESTON_DOUAD",
+      "rank": 3,
+      "details": [
+        "0.636"
+      ]
+    },
+    {
+      "team_id": "B6-D1_BURKE_RAYBON",
       "rank": 4,
       "details": [
-        "0.545",
-        "-----",
-        20
+        "0.545"
       ]
     },
     {
@@ -22820,16 +22816,23 @@ var _MASTER_DATA = {
       ]
     },
     {
-      "team_id": "B7-D2_MCLEAN_BALL",
+      "team_id": "B7-D2_BRYC_SHARMA",
       "rank": 2,
+      "details": [
+        "0.818"
+      ]
+    },
+    {
+      "team_id": "B7-D2_MCLEAN_BALL",
+      "rank": 3,
       "details": [
         "0.727",
         "1.000"
       ]
     },
     {
-      "team_id": "B7-D2_BRYC_SHARMA",
-      "rank": 3,
+      "team_id": "B7-D2_FALLS CHURCH_GREINER",
+      "rank": 4,
       "details": [
         "0.727",
         "0.000"
@@ -22837,16 +22840,9 @@ var _MASTER_DATA = {
     },
     {
       "team_id": "B7-D2_SYA_LIVINGSTON",
-      "rank": 4,
-      "details": [
-        "0.667"
-      ]
-    },
-    {
-      "team_id": "B7-D2_FALLS CHURCH_GREINER",
       "rank": 5,
       "details": [
-        "0.636"
+        "0.667"
       ]
     },
     {
@@ -22871,17 +22867,17 @@ var _MASTER_DATA = {
       ]
     },
     {
-      "team_id": "B7-D2_FORT HUNT_ZIPPEL",
+      "team_id": "B7-D2_RESTON_LOVE",
       "rank": 9,
       "details": [
-        "0.400"
+        "0.455"
       ]
     },
     {
-      "team_id": "B7-D2_RESTON_LOVE",
+      "team_id": "B7-D2_FORT HUNT_ZIPPEL",
       "rank": 10,
       "details": [
-        "0.364"
+        "0.400"
       ]
     },
     {
@@ -22899,17 +22895,19 @@ var _MASTER_DATA = {
       ]
     },
     {
-      "team_id": "B7-D2_CYA_ATKINSON",
+      "team_id": "B7-D2_TURNPIKE_SYRON",
       "rank": 13,
       "details": [
-        "0.182"
+        "0.182",
+        "1.000"
       ]
     },
     {
-      "team_id": "B7-D2_TURNPIKE_SYRON",
+      "team_id": "B7-D2_CYA_ATKINSON",
       "rank": 14,
       "details": [
-        "0.091"
+        "0.182",
+        "0.000"
       ]
     },
     {
@@ -22951,7 +22949,7 @@ var _MASTER_DATA = {
       "team_id": "B8-D1_GREAT FALLS_BROWN",
       "rank": 5,
       "details": [
-        "0.500"
+        "0.583"
       ]
     },
     {
@@ -23020,24 +23018,24 @@ var _MASTER_DATA = {
       ]
     },
     {
-      "team_id": "B8-D2_FPYC_MALESKY",
+      "team_id": "B8-D2_BRYC_SHIN",
       "rank": 5,
+      "details": [
+        "0.444"
+      ]
+    },
+    {
+      "team_id": "B8-D2_FPYC_MALESKY",
+      "rank": 6,
       "details": [
         "0.400"
       ]
     },
     {
       "team_id": "B8-D2_SYA_HILL",
-      "rank": 6,
-      "details": [
-        "0.364"
-      ]
-    },
-    {
-      "team_id": "B8-D2_BRYC_SHIN",
       "rank": 7,
       "details": [
-        "0.333"
+        "0.364"
       ]
     },
     {
@@ -23258,14 +23256,14 @@ var _MASTER_DATA = {
       "team_id": "G6-D2_BRYC_SHIN",
       "rank": 2,
       "details": [
-        "0.636"
+        "0.727"
       ]
     },
     {
       "team_id": "G6-D2_SYA_SMITH",
       "rank": 3,
       "details": [
-        "0.500"
+        "0.600"
       ]
     },
     {
@@ -23304,24 +23302,24 @@ var _MASTER_DATA = {
       ]
     },
     {
-      "team_id": "G7-D1_CYA_DOWLING",
+      "team_id": "G7-D1_MCLEAN_NORTON",
       "rank": 4,
+      "details": [
+        "0.615"
+      ]
+    },
+    {
+      "team_id": "G7-D1_CYA_DOWLING",
+      "rank": 5,
       "details": [
         "0.583"
       ]
     },
     {
       "team_id": "G7-D1_MCLEAN_KIM",
-      "rank": 5,
-      "details": [
-        "0.545"
-      ]
-    },
-    {
-      "team_id": "G7-D1_MCLEAN_NORTON",
       "rank": 6,
       "details": [
-        "0.538"
+        "0.545"
       ]
     },
     {
@@ -23381,28 +23379,24 @@ var _MASTER_DATA = {
       ]
     },
     {
-      "team_id": "G8-D1_MT. VERNON_MARSHALL",
+      "team_id": "G8-D1_SYA_MOORE",
       "rank": 2,
       "details": [
-        "0.750"
+        "0.818"
       ]
     },
     {
-      "team_id": "G8-D1_SYA_MOORE",
+      "team_id": "G8-D1_MT. VERNON_MARSHALL",
       "rank": 3,
       "details": [
-        "0.727",
-        "-----",
-        8
+        "0.750"
       ]
     },
     {
       "team_id": "G8-D1_LEE-MT.VERNON_HENDERSON",
       "rank": 4,
       "details": [
-        "0.727",
-        "-----",
-        18
+        "0.727"
       ]
     },
     {
