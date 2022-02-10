@@ -9,12 +9,12 @@ from operator import attrgetter
 from itertools import groupby
 
 TESTING = False
-SPECIAL_FOR_2022_CHANGED_DIVISIONS = True  # reminder to remove this next year if needed. B8-D1_LEE DISTRICT_MCMINN changed divisions.
+COUNT_CROSS_DIVISION_GAMES = True  # reminder to remove this next year if needed. B8-D1_LEE DISTRICT_MCMINN changed divisions.
 SPECIAL_FOR_2022_SC_NAME_ISSUE = True
 
 ExcelRow = namedtuple('ExcelRow', 'db_id, date, team, opponent, points, against')
 Team = namedtuple('Team', 'team_id, division, club, coach')
-Game = namedtuple('Game', 'game_id, date, team, opponent, points, against, result, win, lost, tie, source')
+Game = namedtuple('Game', 'game_id, date, team, opponent, points, against, result, win, lost, tie, source, cross_division')
 Results = namedtuple('Results', 'divisions, teams, games')
 WinPercent = namedtuple('WinPercent', 'team_id, percent, no_games')
 Rank = namedtuple('Rank', 'team_id, rank, details')
@@ -127,9 +127,10 @@ def build_team(raw):
 def build_games(t1, t2, row):
     # default as loss for both teams if score isn't entered
     score_not_entered = row.points == 0 and row.against == 0
+    cross_division = t1.division != t2.division
     if(score_not_entered):
-        t1_game = Game(row.db_id, row.date, t1.team_id, t2.team_id, row.points, row.against, "L", False, True, False, True)
-        t2_game = Game(row.db_id, row.date, t2.team_id, t1.team_id, row.against, row.points, "L", False, True, False, False)
+        t1_game = Game(row.db_id, row.date, t1.team_id, t2.team_id, row.points, row.against, "L", False, True, False, True, cross_division)
+        t2_game = Game(row.db_id, row.date, t2.team_id, t1.team_id, row.against, row.points, "L", False, True, False, False, cross_division)
         return (t1_game, t2_game)
     # determine win/loss/tie if there is a score
     t1_wins = row.points > row.against
@@ -138,8 +139,8 @@ def build_games(t1, t2, row):
     t1_result = "W" if t1_wins else "L" if t1_loses else "T"
     t2_result = "W" if t1_loses else "L" if t1_wins else "T"
     # the source (true/false) shows which was from the original excel source
-    t1_game = Game(row.db_id, row.date, t1.team_id, t2.team_id, row.points, row.against, t1_result, t1_wins, t1_loses, t1_ties, True)
-    t2_game = Game(row.db_id, row.date, t2.team_id, t1.team_id, row.against, row.points, t2_result, t1_loses, t1_wins, t1_ties, False)
+    t1_game = Game(row.db_id, row.date, t1.team_id, t2.team_id, row.points, row.against, t1_result, t1_wins, t1_loses, t1_ties, True, cross_division)
+    t2_game = Game(row.db_id, row.date, t2.team_id, t1.team_id, row.against, row.points, t2_result, t1_loses, t1_wins, t1_ties, False, cross_division)
     return (t1_game, t2_game)
 
 
@@ -196,7 +197,7 @@ def rank(games, group, start, mapping, all_teams, level):
         # calculate winning percentage against the group
         group_percents = []
         for team in group:
-            if(SPECIAL_FOR_2022_CHANGED_DIVISIONS and level == 0):
+            if(COUNT_CROSS_DIVISION_GAMES and level == 0):
                 # One team changed divisions in the middle of the year. For iteration 1, need to compare against all teams.
                 group = all_teams
             win_percent = calculate_win_percent(games, team, group)
@@ -247,6 +248,8 @@ def build_rankings(results):
 
 def calculate_record(team, games):
     team_games = [g for g in games if g.team == team.team_id]
+    if(not COUNT_CROSS_DIVISION_GAMES):
+        team_games = [g for g in team_games if not g.cross_division]    
     wins = [g for g in team_games if g.win]
     losses = [g for g in team_games if g.lost]
     ties = [g for g in team_games if g.tie]
@@ -286,9 +289,15 @@ def test():
     excel = find_excel()
     rows = read_excel(excel)
     results = build_teams_and_games(rows)
-    clubs = sorted(set([x.club for x in results.teams]))
-    for c in clubs:
-        print(c)
+    teams = results.teams
+    games = results.games
+    for t in teams:
+        games_for_team = [g for g in games if g.team == t.team_id and g.cross_division]
+        if(games_for_team):
+            print(t.team_id)
+        for g in games_for_team:
+            print("  {}".format(g.opponent))
+                
 
 def main():
     excel = find_excel()
