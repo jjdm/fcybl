@@ -249,7 +249,7 @@ def build_rankings(results):
 def calculate_record(team, games):
     team_games = [g for g in games if g.team == team.team_id]
     if(not COUNT_CROSS_DIVISION_GAMES):
-        team_games = [g for g in team_games if not g.cross_division]    
+        team_games = [g for g in team_games if not g.cross_division]
     wins = [g for g in team_games if g.win]
     losses = [g for g in team_games if g.lost]
     ties = [g for g in team_games if g.tie]
@@ -297,7 +297,7 @@ def test():
             print(t.team_id)
         for g in games_for_team:
             print("  {}".format(g.opponent))
-                
+
 
 def main():
     excel = find_excel()

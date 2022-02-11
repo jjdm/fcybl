@@ -1,6 +1,6 @@
 var _MASTER_DATA = {
   "excel": "FCYBL Schedule as of 2-10-22.xlsx",
-  "run_date": "2022-02-10 13:06:27",
+  "run_date": "2022-02-10 19:26:10",
   "divisions": [
     "B5-D1",
     "B5-D2",
@@ -1090,7 +1090,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021437,
@@ -1103,7 +1104,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021651,
@@ -1116,7 +1118,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021651,
@@ -1129,7 +1132,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024360,
@@ -1142,7 +1146,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024360,
@@ -1155,7 +1160,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021439,
@@ -1168,7 +1174,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021439,
@@ -1181,7 +1188,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021653,
@@ -1194,7 +1202,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021653,
@@ -1207,7 +1216,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024352,
@@ -1220,7 +1230,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7024352,
@@ -1233,7 +1244,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7021438,
@@ -1246,7 +1258,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021438,
@@ -1259,7 +1272,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021509,
@@ -1272,7 +1286,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7021509,
@@ -1285,7 +1300,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7023060,
@@ -1298,7 +1314,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023060,
@@ -1311,7 +1328,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024367,
@@ -1324,7 +1342,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024367,
@@ -1337,7 +1356,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021511,
@@ -1350,7 +1370,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021511,
@@ -1363,7 +1384,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023057,
@@ -1376,7 +1398,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023057,
@@ -1389,7 +1412,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021512,
@@ -1402,7 +1426,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021512,
@@ -1415,7 +1440,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021440,
@@ -1428,7 +1454,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021440,
@@ -1441,7 +1468,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023779,
@@ -1454,7 +1482,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7023779,
@@ -1467,7 +1496,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7024067,
@@ -1480,7 +1510,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024067,
@@ -1493,7 +1524,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024068,
@@ -1506,7 +1538,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024068,
@@ -1519,7 +1552,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022149,
@@ -1532,7 +1566,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7022149,
@@ -1545,7 +1580,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7022155,
@@ -1558,7 +1594,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022155,
@@ -1571,7 +1608,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026586,
@@ -1584,7 +1622,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026586,
@@ -1597,7 +1636,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026514,
@@ -1610,7 +1650,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7026514,
@@ -1623,7 +1664,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7023951,
@@ -1636,7 +1678,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7023951,
@@ -1649,7 +1692,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7024173,
@@ -1662,7 +1706,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024173,
@@ -1675,7 +1720,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026521,
@@ -1688,7 +1734,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026521,
@@ -1701,7 +1748,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026542,
@@ -1714,7 +1762,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026542,
@@ -1727,7 +1776,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023778,
@@ -1740,7 +1790,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023778,
@@ -1753,7 +1804,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023776,
@@ -1766,7 +1818,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023776,
@@ -1779,7 +1832,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024070,
@@ -1792,7 +1846,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024070,
@@ -1805,7 +1860,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024174,
@@ -1818,7 +1874,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024174,
@@ -1831,7 +1888,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026507,
@@ -1844,7 +1902,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7026507,
@@ -1857,7 +1916,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7024069,
@@ -1870,7 +1930,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024069,
@@ -1883,7 +1944,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026528,
@@ -1896,7 +1958,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026528,
@@ -1909,7 +1972,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024175,
@@ -1922,7 +1986,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024175,
@@ -1935,7 +2000,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026746,
@@ -1948,7 +2014,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026746,
@@ -1961,7 +2028,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023952,
@@ -1974,7 +2042,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023952,
@@ -1987,7 +2056,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026660,
@@ -2000,7 +2070,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026660,
@@ -2013,7 +2084,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024176,
@@ -2026,7 +2098,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024176,
@@ -2039,7 +2112,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026800,
@@ -2052,7 +2126,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026800,
@@ -2065,7 +2140,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026745,
@@ -2078,7 +2154,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026745,
@@ -2091,7 +2168,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026799,
@@ -2104,7 +2182,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026799,
@@ -2117,7 +2196,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022151,
@@ -2130,7 +2210,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022151,
@@ -2143,7 +2224,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023058,
@@ -2156,7 +2238,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023058,
@@ -2169,7 +2252,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021443,
@@ -2182,7 +2266,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021443,
@@ -2195,7 +2280,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021518,
@@ -2208,7 +2294,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021518,
@@ -2221,7 +2308,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023948,
@@ -2234,7 +2322,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023948,
@@ -2247,7 +2336,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021514,
@@ -2260,7 +2350,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7021514,
@@ -2273,7 +2364,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7024368,
@@ -2286,7 +2378,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7024368,
@@ -2299,7 +2392,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7026747,
@@ -2312,7 +2406,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026747,
@@ -2325,7 +2420,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026658,
@@ -2338,7 +2434,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026658,
@@ -2351,7 +2448,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023950,
@@ -2364,7 +2462,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023950,
@@ -2377,7 +2476,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022154,
@@ -2390,7 +2490,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022154,
@@ -2403,7 +2504,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021441,
@@ -2416,7 +2518,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7021441,
@@ -2429,7 +2532,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7021517,
@@ -2442,7 +2546,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021517,
@@ -2455,7 +2560,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023953,
@@ -2468,7 +2574,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023953,
@@ -2481,7 +2588,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024374,
@@ -2494,7 +2602,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024374,
@@ -2507,7 +2616,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021856,
@@ -2520,7 +2630,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021856,
@@ -2533,7 +2644,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021859,
@@ -2546,7 +2658,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021859,
@@ -2559,7 +2672,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023947,
@@ -2572,7 +2686,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023947,
@@ -2585,7 +2700,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026659,
@@ -2598,7 +2714,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026659,
@@ -2611,7 +2728,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022152,
@@ -2624,7 +2742,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022152,
@@ -2637,7 +2756,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021679,
@@ -2650,7 +2770,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7021679,
@@ -2663,7 +2784,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7024380,
@@ -2676,7 +2798,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024380,
@@ -2689,7 +2812,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021858,
@@ -2702,7 +2826,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021858,
@@ -2715,7 +2840,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021515,
@@ -2728,7 +2854,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021515,
@@ -2741,7 +2868,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022150,
@@ -2754,7 +2882,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022150,
@@ -2767,7 +2896,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023949,
@@ -2780,7 +2910,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023949,
@@ -2793,7 +2924,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026661,
@@ -2806,7 +2938,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026661,
@@ -2819,7 +2952,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021860,
@@ -2832,7 +2966,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021860,
@@ -2845,7 +2980,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022153,
@@ -2858,7 +2994,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022153,
@@ -2871,7 +3008,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023777,
@@ -2884,7 +3022,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023777,
@@ -2897,7 +3036,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026717,
@@ -2910,7 +3050,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7026717,
@@ -2923,7 +3064,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7021516,
@@ -2936,7 +3078,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7021516,
@@ -2949,7 +3092,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7021857,
@@ -2962,7 +3106,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021857,
@@ -2975,7 +3120,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026718,
@@ -2988,7 +3134,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026718,
@@ -3001,7 +3148,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021442,
@@ -3014,7 +3162,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021442,
@@ -3027,7 +3176,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024075,
@@ -3040,7 +3190,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024075,
@@ -3053,7 +3204,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021656,
@@ -3066,7 +3218,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021656,
@@ -3079,7 +3232,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021523,
@@ -3092,7 +3246,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021523,
@@ -3105,7 +3260,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024386,
@@ -3118,7 +3274,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024386,
@@ -3131,7 +3288,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023964,
@@ -3144,7 +3302,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023964,
@@ -3157,7 +3316,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023784,
@@ -3170,7 +3330,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023784,
@@ -3183,7 +3344,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021862,
@@ -3196,7 +3358,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021862,
@@ -3209,7 +3372,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024168,
@@ -3222,7 +3386,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024168,
@@ -3235,7 +3400,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021521,
@@ -3248,7 +3414,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7021521,
@@ -3261,7 +3428,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7026795,
@@ -3274,7 +3442,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026795,
@@ -3287,7 +3456,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023062,
@@ -3300,7 +3470,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7023062,
@@ -3313,7 +3484,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7026721,
@@ -3326,7 +3498,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7026721,
@@ -3339,7 +3512,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7026666,
@@ -3352,7 +3526,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026666,
@@ -3365,7 +3540,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022169,
@@ -3378,7 +3554,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022169,
@@ -3391,7 +3568,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021657,
@@ -3404,7 +3582,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021657,
@@ -3417,7 +3596,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023785,
@@ -3430,7 +3610,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7023785,
@@ -3443,7 +3624,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7021522,
@@ -3456,7 +3638,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021522,
@@ -3469,7 +3652,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024076,
@@ -3482,7 +3666,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024076,
@@ -3495,7 +3680,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024375,
@@ -3508,7 +3694,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024375,
@@ -3521,7 +3708,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021658,
@@ -3534,7 +3722,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7021658,
@@ -3547,7 +3736,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7021446,
@@ -3560,7 +3750,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7021446,
@@ -3573,7 +3764,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7022167,
@@ -3586,7 +3778,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022167,
@@ -3599,7 +3792,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024166,
@@ -3612,7 +3806,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024166,
@@ -3625,7 +3820,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023966,
@@ -3638,7 +3834,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023966,
@@ -3651,7 +3848,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021864,
@@ -3664,7 +3862,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021864,
@@ -3677,7 +3876,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022164,
@@ -3690,7 +3890,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022164,
@@ -3703,7 +3904,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023063,
@@ -3716,7 +3918,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023063,
@@ -3729,7 +3932,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026796,
@@ -3742,7 +3946,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026796,
@@ -3755,7 +3960,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026667,
@@ -3768,7 +3974,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026667,
@@ -3781,7 +3988,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026722,
@@ -3794,7 +4002,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026722,
@@ -3807,7 +4016,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023961,
@@ -3820,7 +4030,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023961,
@@ -3833,7 +4044,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021444,
@@ -3846,7 +4058,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021444,
@@ -3859,7 +4072,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026543,
@@ -3872,7 +4086,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026543,
@@ -3885,7 +4100,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021861,
@@ -3898,7 +4114,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021861,
@@ -3911,7 +4128,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023787,
@@ -3924,7 +4142,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023787,
@@ -3937,7 +4156,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022163,
@@ -3950,7 +4170,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7022163,
@@ -3963,7 +4184,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7022168,
@@ -3976,7 +4198,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022168,
@@ -3989,7 +4212,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026515,
@@ -4002,7 +4226,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026515,
@@ -4015,7 +4240,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021660,
@@ -4028,7 +4254,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021660,
@@ -4041,7 +4268,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024077,
@@ -4054,7 +4282,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7024077,
@@ -4067,7 +4296,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7021863,
@@ -4080,7 +4310,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021863,
@@ -4093,7 +4324,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026508,
@@ -4106,7 +4338,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7026508,
@@ -4119,7 +4352,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7023963,
@@ -4132,7 +4366,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023963,
@@ -4145,7 +4380,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023065,
@@ -4158,7 +4394,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023065,
@@ -4171,7 +4408,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026751,
@@ -4184,7 +4422,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026751,
@@ -4197,7 +4436,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026549,
@@ -4210,7 +4450,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026549,
@@ -4223,7 +4464,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024165,
@@ -4236,7 +4478,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024165,
@@ -4249,7 +4492,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026668,
@@ -4262,7 +4506,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026668,
@@ -4275,7 +4520,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022165,
@@ -4288,7 +4534,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022165,
@@ -4301,7 +4548,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024078,
@@ -4314,7 +4562,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024078,
@@ -4327,7 +4576,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021659,
@@ -4340,7 +4590,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021659,
@@ -4353,7 +4604,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026752,
@@ -4366,7 +4618,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026752,
@@ -4379,7 +4632,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021865,
@@ -4392,7 +4646,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021865,
@@ -4405,7 +4660,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023965,
@@ -4418,7 +4674,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023965,
@@ -4431,7 +4688,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026529,
@@ -4444,7 +4702,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7026529,
@@ -4457,7 +4716,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7023786,
@@ -4470,7 +4730,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7023786,
@@ -4483,7 +4744,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7023064,
@@ -4496,7 +4758,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023064,
@@ -4509,7 +4772,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021519,
@@ -4522,7 +4786,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7021519,
@@ -4535,7 +4800,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7026753,
@@ -4548,7 +4814,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026753,
@@ -4561,7 +4828,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026522,
@@ -4574,7 +4842,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026522,
@@ -4587,7 +4856,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026669,
@@ -4600,7 +4870,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026669,
@@ -4613,7 +4884,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023967,
@@ -4626,7 +4898,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023967,
@@ -4639,7 +4912,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024381,
@@ -4652,7 +4926,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7024381,
@@ -4665,7 +4940,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7023962,
@@ -4678,7 +4954,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7023962,
@@ -4691,7 +4968,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7022166,
@@ -4704,7 +4982,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022166,
@@ -4717,7 +4996,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024167,
@@ -4730,7 +5010,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024167,
@@ -4743,7 +5024,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021520,
@@ -4756,7 +5038,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021520,
@@ -4769,7 +5052,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023055,
@@ -4782,7 +5066,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7023055,
@@ -4795,7 +5080,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7021510,
@@ -4808,7 +5094,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021510,
@@ -4821,7 +5108,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023056,
@@ -4834,7 +5122,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023056,
@@ -4847,7 +5136,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021513,
@@ -4860,7 +5150,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7021513,
@@ -4873,7 +5164,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7021652,
@@ -4886,7 +5178,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021652,
@@ -4899,7 +5192,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022159,
@@ -4912,7 +5206,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022159,
@@ -4925,7 +5220,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021655,
@@ -4938,7 +5234,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021655,
@@ -4951,7 +5248,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022162,
@@ -4964,7 +5262,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022162,
@@ -4977,7 +5276,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022156,
@@ -4990,7 +5290,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7022156,
@@ -5003,7 +5304,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7021654,
@@ -5016,7 +5318,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021654,
@@ -5029,7 +5332,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026662,
@@ -5042,7 +5346,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026662,
@@ -5055,7 +5360,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021853,
@@ -5068,7 +5374,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021853,
@@ -5081,7 +5388,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026663,
@@ -5094,7 +5402,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026663,
@@ -5107,7 +5416,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021855,
@@ -5120,7 +5430,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021855,
@@ -5133,7 +5444,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026664,
@@ -5146,7 +5458,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026664,
@@ -5159,7 +5472,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022158,
@@ -5172,7 +5486,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022158,
@@ -5185,7 +5500,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022160,
@@ -5198,7 +5514,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022160,
@@ -5211,7 +5528,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024071,
@@ -5224,7 +5542,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024071,
@@ -5237,7 +5556,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023795,
@@ -5250,7 +5570,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7023795,
@@ -5263,7 +5584,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7024179,
@@ -5276,7 +5598,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024179,
@@ -5289,7 +5612,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026568,
@@ -5302,7 +5626,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026568,
@@ -5315,7 +5640,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024073,
@@ -5328,7 +5654,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7024073,
@@ -5341,7 +5668,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7024180,
@@ -5354,7 +5682,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024180,
@@ -5367,7 +5696,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024177,
@@ -5380,7 +5710,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024177,
@@ -5393,7 +5724,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026592,
@@ -5406,7 +5738,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026592,
@@ -5419,7 +5752,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026574,
@@ -5432,7 +5766,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026574,
@@ -5445,7 +5780,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023955,
@@ -5458,7 +5794,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023955,
@@ -5471,7 +5808,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026748,
@@ -5484,7 +5822,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026748,
@@ -5497,7 +5836,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023956,
@@ -5510,7 +5850,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023956,
@@ -5523,7 +5864,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026802,
@@ -5536,7 +5878,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026802,
@@ -5549,7 +5892,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023954,
@@ -5562,7 +5906,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023954,
@@ -5575,7 +5920,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026562,
@@ -5588,7 +5934,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026562,
@@ -5601,7 +5948,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023957,
@@ -5614,7 +5962,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7023957,
@@ -5627,7 +5976,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7023793,
@@ -5640,7 +5990,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023793,
@@ -5653,7 +6004,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024072,
@@ -5666,7 +6018,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024072,
@@ -5679,7 +6032,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021455,
@@ -5692,7 +6046,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021455,
@@ -5705,7 +6060,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026749,
@@ -5718,7 +6074,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026749,
@@ -5731,7 +6088,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023960,
@@ -5744,7 +6102,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023960,
@@ -5757,7 +6116,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023792,
@@ -5770,7 +6130,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023792,
@@ -5783,7 +6144,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023054,
@@ -5796,7 +6158,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023054,
@@ -5809,7 +6172,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023959,
@@ -5822,7 +6186,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023959,
@@ -5835,7 +6200,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024178,
@@ -5848,7 +6214,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024178,
@@ -5861,7 +6228,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023794,
@@ -5874,7 +6242,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7023794,
@@ -5887,7 +6256,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7021648,
@@ -5900,7 +6270,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021648,
@@ -5913,7 +6284,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024369,
@@ -5926,7 +6298,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024369,
@@ -5939,7 +6312,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026556,
@@ -5952,7 +6326,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026556,
@@ -5965,7 +6340,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024074,
@@ -5978,7 +6354,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024074,
@@ -5991,7 +6368,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026719,
@@ -6004,7 +6382,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026719,
@@ -6017,7 +6396,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021646,
@@ -6030,7 +6410,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021646,
@@ -6043,7 +6424,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023958,
@@ -6056,7 +6438,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023958,
@@ -6069,7 +6452,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024361,
@@ -6082,7 +6466,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024361,
@@ -6095,7 +6480,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022181,
@@ -6108,7 +6494,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022181,
@@ -6121,7 +6508,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021647,
@@ -6134,7 +6522,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021647,
@@ -6147,7 +6536,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026720,
@@ -6160,7 +6550,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7026720,
@@ -6173,7 +6564,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7024353,
@@ -6186,7 +6578,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7024353,
@@ -6199,7 +6592,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7023059,
@@ -6212,7 +6606,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7023059,
@@ -6225,7 +6620,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7023061,
@@ -6238,7 +6634,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023061,
@@ -6251,7 +6648,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021452,
@@ -6264,7 +6662,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021452,
@@ -6277,7 +6676,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021661,
@@ -6290,7 +6690,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021661,
@@ -6303,7 +6704,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023973,
@@ -6316,7 +6718,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023973,
@@ -6329,7 +6732,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023791,
@@ -6342,7 +6746,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023791,
@@ -6355,7 +6760,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022170,
@@ -6368,7 +6774,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7022170,
@@ -6381,7 +6788,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7021524,
@@ -6394,7 +6802,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021524,
@@ -6407,7 +6816,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024169,
@@ -6420,7 +6830,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024169,
@@ -6433,7 +6844,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024354,
@@ -6446,7 +6858,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7024354,
@@ -6459,7 +6872,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7021868,
@@ -6472,7 +6886,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021868,
@@ -6485,7 +6900,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022176,
@@ -6498,7 +6914,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022176,
@@ -6511,7 +6928,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026580,
@@ -6524,7 +6942,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7026580,
@@ -6537,7 +6956,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7021869,
@@ -6550,7 +6970,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021869,
@@ -6563,7 +6984,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023789,
@@ -6576,7 +6998,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7023789,
@@ -6589,7 +7012,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7024346,
@@ -6602,7 +7026,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024346,
@@ -6615,7 +7040,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024080,
@@ -6628,7 +7054,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024080,
@@ -6641,7 +7068,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021867,
@@ -6654,7 +7082,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021867,
@@ -6667,7 +7096,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021527,
@@ -6680,7 +7110,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021527,
@@ -6693,7 +7124,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024170,
@@ -6706,7 +7138,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024170,
@@ -6719,7 +7152,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021448,
@@ -6732,7 +7166,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021448,
@@ -6745,7 +7180,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022171,
@@ -6758,7 +7194,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022171,
@@ -6771,7 +7208,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023969,
@@ -6784,7 +7222,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023969,
@@ -6797,7 +7236,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023788,
@@ -6810,7 +7250,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023788,
@@ -6823,7 +7264,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021662,
@@ -6836,7 +7278,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021662,
@@ -6849,7 +7292,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021526,
@@ -6862,7 +7306,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7021526,
@@ -6875,7 +7320,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7021665,
@@ -6888,7 +7334,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021665,
@@ -6901,7 +7348,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026797,
@@ -6914,7 +7362,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026797,
@@ -6927,7 +7376,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026569,
@@ -6940,7 +7390,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7026569,
@@ -6953,7 +7404,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7023970,
@@ -6966,7 +7418,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023970,
@@ -6979,7 +7432,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021528,
@@ -6992,7 +7446,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7021528,
@@ -7005,7 +7460,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7021450,
@@ -7018,7 +7474,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021450,
@@ -7031,7 +7488,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023790,
@@ -7044,7 +7502,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7023790,
@@ -7057,7 +7516,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7021866,
@@ -7070,7 +7530,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021866,
@@ -7083,7 +7544,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022172,
@@ -7096,7 +7558,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022172,
@@ -7109,7 +7572,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023972,
@@ -7122,7 +7586,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023972,
@@ -7135,7 +7600,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024171,
@@ -7148,7 +7614,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024171,
@@ -7161,7 +7628,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024081,
@@ -7174,7 +7642,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7024081,
@@ -7187,7 +7656,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7026673,
@@ -7200,7 +7670,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026673,
@@ -7213,7 +7684,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023968,
@@ -7226,7 +7698,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023968,
@@ -7239,7 +7712,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024172,
@@ -7252,7 +7726,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024172,
@@ -7265,7 +7740,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024082,
@@ -7278,7 +7754,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024082,
@@ -7291,7 +7768,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026672,
@@ -7304,7 +7782,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026672,
@@ -7317,7 +7796,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022173,
@@ -7330,7 +7810,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022173,
@@ -7343,7 +7824,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026670,
@@ -7356,7 +7838,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026670,
@@ -7369,7 +7852,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026724,
@@ -7382,7 +7866,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7026724,
@@ -7395,7 +7880,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7023066,
@@ -7408,7 +7894,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023066,
@@ -7421,7 +7908,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026754,
@@ -7434,7 +7922,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026754,
@@ -7447,7 +7936,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024079,
@@ -7460,7 +7950,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024079,
@@ -7473,7 +7964,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021870,
@@ -7486,7 +7978,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021870,
@@ -7499,7 +7992,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026563,
@@ -7512,7 +8006,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026563,
@@ -7525,7 +8020,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023974,
@@ -7538,7 +8034,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7023974,
@@ -7551,7 +8048,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7021447,
@@ -7564,7 +8062,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021447,
@@ -7577,7 +8076,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023067,
@@ -7590,7 +8090,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023067,
@@ -7603,7 +8104,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023069,
@@ -7616,7 +8118,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023069,
@@ -7629,7 +8132,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026723,
@@ -7642,7 +8146,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026723,
@@ -7655,7 +8160,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022174,
@@ -7668,7 +8174,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022174,
@@ -7681,7 +8188,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026575,
@@ -7694,7 +8202,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026575,
@@ -7707,7 +8216,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021525,
@@ -7720,7 +8230,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021525,
@@ -7733,7 +8244,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026671,
@@ -7746,7 +8258,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026671,
@@ -7759,7 +8272,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026755,
@@ -7772,7 +8286,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026755,
@@ -7785,7 +8300,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024362,
@@ -7798,7 +8314,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024362,
@@ -7811,7 +8328,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024123,
@@ -7824,7 +8342,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024123,
@@ -7837,7 +8356,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024124,
@@ -7850,7 +8370,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024124,
@@ -7863,7 +8384,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024122,
@@ -7876,7 +8398,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024122,
@@ -7889,7 +8412,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024213,
@@ -7902,7 +8426,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024213,
@@ -7915,7 +8440,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024125,
@@ -7928,7 +8454,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024125,
@@ -7941,7 +8468,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026585,
@@ -7954,7 +8482,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026585,
@@ -7967,7 +8496,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026591,
@@ -7980,7 +8510,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026591,
@@ -7993,7 +8524,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026513,
@@ -8006,7 +8538,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026513,
@@ -8019,7 +8552,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026819,
@@ -8032,7 +8566,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026819,
@@ -8045,7 +8580,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026567,
@@ -8058,7 +8594,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026567,
@@ -8071,7 +8608,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024215,
@@ -8084,7 +8622,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024215,
@@ -8097,7 +8636,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026561,
@@ -8110,7 +8650,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026561,
@@ -8123,7 +8664,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024033,
@@ -8136,7 +8678,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024033,
@@ -8149,7 +8692,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026820,
@@ -8162,7 +8706,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026820,
@@ -8175,7 +8720,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024214,
@@ -8188,7 +8734,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024214,
@@ -8201,7 +8748,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022238,
@@ -8214,7 +8762,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022238,
@@ -8227,7 +8776,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7054128,
@@ -8240,7 +8790,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7054128,
@@ -8253,7 +8804,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023827,
@@ -8266,7 +8818,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023827,
@@ -8279,7 +8832,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021571,
@@ -8292,7 +8846,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021571,
@@ -8305,7 +8860,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023828,
@@ -8318,7 +8874,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023828,
@@ -8331,7 +8888,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021913,
@@ -8344,7 +8902,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021913,
@@ -8357,7 +8916,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024015,
@@ -8370,7 +8930,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024015,
@@ -8383,7 +8944,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021915,
@@ -8396,7 +8958,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021915,
@@ -8409,7 +8972,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023830,
@@ -8422,7 +8986,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023830,
@@ -8435,7 +9000,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021573,
@@ -8448,7 +9014,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021573,
@@ -8461,7 +9028,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021912,
@@ -8474,7 +9042,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021912,
@@ -8487,7 +9056,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026729,
@@ -8500,7 +9070,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026729,
@@ -8513,7 +9084,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026702,
@@ -8526,7 +9098,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026702,
@@ -8539,7 +9112,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021570,
@@ -8552,7 +9126,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021570,
@@ -8565,7 +9140,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021911,
@@ -8578,7 +9154,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021911,
@@ -8591,7 +9168,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026730,
@@ -8604,7 +9182,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026730,
@@ -8617,7 +9196,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023110,
@@ -8630,7 +9210,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023110,
@@ -8643,7 +9224,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021914,
@@ -8656,7 +9238,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021914,
@@ -8669,7 +9252,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021705,
@@ -8682,7 +9266,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021705,
@@ -8695,7 +9280,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024379,
@@ -8708,7 +9294,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024379,
@@ -8721,7 +9308,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022239,
@@ -8734,7 +9322,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022239,
@@ -8747,7 +9336,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026825,
@@ -8760,7 +9350,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026825,
@@ -8773,7 +9364,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026537,
@@ -8786,7 +9378,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026537,
@@ -8799,7 +9392,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026707,
@@ -8812,7 +9406,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026707,
@@ -8825,7 +9420,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026781,
@@ -8838,7 +9434,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026781,
@@ -8851,7 +9448,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024222,
@@ -8864,7 +9462,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024222,
@@ -8877,7 +9476,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021709,
@@ -8890,7 +9490,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021709,
@@ -8903,7 +9504,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021706,
@@ -8916,7 +9518,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021706,
@@ -8929,7 +9532,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023071,
@@ -8942,7 +9546,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023071,
@@ -8955,7 +9560,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021493,
@@ -8968,7 +9574,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021493,
@@ -8981,7 +9588,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021572,
@@ -8994,7 +9602,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021572,
@@ -9007,7 +9616,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026826,
@@ -9020,7 +9630,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026826,
@@ -9033,7 +9644,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023103,
@@ -9046,7 +9658,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023103,
@@ -9059,7 +9672,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026510,
@@ -9072,7 +9686,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026510,
@@ -9085,7 +9700,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024223,
@@ -9098,7 +9714,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024223,
@@ -9111,7 +9728,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024034,
@@ -9124,7 +9742,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024034,
@@ -9137,7 +9756,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026741,
@@ -9150,7 +9770,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026741,
@@ -9163,7 +9784,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026742,
@@ -9176,7 +9798,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026742,
@@ -9189,7 +9812,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021494,
@@ -9202,7 +9826,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021494,
@@ -9215,7 +9840,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024115,
@@ -9228,7 +9854,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024115,
@@ -9241,7 +9868,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021707,
@@ -9254,7 +9882,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021707,
@@ -9267,7 +9896,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024035,
@@ -9280,7 +9910,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024035,
@@ -9293,7 +9924,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022237,
@@ -9306,7 +9938,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022237,
@@ -9319,7 +9952,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026783,
@@ -9332,7 +9966,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026783,
@@ -9345,7 +9980,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024116,
@@ -9358,7 +9994,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024116,
@@ -9371,7 +10008,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026708,
@@ -9384,7 +10022,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026708,
@@ -9397,7 +10036,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026535,
@@ -9410,7 +10050,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026535,
@@ -9423,7 +10064,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021495,
@@ -9436,7 +10078,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021495,
@@ -9449,7 +10092,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021708,
@@ -9462,7 +10106,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021708,
@@ -9475,7 +10120,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024037,
@@ -9488,7 +10134,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024037,
@@ -9501,7 +10148,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023826,
@@ -9514,7 +10162,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023826,
@@ -9527,7 +10176,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023824,
@@ -9540,7 +10190,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023824,
@@ -9553,7 +10204,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026579,
@@ -9566,7 +10218,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026579,
@@ -9579,7 +10232,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7054129,
@@ -9592,7 +10246,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7054129,
@@ -9605,7 +10260,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024117,
@@ -9618,7 +10274,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024117,
@@ -9631,7 +10288,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024031,
@@ -9644,7 +10302,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024031,
@@ -9657,7 +10316,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026547,
@@ -9670,7 +10330,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026547,
@@ -9683,7 +10344,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024032,
@@ -9696,7 +10358,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024032,
@@ -9709,7 +10372,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7053306,
@@ -9722,7 +10386,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7053306,
@@ -9735,7 +10400,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021458,
@@ -9748,7 +10414,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021458,
@@ -9761,7 +10428,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021457,
@@ -9774,7 +10442,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021457,
@@ -9787,7 +10456,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026750,
@@ -9800,7 +10470,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026750,
@@ -9813,7 +10484,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021459,
@@ -9826,7 +10498,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021459,
@@ -9839,7 +10512,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021460,
@@ -9852,7 +10526,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021460,
@@ -9865,7 +10540,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026665,
@@ -9878,7 +10554,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026665,
@@ -9891,7 +10568,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021529,
@@ -9904,7 +10582,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021529,
@@ -9917,7 +10596,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022157,
@@ -9930,7 +10610,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022157,
@@ -9943,7 +10624,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021530,
@@ -9956,7 +10638,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021530,
@@ -9969,7 +10652,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022161,
@@ -9982,7 +10666,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022161,
@@ -9995,7 +10680,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021531,
@@ -10008,7 +10694,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021531,
@@ -10021,7 +10708,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021532,
@@ -10034,7 +10722,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021532,
@@ -10047,7 +10736,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021533,
@@ -10060,7 +10750,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021533,
@@ -10073,7 +10764,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021675,
@@ -10086,7 +10778,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021675,
@@ -10099,7 +10792,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021671,
@@ -10112,7 +10806,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021671,
@@ -10125,7 +10820,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021854,
@@ -10138,7 +10834,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021854,
@@ -10151,7 +10848,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021674,
@@ -10164,7 +10862,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021674,
@@ -10177,7 +10876,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021672,
@@ -10190,7 +10890,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021672,
@@ -10203,7 +10904,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021851,
@@ -10216,7 +10918,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021851,
@@ -10229,7 +10932,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021673,
@@ -10242,7 +10946,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021673,
@@ -10255,7 +10960,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023079,
@@ -10268,7 +10974,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023079,
@@ -10281,7 +10988,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023081,
@@ -10294,7 +11002,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023081,
@@ -10307,7 +11016,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023783,
@@ -10320,7 +11030,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023783,
@@ -10333,7 +11044,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023981,
@@ -10346,7 +11058,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023981,
@@ -10359,7 +11072,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026552,
@@ -10372,7 +11086,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026552,
@@ -10385,7 +11100,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021463,
@@ -10398,7 +11114,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021463,
@@ -10411,7 +11128,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024196,
@@ -10424,7 +11142,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024196,
@@ -10437,7 +11156,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023978,
@@ -10450,7 +11170,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023978,
@@ -10463,7 +11184,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023979,
@@ -10476,7 +11198,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023979,
@@ -10489,7 +11212,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026564,
@@ -10502,7 +11226,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026564,
@@ -10515,7 +11240,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026530,
@@ -10528,7 +11254,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026530,
@@ -10541,7 +11268,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022184,
@@ -10554,7 +11282,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022184,
@@ -10567,7 +11296,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024086,
@@ -10580,7 +11310,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024086,
@@ -10593,7 +11324,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024084,
@@ -10606,7 +11338,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024084,
@@ -10619,7 +11352,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026545,
@@ -10632,7 +11366,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026545,
@@ -10645,7 +11380,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026757,
@@ -10658,7 +11394,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026757,
@@ -10671,7 +11408,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026759,
@@ -10684,7 +11422,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026759,
@@ -10697,7 +11436,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7054213,
@@ -10710,7 +11450,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7054213,
@@ -10723,7 +11464,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024085,
@@ -10736,7 +11478,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024085,
@@ -10749,7 +11492,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026558,
@@ -10762,7 +11506,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026558,
@@ -10775,7 +11520,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023781,
@@ -10788,7 +11534,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023781,
@@ -10801,7 +11548,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026809,
@@ -10814,7 +11562,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026809,
@@ -10827,7 +11576,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026680,
@@ -10840,7 +11590,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026680,
@@ -10853,7 +11604,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024193,
@@ -10866,7 +11618,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024193,
@@ -10879,7 +11632,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026758,
@@ -10892,7 +11646,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026758,
@@ -10905,7 +11660,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024363,
@@ -10918,7 +11674,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024363,
@@ -10931,7 +11688,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023980,
@@ -10944,7 +11702,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023980,
@@ -10957,7 +11716,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026810,
@@ -10970,7 +11730,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026810,
@@ -10983,7 +11744,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021668,
@@ -10996,7 +11758,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021668,
@@ -11009,7 +11772,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021462,
@@ -11022,7 +11786,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021462,
@@ -11035,7 +11800,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024194,
@@ -11048,7 +11814,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024194,
@@ -11061,7 +11828,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022193,
@@ -11074,7 +11842,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022193,
@@ -11087,7 +11856,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026678,
@@ -11100,7 +11870,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026678,
@@ -11113,7 +11884,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021667,
@@ -11126,7 +11898,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021667,
@@ -11139,7 +11912,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021876,
@@ -11152,7 +11926,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021876,
@@ -11165,7 +11940,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023975,
@@ -11178,7 +11954,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023975,
@@ -11191,7 +11968,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7054130,
@@ -11204,7 +11982,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7054130,
@@ -11217,7 +11996,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023780,
@@ -11230,7 +12010,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023780,
@@ -11243,7 +12024,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021877,
@@ -11256,7 +12038,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021877,
@@ -11269,7 +12052,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024083,
@@ -11282,7 +12066,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024083,
@@ -11295,7 +12080,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024195,
@@ -11308,7 +12094,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024195,
@@ -11321,7 +12108,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021465,
@@ -11334,7 +12122,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021465,
@@ -11347,7 +12136,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022192,
@@ -11360,7 +12150,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022192,
@@ -11373,7 +12164,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026679,
@@ -11386,7 +12178,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026679,
@@ -11399,7 +12192,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021670,
@@ -11412,7 +12206,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021670,
@@ -11425,7 +12220,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7053310,
@@ -11438,7 +12234,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7053310,
@@ -11451,7 +12248,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024376,
@@ -11464,7 +12262,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024376,
@@ -11477,7 +12276,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023976,
@@ -11490,7 +12290,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023976,
@@ -11503,7 +12304,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021880,
@@ -11516,7 +12318,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021880,
@@ -11529,7 +12332,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023070,
@@ -11542,7 +12346,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023070,
@@ -11555,7 +12360,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7064555,
@@ -11568,7 +12374,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7064555,
@@ -11581,7 +12388,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7023072,
@@ -11594,7 +12402,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023072,
@@ -11607,7 +12416,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021466,
@@ -11620,7 +12430,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021466,
@@ -11633,7 +12444,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023073,
@@ -11646,7 +12458,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023073,
@@ -11659,7 +12472,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023977,
@@ -11672,7 +12486,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023977,
@@ -11685,7 +12500,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021878,
@@ -11698,7 +12514,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021878,
@@ -11711,7 +12528,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021464,
@@ -11724,7 +12542,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021464,
@@ -11737,7 +12556,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021666,
@@ -11750,7 +12570,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021666,
@@ -11763,7 +12584,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024370,
@@ -11776,7 +12598,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024370,
@@ -11789,7 +12612,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026681,
@@ -11802,7 +12626,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026681,
@@ -11815,7 +12640,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024366,
@@ -11828,7 +12654,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024366,
@@ -11841,7 +12668,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7054737,
@@ -11854,7 +12682,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7054737,
@@ -11867,7 +12696,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021678,
@@ -11880,7 +12710,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021678,
@@ -11893,7 +12724,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021873,
@@ -11906,7 +12738,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021873,
@@ -11919,7 +12752,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021874,
@@ -11932,7 +12766,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021874,
@@ -11945,7 +12780,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021536,
@@ -11958,7 +12794,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021536,
@@ -11971,7 +12808,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021872,
@@ -11984,7 +12822,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021872,
@@ -11997,7 +12836,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021871,
@@ -12010,7 +12850,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021871,
@@ -12023,7 +12864,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021537,
@@ -12036,7 +12878,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021537,
@@ -12049,7 +12892,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021875,
@@ -12062,7 +12906,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021875,
@@ -12075,7 +12920,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021497,
@@ -12088,7 +12934,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021497,
@@ -12101,7 +12948,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021496,
@@ -12114,7 +12962,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021496,
@@ -12127,7 +12976,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023096,
@@ -12140,7 +12990,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023096,
@@ -12153,7 +13004,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021498,
@@ -12166,7 +13018,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021498,
@@ -12179,7 +13032,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021499,
@@ -12192,7 +13046,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021499,
@@ -12205,7 +13060,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021500,
@@ -12218,7 +13074,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021500,
@@ -12231,7 +13088,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023095,
@@ -12244,7 +13102,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023095,
@@ -12257,7 +13116,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026674,
@@ -12270,7 +13130,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026674,
@@ -12283,7 +13144,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026676,
@@ -12296,7 +13158,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026676,
@@ -12309,7 +13172,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026801,
@@ -12322,7 +13186,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026801,
@@ -12335,7 +13200,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026677,
@@ -12348,7 +13214,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026677,
@@ -12361,7 +13228,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026675,
@@ -12374,7 +13242,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026675,
@@ -12387,7 +13256,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024348,
@@ -12400,7 +13270,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024348,
@@ -12413,7 +13284,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021664,
@@ -12426,7 +13298,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021664,
@@ -12439,7 +13312,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023987,
@@ -12452,7 +13326,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023987,
@@ -12465,7 +13340,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023988,
@@ -12478,7 +13354,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023988,
@@ -12491,7 +13368,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026716,
@@ -12504,7 +13382,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026716,
@@ -12517,7 +13396,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022197,
@@ -12530,7 +13410,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022197,
@@ -12543,7 +13424,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026582,
@@ -12556,7 +13438,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026582,
@@ -12569,7 +13452,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023985,
@@ -12582,7 +13466,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023985,
@@ -12595,7 +13480,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024089,
@@ -12608,7 +13494,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024089,
@@ -12621,7 +13508,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026715,
@@ -12634,7 +13522,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026715,
@@ -12647,7 +13536,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024199,
@@ -12660,7 +13550,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024199,
@@ -12673,7 +13564,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026517,
@@ -12686,7 +13578,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026517,
@@ -12699,7 +13592,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024087,
@@ -12712,7 +13606,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024087,
@@ -12725,7 +13620,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026713,
@@ -12738,7 +13634,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026713,
@@ -12751,7 +13648,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024090,
@@ -12764,7 +13662,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024090,
@@ -12777,7 +13676,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026812,
@@ -12790,7 +13690,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026812,
@@ -12803,7 +13704,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026765,
@@ -12816,7 +13718,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026765,
@@ -12829,7 +13732,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026524,
@@ -12842,7 +13746,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026524,
@@ -12855,7 +13760,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026714,
@@ -12868,7 +13774,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026714,
@@ -12881,7 +13788,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024197,
@@ -12894,7 +13802,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024197,
@@ -12907,7 +13816,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7053304,
@@ -12920,7 +13830,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7053304,
@@ -12933,7 +13844,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023799,
@@ -12946,7 +13858,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023799,
@@ -12959,7 +13872,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026811,
@@ -12972,7 +13886,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026811,
@@ -12985,7 +13900,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023983,
@@ -12998,7 +13914,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023983,
@@ -13011,7 +13928,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024198,
@@ -13024,7 +13942,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024198,
@@ -13037,7 +13956,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024088,
@@ -13050,7 +13970,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024088,
@@ -13063,7 +13984,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023085,
@@ -13076,7 +13998,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023085,
@@ -13089,7 +14012,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021539,
@@ -13102,7 +14026,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021539,
@@ -13115,7 +14040,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026760,
@@ -13128,7 +14054,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026760,
@@ -13141,7 +14068,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024099,
@@ -13154,7 +14082,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024099,
@@ -13167,7 +14096,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021541,
@@ -13180,7 +14110,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021541,
@@ -13193,7 +14124,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023986,
@@ -13206,7 +14138,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023986,
@@ -13219,7 +14152,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023084,
@@ -13232,7 +14166,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023084,
@@ -13245,7 +14180,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022194,
@@ -13258,7 +14194,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022194,
@@ -13271,7 +14208,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026576,
@@ -13284,7 +14222,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026576,
@@ -13297,7 +14236,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023797,
@@ -13310,7 +14250,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023797,
@@ -13323,7 +14264,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023796,
@@ -13336,7 +14278,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023796,
@@ -13349,7 +14292,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023798,
@@ -13362,7 +14306,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023798,
@@ -13375,7 +14320,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021542,
@@ -13388,7 +14334,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021542,
@@ -13401,7 +14348,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022191,
@@ -13414,7 +14362,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022191,
@@ -13427,7 +14376,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7054222,
@@ -13440,7 +14390,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7054222,
@@ -13453,7 +14404,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026588,
@@ -13466,7 +14418,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026588,
@@ -13479,7 +14432,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024387,
@@ -13492,7 +14446,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024387,
@@ -13505,7 +14460,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021449,
@@ -13518,7 +14474,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021449,
@@ -13531,7 +14488,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024200,
@@ -13544,7 +14502,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024200,
@@ -13557,7 +14516,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021543,
@@ -13570,7 +14530,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021543,
@@ -13583,7 +14544,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022196,
@@ -13596,7 +14558,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022196,
@@ -13609,7 +14572,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7054741,
@@ -13622,7 +14586,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7054741,
@@ -13635,7 +14600,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023082,
@@ -13648,7 +14614,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023082,
@@ -13661,7 +14628,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021649,
@@ -13674,7 +14642,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021649,
@@ -13687,7 +14656,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021650,
@@ -13700,7 +14670,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021650,
@@ -13713,7 +14684,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022233,
@@ -13726,7 +14698,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022233,
@@ -13739,7 +14712,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021491,
@@ -13752,7 +14726,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021491,
@@ -13765,7 +14740,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022188,
@@ -13778,7 +14754,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022188,
@@ -13791,7 +14768,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021852,
@@ -13804,7 +14782,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021852,
@@ -13817,7 +14796,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021895,
@@ -13830,7 +14810,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021895,
@@ -13843,7 +14824,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021686,
@@ -13856,7 +14838,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021686,
@@ -13869,7 +14852,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023086,
@@ -13882,7 +14866,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023086,
@@ -13895,7 +14880,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022205,
@@ -13908,7 +14894,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022205,
@@ -13921,7 +14908,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022211,
@@ -13934,7 +14922,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022211,
@@ -13947,7 +14936,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026690,
@@ -13960,7 +14950,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7026690,
@@ -13973,7 +14964,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7021553,
@@ -13986,7 +14978,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021553,
@@ -13999,7 +14992,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026733,
@@ -14012,7 +15006,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026733,
@@ -14025,7 +15020,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024187,
@@ -14038,7 +15034,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024187,
@@ -14051,7 +15048,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021550,
@@ -14064,7 +15062,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021550,
@@ -14077,7 +15076,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023808,
@@ -14090,7 +15090,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023808,
@@ -14103,7 +15104,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024364,
@@ -14116,7 +15118,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024364,
@@ -14129,7 +15132,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021687,
@@ -14142,7 +15146,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021687,
@@ -14155,7 +15160,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024100,
@@ -14168,7 +15174,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024100,
@@ -14181,7 +15188,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021472,
@@ -14194,7 +15202,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021472,
@@ -14207,7 +15216,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026546,
@@ -14220,7 +15230,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026546,
@@ -14233,7 +15244,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022206,
@@ -14246,7 +15258,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022206,
@@ -14259,7 +15272,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021892,
@@ -14272,7 +15286,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021892,
@@ -14285,7 +15300,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7054215,
@@ -14298,7 +15314,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7054215,
@@ -14311,7 +15328,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023088,
@@ -14324,7 +15342,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023088,
@@ -14337,7 +15356,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026771,
@@ -14350,7 +15370,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026771,
@@ -14363,7 +15384,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026734,
@@ -14376,7 +15398,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7026734,
@@ -14389,7 +15412,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7026553,
@@ -14402,7 +15426,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026553,
@@ -14415,7 +15440,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021473,
@@ -14428,7 +15454,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021473,
@@ -14441,7 +15468,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021688,
@@ -14454,7 +15482,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021688,
@@ -14467,7 +15496,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026565,
@@ -14480,7 +15510,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026565,
@@ -14493,7 +15524,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026806,
@@ -14506,7 +15538,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026806,
@@ -14519,7 +15552,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024186,
@@ -14532,7 +15566,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024186,
@@ -14545,7 +15580,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024371,
@@ -14558,7 +15594,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024371,
@@ -14571,7 +15608,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021474,
@@ -14584,7 +15622,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021474,
@@ -14597,7 +15636,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021893,
@@ -14610,7 +15650,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021893,
@@ -14623,7 +15664,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022210,
@@ -14636,7 +15678,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022210,
@@ -14649,7 +15692,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024007,
@@ -14662,7 +15706,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024007,
@@ -14675,7 +15720,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024101,
@@ -14688,7 +15734,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024101,
@@ -14701,7 +15748,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026769,
@@ -14714,7 +15762,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026769,
@@ -14727,7 +15776,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026692,
@@ -14740,7 +15790,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026692,
@@ -14753,7 +15804,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023087,
@@ -14766,7 +15818,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023087,
@@ -14779,7 +15832,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024008,
@@ -14792,7 +15846,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024008,
@@ -14805,7 +15860,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026805,
@@ -14818,7 +15874,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026805,
@@ -14831,7 +15888,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024102,
@@ -14844,7 +15902,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024102,
@@ -14857,7 +15916,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022208,
@@ -14870,7 +15930,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022208,
@@ -14883,7 +15944,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021690,
@@ -14896,7 +15958,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021690,
@@ -14909,7 +15972,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024009,
@@ -14922,7 +15986,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024009,
@@ -14935,7 +16000,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024355,
@@ -14948,7 +16014,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024355,
@@ -14961,7 +16028,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023811,
@@ -14974,7 +16042,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023811,
@@ -14987,7 +16056,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021476,
@@ -15000,7 +16070,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021476,
@@ -15013,7 +16084,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024006,
@@ -15026,7 +16098,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024006,
@@ -15039,7 +16112,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026693,
@@ -15052,7 +16126,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026693,
@@ -15065,7 +16140,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021894,
@@ -15078,7 +16154,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021894,
@@ -15091,7 +16168,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026770,
@@ -15104,7 +16182,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026770,
@@ -15117,7 +16196,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026559,
@@ -15130,7 +16210,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026559,
@@ -15143,7 +16224,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024185,
@@ -15156,7 +16238,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024185,
@@ -15169,7 +16252,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024003,
@@ -15182,7 +16266,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024003,
@@ -15195,7 +16280,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023810,
@@ -15208,7 +16294,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023810,
@@ -15221,7 +16308,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022209,
@@ -15234,7 +16322,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022209,
@@ -15247,7 +16336,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022207,
@@ -15260,7 +16350,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022207,
@@ -15273,7 +16364,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021552,
@@ -15286,7 +16378,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021552,
@@ -15299,7 +16392,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024004,
@@ -15312,7 +16406,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024004,
@@ -15325,7 +16420,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7053305,
@@ -15338,7 +16434,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7053305,
@@ -15351,7 +16448,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024005,
@@ -15364,7 +16462,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024005,
@@ -15377,7 +16476,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026595,
@@ -15390,7 +16490,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026595,
@@ -15403,7 +16504,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023089,
@@ -15416,7 +16518,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023089,
@@ -15429,7 +16532,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021538,
@@ -15442,7 +16546,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021538,
@@ -15455,7 +16560,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021535,
@@ -15468,7 +16574,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021535,
@@ -15481,7 +16588,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021454,
@@ -15494,7 +16602,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021454,
@@ -15507,7 +16616,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023097,
@@ -15520,7 +16630,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023097,
@@ -15533,7 +16644,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021680,
@@ -15546,7 +16658,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021680,
@@ -15559,7 +16672,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023094,
@@ -15572,7 +16686,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023094,
@@ -15585,7 +16700,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021676,
@@ -15598,7 +16714,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021676,
@@ -15611,7 +16728,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021534,
@@ -15624,7 +16742,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021534,
@@ -15637,7 +16756,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022178,
@@ -15650,7 +16770,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022178,
@@ -15663,7 +16784,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022183,
@@ -15676,7 +16798,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022183,
@@ -15689,7 +16812,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022180,
@@ -15702,7 +16826,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022180,
@@ -15715,7 +16840,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022179,
@@ -15728,7 +16854,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022179,
@@ -15741,7 +16868,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022177,
@@ -15754,7 +16882,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022177,
@@ -15767,7 +16896,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022182,
@@ -15780,7 +16910,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022182,
@@ -15793,7 +16924,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024388,
@@ -15806,7 +16938,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024388,
@@ -15819,7 +16952,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024356,
@@ -15832,7 +16966,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024356,
@@ -15845,7 +16980,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022202,
@@ -15858,7 +16994,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022202,
@@ -15871,7 +17008,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024204,
@@ -15884,7 +17022,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024204,
@@ -15897,7 +17036,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024201,
@@ -15910,7 +17050,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024201,
@@ -15923,7 +17064,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026551,
@@ -15936,7 +17078,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026551,
@@ -15949,7 +17092,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021545,
@@ -15962,7 +17106,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021545,
@@ -15975,7 +17120,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026525,
@@ -15988,7 +17134,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026525,
@@ -16001,7 +17148,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026596,
@@ -16014,7 +17162,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026596,
@@ -16027,7 +17176,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024202,
@@ -16040,7 +17190,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024202,
@@ -16053,7 +17204,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7054132,
@@ -16066,7 +17218,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7054132,
@@ -16079,7 +17232,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026686,
@@ -16092,7 +17246,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026686,
@@ -16105,7 +17260,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026532,
@@ -16118,7 +17274,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026532,
@@ -16131,7 +17288,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026813,
@@ -16144,7 +17302,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026813,
@@ -16157,7 +17316,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021711,
@@ -16170,7 +17330,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021711,
@@ -16183,7 +17344,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021710,
@@ -16196,7 +17358,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021710,
@@ -16209,7 +17372,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026814,
@@ -16222,7 +17386,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026814,
@@ -16235,7 +17400,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022195,
@@ -16248,7 +17414,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022195,
@@ -16261,7 +17428,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026560,
@@ -16274,7 +17442,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026560,
@@ -16287,7 +17456,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023803,
@@ -16300,7 +17470,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023803,
@@ -16313,7 +17484,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7054224,
@@ -16326,7 +17498,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7054224,
@@ -16339,7 +17512,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021712,
@@ -16352,7 +17526,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021712,
@@ -16365,7 +17540,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021713,
@@ -16378,7 +17554,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021713,
@@ -16391,7 +17568,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021887,
@@ -16404,7 +17582,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021887,
@@ -16417,7 +17596,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024094,
@@ -16430,7 +17610,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024094,
@@ -16443,7 +17624,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023800,
@@ -16456,7 +17638,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023800,
@@ -16469,7 +17652,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024092,
@@ -16482,7 +17666,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024092,
@@ -16495,7 +17680,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026728,
@@ -16508,7 +17694,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026728,
@@ -16521,7 +17708,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021906,
@@ -16534,7 +17722,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021906,
@@ -16547,7 +17736,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024091,
@@ -16560,7 +17750,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024091,
@@ -16573,7 +17764,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026762,
@@ -16586,7 +17778,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026762,
@@ -16599,7 +17792,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7054211,
@@ -16612,7 +17806,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7054211,
@@ -16625,7 +17820,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023076,
@@ -16638,7 +17834,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023076,
@@ -16651,7 +17848,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026727,
@@ -16664,7 +17862,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026727,
@@ -16677,7 +17876,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024203,
@@ -16690,7 +17890,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024203,
@@ -16703,7 +17904,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022234,
@@ -16716,7 +17918,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022234,
@@ -16729,7 +17932,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024373,
@@ -16742,7 +17946,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024373,
@@ -16755,7 +17960,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021554,
@@ -16768,7 +17974,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021554,
@@ -16781,7 +17988,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024357,
@@ -16794,7 +18002,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024357,
@@ -16807,7 +18016,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024349,
@@ -16820,7 +18030,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024349,
@@ -16833,7 +18044,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021691,
@@ -16846,7 +18058,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021691,
@@ -16859,7 +18072,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026694,
@@ -16872,7 +18086,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026694,
@@ -16885,7 +18100,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7054217,
@@ -16898,7 +18114,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7054217,
@@ -16911,7 +18128,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024012,
@@ -16924,7 +18142,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024012,
@@ -16937,7 +18156,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021555,
@@ -16950,7 +18170,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021555,
@@ -16963,7 +18184,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024191,
@@ -16976,7 +18198,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024191,
@@ -16989,7 +18212,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021478,
@@ -17002,7 +18226,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021478,
@@ -17015,7 +18240,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021692,
@@ -17028,7 +18254,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021692,
@@ -17041,7 +18268,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022213,
@@ -17054,7 +18282,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022213,
@@ -17067,7 +18296,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022217,
@@ -17080,7 +18310,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022217,
@@ -17093,7 +18324,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026696,
@@ -17106,7 +18338,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026696,
@@ -17119,7 +18352,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022212,
@@ -17132,7 +18366,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022212,
@@ -17145,7 +18380,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026773,
@@ -17158,7 +18394,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026773,
@@ -17171,7 +18408,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021558,
@@ -17184,7 +18422,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021558,
@@ -17197,7 +18436,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022218,
@@ -17210,7 +18450,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022218,
@@ -17223,7 +18464,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026518,
@@ -17236,7 +18478,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026518,
@@ -17249,7 +18492,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021556,
@@ -17262,7 +18506,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021556,
@@ -17275,7 +18520,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024013,
@@ -17288,7 +18534,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024013,
@@ -17301,7 +18548,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026808,
@@ -17314,7 +18562,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026808,
@@ -17327,7 +18576,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021477,
@@ -17340,7 +18590,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021477,
@@ -17353,7 +18604,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022214,
@@ -17366,7 +18618,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022214,
@@ -17379,7 +18632,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026697,
@@ -17392,7 +18646,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026697,
@@ -17405,7 +18660,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024010,
@@ -17418,7 +18674,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024010,
@@ -17431,7 +18688,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021900,
@@ -17444,7 +18702,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021900,
@@ -17457,7 +18716,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021693,
@@ -17470,7 +18730,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021693,
@@ -17483,7 +18744,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021694,
@@ -17496,7 +18758,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021694,
@@ -17509,7 +18772,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024014,
@@ -17522,7 +18786,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024014,
@@ -17535,7 +18800,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7070962,
@@ -17548,7 +18814,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7070962,
@@ -17561,7 +18828,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026511,
@@ -17574,7 +18842,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026511,
@@ -17587,7 +18856,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024189,
@@ -17600,7 +18870,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024189,
@@ -17613,7 +18884,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023090,
@@ -17626,7 +18898,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023090,
@@ -17639,7 +18912,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021481,
@@ -17652,7 +18926,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021481,
@@ -17665,7 +18940,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022215,
@@ -17678,7 +18954,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022215,
@@ -17691,7 +18968,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024036,
@@ -17704,7 +18982,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024036,
@@ -17717,7 +18996,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023813,
@@ -17730,7 +19010,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023813,
@@ -17743,7 +19024,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026589,
@@ -17756,7 +19038,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026589,
@@ -17769,7 +19052,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021899,
@@ -17782,7 +19066,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021899,
@@ -17795,7 +19080,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026807,
@@ -17808,7 +19094,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026807,
@@ -17821,7 +19108,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026533,
@@ -17834,7 +19122,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026533,
@@ -17847,7 +19136,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021695,
@@ -17860,7 +19150,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021695,
@@ -17873,7 +19164,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023815,
@@ -17886,7 +19178,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023815,
@@ -17899,7 +19192,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026736,
@@ -17912,7 +19206,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026736,
@@ -17925,7 +19220,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023092,
@@ -17938,7 +19234,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023092,
@@ -17951,7 +19248,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024190,
@@ -17964,7 +19262,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024190,
@@ -17977,7 +19276,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022216,
@@ -17990,7 +19290,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022216,
@@ -18003,7 +19304,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023091,
@@ -18016,7 +19318,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023091,
@@ -18029,7 +19332,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026772,
@@ -18042,7 +19346,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026772,
@@ -18055,7 +19360,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021898,
@@ -18068,7 +19374,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021898,
@@ -18081,7 +19388,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024104,
@@ -18094,7 +19402,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024104,
@@ -18107,7 +19416,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026695,
@@ -18120,7 +19430,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026695,
@@ -18133,7 +19444,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026583,
@@ -18146,7 +19458,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026583,
@@ -18159,7 +19472,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026735,
@@ -18172,7 +19486,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026735,
@@ -18185,7 +19500,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024192,
@@ -18198,7 +19514,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024192,
@@ -18211,7 +19528,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023093,
@@ -18224,7 +19542,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023093,
@@ -18237,7 +19556,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021897,
@@ -18250,7 +19570,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021897,
@@ -18263,7 +19584,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024365,
@@ -18276,7 +19598,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024365,
@@ -18289,7 +19612,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024016,
@@ -18302,7 +19626,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024016,
@@ -18315,7 +19640,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024011,
@@ -18328,7 +19654,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024011,
@@ -18341,7 +19668,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024106,
@@ -18354,7 +19682,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024106,
@@ -18367,7 +19696,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026577,
@@ -18380,7 +19710,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026577,
@@ -18393,7 +19724,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021479,
@@ -18406,7 +19738,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021479,
@@ -18419,7 +19752,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026774,
@@ -18432,7 +19766,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026774,
@@ -18445,7 +19780,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021896,
@@ -18458,7 +19794,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021896,
@@ -18471,7 +19808,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026682,
@@ -18484,7 +19822,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026682,
@@ -18497,7 +19836,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026683,
@@ -18510,7 +19850,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026683,
@@ -18523,7 +19864,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026550,
@@ -18536,7 +19878,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026550,
@@ -18549,7 +19892,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026684,
@@ -18562,7 +19906,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026684,
@@ -18575,7 +19920,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026685,
@@ -18588,7 +19934,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026685,
@@ -18601,7 +19948,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021689,
@@ -18614,7 +19962,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021689,
@@ -18627,7 +19976,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024103,
@@ -18640,7 +19990,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024103,
@@ -18653,7 +20004,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021884,
@@ -18666,7 +20018,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021884,
@@ -18679,7 +20032,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021881,
@@ -18692,7 +20046,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021881,
@@ -18705,7 +20060,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021883,
@@ -18718,7 +20074,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021883,
@@ -18731,7 +20088,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021885,
@@ -18744,7 +20102,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021885,
@@ -18757,7 +20116,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021882,
@@ -18770,7 +20130,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021882,
@@ -18783,7 +20144,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023077,
@@ -18796,7 +20158,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023077,
@@ -18809,7 +20172,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021677,
@@ -18822,7 +20186,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021677,
@@ -18835,7 +20200,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023971,
@@ -18848,7 +20214,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023971,
@@ -18861,7 +20228,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7053309,
@@ -18874,7 +20242,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7053309,
@@ -18887,7 +20256,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7053303,
@@ -18900,7 +20270,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7053303,
@@ -18913,7 +20284,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022189,
@@ -18926,7 +20298,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022189,
@@ -18939,7 +20312,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021503,
@@ -18952,7 +20326,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021503,
@@ -18965,7 +20340,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026706,
@@ -18978,7 +20354,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026706,
@@ -18991,7 +20368,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021886,
@@ -19004,7 +20382,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021886,
@@ -19017,7 +20396,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022187,
@@ -19030,7 +20410,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022187,
@@ -19043,7 +20424,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023984,
@@ -19056,7 +20438,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023984,
@@ -19069,7 +20452,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021492,
@@ -19082,7 +20466,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021492,
@@ -19095,7 +20480,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022185,
@@ -19108,7 +20494,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022185,
@@ -19121,7 +20508,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023075,
@@ -19134,7 +20522,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023075,
@@ -19147,7 +20536,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024378,
@@ -19160,7 +20550,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024378,
@@ -19173,7 +20564,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021669,
@@ -19186,7 +20578,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021669,
@@ -19199,7 +20592,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024118,
@@ -19212,7 +20606,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024118,
@@ -19225,7 +20620,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026512,
@@ -19238,7 +20634,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026512,
@@ -19251,7 +20648,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026725,
@@ -19264,7 +20662,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026725,
@@ -19277,7 +20676,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024205,
@@ -19290,7 +20690,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024205,
@@ -19303,7 +20704,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024096,
@@ -19316,7 +20718,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024096,
@@ -19329,7 +20732,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024207,
@@ -19342,7 +20746,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024207,
@@ -19355,7 +20760,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024120,
@@ -19368,7 +20774,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024120,
@@ -19381,7 +20788,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026726,
@@ -19394,7 +20802,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026726,
@@ -19407,7 +20816,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024206,
@@ -19420,7 +20830,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024206,
@@ -19433,7 +20844,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026775,
@@ -19446,7 +20858,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026775,
@@ -19459,7 +20872,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026578,
@@ -19472,7 +20886,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026578,
@@ -19485,7 +20900,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026777,
@@ -19498,7 +20914,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026777,
@@ -19511,7 +20928,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026816,
@@ -19524,7 +20942,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026816,
@@ -19537,7 +20956,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026712,
@@ -19550,7 +20970,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026712,
@@ -19563,7 +20984,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026776,
@@ -19576,7 +20998,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026776,
@@ -19589,7 +21012,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026709,
@@ -19602,7 +21026,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026709,
@@ -19615,7 +21040,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026519,
@@ -19628,7 +21054,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026519,
@@ -19641,7 +21068,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024208,
@@ -19654,7 +21082,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024208,
@@ -19667,7 +21096,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026711,
@@ -19680,7 +21110,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026711,
@@ -19693,7 +21124,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026815,
@@ -19706,7 +21138,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026815,
@@ -19719,7 +21152,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023833,
@@ -19732,7 +21166,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023833,
@@ -19745,7 +21180,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021879,
@@ -19758,7 +21194,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021879,
@@ -19771,7 +21208,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023998,
@@ -19784,7 +21222,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023998,
@@ -19797,7 +21236,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024121,
@@ -19810,7 +21250,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024121,
@@ -19823,7 +21264,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021507,
@@ -19836,7 +21278,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021507,
@@ -19849,7 +21292,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023832,
@@ -19862,7 +21306,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023832,
@@ -19875,7 +21320,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021716,
@@ -19888,7 +21334,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021716,
@@ -19901,7 +21348,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024383,
@@ -19914,7 +21362,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024383,
@@ -19927,7 +21376,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024029,
@@ -19940,7 +21390,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024029,
@@ -19953,7 +21404,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021506,
@@ -19966,7 +21418,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021506,
@@ -19979,7 +21432,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023782,
@@ -19992,7 +21446,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023782,
@@ -20005,7 +21460,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024389,
@@ -20018,7 +21474,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024389,
@@ -20031,7 +21488,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026566,
@@ -20044,7 +21502,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026566,
@@ -20057,7 +21516,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023105,
@@ -20070,7 +21530,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023105,
@@ -20083,7 +21544,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022236,
@@ -20096,7 +21558,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022236,
@@ -20109,7 +21572,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021508,
@@ -20122,7 +21586,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021508,
@@ -20135,7 +21600,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024000,
@@ -20148,7 +21614,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024000,
@@ -20161,7 +21628,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023107,
@@ -20174,7 +21642,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023107,
@@ -20187,7 +21656,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023106,
@@ -20200,7 +21670,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023106,
@@ -20213,7 +21684,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023996,
@@ -20226,7 +21698,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023996,
@@ -20239,7 +21712,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7054195,
@@ -20252,7 +21726,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7054195,
@@ -20265,7 +21740,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023108,
@@ -20278,7 +21754,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023108,
@@ -20291,7 +21768,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022221,
@@ -20304,7 +21782,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022221,
@@ -20317,7 +21796,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7074603,
@@ -20330,7 +21810,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7074603,
@@ -20343,7 +21824,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022235,
@@ -20356,7 +21838,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022235,
@@ -20369,7 +21852,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024358,
@@ -20382,7 +21866,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024358,
@@ -20395,7 +21880,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021468,
@@ -20408,7 +21894,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021468,
@@ -20421,7 +21908,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021482,
@@ -20434,7 +21922,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021482,
@@ -20447,7 +21936,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021696,
@@ -20460,7 +21950,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021696,
@@ -20473,7 +21964,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023816,
@@ -20486,7 +21978,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023816,
@@ -20499,7 +21992,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026516,
@@ -20512,7 +22006,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026516,
@@ -20525,7 +22020,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7054219,
@@ -20538,7 +22034,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7054219,
@@ -20551,7 +22048,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021903,
@@ -20564,7 +22062,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021903,
@@ -20577,7 +22076,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023111,
@@ -20590,7 +22090,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023111,
@@ -20603,7 +22104,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021560,
@@ -20616,7 +22118,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021560,
@@ -20629,7 +22132,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024107,
@@ -20642,7 +22146,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024107,
@@ -20655,7 +22160,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024110,
@@ -20668,7 +22174,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024110,
@@ -20681,7 +22188,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021483,
@@ -20694,7 +22202,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021483,
@@ -20707,7 +22216,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021697,
@@ -20720,7 +22230,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021697,
@@ -20733,7 +22244,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022200,
@@ -20746,7 +22258,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022200,
@@ -20759,7 +22272,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021563,
@@ -20772,7 +22286,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021563,
@@ -20785,7 +22300,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022224,
@@ -20798,7 +22314,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022224,
@@ -20811,7 +22328,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023817,
@@ -20824,7 +22342,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023817,
@@ -20837,7 +22356,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021901,
@@ -20850,7 +22370,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021901,
@@ -20863,7 +22384,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022225,
@@ -20876,7 +22398,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022225,
@@ -20889,7 +22412,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023112,
@@ -20902,7 +22426,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023112,
@@ -20915,7 +22440,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024216,
@@ -20928,7 +22454,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024216,
@@ -20941,7 +22468,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021561,
@@ -20954,7 +22482,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021561,
@@ -20967,7 +22496,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7053307,
@@ -20980,7 +22510,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7053307,
@@ -20993,7 +22524,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023818,
@@ -21006,7 +22538,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023818,
@@ -21019,7 +22552,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024109,
@@ -21032,7 +22566,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024109,
@@ -21045,7 +22580,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021699,
@@ -21058,7 +22594,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021699,
@@ -21071,7 +22608,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024372,
@@ -21084,7 +22622,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024372,
@@ -21097,7 +22636,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021904,
@@ -21110,7 +22650,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021904,
@@ -21123,7 +22664,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021902,
@@ -21136,7 +22678,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021902,
@@ -21149,7 +22692,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024217,
@@ -21162,7 +22706,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024217,
@@ -21175,7 +22720,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024021,
@@ -21188,7 +22734,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024021,
@@ -21201,7 +22748,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022223,
@@ -21214,7 +22762,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022223,
@@ -21227,7 +22776,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024219,
@@ -21240,7 +22790,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024219,
@@ -21253,7 +22804,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021484,
@@ -21266,7 +22818,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021484,
@@ -21279,7 +22832,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024018,
@@ -21292,7 +22846,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024018,
@@ -21305,7 +22860,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021485,
@@ -21318,7 +22874,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021485,
@@ -21331,7 +22888,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023819,
@@ -21344,7 +22902,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023819,
@@ -21357,7 +22916,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021486,
@@ -21370,7 +22930,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021486,
@@ -21383,7 +22944,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024023,
@@ -21396,7 +22958,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024023,
@@ -21409,7 +22972,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026554,
@@ -21422,7 +22986,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026554,
@@ -21435,7 +23000,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021905,
@@ -21448,7 +23014,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021905,
@@ -21461,7 +23028,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024218,
@@ -21474,7 +23042,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024218,
@@ -21487,7 +23056,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026590,
@@ -21500,7 +23070,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026590,
@@ -21513,7 +23084,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022219,
@@ -21526,7 +23098,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022219,
@@ -21539,7 +23112,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024108,
@@ -21552,7 +23126,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024108,
@@ -21565,7 +23140,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021698,
@@ -21578,7 +23154,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021698,
@@ -21591,7 +23168,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026738,
@@ -21604,7 +23182,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": true
     },
     {
       "game_id": 7026738,
@@ -21617,7 +23196,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": true
     },
     {
       "game_id": 7024019,
@@ -21630,7 +23210,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024019,
@@ -21643,7 +23224,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023080,
@@ -21656,7 +23238,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023080,
@@ -21669,7 +23252,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024017,
@@ -21682,7 +23266,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024017,
@@ -21695,7 +23280,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024020,
@@ -21708,7 +23294,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024020,
@@ -21721,7 +23308,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026584,
@@ -21734,7 +23322,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026584,
@@ -21747,7 +23336,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024377,
@@ -21760,7 +23350,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024377,
@@ -21773,7 +23364,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7024022,
@@ -21786,7 +23378,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7024022,
@@ -21799,7 +23392,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026764,
@@ -21812,7 +23406,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026764,
@@ -21825,7 +23420,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026737,
@@ -21838,7 +23434,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026737,
@@ -21851,7 +23448,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026756,
@@ -21864,7 +23462,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026756,
@@ -21877,7 +23476,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023999,
@@ -21890,7 +23490,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023999,
@@ -21903,7 +23504,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023822,
@@ -21916,7 +23518,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023822,
@@ -21929,7 +23532,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022241,
@@ -21942,7 +23546,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022241,
@@ -21955,7 +23560,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023074,
@@ -21968,7 +23574,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023074,
@@ -21981,7 +23588,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022240,
@@ -21994,7 +23602,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022240,
@@ -22007,7 +23616,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023807,
@@ -22020,7 +23630,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023807,
@@ -22033,7 +23644,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026798,
@@ -22046,7 +23658,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026798,
@@ -22059,7 +23672,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023802,
@@ -22072,7 +23686,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023802,
@@ -22085,7 +23700,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022245,
@@ -22098,7 +23714,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022245,
@@ -22111,7 +23728,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022246,
@@ -22124,7 +23742,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022246,
@@ -22137,7 +23756,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021501,
@@ -22150,7 +23770,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021501,
@@ -22163,7 +23784,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022242,
@@ -22176,7 +23798,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022242,
@@ -22189,7 +23812,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7022244,
@@ -22202,7 +23826,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7022244,
@@ -22215,7 +23840,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023801,
@@ -22228,7 +23854,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023801,
@@ -22241,7 +23868,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026822,
@@ -22254,7 +23882,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026822,
@@ -22267,7 +23896,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7021453,
@@ -22280,7 +23910,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7021453,
@@ -22293,7 +23924,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7023078,
@@ -22306,7 +23938,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7023078,
@@ -22319,7 +23952,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     },
     {
       "game_id": 7026710,
@@ -22332,7 +23966,8 @@ var _MASTER_DATA = {
       "win": false,
       "lost": true,
       "tie": false,
-      "source": true
+      "source": true,
+      "cross_division": false
     },
     {
       "game_id": 7026710,
@@ -22345,7 +23980,8 @@ var _MASTER_DATA = {
       "win": true,
       "lost": false,
       "tie": false,
-      "source": false
+      "source": false,
+      "cross_division": false
     }
   ],
   "lottery": {
