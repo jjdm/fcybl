@@ -171,7 +171,10 @@
                             <tbody>
                                 <tr ng-repeat="g in rc.modalTeam.games" ng-value="o = rc.findTeam(g.opponent)">
                                     <td>{{ g.date }}</td>
-                                    <td>{{ o.club }} - {{ o.coach }}</td>
+                                    <td>
+										<span class="badge badge-secondary" ng-if="g.cross_division"> {{ o.division }} </span>
+										{{ o.club }} - {{ o.coach }}
+									</td>
                                     <td>{{ g.points }}</td>
                                     <td>{{ g.against }}</td>
                                     <td ng-class="{ 'table-success': g.win, 'table-danger': g.lost, 'table-warning': g.tie}">{{ g.result }}</td>
