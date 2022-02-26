@@ -8,8 +8,9 @@ from collections import namedtuple
 from operator import attrgetter
 from itertools import groupby
 
-TESTING = False
+TESTING = True
 COUNT_CROSS_DIVISION_GAMES = True  # reminder to remove this next year if needed. B8-D1_LEE DISTRICT_MCMINN changed divisions.
+SKIP_RECENT_GAMES = False # used throughout the season to avoid counting games in the past day or two
 SPECIAL_FOR_2022_SC_NAME_ISSUE = True
 
 ExcelRow = namedtuple('ExcelRow', 'db_id, date, team, opponent, points, against')
@@ -58,10 +59,10 @@ DIVISION_PLAYOFF_SPOTS = {
     'B8-D2': 9,
     'B8-D3': 9,
     'G5-D1': 9,
-    'G6-D1': 6,
-    'G6-D2': 5,
-    'G7-D1': 10,
-    'G7-D2': 3,
+    'G6-D1': 5,
+    'G6-D2': 6,
+    'G7-D1': 7,
+    'G7-D2': 6,
     'G8-D1': 9,
     'G8-D2': 7,
 }
@@ -93,7 +94,7 @@ def read_excel(excel):
             continue  # do not need headers
         raw_date = datetime.datetime(*xlrd.xldate_as_tuple(worksheet.cell_value(curr_row, 1), workbook.datemode))
         yesterday = datetime.datetime.now() - datetime.timedelta(days = 1)
-        if(raw_date > yesterday):
+        if(SKIP_RECENT_GAMES and raw_date > yesterday):
             continue # future game
         date = raw_date.strftime('%Y-%m-%d')
         team = clean_column(worksheet.cell_value(curr_row, 4))
@@ -289,14 +290,30 @@ def test():
     excel = find_excel()
     rows = read_excel(excel)
     results = build_teams_and_games(rows)
-    teams = results.teams
-    games = results.games
-    for t in teams:
-        games_for_team = [g for g in games if g.team == t.team_id and g.cross_division]
-        if(games_for_team):
-            print(t.team_id)
+    rankings = build_rankings(results)
+
+    teams_to_watch = [
+        'B8-D3_CYA_CARR',
+        'B8-D3_FALLS CHURCH_KUSIC',
+        'B8-D3_LEE-MT. VERNON_STEWART',
+        'B8-D3_MT. VERNON_WOODHALL',
+        'B8-D3_SYA_VICKERS'
+    ]
+
+    b8d3 = [t for t in results.teams if t.team_id in teams_to_watch]
+
+    for t in b8d3:
+        games_for_team = [g for g in results.games if g.team == t.team_id and g.opponent in teams_to_watch]
+        print("Team: {}".format(t.team_id))
         for g in games_for_team:
-            print("  {}".format(g.opponent))
+            print("  Game: {} {} ({}-{}) vs. {}".format(g.date, g.result, g.points, g.against, g.opponent))
+
+    # for t in teams:
+    #     games_for_team = [g for g in games if g.team == t.team_id and g.cross_division]
+    #     if(games_for_team):
+    #         print(t.team_id)
+    #     for g in games_for_team:
+    #         print("  {}".format(g.opponent))
 
 
 def main():
@@ -304,6 +321,7 @@ def main():
     rows = read_excel(excel)
     results = build_teams_and_games(rows)
     rankings = build_rankings(results)
+    print_to_json(results, rankings, excel)
     print_to_json(results, rankings, excel)
 
 
