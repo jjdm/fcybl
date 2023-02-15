@@ -10,8 +10,8 @@ from itertools import groupby
 
 TESTING = True
 COUNT_CROSS_DIVISION_GAMES = True  # reminder to remove this next year if needed. B8-D1_LEE DISTRICT_MCMINN changed divisions.
-SKIP_RECENT_GAMES = False # used throughout the season to avoid counting games in the past day or two
-SPECIAL_FOR_2022_SC_NAME_ISSUE = True
+SKIP_RECENT_GAMES = True # used throughout the season to avoid counting games in the past day or two
+CLUB_CLEAN_FOR_2023 = True
 
 ExcelRow = namedtuple('ExcelRow', 'db_id, date, team, opponent, points, against')
 Team = namedtuple('Team', 'team_id, division, club, coach')
@@ -21,31 +21,31 @@ WinPercent = namedtuple('WinPercent', 'team_id, percent, no_games')
 Rank = namedtuple('Rank', 'team_id, rank, details')
 
 LOTTERY_PICKS = {
-    'ANNANDALE': 2,
-    'ARLINGTON': 5,
-    'BRYC': 7,
-    'BURKE': 12,
-    'CYA': 11,
-    'FALLS CHURCH': 4,
-    'FORT BELVOIR': 10,
-    'FORT HUNT': 19,
-    'FPYC': 9,
-    'GREAT FALLS': 21,
-    'GUM SPRINGS': 3,
-    'HERNDON': 14,
-    'LEE DISTRICT': 17,
-    'LEE DISTRICT CC': 17,
-    'LEE-MT. VERNON': 18,
-    'LEE-MT.VERNON': 18,
-    'MT. VERNON': 16,
-    'MCLEAN': 1,
-    'RESTON': 20,
+    'FORT BELVOIR': 1,
+    'SYC': 2,
+    'MANASSAS PARK': 3,
+    'LEE DISTRICT': 4,
+    'FPYC': 5,
+    'RESTON': 6,
+    'MCLEAN': 7,
+    'FORT HUNT': 8,
+    'VYI': 9,
+    'GAINESVILLE': 10,
+    'BURKE': 11,
+    'SOUTHWESTERN': 12,
     'SOUTH COUNTY': 13,
-    'SPRINGFIELD': 22,
-    'SYA': 8,
-    'TURNPIKE': 6,
-    'TURPIKE': 6,
-    'VIENNA': 15,
+    'ARLINGTON': 14,
+    'HERNDON': 15,
+    'DYS': 16,
+    'CYA': 17,
+    'MT. VERNON': 18,
+    'BRYC': 19,
+    'FALLS CHURCH': 20,
+    'LEE MT. VERNON': 21,
+    'ANNANDALE': 22,
+    'TURNPIKE': 23,
+    'GREAT FALLS': 24,
+    'GUM SPRINGS': 25,
 }
 
 DIVISION_PLAYOFF_SPOTS = {
@@ -112,11 +112,13 @@ def read_excel(excel):
 
 
 def build_team(raw):
-    if(SPECIAL_FOR_2022_SC_NAME_ISSUE):
-        raw = raw.replace("South County 5-2 Arora", "South County B5-2 Arora")
+    if(CLUB_CLEAN_FOR_2023):
+        raw = raw.replace("Fort Hunt G5-1Mathes", "Fort Hunt G5-1 Mathes")
+        raw = raw.replace("Arlington G  Sedor", "Arlington G7-1 Sedor")
+        raw = raw.replace("Reston G7 Altamirano", "Reston G7-2 Altamirano")
     parts = raw.split(">")
     division = clean_column(parts[2]).upper().replace("BOYS ", "B").replace("GIRLS ", "G").replace("TH GRADE DIVISION ", "-D")
-    t_raw = clean_column(parts[3]).upper()
+    t_raw = clean_column(parts[3]).upper().replace("*", " ").replace("+", " ").replace("  ", " ")
     m = re.match(r"(.+) +[BG][0-9][- ]+[0-9]? +(.+)", t_raw)
     club = clean_column(m.group(1))
     coach = clean_column(m.group(2))
@@ -149,6 +151,9 @@ def build_teams_and_games(rows):
     teams = []
     games = []
     for r in rows:
+        if CLUB_CLEAN_FOR_2023:
+            if "Delete Division" in r.team or "Delete Division" in r.opponent:
+                continue
         t1 = build_team(r.team)
         t2 = build_team(r.opponent)
         teams.append(t1)
@@ -290,23 +295,10 @@ def test():
     excel = find_excel()
     rows = read_excel(excel)
     results = build_teams_and_games(rows)
-    rankings = build_rankings(results)
-
-    teams_to_watch = [
-        'B8-D3_CYA_CARR',
-        'B8-D3_FALLS CHURCH_KUSIC',
-        'B8-D3_LEE-MT. VERNON_STEWART',
-        'B8-D3_MT. VERNON_WOODHALL',
-        'B8-D3_SYA_VICKERS'
-    ]
-
-    b8d3 = [t for t in results.teams if t.team_id in teams_to_watch]
-
-    for t in b8d3:
-        games_for_team = [g for g in results.games if g.team == t.team_id and g.opponent in teams_to_watch]
-        print("Team: {}".format(t.team_id))
-        for g in games_for_team:
-            print("  Game: {} {} ({}-{}) vs. {}".format(g.date, g.result, g.points, g.against, g.opponent))
+    for r in results:
+        print(r)
+    #rankings = build_rankings(results)
+    #print_to_json(results, rankings, excel)
 
     # for t in teams:
     #     games_for_team = [g for g in games if g.team == t.team_id and g.cross_division]
@@ -321,7 +313,6 @@ def main():
     rows = read_excel(excel)
     results = build_teams_and_games(rows)
     rankings = build_rankings(results)
-    print_to_json(results, rankings, excel)
     print_to_json(results, rankings, excel)
 
 
