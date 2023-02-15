@@ -1,4 +1,12 @@
-import xlrd
+"""
+Change to CSV
+Create a clean method
+Add the number of teams per bracket
+Run and post
+"""
+
+import csv
+from dataclasses import dataclass
 import glob
 import re
 import json
@@ -13,7 +21,16 @@ COUNT_CROSS_DIVISION_GAMES = True  # reminder to remove this next year if needed
 SKIP_RECENT_GAMES = True # used throughout the season to avoid counting games in the past day or two
 CLUB_CLEAN_FOR_2023 = True
 
-ExcelRow = namedtuple('ExcelRow', 'db_id, date, team, opponent, points, against')
+@dataclass
+class CsvRow:
+    db_id: str
+    date: str
+    team: str
+    opponent: str
+    points: int
+    against: int
+    error: bool = False
+
 Team = namedtuple('Team', 'team_id, division, club, coach')
 Game = namedtuple('Game', 'game_id, date, team, opponent, points, against, result, win, lost, tie, source, cross_division')
 Results = namedtuple('Results', 'divisions, teams, games')
@@ -77,45 +94,71 @@ def clean_number(original):
     return round(float(stripped)) if stripped else 0
 
 
-def find_excel(directory="./"):
-    """ Find the excel report. """
-    fcybl_files = glob.glob('{}/{}'.format(directory, './FCYBL*.xlsx'))
+def find_csv(directory="./"):
+    """ Find the csv report. """
+    fcybl_files = glob.glob('{}/{}'.format(directory, './*.csv'))
     if (len(fcybl_files) != 1):
         raise RuntimeError("Expected to find 1 FCYBL file, but found the following: {}".format(fcybl_files))
     return fcybl_files[0]
 
 
-def read_excel(excel):
+def read_csv(csv_path):
     rows = []
-    workbook = xlrd.open_workbook(excel)
-    worksheet = workbook.sheet_by_index(0)
-    for curr_row in range(worksheet.nrows):
-        if(curr_row == 0):
-            continue  # do not need headers
-        raw_date = datetime.datetime(*xlrd.xldate_as_tuple(worksheet.cell_value(curr_row, 1), workbook.datemode))
-        yesterday = datetime.datetime.now() - datetime.timedelta(days = 1)
-        if(SKIP_RECENT_GAMES and raw_date > yesterday):
-            continue # future game
-        date = raw_date.strftime('%Y-%m-%d')
-        team = clean_column(worksheet.cell_value(curr_row, 4))
-        opponent = clean_column(worksheet.cell_value(curr_row, 7))
-        if(not opponent):
-            continue # not a real game
-        points = clean_number(worksheet.cell_value(curr_row, 10))
-        points = 0 if not points else points
-        against = clean_number(worksheet.cell_value(curr_row, 11))
-        against = 0 if not against else against
-        db_id = clean_number(worksheet.cell_value(curr_row, 12))
-        row = ExcelRow(db_id, date, team, opponent, points, against)
-        rows.append(row)
+    with open(csv_path) as csv_file:
+        next(csv_file) # skip the header
+        reader = csv.reader(csv_file)
+        for curr_row in reader:
+            raw_date = clean_column(curr_row[1])
+            if not raw_date:
+                continue # empty rows at bottom
+            game_date = datetime.datetime.strptime(raw_date, '%m/%d/%Y')
+            yesterday = datetime.datetime.now() - datetime.timedelta(days = 1)
+            if SKIP_RECENT_GAMES and game_date > yesterday:
+                continue # future game
+            date = game_date.strftime('%Y-%m-%d')
+            team = clean_column(curr_row[4])
+            opponent = clean_column(curr_row[7])
+            if not opponent:
+                continue # not a real game
+            points = clean_number(curr_row[10])
+            points = 0 if not points else points
+            against = clean_number(curr_row[11])
+            against = 0 if not against else against
+            db_id = clean_number(curr_row[12])
+            row = CsvRow(db_id, date, team, opponent, points, against)
+            rows.append(row)
     return rows
 
 
+def clean_rows(rows):
+    swaps = [
+        ("Fort Hunt G5-1Mathes", "Fort Hunt G5-1 Mathes"),
+        ("Arlington G  Sedor", "Arlington G7-1 Sedor"),
+        ("Reston G7 Altamirano", "Reston G7-2 Altamirano"),
+        # ("SYA G6 -* Johnson", "SYA G6-2 Johnson"),
+        # ("Springfield G8-* Allen", "Springfield G8-2 Allen"),
+        # ("Great Falls B8-* Karaki", "Great Falls B8-3 Karaki"),
+        ("YYYYYYYYY", "YYYYYYYYY"),
+        ("YYYYYYYYY", "YYYYYYYYY"),
+        ("YYYYYYYYY", "YYYYYYYYY"),
+    ]
+    deletions = [
+        'Delete Division'
+    ]
+    cleaned = []
+    for r in rows:
+        for s in swaps:
+            r.team = r.team.replace(s[0], s[1])
+            r.opponent = r.opponent.replace(s[0], s[1])
+        for d in deletions:
+            if d in r.team or d in r.opponent:
+                r.error = True
+        if not r.error:
+            cleaned.append(r)
+    return cleaned
+
+
 def build_team(raw):
-    if(CLUB_CLEAN_FOR_2023):
-        raw = raw.replace("Fort Hunt G5-1Mathes", "Fort Hunt G5-1 Mathes")
-        raw = raw.replace("Arlington G  Sedor", "Arlington G7-1 Sedor")
-        raw = raw.replace("Reston G7 Altamirano", "Reston G7-2 Altamirano")
     parts = raw.split(">")
     division = clean_column(parts[2]).upper().replace("BOYS ", "B").replace("GIRLS ", "G").replace("TH GRADE DIVISION ", "-D")
     t_raw = clean_column(parts[3]).upper().replace("*", " ").replace("+", " ").replace("  ", " ")
@@ -141,7 +184,7 @@ def build_games(t1, t2, row):
     t1_ties = row.points == row.against
     t1_result = "W" if t1_wins else "L" if t1_loses else "T"
     t2_result = "W" if t1_loses else "L" if t1_wins else "T"
-    # the source (true/false) shows which was from the original excel source
+    # the source (true/false) shows which was from the original csv source
     t1_game = Game(row.db_id, row.date, t1.team_id, t2.team_id, row.points, row.against, t1_result, t1_wins, t1_loses, t1_ties, True, cross_division)
     t2_game = Game(row.db_id, row.date, t2.team_id, t1.team_id, row.against, row.points, t2_result, t1_loses, t1_wins, t1_ties, False, cross_division)
     return (t1_game, t2_game)
@@ -151,9 +194,6 @@ def build_teams_and_games(rows):
     teams = []
     games = []
     for r in rows:
-        if CLUB_CLEAN_FOR_2023:
-            if "Delete Division" in r.team or "Delete Division" in r.opponent:
-                continue
         t1 = build_team(r.team)
         t2 = build_team(r.opponent)
         teams.append(t1)
@@ -262,7 +302,7 @@ def calculate_record(team, games):
     return "{}-{}-{}".format(len(wins), len(losses), len(ties))
 
 
-def print_to_json(results, rankings, excel):
+def print_to_json(results, rankings, csv_path):
     team_list = []
     games_list = []
     rankings_list = []
@@ -275,7 +315,7 @@ def print_to_json(results, rankings, excel):
     for r in rankings:
         rankings_list.append(r._asdict())
     object = {
-        'excel': os.path.basename(excel),
+        'csv_path': os.path.basename(csv_path),
         'run_date': datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         'divisions': results.divisions,
         'teams': team_list,
@@ -292,28 +332,25 @@ def log(message):
     print(message)
 
 def test():
-    excel = find_excel()
-    rows = read_excel(excel)
-    results = build_teams_and_games(rows)
-    for r in results:
-        print(r)
-    #rankings = build_rankings(results)
-    #print_to_json(results, rankings, excel)
-
-    # for t in teams:
-    #     games_for_team = [g for g in games if g.team == t.team_id and g.cross_division]
-    #     if(games_for_team):
-    #         print(t.team_id)
-    #     for g in games_for_team:
-    #         print("  {}".format(g.opponent))
-
+    csv_path = find_csv()
+    rows = read_csv(csv_path)
+    rows = clean_rows(rows)
+    clubs = []
+    for r in rows:
+        t1 = build_team(r.team)
+        t2 = build_team(r.opponent)
+        clubs.append(t1.club)
+        clubs.append(t2.club)
+    unique = sorted(set(clubs))
+    for u in unique: print(u)
 
 def main():
-    excel = find_excel()
-    rows = read_excel(excel)
+    csv_path = find_csv()
+    rows = read_csv(csv_path)
+    rows = clean_rows(rows)
     results = build_teams_and_games(rows)
     rankings = build_rankings(results)
-    print_to_json(results, rankings, excel)
+    print_to_json(results, rankings, csv_path)
 
 
 if (__name__ == "__main__"):
