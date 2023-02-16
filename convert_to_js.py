@@ -21,6 +21,7 @@ SKIP_RECENT_GAMES = True # used throughout the season to avoid counting games in
 class CsvRow:
     db_id: str
     date: str
+    real_date: datetime
     team: str
     opponent: str
     points: int
@@ -128,7 +129,7 @@ def read_csv(csv_path):
             against = clean_number(curr_row[11])
             against = 0 if not against else against
             db_id = clean_number(curr_row[12])
-            row = CsvRow(db_id, date, team, opponent, points, against)
+            row = CsvRow(db_id, date, game_date, team, opponent, points, against)
             rows.append(row)
     return rows
 
@@ -152,7 +153,9 @@ def clean_rows(rows):
             r.opponent = r.opponent.replace(s[0], s[1])
         for d in deletions:
             if d in r.team or d in r.opponent:
-                r.error = True
+                r.error = True # Delete matching patterns
+        if "5th grade Division" in r.team and "2022" in r.date:
+            r.error = True # Pool play games in 2022 don't count
         if not r.error:
             cleaned.append(r)
     return cleaned
@@ -350,10 +353,10 @@ def test():
     rows = read_csv(csv_path)
     rows = clean_rows(rows)
     error_check(rows)
+    for r in rows:
+        print(r)
     results = build_teams_and_games(rows)
     rankings = build_rankings(results)
-    for r in rankings:
-        print(r)
 
 
 def main():
