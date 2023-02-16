@@ -1,10 +1,7 @@
 """
-Change to CSV
-Create a clean method
-Add the number of teams per bracket
-Run and post
+Code for HTML Upload at AWS
+System defined	Cache-Control	max-age=0
 """
-
 import csv
 from dataclasses import dataclass
 import glob
@@ -16,10 +13,9 @@ from collections import namedtuple
 from operator import attrgetter
 from itertools import groupby
 
-TESTING = True
+TESTING = False
 COUNT_CROSS_DIVISION_GAMES = True  # reminder to remove this next year if needed. B8-D1_LEE DISTRICT_MCMINN changed divisions.
 SKIP_RECENT_GAMES = True # used throughout the season to avoid counting games in the past day or two
-CLUB_CLEAN_FOR_2023 = True
 
 @dataclass
 class CsvRow:
@@ -39,17 +35,20 @@ Rank = namedtuple('Rank', 'team_id, rank, details')
 
 LOTTERY_PICKS = {
     'FORT BELVOIR': 1,
-    'SYC': 2,
+#    'SYC': 2,
+    'SPRINGFIELD': 2,
     'MANASSAS PARK': 3,
     'LEE DISTRICT': 4,
     'FPYC': 5,
     'RESTON': 6,
     'MCLEAN': 7,
     'FORT HUNT': 8,
-    'VYI': 9,
+#    'VYI': 9,
+    'VIENNA': 9,
     'GAINESVILLE': 10,
     'BURKE': 11,
-    'SOUTHWESTERN': 12,
+#    'SOUTHWESTERN': 12,
+    'SYA': 12,
     'SOUTH COUNTY': 13,
     'ARLINGTON': 14,
     'HERNDON': 15,
@@ -66,22 +65,26 @@ LOTTERY_PICKS = {
 }
 
 DIVISION_PLAYOFF_SPOTS = {
-    'B5-D1': 9,
-    'B5-D2': 9,
+    'B5-D1': 8,
+    'B5-D2': 10,
+    'B5-D3': 5,
     'B6-D1': 8,
-    'B6-D2': 12,
-    'B7-D1': 10,
-    'B7-D2': 12,
+    'B6-D2': 9,
+    'B6-D3': 8,
+    'B7-D1': 6,
+    'B7-D2': 8,
+    'B7-D3': 8,
     'B8-D1': 8,
-    'B8-D2': 9,
-    'B8-D3': 9,
-    'G5-D1': 9,
-    'G6-D1': 5,
-    'G6-D2': 6,
-    'G7-D1': 7,
+    'B8-D2': 12,
+    'B8-D3': 8,
+    'G5-D1': 7,
+    'G5-D2': 8,
+    'G6-D1': 8,
+    'G6-D2': 8,
+    'G7-D1': 8,
     'G7-D2': 6,
-    'G8-D1': 9,
-    'G8-D2': 7,
+    'G8-D1': 8,
+    'G8-D2': 8,
 }
 
 
@@ -135,12 +138,9 @@ def clean_rows(rows):
         ("Fort Hunt G5-1Mathes", "Fort Hunt G5-1 Mathes"),
         ("Arlington G  Sedor", "Arlington G7-1 Sedor"),
         ("Reston G7 Altamirano", "Reston G7-2 Altamirano"),
-        # ("SYA G6 -* Johnson", "SYA G6-2 Johnson"),
-        # ("Springfield G8-* Allen", "Springfield G8-2 Allen"),
-        # ("Great Falls B8-* Karaki", "Great Falls B8-3 Karaki"),
-        ("YYYYYYYYY", "YYYYYYYYY"),
-        ("YYYYYYYYY", "YYYYYYYYY"),
-        ("YYYYYYYYY", "YYYYYYYYY"),
+        ("Lee-Mt. Vernon", "Lee Mt. Vernon"),
+        ("Lee-Mt.Vernon", "Lee Mt. Vernon"),
+        ("Lee District CC", "Lee District")
     ]
     deletions = [
         'Delete Division'
@@ -156,6 +156,23 @@ def clean_rows(rows):
         if not r.error:
             cleaned.append(r)
     return cleaned
+
+
+def error_check(rows):
+    # ensure every club is in LOTTERY_PICKS
+    clubs = []
+    for r in rows:
+        t1 = build_team(r.team)
+        t2 = build_team(r.opponent)
+        clubs.append(t1.club)
+        clubs.append(t2.club)
+    unique = sorted(set(clubs))
+    for u in unique:
+        if u not in LOTTERY_PICKS:
+            raise UserWarning("{} is not in LOTTERY_PICKS.".format(u))
+    for l in LOTTERY_PICKS.keys():
+        if l not in unique:
+            raise UserWarning("{} is not in unique clubs.".format(l))
 
 
 def build_team(raw):
@@ -325,32 +342,29 @@ def print_to_json(results, rankings, csv_path):
         'rankings': rankings_list
     }
     output = "var _MASTER_DATA = " + json.dumps(object, indent=2) + ";"
-    log(output)
+    return output
 
-
-def log(message):
-    print(message)
 
 def test():
     csv_path = find_csv()
     rows = read_csv(csv_path)
     rows = clean_rows(rows)
-    clubs = []
-    for r in rows:
-        t1 = build_team(r.team)
-        t2 = build_team(r.opponent)
-        clubs.append(t1.club)
-        clubs.append(t2.club)
-    unique = sorted(set(clubs))
-    for u in unique: print(u)
+    error_check(rows)
+    results = build_teams_and_games(rows)
+    rankings = build_rankings(results)
+    for r in rankings:
+        print(r)
+
 
 def main():
     csv_path = find_csv()
     rows = read_csv(csv_path)
     rows = clean_rows(rows)
+    error_check(rows)
     results = build_teams_and_games(rows)
     rankings = build_rankings(results)
-    print_to_json(results, rankings, csv_path)
+    output = print_to_json(results, rankings, csv_path)
+    print(output)
 
 
 if (__name__ == "__main__"):
