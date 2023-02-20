@@ -15,7 +15,7 @@ from itertools import groupby
 
 TESTING = False
 COUNT_CROSS_DIVISION_GAMES = True  # reminder to remove this next year if needed. B8-D1_LEE DISTRICT_MCMINN changed divisions.
-SKIP_RECENT_GAMES = True # used throughout the season to avoid counting games in the past day or two
+SKIP_RECENT_GAMES = False # used throughout the season to avoid counting games in the past day or two
 
 @dataclass
 class CsvRow:
