@@ -156,6 +156,8 @@ def clean_rows(rows):
                 r.error = True # Delete matching patterns
         if "5th grade Division" in r.team and "2022" in r.date:
             r.error = True # Pool play games in 2022 don't count
+        if "TBD" == r.team or "TBD" == r.opponent:
+            r.error = True # Pool play games in 2022 don't count
         if not r.error:
             cleaned.append(r)
     return cleaned
